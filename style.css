@@ -52,3 +52,4 @@ details[open] summary{border-bottom:1px solid var(--line)}
 .note{color:var(--soft)}
 .foot{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;padding-block:6px 30px;font-size:.88rem;color:var(--soft)}
 @media (prefers-reduced-motion:no-preference){.top,.menu-btn{transition:none}}
+@media (prefers-color-scheme:dark){h1 span{background:none;color:var(--mark)}}
