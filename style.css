@@ -53,3 +53,8 @@ details[open] summary{border-bottom:1px solid var(--line)}
 .foot{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;padding-block:6px 30px;font-size:.88rem;color:var(--soft)}
 @media (prefers-reduced-motion:no-preference){.top,.menu-btn{transition:none}}
 @media (prefers-color-scheme:dark){h1 span{background:none;color:var(--mark)}}
+.menu .mes{background:none;border:0;border-radius:0;border-bottom:1px solid var(--line)}
+.menu>.menu-in>ul>li:last-child .mes{border-bottom:0}
+.menu .mes summary{padding:.6rem 0;min-height:48px;font-size:1.05rem;border-bottom:0}
+.menu .mes ul{padding:0 0 6px}
+.menu .mes a{padding:.55rem 0;border-bottom:0}

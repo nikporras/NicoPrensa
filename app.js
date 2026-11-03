@@ -109,12 +109,34 @@
   }
   function menuDias(eds, actual) {
     list.textContent = "";
+    var meses = [];
     eds.forEach(function (e, i) {
+      var clave = String(e.date).slice(0, 7);
+      var g = meses[meses.length - 1];
+      if (!g || g.clave !== clave) { g = { clave: clave, eds: [] }; meses.push(g); }
+      g.eds.push({ date: e.date, ultima: i === 0 });
+    });
+    meses.forEach(function (g, i) {
+      var p = g.clave.split("-").map(Number);
+      var nombre = MESES[p[1] - 1] + " " + p[0];
       var li = el("li");
-      var a = el("a", "", fechaLarga(e.date));
-      a.href = i === 0 ? "./" : "?fecha=" + encodeURIComponent(e.date);
-      if (e.date === actual) a.setAttribute("aria-current", "page");
-      li.appendChild(a);
+      var d = el("details", "mes");
+      d.open = i === 0 || g.eds.some(function (e) { return e.date === actual; });
+      var sum = el("summary");
+      sum.appendChild(el("span", "", nombre.charAt(0).toUpperCase() + nombre.slice(1)));
+      sum.appendChild(el("span", "n", g.eds.length + (g.eds.length === 1 ? " día" : " días")));
+      d.appendChild(sum);
+      var ul = el("ul");
+      g.eds.forEach(function (e) {
+        var di = el("li");
+        var a = el("a", "", fechaLarga(e.date));
+        a.href = e.ultima ? "./" : "?fecha=" + encodeURIComponent(e.date);
+        if (e.date === actual) a.setAttribute("aria-current", "page");
+        di.appendChild(a);
+        ul.appendChild(di);
+      });
+      d.appendChild(ul);
+      li.appendChild(d);
       list.appendChild(li);
     });
   }
