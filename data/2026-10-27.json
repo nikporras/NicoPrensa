@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-27",
+  "title": "Lula reelegido y se hunde la Bolsa de Brasil",
+  "rates": {
+    "dolar": "$3.158",
+    "libra": "$4.175",
+    "real": "R$ 7,22"
+  },
+  "resumen": [
+    {"emoji": "🇨🇴", "text": "Choque entre De la Espriella y la Policía"},
+    {"emoji": "🌎", "text": "Trump dice que la elección de Brasil pareció amañada"},
+    {"emoji": "🏛️", "text": "Trump ofrece un millón por denunciar fraude"},
+    {"emoji": "💻", "text": "Anthropic pide salir a bolsa en Nasdaq"},
+    {"emoji": "🎮", "text": "GTA VI saldrá el 19 de noviembre"},
+    {"emoji": "🎬", "text": "Musk muestra siete minutos de su Odisea con IA"},
+    {"emoji": "⚽", "text": "Harry Kane gana el Balón de Oro"}
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {"text": "Lula fue reelegido con 51,76 % frente a Flávio Bolsonaro y los mercados reaccionaron con pánico: el dólar cerró en R$ 5,41 (casi 9 % más, la mayor alza diaria en 23 años) y la Bolsa de São Paulo cayó cerca de 14 %, su peor día desde 2020.", "url": "https://www.infobae.com/economia/2026/10/26/el-dolar-se-disparo-en-brasil-hasta-12-tras-el-triunfo-de-lula-en-el-balotaje/", "verified": true},
+        {"text": "Israel vota hoy en sus primeras elecciones desde los ataques de Hamás de 2023, decisivas para Netanyahu. Las encuestas muestran a los dos bloques casi empatados y a Netanyahu segundo detrás de Gadi Eisenkot.", "url": "https://www.infobae.com/america/agencias/2026/10/27/israel-abre-las-urnas-en-unas-elecciones-clave-para-netanyahu-tras-3-anos-de-guerras/", "verified": true},
+        {"text": "La televisión estatal china suspendió las transmisiones de LaLiga y retiró todos los anuncios de Mbappé, después de que el francés se riera de un meme que lo compara con Mao Zedong. Varias empresas chinas también rompieron sus patrocinios con él.", "url": "https://www.infobae.com/espana/agencias/2026/10/27/la-television-estatal-china-suspende-las-emisiones-de-laliga-tras-la-polemica-con-mbappe/", "verified": true}
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {"text": "Un contrato de $60.000 millones para erradicar manualmente cultivos de coca provocó un choque entre el presidente De la Espriella y la cúpula de la Policía, según una investigación de la revista Cambio.", "url": "https://www.infobae.com/colombia/2026/10/26/contrato-de-60000-millones-para-erradicar-cultivos-ilicitos-desato-choque-entre-de-la-espriella-y-la-cupula-de-la-policia/", "verified": true},
+        {"text": "De la Espriella anunció que esta semana presentará la \"Ley de Rescate\" para cerrar el hueco fiscal y reconoció errores en el manejo económico: \"Los errores se reconocen, se explican y se corrigen\".", "url": "https://www.infobae.com/colombia/2026/10/26/de-la-espriella-presentara-la-ley-de-rescate-para-enfrentar-los-desafios-fiscales-los-errores-se-reconocen-se-explican-y-se-corrigen/", "verified": false},
+        {"text": "El Ministerio de Salud denunció ante la Fiscalía que cinco resoluciones de julio y agosto asignaron recursos a hospitales públicos superando en unos $32.500 millones el presupuesto disponible.", "url": "https://www.infobae.com/colombia/2026/10/27/minsalud-denuncio-ante-la-fiscalia-presuntas-irregularidades-por-32500-millones-en-recursos-para-hospitales-publicos/", "verified": false},
+        {"text": "La Superintendencia de Servicios Públicos vigilará más a las generadoras de energía, después de que el presidente señalara que entregan menos de lo que se comprometieron para el fenómeno de El Niño (83 GWh al día reportados frente a 118 comprometidos).", "url": "https://www.infobae.com/colombia/2026/10/27/cobro-que-hacen-las-empresas-generadoras-en-la-factura-de-energia-sera-viligado-por-la-superintendencia-de-servicios-publicos-ante-orden-de-de-la-espriella/", "verified": false},
+        {"text": "Alias Flecha, segundo cabecilla de una estructura del Frente 33 de las disidencias de las Farc en el Catatumbo y encargado de sus finanzas, se entregó a la justicia.", "url": "https://www.infobae.com/colombia/2026/10/26/alias-flecha-segundo-cabecilla-del-frente-33-de-las-disidencias-de-las-farc-se-sometio-a-la-justicia-en-el-catatumbo/", "verified": false}
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {"text": "Trump dijo, sin presentar pruebas, que la elección de Brasil \"pareció amañada\" y criticó la prórroga de dos horas en la votación, aunque aseguró que se lleva \"muy bien\" con Lula. El vicepresidente Alckmin respondió que está \"totalmente equivocado\".", "url": "https://www.infobae.com/estados-unidos/2026/10/26/donald-trump-dijo-que-las-elecciones-en-brasil-estuvieron-amanadas/", "verified": true},
+        {"text": "Flávio Bolsonaro dijo que la Policía Federal le exigió entregar sus pasaportes por orden del juez Alexandre de Moraes, tras visitar a su padre, que está en prisión domiciliaria.", "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pf-exigiu-seus-passaportes-apos-visita-a-bolsonaro/", "verified": true, "lang": "pt"},
+        {"text": "El gobierno de Venezuela calificó de \"show\" el regreso de María Corina Machado, aunque dijo estar abierto al diálogo. Rubio reveló que Estados Unidos presionó a Delcy Rodríguez para permitir su llegada.", "url": "https://www.infobae.com/america/agencias/2026/10/27/gobierno-venezolano-ve-un-show-en-el-retorno-de-machado-pese-a-su-apertura-a-dialogar/", "verified": true},
+        {"text": "Los presidentes del Senado y de la Cámara de Brasil, Davi Alcolumbre y Hugo Motta, visitaron a Lula tras su victoria. Alcolumbre le pidió \"humildad\" y trabajar para unir al país.", "url": "https://www.cnnbrasil.com.br/eleicoes/davi-alcolumbre-pede-humildade-a-lula-e-diz-que-e-preciso-unir-o-pais/", "verified": true, "lang": "pt"}
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {"text": "Trump ofreció una recompensa de un millón de dólares a quien denuncie un fraude electoral que termine en condena, a una semana de las elecciones de mitad de mandato del 3 de noviembre.", "url": "https://www.infobae.com/america/agencias/2026/10/26/trump-ofrece-un-millon-de-recompensa-a-quien-denuncie-y-se-demuestre-fraude-electoral-en-eeuu/", "verified": true},
+        {"text": "La Reserva Federal de Estados Unidos empieza hoy su reunión de dos días. Los mercados esperan que mantenga las tasas de interés, pero apuestan por una subida en diciembre.", "url": "https://www.infobae.com/america/agencias/2026/10/26/los-mercados-preven-una-pausa-en-los-tipos-de-la-fed-aunque-descuentan-una-subida-en-diciembre/", "verified": true},
+        {"text": "Putin recibe hoy en Moscú la cumbre de la llamada \"OPEP del gas\", con el presidente iraní Pezeshkian y el emir de Catar. Se espera una \"Declaración de Moscú\" por los 25 años del foro.", "url": "https://www.infobae.com/america/agencias/2026/10/26/putin-se-reunira-con-pezeshkian-el-emir-de-catar-y-teodoro-obiang-en-la-opep-del-gas/", "verified": true},
+        {"text": "El primer ministro británico, Andy Burnham, aclaró que no propondrá cambios para volver a la Unión Europea en esta legislatura y descartó adelantar las elecciones previstas para 2029.", "url": "https://www.infobae.com/america/agencias/2026/10/26/burnham-dice-que-no-propone-cambios-en-la-actual-legislatura-para-volver-a-la-ue/", "verified": false},
+        {"text": "El Senado francés vota la ley \"el que rompe, paga\", que endurece las penas por disturbios hasta tres años de cárcel y 45.000 euros de multa, tras semanas de protestas estudiantiles.", "url": "https://www.infobae.com/america/agencias/2026/10/27/el-senado-frances-examina-y-vota-una-ley-mas-dura-contra-autores-de-disturbios-y-destrozos/", "verified": false}
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {"text": "Anthropic, la creadora de Claude, presentó ante la SEC su solicitud para salir a bolsa en el Nasdaq con el símbolo ANT. Según The Wall Street Journal, podría debutar a mediados de noviembre.", "url": "https://www.infobae.com/america/agencias/2026/10/26/wall-street-abre-en-verde-tras-el-anuncio-de-la-salida-a-bolsa-de-anthropic/", "verified": false},
+        {"text": "Microsoft ofreció retiros voluntarios a unos 60.000 empleados en cuatro países.", "url": "https://www.infobae.com/tecno/2026/10/26/microsoft-ofrecio-retiros-voluntarios-a-unos-60000-empleados-en-cuatro-paises/", "verified": true},
+        {"text": "Meta planea captar hasta 95.000 millones de dólares con nuevas acciones para financiar su apuesta por la inteligencia artificial. Nvidia, AMD y Broadcom mostraron interés en comprar hasta 5.000 millones cada una.", "url": "https://www.infobae.com/america/agencias/2026/10/26/meta-busca-captar-unos-85000-millones-en-capital-para-financiar-su-inversion-en-ia/", "verified": false},
+        {"text": "Sam Altman, jefe de OpenAI, advirtió que no nos hemos tomado en serio los riesgos de la próxima generación de inteligencia artificial.", "url": "https://infobae.com/tecno/2026/10/26/no-nos-lo-hemos-tomado-en-serio-sam-altman-alerta-sobre-los-riesgos-de-la-proxima-generacion-de-ia", "verified": false},
+        {"text": "Un estudio presentado en el congreso europeo de oncología mostró modelos de IA que, con datos de 460.000 británicos del UK Biobank, predicen mejor el riesgo de 20 tipos de cáncer comunes usando análisis de sangre rutinarios.", "url": "https://www.infobae.com/tecno/2026/10/27/nuevos-modelos-de-ia-facilitarian-la-identificacion-temprana-de-pacientes-con-alto-riesgo-de-desarrollar-tumores-comunes/", "verified": false}
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {"text": "Rockstar confirmó en vallas del estadio durante el Barcelona contra Real Madrid que GTA VI saldrá el 19 de noviembre en PS5 y Xbox Series. Todavía no hay versión para PC.", "url": "https://www.infobae.com/tecno/2026/10/26/rockstar-llevo-gta-vi-al-barcelona-vs-real-madrid-para-anunciar-su-fecha-de-lanzamiento/", "verified": true},
+        {"text": "Tomb Raider: Legacy of Atlantis, el remake del juego original de 1996, mostró nuevo tráiler y saldrá el 12 de febrero de 2027 en PS5, Xbox Series, Switch 2 y PC.", "url": "https://www.infobae.com/malditos-nerds/2026/10/26/tomb-raider-legacy-of-atlantis-estrena-trailer-y-confirma-su-fecha-de-lanzamiento/", "verified": true},
+        {"text": "Minecraft llega hoy a Nintendo Switch 2 con gráficos mejorados y mejora a precio reducido por tiempo limitado para quienes ya lo tienen en formato digital.", "url": "https://gematsu.com/2026/08/minecraft-for-switch-2-launches-october-27", "verified": true, "lang": "en"},
+        {"text": "Sega anunció que Sonic X Shadow Generations superó los 3 millones de copias vendidas en el mundo.", "url": "https://www.infobae.com/malditos-nerds/2026/10/26/sega-celebra-3-millones-de-ventas-de-sonic-x-shadow-generations/", "verified": true},
+        {"text": "Look Outside, el aclamado juego de terror publicado por Devolver, llega a PS5, PS4, Switch 2 y Switch el 30 de octubre, justo para Halloween.", "url": "https://www.levelup.com/noticias/este-terrorifico-rpg-llegara-justo-a-tiempo-para-halloween-a-consolas-playstation-y-nintendo/", "verified": true}
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {"text": "Elon Musk publicó los primeros siete minutos de su versión de La Odisea hecha con la IA Grok, su respuesta a la película de Christopher Nolan. Las opiniones están divididas.", "url": "https://www.xataka.com/robotica-e-ia/elon-musk-prometio-pelicula-odisea-generada-ia-grok-acaba-publicar-sus-primeros-siete-minutos", "verified": true},
+        {"text": "Clayface, la película de terror de DC, debutó en el primer lugar de la taquilla con 43 millones de dólares.", "url": "https://www.infobae.com/america/agencias/2026/10/26/clayface-lidera-la-taquilla-con-43-millones-de-dolares-de-recaudacion/", "verified": true},
+        {"text": "Dune: Parte Tres batió el récord de preventa que tenía La Odisea de Nolan, aunque su gran rival en diciembre será Vengadores: Doomsday.", "url": "https://www.sensacine.com/noticias/cine/noticia-1000229060/", "verified": false},
+        {"text": "Robert Pattinson elogió a Steven Soderbergh por encargarse de terminar The Batman: Parte II.", "url": "https://www.infobae.com/espana/cultura/2026/10/27/robert-pattinson-alaba-a-steven-soderbergh-por-terminar-the-batman-parte-ii-es-muy-generoso-de-su-parte/", "verified": false},
+        {"text": "Buenos Aires será el viernes 30 la única sede en español del World AI Film Festival, un festival de películas hechas con inteligencia artificial, con entrada libre.", "url": "https://www.infobae.com/tecno/2026/10/27/paneles-cine-y-experiencias-interactivas-con-ia-se-conocio-el-programa-completo-del-world-ai-film-festival-en-buenos-aires/", "verified": false}
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {"text": "Harry Kane ganó el Balón de Oro 2026 en Londres por delante de Mbappé y Lamine Yamal. Es el primer inglés en ganarlo desde Michael Owen en 2001.", "url": "https://www.infobae.com/america/agencias/2026/10/26/kane-se-corona-con-el-balon-de-oro/", "verified": true},
+        {"text": "Alexia Putellas conquistó su tercer Balón de Oro femenino.", "url": "https://www.infobae.com/america/agencias/2026/10/26/alexia-conquista-su-tercer-balon-de-oro/", "verified": true},
+        {"text": "Nacional le remontó 2 a 1 al Medellín en el clásico paisa, con goles de Edwin Cardona y Andrés Sarmiento. Es líder de la Liga BetPlay con 32 puntos y ya está en los cuadrangulares.", "url": "https://www.infobae.com/america/agencias/2026/10/26/atletico-nacional-remonta-ante-dim-mantiene-el-liderato-y-se-mete-en-los-cuadrangulares/", "verified": true},
+        {"text": "Luis Díaz terminó en el puesto 24 del Balón de Oro. El exjugador Tren Valencia dijo que le pesó su flojo Mundial.", "url": "https://www.infobae.com/colombia/deportes/2026/10/26/asi-le-fue-a-luis-diaz-en-la-votacion-del-balon-de-oro-el-colombiano-esta-entre-los-mejores-25-jugadores-del-mundo/", "verified": true},
+        {"text": "Jhon Jáder Durán se recuperó de su lesión antes de lo previsto y ya está disponible para el Benfica, confirmó su entrenador.", "url": "https://www.infobae.com/colombia/deportes/2026/10/26/jhon-jader-duran-se-recupero-de-su-lesion-y-ya-esta-disponible-para-el-benfica-segun-confirmo-el-entrenador-del-equipo-de-tres-meses-a-tres-dias/", "verified": false}
+      ]
+    }
+  ],
+  "omitidas": [
+    {"title": "Noboa vinculó con el crimen organizado a la excandidata ecuatoriana Luisa González", "level": "media", "reason": "no cupo"},
+    {"title": "La coalición saudí bombardeó plataformas de misiles de los hutíes en Saná", "level": "media", "reason": "no cupo"},
+    {"title": "Los herederos de Elvis Presley demandaron a Anthropic por usar 274 canciones para entrenar su IA", "level": "media", "reason": "una sola fuente, sin enlace verificable"},
+    {"title": "Un reporte asegura que hackearon a Anthropic y vieron sueldos y chats internos", "level": "media", "reason": "sin confirmar"},
+    {"title": "La CIDH condenó el asesinato de un periodista en Antioquia, el cuarto en Colombia este año", "level": "media", "reason": "no cupo"},
+    {"title": "Phantom Blade Zero sale este jueves 29 de octubre", "level": "baja", "reason": "sin artículo reciente para enlazar"}
+  ]
+}
