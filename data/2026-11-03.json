@@ -1,0 +1,327 @@
+{
+ "date": "2026-11-03",
+ "title": "EE. UU. vota hoy y Trump se juega el Congreso",
+ "rates": {
+  "dolar": "$3.183",
+  "libra": "$4.250",
+  "real": "R$ 7,28"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Murió Antonio Navarro Wolff, a los 78 años"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Rubio recibió al canciller de Venezuela"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Ataque ruso a escuela deja 26 muertos"
+  },
+  {
+   "emoji": "💻",
+   "text": "Apple logra ingresos récord con Ternus"
+  },
+  {
+   "emoji": "🎮",
+   "text": "PS5 actualiza su sistema antes de GTA VI"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Los Anillos de Poder vuelve el 11 de noviembre"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Nacional empató y sigue líder de la Liga"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Estados Unidos elige hoy las 435 sillas de la Cámara, 35 del Senado y 36 gobernadores. Los republicanos tienen mayorías estrechas y la votación se lee como un referendo sobre Trump, con aprobación cerca del 32 %.",
+     "url": "https://www.larepublica.co/globoeconomia/estados-unidos-define-470-escanos-del-congreso-en-las-elecciones-midterm-4515550",
+     "verified": true
+    },
+    {
+     "text": "Según el Wall Street Journal, EE. UU. atacó la isla iraní de Qeshm, en el estrecho de Ormuz, horas antes de las elecciones. Medios iraníes reportaron explosiones, y el Pentágono no había confirmado el ataque.",
+     "url": "https://www.biobiochile.cl/noticias/internacional/mediooriente/2026/11/02/eeuu-ataca-una-isla-de-iran-segun-el-wall-street-journal.shtml",
+     "verified": true
+    },
+    {
+     "text": "Una volqueta con explosivos dejó cuatro muertos en Planadas, Tolima, entre ellos una bebé de dos meses, en una noche de ataques también en Huila y Cauca. De la Espriella respondió que seguirá con los bombardeos y reactivará las fumigaciones.",
+     "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/presidente-abelardo-de-la-espriella-anuncia-mas-bombardeos-y-reactivacion-de-fumigaciones-tras-atentado-que-dejo-muerta-a-una-bebe-en-planadas-tolima-3597923",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "Murió Antonio Navarro Wolff, exdirigente del M-19 y copresidente de la Constituyente de 1991, a los 78 años. También fue ministro de Salud, alcalde de Pasto, gobernador de Nariño y senador.",
+     "url": "https://www.semana.com/politica/articulo/luto-en-colombia-murio-antonio-navarro-wolff-uno-de-los-constituyentes-de-1991/202611/",
+     "verified": true
+    },
+    {
+     "text": "El FMI calificó como un paso significativo la Ley de Rescate Fiscal presentada al Congreso. Su respaldo es a la decisión de presentarla, no a cada medida, y el Gobierno calcula que el 70 % del ajuste saldría del gasto.",
+     "url": "https://www.eltiempo.com/economia/sectores/fmi-celebra-la-ley-de-rescate-fiscal-que-el-gobierno-de-colombia-presento-al-congreso-para-ajustar-sus-finanzas-publicas-3597955",
+     "verified": true
+    },
+    {
+     "text": "El vicepresidente Restrepo y el ministro de Hacienda defendieron la ley con un mensaje duro: el ajuste debe ser fuerte y radical. Prometen devolver IVA a 19 millones de personas y admiten un efecto de hasta 0,8 % en los precios.",
+     "url": "https://www.elcolombiano.com/colombia/gobierno-defiende-ley-rescate-fiscal-impuestos-devolucion-iva-recorte-gasto-BP43086575",
+     "verified": true
+    },
+    {
+     "text": "MinDefensa reportó 82 posibles irregularidades del gobierno Petro, 41 ya convertidas en denuncias, con un daño preliminar superior a $155.000 millones. El ministro aclaró que las denuncias no prueban responsabilidad.",
+     "url": "https://www.eluniversal.com.co/colombia/2026/11/01/mindefensa-presento-41-denuncias-por-presuntas-irregularidades-del-gobierno-petro/",
+     "verified": false
+    },
+    {
+     "text": "Petro criticó la ley y dijo que \"el tintico será más caro\" por un posible IVA al café. El viceministro de Hacienda respondió que la canasta básica no está en discusión.",
+     "url": "https://www.infobae.com/colombia/2026/11/03/petro-afirmo-que-ahora-el-tintico-sera-mas-caro-para-arremeter-contra-el-proyecto-de-ley-de-reajuste-fiscal-del-gobierno-de-la-espriella/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Marco Rubio y el canciller venezolano Oliver Blanco tuvieron su primera reunión bilateral desde la captura de Maduro, y hablaron de elecciones y presos políticos. Blanco vio también al secretario del Tesoro sobre el regreso de Venezuela al sistema financiero.",
+     "url": "https://infobae.com/venezuela/2026/11/03/el-secretario-del-tesoro-de-eeuu-y-el-canciller-venezolano-analizaron-la-reincorporacion-del-pais-al-sistema-financiero-internacional",
+     "verified": true
+    },
+    {
+     "text": "Brasil: el Copom empieza hoy su reunión y anuncia mañana la tasa Selic. Tras la reelección de Lula, el mercado pasó a apostar por mantenerla en 13,75 %, en vez de un recorte.",
+     "url": "https://www.piranot.com.br/2026/11/02/noticias/economia/copom-selic-taxa-juros/",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Brasil: el Supremo celebra hoy una audiencia pública sobre la medida que prohíbe las apuestas deportivas, con clubes como Flamengo y Corinthians, la CBF y el Gobierno.",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-divulga-cronograma-de-audiencia-publica-sobre-proibicao-das-bets/",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Más de 30 organizaciones rechazan la presencia de Delcy Rodríguez en la Cumbre Iberoamericana de Madrid, del 4 y 5 de noviembre. Está sancionada por la UE y su asistencia seguía sin confirmarse.",
+     "url": "https://ntn24.com/noticias-actualidad/rechazo-internacional-delcy-rodriguez-30-organizaciones-cuestionan-participacion-cumbre-iberoamericana-madrid-663151",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "Un ataque ruso contra una escuela usada como centro humanitario en Zaporiyia dejó al menos 26 muertos, según Ucrania. Zelenski dijo que prueba que Rusia no quiere desescalar.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/02/ucrania-denuncia-26-muertos-en-un-ataque-ruso-sobre-un-centro-de-ayuda-humanitaria-en-zaporiyia/?outputType=amp-type",
+     "verified": true
+    },
+    {
+     "text": "EE. UU. mediará una nueva ronda técnica entre Rusia y Ucrania el 10 y 11 de noviembre en Abu Dabi, sobre seguridad de posguerra y ayuda humanitaria.",
+     "url": "https://gestion.pe/mundo/internacional/estados-unidos-mediara-negociaciones-entre-ucrania-y-rusia-la-proxima-semana-en-abu-dabi-noticia/",
+     "verified": true
+    },
+    {
+     "text": "Reino Unido anunció una reforma migratoria: quienes ganen menos de £50.000 al año deberán esperar diez años, y no cinco, para la residencia permanente. La salud y la educación tendrán excepciones.",
+     "url": "https://www.abc.com.py/internacionales/2026/11/02/reino-unido-anuncia-una-reforma-migratoria-basada-en-meritos-para-obtener-la-residencia/",
+     "verified": false
+    },
+    {
+     "text": "El petróleo cayó más de 7 % el lunes, con el Brent en US$104,77, por señales de diálogo entre EE. UU. e Irán. Analistas advierten que los avances podrían ser estrategia electoral.",
+     "url": "https://expansion.mx/mercados/2026/11/02/precio-petroleo-cae-negociaciones-estados-unidos-iran-2026",
+     "verified": true
+    },
+    {
+     "text": "Francia: los estudiantes retomaron los bloqueos de liceos tras rechazar las medidas de Macron, y los sindicatos convocan huelga general para el 5 de noviembre.",
+     "url": "https://larepublica.pe/mundo/2026/11/01/estudiantes-de-francia-retomaran-los-bloqueos-de-liceos-tras-rechazar-las-medidas-anunciadas-por-macron-45001",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "Apple cerró su año fiscal con ingresos récord de US$478.834 millones, 15 % más, en los primeros resultados con John Ternus como CEO. El iPhone y China fueron los motores.",
+     "url": "https://www.forbes.com.ec/negocios/primer-balance-ternus-como-ceo-apple-facturacion-record-china-como-motor-crecimiento-n101608",
+     "verified": true
+    },
+    {
+     "text": "Desde el 1 de noviembre, la UE cobra una tasa de 2 euros por categoría de producto a pedidos de fuera del bloque, lo que afecta a Shein, Temu y AliExpress.",
+     "url": "https://www.xataka.com/empresas-y-economia/shein-temu-aliexpress-tienen-nuevo-problema-europa-cada-categoria-producto-importado-paga-dos-euros-tasa-aduanera",
+     "verified": true
+    },
+    {
+     "text": "OpenAI y Anthropic abrieron sus primeras salas de crisis para vigilar el uso de sus chatbots durante las elecciones de EE. UU.",
+     "url": "https://www.infobae.com/tecno/2026/11/02/openai-y-anthropic-abrieron-sus-primeras-salas-de-crisis-para-vigilar-los-chatbots-en-las-elecciones-de-estados-unidos/",
+     "verified": false
+    },
+    {
+     "text": "Físicos de la Universidad Northwestern lograron atrapar un solo positrón, una partícula de antimateria, durante meses. Buscan comprobar si materia y antimateria son simétricas.",
+     "url": "https://www.xataka.com/investigacion/han-atrapado-unica-particula-antimateria-durante-meses-logran-su-objetivo-sera-mayor-descubrimiento-siglo",
+     "verified": true
+    },
+    {
+     "text": "OpenAI prueba con pocos usuarios unir las pestañas Chat y Work en la app de escritorio de ChatGPT, para que la IA decida qué funciones usar en cada tarea.",
+     "url": "https://hipertextual.com/inteligencia-artificial/chatgpt-fusionara-chat-y-work-apps-escritorio/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "PS5 recibió un nuevo firmware solo 12 días después del anterior, con correcciones de seguridad. Según la cuenta PlayStation Game Size, esta versión será necesaria para jugar GTA VI, que sale el 19 de noviembre.",
+     "url": "https://www.3djuegos.com/ps5/noticias/tienes-ps5-te-espera-descarga-playstation-sorprende-otra-actualizacion-firmware-que-lleva-consola-a-version-26-07-14-22-00",
+     "verified": true
+    },
+    {
+     "text": "Google añadió un guiño al remake de Zelda: Ocarina of Time, que convierte el buscador en el de 1998. Nintendo admitió que subestimó la demanda de su edición física, sin stock en todo el mundo.",
+     "url": "https://www.3djuegos.com/juegos/the-legend-of-zelda-ocarina-of-time/noticias/link-no-unico-que-viaja-tiempo-ocarina-of-time-ahora-tu-tambien-puedes-simpatico-guino-google",
+     "verified": false
+    },
+    {
+     "text": "Los creadores de Alien: Isolation 2 revelaron exteriores hasta diez veces más grandes que en el original, tormentas que tapan los pasos del alien y Unreal Engine 5. Sigue sin fecha.",
+     "url": "https://www.3djuegos.com/juegos/alien-isolation-2/noticias/hay-algo-que-alien-isolation-2-no-puede-permitirse-perder-sus-creadores-saben-he-hablado-ellos-os-sorprenderia-tranquilos-que-estan",
+     "verified": false
+    },
+    {
+     "text": "El director de Overwatch no descarta contenidos de historia, tres años después de cancelar el modo PvE, aunque prefiere experiencias pequeñas.",
+     "url": "https://www.3djuegos.com/juegos/overwatch-2/noticias/no-descartaria-overwatch-podria-recuperar-esencia-detras-su-modo-cancelado-forma-distinta-a-que-imaginabamos",
+     "verified": false
+    },
+    {
+     "text": "Un directivo de GOG dijo que sueña con vender copias físicas de su catálogo de PC, aunque reconoce obstáculos de logística y licencias.",
+     "url": "https://www.3djuegos.com/pc/noticias/gog-suena-devolver-juegos-fisicos-al-pc-tiene-idea-para-hacerlo-hay-obstaculos-que-no-faciles-superar",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "La tercera temporada de Los Anillos de Poder llega a Prime Video el 11 de noviembre, con el reencuentro de Galadriel y Celeborn.",
+     "url": "https://www.3djuegos.com/tv-series/noticias/morfydd-clark-recuerda-uno-momentos-tragicos-tolkien-explica-como-ha-influido-su-galadriel-anillos-poder-bien-puede-hacer-mal",
+     "verified": false
+    },
+    {
+     "text": "Disney vuelve a dibujar a mano en Hechizo: Bienvenidos a Hexe, con un prólogo en 2D antes de pasar al 3D.",
+     "url": "https://www.3djuegos.com/tv-series/noticias/disney-cumple-su-promesa-recupera-animacion-2d-para-su-nueva-pelicula-resultado-recuerda-a-mejores-peliculas-compania",
+     "verified": false
+    },
+    {
+     "text": "La miniserie Bajo la superficie, con Josh Hartnett, suma cerca de 46 millones de reproducciones en Netflix en 22 días. Por ahora no tendrá segunda temporada.",
+     "url": "https://www.3djuegos.com/tv-series/noticias/46-millones-reproducciones-netflix-pocos-dias-miniserie-suspense-josh-hartnett-arrasa-streaming",
+     "verified": true
+    },
+    {
+     "text": "Rumores sin confirmar por Marvel ubican el tráiler final de Avengers: Doomsday entre el 10 y el 25 de noviembre. La película se estrena en diciembre.",
+     "url": "https://www.televicentro.com/revelan-posible-fecha-del-esperado-trailer-final-de-avengers-doomsday-2026-11-02",
+     "verified": false
+    },
+    {
+     "text": "El creador español Jordi Wild planea financiar, escribir y codirigir su propia película de terror de bajo presupuesto, sin fechas aún.",
+     "url": "https://www.3djuegos.com/streamers/noticias/despues-exito-backrooms-obsession-jordi-wild-se-plantea-su-proyecto-ambicioso-su-propia-pelicula-terror",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Nacional empató 1 a 1 con Bucaramanga, sigue líder con 36 puntos y dejó a su rival como virtual clasificado a cuadrangulares.",
+     "url": "https://www.eltiempo.com/deportes/futbol-colombiano/bucaramanga-rescata-un-empate-contra-atletico-nacional-y-es-virtual-clasificado-a-cuadrangulares-el-verde-sigue-lider-3598010",
+     "verified": true
+    },
+    {
+     "text": "Luis Díaz volvió al trabajo individual con el Bayern, 12 días después de su lesión muscular, y podría llegar a los amistosos de Colombia ante Chile del 13 y 17 de noviembre.",
+     "url": "https://www.infobae.com/colombia/deportes/2026/11/02/luis-diaz-regreso-a-los-entrenamientos-con-bayern-munich-y-podria-llegar-a-ser-convocado-por-nestor-lorenzo-a-la-seleccion-colombia/",
+     "verified": true
+    },
+    {
+     "text": "Everton ganó 1 a 0 en la cancha de Newcastle con gol de Thierno Barry, su primer triunfo de visitante en la Premier. Newcastle cayó al puesto 13 y fue abucheado.",
+     "url": "https://www.skysports.com/football/newcastle-united-vs-everton/report/559532",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Hoy vuelve la Champions con Atlético vs Bayern, Barcelona vs Aston Villa, Manchester United vs Roma y Villarreal vs PSG.",
+     "url": "https://www.cronica.com.mx/deportes/2026/11/02/champions-league-partidos-horarios-y-donde-ver-la-jornada-4-este-martes-3-de-noviembre/",
+     "verified": true
+    },
+    {
+     "text": "Richard Ríos se lesionó con Al Ittihad, se perderá los amistosos ante Chile y prometió volver más fuerte.",
+     "url": "https://eltiempo.com/deportes/futbol-internacional/richard-rios-se-pronuncia-tras-sufrir-lesion-en-arabia-desde-ya-promete-volver-mas-fuerte-3597737",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "La Cámara avanzó en la Ley de Sometimiento al rechazar que se archivara",
+   "level": "media",
+   "reason": "sin fuente confiable con enlace"
+  },
+  {
+   "title": "Un ataque del ELN con drones en Chocó dejó dos soldados muertos y cinco heridos",
+   "level": "media",
+   "reason": "sin fuente confiable con enlace"
+  },
+  {
+   "title": "Una copiloto brasileña de 20 años estaba en el jet privado que cayó en Florida con nueve muertos",
+   "level": "media",
+   "reason": "sin confirmar"
+  },
+  {
+   "title": "El debate del salario mínimo 2027 arrancó con propuestas de entre 8 % y 38,5 %",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El Banco de Inglaterra decide tasas el jueves, dividido sobre si subirlas",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Reino Unido advirtió que un ciberataque con IA contra infraestructura crítica es muy probable antes de 2028",
+   "level": "media",
+   "reason": "sin fuente confiable"
+  },
+  {
+   "title": "La crisis del Tribunal Constitucional enfrenta al gobierno de Polonia con su presidente",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Phantom Blade Zero habría vendido 4 millones de copias en tres días",
+   "level": "baja",
+   "reason": "sin confirmar"
+  }
+ ]
+}

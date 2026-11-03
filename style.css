@@ -1,0 +1,54 @@
+/* Portada de periódico en azul cobalto, con resaltador amarillo para el titular. */
+:root{--bg:#f3f5fb;--surface:#fff;--ink:#121a33;--soft:#56607c;--line:#d9deec;--blue:#1b3fd1;--on-blue:#fff;--mark:#ffd84d;--on-mark:#121a33;
+--display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;--body:"Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1426;--surface:#172039;--ink:#eef1fa;--soft:#a3adc9;--line:#2b3656;--blue:#2f55ea;--on-blue:#fff;--mark:#ffd84d;--on-mark:#121a33;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.5 var(--body)}
+.wrap,.top-in,.menu-in{max-width:44rem;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--mark);outline-offset:2px}
+.top{background:var(--blue);color:var(--on-blue);position:sticky;top:0;z-index:5;padding-top:env(safe-area-inset-top,0px)}
+.top-in{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px}
+.logo{font:800 1.5rem/1 var(--display);text-decoration:none;letter-spacing:-.02em}
+.logo span{color:var(--mark)}
+.menu-btn{font:600 .95rem var(--body);color:var(--on-blue);background:none;border:1.5px solid currentColor;border-radius:6px;padding:.45rem .7rem;min-height:40px;cursor:pointer}
+.menu{background:var(--surface);border-bottom:1px solid var(--line)}
+.menu ul{list-style:none;margin:0;padding:6px 0}
+.menu a{display:block;padding:.7rem 0;text-decoration:none;border-bottom:1px solid var(--line)}
+.menu li:last-child a{border-bottom:0}
+.menu a[aria-current]{font-weight:700;color:var(--blue)}
+main{padding-block:22px 12px}
+.date{font-weight:700;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase;color:var(--soft);margin:0}
+.past{display:inline-block;margin:0 0 10px;background:var(--mark);color:var(--on-mark);font-weight:700;font-size:.85rem;padding:.15rem .5rem}
+h1{font:800 clamp(1.9rem,8vw,2.9rem)/1.06 var(--display);letter-spacing:-.025em;margin:.35rem 0 1rem;text-wrap:balance}
+h1 span{background:linear-gradient(transparent 58%,var(--mark) 58%,var(--mark) 92%,transparent 92%)}
+.rates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-block:2px solid var(--ink);margin:0 0 20px}
+.rate{padding:.55rem .25rem;min-width:0}
+.rate+.rate{border-left:1px solid var(--line);padding-left:.7rem}
+.rate dt{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.rate dd{margin:0;font:700 clamp(1rem,4.6vw,1.3rem) var(--display);font-variant-numeric:tabular-nums;white-space:nowrap}
+.brief{list-style:none;margin:0 0 24px;padding:0;display:grid;gap:.4rem}
+.brief li{display:grid;grid-template-columns:1.6rem 1fr;gap:.25rem;min-width:0}
+.secs{display:grid;gap:10px}
+details{background:var(--surface);border:1px solid var(--line);border-radius:8px}
+summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:.55rem;padding:.85rem .9rem;min-height:56px;font:700 1.2rem/1.2 var(--display)}
+summary::-webkit-details-marker{display:none}
+summary .n{margin-left:auto;font:600 .85rem var(--body);color:var(--soft);white-space:nowrap}
+summary .n::after{content:"▾";margin-left:.45rem;display:inline-block}
+details[open] summary .n::after{transform:rotate(180deg)}
+details[open] summary{border-bottom:1px solid var(--line)}
+#sec-top{border-color:var(--blue);border-width:2px}
+.stories{list-style:none;margin:0;padding:0 .9rem}
+.story{padding-block:.95rem;display:grid;gap:.55rem;border-bottom:1px solid var(--line)}
+.story:last-child{border-bottom:0}
+.story p{margin:0;min-width:0;overflow-wrap:anywhere}
+.btn{justify-self:start;font-weight:700;font-size:.95rem;color:var(--blue);text-underline-offset:3px;padding:.2rem 0}
+@media (prefers-color-scheme:dark){.btn{color:var(--mark)}.menu a[aria-current]{color:var(--mark)}}
+.lang{color:var(--soft);font-weight:400}
+.om{padding:.9rem;display:grid;gap:.7rem}
+.om p{margin:0}
+.om .why{font-size:.9rem;color:var(--soft)}
+.note{color:var(--soft)}
+.foot{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;padding-block:6px 30px;font-size:.88rem;color:var(--soft)}
+@media (prefers-reduced-motion:no-preference){.top,.menu-btn{transition:none}}
