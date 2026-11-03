@@ -1,0 +1,253 @@
+{
+  "date": "2026-10-28",
+  "title": "Israel queda sin mayoría clara tras elecciones",
+  "rates": {
+    "dolar": "$3.148",
+    "libra": "$4.188",
+    "real": "R$ 7,10"
+  },
+  "resumen": [
+    {"emoji": "🇨🇴", "text": "Gobierno pide $3,9 billones al Congreso"},
+    {"emoji": "🌎", "text": "Ordenan investigar financiación extranjera de Flávio Bolsonaro"},
+    {"emoji": "🏛️", "text": "Finlandia y Noruega llaman a Putin"},
+    {"emoji": "💻", "text": "Apple presenta hoy nuevos MacBook Pro"},
+    {"emoji": "🎮", "text": "Phantom Blade Zero llega este jueves"},
+    {"emoji": "🎬", "text": "Sale el tráiler final de Dune 3"},
+    {"emoji": "⚽", "text": "Chicó desciende y Junior queda eliminado"}
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Israel: con el 42 % de los votos contados, el bloque de Netanyahu suma 57 escaños, a 4 de la mayoría. La oposición de Eisenkot tiene 47 y los partidos árabes (16) podrían decidir el próximo gobierno.",
+          "url": "https://www.democrata.es/internacional/resultados-elecciones-en-israel-netanyahu-toma-ventaja-en-recuento-pero-sigue-sin-mayoria/",
+          "verified": true
+        },
+        {
+          "text": "Flávio Bolsonaro, derrotado por Lula, salió de Brasil rumbo a Estados Unidos con su familia después de no entregar sus pasaportes como ordenó el juez Moraes. La Policía Federal investiga por dónde salió.",
+          "url": "https://www.cartacapital.com.br/politica/flavio-bolsonaro-foge-para-os-eua-apos-descumprir-ordem-de-moraes/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Reino Unido: el ministro de Hacienda John Healey presenta hoy (12:30 GMT) el primer presupuesto del gobierno de Burnham. Se espera alivio de impuestos para algunos pensionistas y un alza del salario mínimo.",
+          "url": "https://www.yahoo.com/news/politics/articles/healey-due-unveil-tax-spending-062500393.html",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "MinHacienda pidió al Congreso $3,9 billones adicionales: 1,2 billones para que las térmicas sigan comprando combustible y evitar apagones en el Caribe (por la deuda de Air-e), y 2,7 billones para la reconstrucción tras el terremoto.",
+          "url": "https://www.elespectador.com/economia/gobierno-insiste-en-cambios-al-presupuesto-2026-por-cop-39-billones/",
+          "verified": true
+        },
+        {
+          "text": "Racionamiento programado de gas: el país tendrá hasta 12 % menos gas durante 7 u 8 días por un mantenimiento en la regasificadora de Cartagena. Se prioriza el consumo esencial.",
+          "url": "https://www.larepublica.co/economia/colombia-tendra-hasta-12-menos-gas-por-mantenimiento-a-la-regasificadora-spec-4512618",
+          "verified": true
+        },
+        {
+          "text": "El FBI ofrece 10.000 dólares por el colombiano Víctor Julián Duque, acusado de lavar dinero del narcotráfico. Su red habría movido más de 54 millones de dólares ligados al Clan del Golfo.",
+          "url": "https://eltiempo.com/mundo/eeuu-y-canada/fbi-ofrece-10-000-dolares-de-recompensa-por-el-colombiano-victor-julian-duque-habria-lavado-mas-de-54-millones-de-dolares-para-el-clan-del-golfo-3596567",
+          "verified": true
+        },
+        {
+          "text": "Los gremios de Norte de Santander alertan por la crisis de seguridad en Cúcuta tras el asesinato del exsecretario de Gobierno Miguel Castellanos. Ofrecen hasta $100 millones de recompensa.",
+          "url": "https://portafolio.co/economia/regiones/crisis-de-orden-publico-en-la-frontera-afecta-al-sector-empresarial-gremios-piden-al-gobierno-mas-articulacion-505224",
+          "verified": false
+        },
+        {
+          "text": "La JEP revocó la libertad condicional de alias Yako, a quien la Fiscalía señala como determinador del atentado contra Miguel Uribe Turbay. Sigue prófugo y no ha sido condenado.",
+          "url": "https://eltiempo.com/justicia/jep-colombia/yako-el-disidente-profugo-al-que-la-jep-le-revoco-la-libertad-condicionada-tras-ser-senalado-como-determinador-en-magnicidio-de-miguel-uribe-turbay-3596813",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "Brasil: el juez Flávio Dino, del Supremo, ordenó a la Policía Federal investigar si la campaña de Flávio Bolsonaro recibió financiación extranjera de una red ligada al vicepresidente de EE. UU., JD Vance.",
+          "url": "https://www.gazetadopovo.com.br/republica/dino-manda-pf-investigar-suposto-financiamento-estrangeiro-a-campanha-de-flavio/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Brasil: el Departamento de Estado confirmó que dará visas a Flávio Bolsonaro y su familia, lo que tensa aún más la relación entre Lula y Washington.",
+          "url": "https://www.poder360.com.br/poder-internacional/eua-irao-conceder-vistos-a-flavio-bolsonaro-e-familia/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Cuba: la Asamblea General de la ONU vota hoy otra resolución contra el embargo de EE. UU., en medio de presiones de Washington y de la peor crisis económica de la isla.",
+          "url": "https://www.swissinfo.ch/spa/presiones,-tensi%C3%B3n-y-crisis-marcan-la-votaci%C3%B3n-en-la-onu-contra-el-embargo-de-eeuu-a-cuba/92276943",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "El presidente de Finlandia y el primer ministro de Noruega llamaron a Putin para pedirle retomar las negociaciones de paz con Ucrania. Otros líderes europeos criticaron el gesto y el Kremlin le restó importancia.",
+          "url": "https://www.euronews.com/2026/10/27/finnish-and-norwegian-leaders-call-putin-urge-restart-of-peace-talks",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "La Comisión Europea propone triplicar el personal de Frontex hasta 30.000 agentes y darle poder para ayudar a deportar migrantes desde países fuera de la UE. Los críticos temen una \"ICE europea\".",
+          "url": "https://www.yahoo.com/news/politics/articles/eu-seeks-deportation-powers-beefed-131937668.html",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Rusia celebra hoy y mañana en Moscú su tercera cumbre con África, con la que Putin busca ampliar su influencia en el continente.",
+          "url": "https://tass.com/politics/2157099",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Apple celebra hoy en Los Ángeles su evento \"Pro and Tell\". Se esperan MacBook Pro con pantalla táctil OLED, un iMac renovado y un iPad mini con pantalla OLED.",
+          "url": "https://www.xataka.com/eventos/apple-anuncia-presentacion-para-28-octubre-todas-miradas-apuntan-a-nuevos-macbook-pro",
+          "verified": true
+        },
+        {
+          "text": "OpenAI presentó GPT-6.1 Terra, un modelo pensado para usar el computador de forma rápida y a gran escala, más barato y con menos errores.",
+          "url": "https://www.adslzone.net/noticias/ia/openai-presenta-gpt-6-1-terra-modelo-ia/",
+          "verified": true
+        },
+        {
+          "text": "Google DeepMind presentó Genie 4, su nuevo motor que genera mundos virtuales interactivos en tiempo real.",
+          "url": "https://www.lanacion.com.ar/tecnologia/google-deepmind-presento-genie-4-su-nuevo-motor-de-simulacion-de-mundos-en-tiempo-real-nid27102026/",
+          "verified": false
+        },
+        {
+          "text": "Sony confirmó un hackeo masivo a uno de sus servicios con el robo de datos de 2,5 millones de usuarios.",
+          "url": "https://www.3djuegos.com/tecnologia/noticias/sony-confirma-hackeo-masivo-a-uno-sus-servicios-robo-2-5-millones-datos-usuarios-probable-que-a-ti-no-te-haya-afectado",
+          "verified": false
+        },
+        {
+          "text": "Brasil: Itaú Unibanco y GFT crearon una herramienta de IA para acelerar el paso de los sistemas del banco a la nube.",
+          "url": "https://www.infobae.com/america/agencias/2026/10/27/gft-e-itau-unibanco-desarrollan-una-solucion-basada-en-ia-para-acelerar-la-migracion-de-los-sistemas-del-banco-a-la-nube/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "Phantom Blade Zero, uno de los juegos de acción más esperados del año, llega este jueves 29 a PS5 y PC. En la misma semana salen The Wolf Among Us Remastered y Mouthwashing en consolas.",
+          "url": "https://www.libertaddigital.com/ciencia-tecnologia/videojuegos/2026-10-26/estrenos-videojuegos-del-26-30-octubre-phantom-blade-zero-afila-la-espada-y-no-mans-sky-debuta-en-moviles-7481857/",
+          "verified": true
+        },
+        {
+          "text": "Arrancaron las rebajas de Halloween de Steam, con miles de juegos de terror en oferta hasta el 2 de noviembre.",
+          "url": "https://www.3djuegos.com/pc/noticias/nuevas-rebajas-steam-preparate-porque-aqui-te-dejamos-9-juegos-oferta-ideales-para-fans-terror-8-900-titulos-descuento",
+          "verified": true
+        },
+        {
+          "text": "Warhorse, el estudio de Kingdom Come: Deliverance, confirmó que sufrió un hackeo, y hay temor por el efecto en sus juegos.",
+          "url": "https://www.3djuegos.com/pc/noticias/autores-kingdom-come-deliverance-sufren-pesadilla-warhorse-confirma-hackeo-ahora-hay-temores-que-puede-significar-para-sus-juegos",
+          "verified": false
+        },
+        {
+          "text": "GTA 6 va a ocupar mucho espacio en consolas desde el lanzamiento, así que conviene liberar disco antes del 19 de noviembre.",
+          "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/vas-a-jugar-a-gta-6-lanzamiento-te-vale-tener-espacio-tu-consola-juego-rockstar-no-sera-precisamente-pequeno",
+          "verified": false
+        },
+        {
+          "text": "Trabajadores de EA dicen que la moral está por el suelo y que el futuro que promete la empresa no los convence.",
+          "url": "https://www.3djuegos.com/industria-gaming/noticias/moral-ha-sido-terrible-futuro-que-promete-ea-no-convence-a-trabajadores",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Salió el tráiler final de Dune: Parte Tres, con Timothée Chalamet frente a una nueva amenaza y Robert Pattinson como el villano Scytale. Se estrena en diciembre.",
+          "url": "https://www.indiatvnews.com/entertainment/hollywood/dune-3-final-trailer-out-timothee-chalamet-paul-faces-new-threat-robert-pattinson-joins-as-scytale-2026-10-28-1058079",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Netflix estrena el 6 de noviembre Palacio, la serie colombiana sobre la toma y retoma del Palacio de Justicia en 1985.",
+          "url": "https://www.larepublica.co/ocio/netflix-estrenara-en-noviembre-palacio-serie-sobre-toma-y-retoma-del-palacio-de-justicia-4500892",
+          "verified": true
+        },
+        {
+          "text": "Los responsables de Los Anillos de Poder hablan de la temporada 3, que llega a Prime Video el 11 de noviembre con Sauron en busca del Anillo Único.",
+          "url": "https://www.3djuegos.com/tv-series/noticias/sauron-cree-que-esta-haciendo-bien-he-hablado-responsables-anillos-poder-antes-su-temporada-3-se-toman-a-tolkien-muy-serio",
+          "verified": true
+        },
+        {
+          "text": "Los creadores de Coraline preparan un nuevo proyecto que mezcla Narnia y Alicia en el país de las maravillas, y no es para niños.",
+          "url": "https://www.3djuegos.com/tv-series/noticias/nuevo-creadores-coraline-mezcla-cronicas-narnia-alicia-no-para-ninos-precisamente",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Boyacá Chicó empató 1 a 1 con Junior en Tunja: Chicó es el primer descendido de 2026 y Junior quedó eliminado de los cuadrangulares.",
+          "url": "https://www.semana.com/deportes/articulo/oficial-el-primer-descendido-de-la-liga-betplay-2026-tabla-del-descenso-tras-boyaca-chico-vs-junior/202622/",
+          "verified": true
+        },
+        {
+          "text": "Águilas Doradas le ganó 2 a 0 al Cúcuta, con goles de Ricaurte y Mosquera, y se metió entre los ocho de la Liga BetPlay.",
+          "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/aguilas-doradas-vencio-al-cucuta-eportivo-y-se-metio-entre-los-ocho-de-la-liga-betplay-2-274513",
+          "verified": true
+        },
+        {
+          "text": "Premier League: Carrick (Manchester United), Sage (Crystal Palace), Arbeloa (Fulham) y Lampard (Coventry) son los técnicos con más riesgo de ser despedidos.",
+          "url": "https://www.beinsports.com/es-us/football/premier-league/articles/los-cuatro-t%C3%A9cnicos-de-la-premier-league-que-est%C3%A1n-en-la-cuerda-floja-2026-10-27",
+          "verified": true
+        },
+        {
+          "text": "El Espanyol despidió a su técnico Manolo González después de caer en la Copa del Rey ante un equipo de cuarta división.",
+          "url": "https://www.abc.com.py/deportes/futbol/internacional/2026/10/27/el-espanyol-destituye-a-manolo-gonzalez-como-entrenador-del-primer-equipo/",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {"title": "La Reserva Federal y el Banco de Canadá anuncian hoy sus decisiones sobre las tasas de interés", "level": "media", "reason": "todavía no hay decisión"},
+    {"title": "Alphabet y Microsoft presentan hoy sus resultados trimestrales", "level": "media", "reason": "resultados pendientes"},
+    {"title": "Un sismo de magnitud 7 sacudió islas al sur de Tokio, sin alerta de tsunami", "level": "media", "reason": "sin fuente confiable"},
+    {"title": "El Pentágono elevó a 47.100 millones de dólares el costo de la guerra con Irán", "level": "media", "reason": "sin fuente confiable"},
+    {"title": "Familias de Río recuerdan un año de la operación policial más letal de la historia de la ciudad", "level": "media", "reason": "sin artículo reciente"},
+    {"title": "Familiares de presos políticos en Venezuela preparan una marcha hacia Miraflores", "level": "baja", "reason": "sin fuente reciente"},
+    {"title": "Peter Molyneux dice que casi todos los juegos del último año usaron inteligencia artificial", "level": "baja", "reason": "de nicho"}
+  ]
+}
