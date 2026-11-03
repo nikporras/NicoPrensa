@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-30",
+  "title": "Muere Patrick Stewart, el capitán Picard, a los 86",
+  "rates": {
+    "dolar": "$3.166,91",
+    "libra": "$4.228",
+    "real": "R$ 7,21"
+  },
+  "resumen": [
+    {"emoji": "🇨🇴", "text": "Gobierno radica la Ley de Rescate Económico"},
+    {"emoji": "🌎", "text": "Brasil investiga cómo salió Flávio Bolsonaro del país"},
+    {"emoji": "🏛️", "text": "Tres petroleros más chocan con minas en Ormuz"},
+    {"emoji": "💻", "text": "Google lanza Gemini 4 Carbon para ciberseguridad"},
+    {"emoji": "🎮", "text": "Phantom Blade Zero supera 700.000 jugadores en Steam"},
+    {"emoji": "🎬", "text": "Klara y el Sol se hunde en taquilla"},
+    {"emoji": "⚽", "text": "Nacional vence a Santa Fe y sigue líder"}
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {"text": "Murió el actor británico Patrick Stewart, el Jean-Luc Picard de Star Trek y el Profesor X de X-Men, a los 86 años en su casa de Los Ángeles, según su familia.", "url": "https://www.eltiempo.com/cultura/gente/de-que-murio-patrick-stewart-el-reconocido-actor-de-x-men-y-star-treck-estas-eran-las-enfermedades-que-padecia-3597289", "verified": true},
+        {"text": "Christine Lagarde renunció a la presidencia del Banco Central Europeo y se irá el 7 de febrero de 2027, casi nueve meses antes de terminar su mandato. Empieza la carrera por su sucesor antes de las elecciones francesas.", "url": "https://www.infobae.com/espana/2026/10/29/christine-lagarde-adelanta-su-salida-del-bce-y-presenta-su-dimision-dejara-el-cargo-en-febrero-de-2027/", "verified": true},
+        {"text": "Un dron ruso golpeó un andén lleno de gente en la estación de tren de Dnipró, en Ucrania, y dejó al menos 13 muertos. La ONU condenó el ataque.", "url": "https://theobjective.com/internacional/2026-10-29/13-muertos-ruso-tren-ucrania/", "verified": true}
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {"text": "El Gobierno radicó la Ley de Rescate Económico: 70 % del ajuste saldría de recortar gasto, devolución anticipada del IVA a 19 millones de personas, más impuestos al 10 % de mayores ingresos y cárcel para evasores.", "url": "https://www.semana.com/economia/articulo/nos-dejaron-jodidos-como-pais-nos-dejaron-en-la-inmunda-vicepresidente-restrepo-al-radicar-la-ley-de-rescate-economico/202648/", "verified": true},
+        {"text": "De la Espriella ordenó militarizar Cúcuta, con el Ejército apoyando a la Policía, tras una ola de violencia en Norte de Santander y el asesinato de un precandidato.", "url": "https://www.vanguardia.com/colombia/2026/10/29/he-ordenado-la-militarizacion-inmediata-de-cucuta-de-la-espriella/", "verified": true},
+        {"text": "El Banco de la República decide hoy su tasa de interés. La mayoría de analistas espera una subida de 12,25 % a 12,50 % porque la inflación sigue alta.", "url": "https://www.elheraldo.co/economia/2026/10/29/mercado-financiero-preve-que-el-banco-de-la-republica-aumente-la-tasa-de-interes-en-1250/", "verified": true},
+        {"text": "El Consejo de Seguridad de la ONU vota hoy si renueva por un año la Misión de Verificación de la paz, posiblemente con menos funciones como pidió el Gobierno.", "url": "https://www.eltiempo.com/politica/proceso-de-paz/consejo-de-seguridad-de-la-onu-decide-el-futuro-de-la-mision-de-verificacion-este-30-de-octubre-habra-nuevo-recorte-de-funciones-3597222", "verified": true},
+        {"text": "El dólar cerró el jueves en $3.174, unos $12 por encima de la TRM, presionado por la decisión de la Reserva Federal.", "url": "https://www.semana.com/economia/macroeconomia/articulo/dolar-mas-caro-la-moneda-cierra-al-alza-en-la-tarde-del-jueves-29-de-octubre-de-2026/202653/", "verified": true}
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {"text": "Brasil: el Gobierno investiga qué papel tuvieron Argentina y Estados Unidos en la salida de Flávio Bolsonaro, que huyó por Argentina y Ecuador. Ya hay roce diplomático con el gobierno de Milei.", "url": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/brasil-apura-acao-da-argentina-e-dos-eua-em-fuga-flavio-bolsonaro/", "verified": true, "lang": "pt"},
+        {"text": "Brasil: la Bolsa de São Paulo cayó por cuarta sesión seguida y quedó bajo los 170.000 puntos, y el dólar subió a R$ 5,38 por temor fiscal.", "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financiero-ibovespa-dolar-29-outubro-2026/", "verified": true, "lang": "pt"},
+        {"text": "Honduras aprobó reformas penales con cadena perpetua para líderes de pandillas y penas de hasta 40 años, con 119 votos en el Congreso.", "url": "https://www.laprensa.hn/honduras/congreso-aprueba-reformas-penales-maras-pandillas-honduras-AD32462156", "verified": true},
+        {"text": "La presidenta de Perú, Keiko Fujimori, firmó acuerdos de seguridad con Nayib Bukele y visitó la megacárcel Cecot en El Salvador.", "url": "https://www.elsalvador.com/noticias/nacional/keiko-fujimori-reunion-nayib-bukele/1301387/2026/", "verified": true}
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {"text": "Irán dice que tres petroleros más explotaron y se incendiaron al chocar con minas en el estrecho de Ormuz, donde mantiene un bloqueo desde que empezó la guerra.", "url": "https://www.infobae.com/america/agencias/2026/10/29/iran-anuncia-explosiones-e-incendios-en-otros-tres-petroleros-en-el-estrecho-de-ormuz/", "verified": true},
+        {"text": "China: el Partido Comunista expulsó a 33 altos cargos civiles y militares en una purga récord, y Xi Jinping queda bien posicionado para un cuarto mandato.", "url": "https://rpp.pe/mundo/china/purga-en-el-partido-comunista-de-china-xi-jinping-afianza-su-poder-hacia-un-cuarto-mandato-en-2027-noticia-1715116", "verified": true},
+        {"text": "Marco Rubio recibe hoy y mañana en Atlanta a los cancilleres del G20, incluido el ruso Lavrov, para preparar la cumbre de diciembre en Miami.", "url": "https://www.infobae.com/america/agencias/2026/10/29/marco-rubio-reune-en-atlanta-a-los-ministros-de-exteriores-del-g20-incluido-lavrov/", "verified": true},
+        {"text": "Italia: un sindicato convocó huelga general hoy contra el costo de vida y el gobierno de Meloni. Salvini frenó por decreto la huelga de transporte.", "url": "https://www.infobae.com/america/agencias/2026/10/29/italia-abre-la-temporada-de-huelgas-con-una-jornada-de-movilizacion-contra-la-carestia/", "verified": true},
+        {"text": "Murió a los 96 años Dolores Huerta, cofundadora del sindicato de campesinos UFW con César Chávez e ícono de los derechos de los latinos en EE. UU.", "url": "https://www.excelsior.com.mx/internacional/fallecio-dirigente-campesina-estadunidense-dolores-huerta", "verified": true}
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {"text": "Google presentó Gemini 4 Carbon, su nuevo modelo más avanzado, enfocado en ciberseguridad y disponible primero para defensores seleccionados.", "url": "https://www.infobae.com/america/agencias/2026/10/29/google-presenta-gemini-4-carbon-su-nuevo-modelo-de-frontera-que-destaca-en-ciberseguridad/", "verified": true},
+        {"text": "Amazon: su nube AWS creció 39 % y logró un margen récord en el tercer trimestre, aunque el beneficio bajó 2,4 %.", "url": "https://es.qz.com/crecimiento-rpido-nube-aws-amazon-ingresos-102926", "verified": true},
+        {"text": "Una familia demandó a OpenAI: acusa a ChatGPT de diseñar a su hija, ingeniera de Amazon, un plan para dejar su medicación contra la epilepsia antes de morir.", "url": "https://www.xataka.com/robotica-e-ia/ingeniera-amazon-pregunto-a-chatgpt-como-dejar-su-medicacion-epilepsia-ia-le-diseno-calendario-25-dias-que-ha-terminado-tragedia", "verified": true},
+        {"text": "SK Hynix tuvo ventas récord y triplicó su beneficio por la demanda de memoria para IA, y prevé escasez de chips por años.", "url": "https://www.france24.com/es/minuto-a-minuto/20261028-el-gigante-surcoreano-sk-hynix-registra-ganancias-r%C3%A9cord-por-la-demanda-de-chips-para-ia", "verified": true},
+        {"text": "Astrónomos hallaron un posible nuevo planeta enano más allá de Plutón, que estuvo oculto durante una década entre millones de estrellas.", "url": "https://larepublica.pe/ciencia/2026/10/29/astronomos-revelan-un-nuevo-candidato-a-planeta-enano-en-nuestro-sistema-solar-se-encuentra-mas-alla-de-pluton-474817", "verified": true}
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {"text": "Phantom Blade Zero arrasó en su estreno con más de 700.000 jugadores simultáneos en Steam, el mejor lanzamiento de un juego individual en 2026.", "url": "https://www.levelup.com/noticias/phantom-blade-zero-es-un-exitazo-en-steam-y-debuta-con-miles-de-jugadores-simultaneos-pero-queda-muy-por-detras-de-black-myth-wukong/", "verified": true},
+        {"text": "Epic Games admitió que la IA ya escribe la mayor parte del código de Fortnite y Unreal Engine 6.", "url": "https://vandal.elespanol.com/noticia/2026302012/epic-games-confirma-que-la-ia-ya-escribe-la-mayor-parte-del-codigo-de-fortnite-y-unreal-engine-6/", "verified": true},
+        {"text": "GTA 6 mostró un nuevo fragmento de jugabilidad en un episodio de South Park, a tres semanas de su lanzamiento.", "url": "https://3djuegos.com/juegos/grand-theft-auto-vi/noticias/nuevo-mini-gameplay-gta-6-ha-aparecido-lugar-inesperado-ha-mostrado-arma-asquerosa-juego", "verified": true},
+        {"text": "Xbox Game Pass suma 8 juegos para cerrar octubre, entre ellos Final Fantasy VII Remake Intergrade, y anuncia 11 que saldrán del servicio.", "url": "https://www.3djuegos.com/xbox-series-xs/noticias/xbox-anuncia-8-juegos-gratis-finales-octubre-2026-para-miembros-game-pass-a-otros-11-titulos-que-abandonaran-pronto-servicio", "verified": true},
+        {"text": "Capcom dice que ya tiene planeado el final de la historia de Resident Evil y que llegaría en los próximos diez años.", "url": "https://www.que.es/2026/10/28/final-resident-evil-capcom/", "verified": true}
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {"text": "Klara y el Sol, de Taika Waititi con Jenna Ortega, es un fracaso de taquilla: perdió más de mil salas en EE. UU. y Sony canceló su estreno en España.", "url": "https://vandal.elespanol.com/random/fracaso-historico-confirmado-la-pelicula-de-ciencia-ficcion-de-jenna-ortega-se-hunde-y-sony-cancela-su-estreno-en-espana/44661.html", "verified": true},
+        {"text": "Los Juegos del Hambre: Amanecer en la cosecha apunta a un estreno de más de 60 millones de dólares en EE. UU. el 20 de noviembre, según las proyecciones.", "url": "https://deadline.com/2026/10/boxoffice-hunger-games-sunrise-on-the-reaping-projection-1237208258/", "verified": false, "lang": "en"},
+        {"text": "Sony compró los derechos del videojuego de terror Mouthwashing para hacer una película dirigida por Karyn Kusama.", "url": "https://deadline.com/2026/10/sony-mouthwashing-videogame-movie-karyn-kusama-1237208566/", "verified": true, "lang": "en"},
+        {"text": "Netflix renovó La diplomática, con Keri Russell, para una quinta temporada.", "url": "https://www.culturaocio.com/tv/noticia-diplomatica-renueva-quinta-temporada-netflix-20261029160813.html", "verified": false},
+        {"text": "James McAvoy, Taron Egerton y Alicia Vikander protagonizarán la nueva película de Armando Iannucci, creador de Veep.", "url": "https://deadline.com/2026/10/james-mcavoy-taron-egerton-alicia-vikander-armando-iannucci-movie-1237207620/", "verified": false, "lang": "en"}
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {"text": "Nacional le ganó 2 a 0 a Santa Fe en el Atanasio Girardot y sigue líder de la Liga BetPlay.", "url": "https://www.eltiempo.com/deportes/futbol-colombiano/un-nublado-santa-fe-quedo-en-deuda-en-el-atanasio-girardot-nacional-cada-vez-mas-lider-de-la-liga-betplay-3597377", "verified": true},
+        {"text": "Flamengo goleó 4 a 1 al Vasco en el clásico, con dos goles de Pedro, y le saca tres puntos al Palmeiras en la cima del Brasileirão.", "url": "https://placar.com.br/brasileirao/flamengo-goleia-o-vasco-por-4-a-1-pelo-brasileirao-e-se-isola-na-lideranca/", "verified": true, "lang": "pt"},
+        {"text": "El Manchester United decidió mantener a Michael Carrick como técnico, al menos para el clásico del fin de semana contra el Chelsea.", "url": "https://www.excelsior.com.mx/deportes/michael-carrick-manchester-united-crisis-chelsea-premier-league", "verified": true},
+        {"text": "América de Cali le dio vuelta al partido contra Fortaleza, ganó 2 a 1 y sigue en la pelea por el liderato.", "url": "https://elespectador.com/deportes/america-le-dio-vuelta-al-marcador-contra-fortaleza-y-sigue-firme-en-liga-betplay", "verified": true},
+        {"text": "Golpe para el United: Benjamin Sesko se perdería el resto de 2026 por una lesión en la tibia.", "url": "https://sports.yahoo.com/articles/benjamin-sesko-set-miss-rest-142000774.html", "verified": true, "lang": "en"}
+      ]
+    }
+  ],
+  "omitidas": [
+    {"title": "Erin Patterson, la australiana que envenenó a familiares con hongos, perdió su apelación y pasará la vida en prisión", "level": "media", "reason": "sin enlace verificado"},
+    {"title": "Francia desplegará 70.000 policías ante las protestas de Halloween de este sábado", "level": "media", "reason": "no cupo"},
+    {"title": "La prensa inglesa dice que el Manchester City podría recibir una sanción histórica de la Premier", "level": "media", "reason": "rumor, no oficial"},
+    {"title": "El presidente alemán Steinmeier se reunió con Xi Jinping y le pidió presionar a Rusia por Ucrania", "level": "baja", "reason": "no cupo"},
+    {"title": "Malasia incautó chips de IA por 12 millones de dólares que iban hacia destinos restringidos", "level": "baja", "reason": "no cupo"},
+    {"title": "OpenAI abrió un centro para vigilar el mal uso de su IA en las elecciones de EE. UU. del 3 de noviembre", "level": "baja", "reason": "de nicho"}
+  ]
+}
