@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-29",
+  "title": "Choque de trenes en Toledo deja 68 muertos",
+  "rates": {
+    "dolar": "$3.162",
+    "libra": "$4.183",
+    "real": "R$ 7,09"
+  },
+  "resumen": [
+    {"emoji": "🇨🇴", "text": "Bombardeo contra el Clan del Golfo en Chocó"},
+    {"emoji": "🌎", "text": "Murió Cuauhtémoc Cárdenas, líder histórico de la izquierda mexicana"},
+    {"emoji": "🏛️", "text": "La Fed mantiene tasas, dos miembros pedían subirlas"},
+    {"emoji": "💻", "text": "Apple lanza su primer MacBook Pro con pantalla táctil"},
+    {"emoji": "🎮", "text": "Indie World: Witchbrook ya tiene fecha"},
+    {"emoji": "🎬", "text": "HBO prepara serie de Los pájaros con Sarah Snook"},
+    {"emoji": "⚽", "text": "Arsenal, eliminado por un equipo de cuarta división"}
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {"text": "Dos trenes de alta velocidad (un AVE de Renfe y uno de Iryo) chocaron en Urda, Toledo: 68 muertos y decenas de heridos graves. España decretó tres días de luto y se investiga por qué se reactivó el AVE con el otro tren detenido en la vía.", "url": "https://www.eldiariodemadrid.es/articulo/politica/sanchez-luto-oficial-accidente-tren-urda-toledo/20261028162819145558.html", "verified": true},
+        {"text": "Flávio Bolsonaro llegó a Miami con su familia, se proclamó \"verdadero presidente electo\" de Brasil y denunció fraude sin pruebas. Dice que liderará la oposición a Lula desde el exterior; EE. UU. le permite quedarse hasta octubre de 2027.", "url": "https://www.terra.com.br/noticias/brasil/derrotado-nas-urnas-flavio-se-declara-verdadeiro-presidente-do-brasil,4acc33b915c740218042efe8918a5313baq2yneg.html", "verified": true, "lang": "pt"},
+        {"text": "Israel sigue sin mayoría: el bloque de Netanyahu ronda los 53 escaños (se necesitan 61) y el Likud acusa sin pruebas a los partidos árabes de fraude. Los resultados oficiales se esperan entre hoy y mañana.", "url": "https://www.theweek.in/news/middle-east/2026/10/29/netanyahu-likud-voter-fraud-allegations-arab-parties.html", "verified": true, "lang": "en"}
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {"text": "Un bombardeo del Ejército contra cabecillas del Clan del Golfo dedicados a la minería ilegal en Nóvita, Chocó, dejó al menos seis muertos y un capturado, confirmó el presidente De La Espriella.", "url": "https://www.semana.com/nacion/medellin/articulo/abelardo-de-la-espriella-confirmo-que-bombardeo-contra-el-clan-del-golfo-dejo-por-lo-menos-seis-presuntos-delincuentes-muertos/202609/", "verified": true},
+        {"text": "La Operación Kratos dejó más de 170 capturados y 100 allanamientos en Bogotá contra Los Ingenieros. De La Espriella propuso control militar en zonas como Sumapaz y deportar a extranjeros con antecedentes.", "url": "https://www.elcolombiano.com/colombia/abelardo-de-la-espriella-necesidad-militarizar-bogota-frenar-expansion-grupos-criminales-ON42920482", "verified": true},
+        {"text": "El Gobierno financiará con el Fondes los estudios de la línea 4 del metro de Bogotá e inyectará $450.000 millones para destrabar la ampliación de la vía Suba Cota.", "url": "https://www.eltiempo.com/bogota/linea-4-del-metro-de-bogota-y-la-via-suba-cota-seran-financiadas-a-traves-del-fondes-confirmo-el-presidente-abelardo-de-la-espriella-3597061", "verified": false},
+        {"text": "Fenalcarbón calcula que por cada $100 que cae el dólar el sector del carbón pierde cerca de $450.000 millones; con el dólar cerca de $3.150, las pérdidas superarían los $2 billones.", "url": "https://www.larepublica.co/economia/por-cada-100-que-cae-el-dolar-el-sector-del-carbon-pierde-cerca-de-450-000-millones-4513566", "verified": false},
+        {"text": "Fuertes lluvias inundaron varios barrios de Soacha la noche del miércoles y arrastraron vehículos. No hay reportes oficiales de heridos.", "url": "https://eltiempo.com/bogota/inundaciones-en-soacha-tras-fuertes-lluvias-en-la-noche-del-miercoles-28-de-octubre-en-bogota-se-reportaron-afectaciones-en-algunos-barrios-3597110", "verified": false}
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {"text": "Murió a los 92 años Cuauhtémoc Cárdenas, fundador del PRD, tres veces candidato presidencial y figura histórica de la izquierda mexicana.", "url": "https://www.elfinanciero.com.mx/nacional/2026/10/28/fallece-cuauhtemoc-cardenas-el-tres-veces-presidenciable-a-los-92-anos/", "verified": true},
+        {"text": "Diputados del PT pidieron al Supremo de Brasil la prisión preventiva de Flávio Bolsonaro y su inclusión en la lista de Interpol tras su salida del país.", "url": "https://sbtnews.sbt.com.br/noticia/politica/pt-pede-prisao-preventiva-de-flavio-e-inclusao-na-interpol", "verified": true, "lang": "pt"},
+        {"text": "María Corina Machado visitó el estado venezolano golpeado por un doble terremoto y se reunió con damnificados. Hoy da su primera rueda de prensa desde su regreso a Venezuela.", "url": "https://elcomercio.pe/mundo/venezuela/maria-corina-machado-visita-estado-devastado-por-doble-terremoto-en-venezuela-y-se-reune-con-afectados-la-guaira-vargas-lara-caracas-ultimas-noticia/", "verified": true},
+        {"text": "Brasil registró en septiembre un déficit de US$ 5.100 millones en sus cuentas externas, según el Banco Central.", "url": "https://www.dgabc.com.br/Noticia/4365019/deficit-em-conta-corrente-soma-us-5-100-bi-em-setembro-mostra-bc", "verified": true, "lang": "pt"}
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {"text": "La Reserva Federal mantuvo las tasas entre 3,75 % y 4 %, con dos votos a favor de subirlas. El mercado espera un alza en diciembre por la inflación alta.", "url": "https://www.diariolibre.com/economia/macroeconomia/2026/10/28/la-fed-deja-sin-cambios-las-tasas-de-interes-en-ee-uu/3703685", "verified": true},
+        {"text": "El presupuesto de otoño británico incluye un pago único de £100 para la energía de 20 millones de hogares, £10.000 millones para Ucrania, un alza del salario mínimo del 3,9 % y más impuestos a la banca.", "url": "https://www.aljazeera.com/economy/2026/10/28/five-key-takeaways-from-the-uk-autumn-budget", "verified": true, "lang": "en"},
+        {"text": "La OIEA no ve señales de que Irán haya reconstruido las instalaciones nucleares bombardeadas, pero no puede verificar dónde están sus 440 kg de uranio enriquecido al 60 %.", "url": "https://www.diarioestrategia.cl/texto-diario/mostrar/6068614/oiea-no-ve-indicios-iran-haya-reconstruido-todavia-instalaciones-bombardeadas-eeuu-e-israel", "verified": true},
+        {"text": "Canadá y la UE abren hoy en Montreal una cumbre para estrechar lazos. La idea de una \"membresía asociada\" para Canadá no se cerrará esta semana.", "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/27/canada-eu-summit-to-kick-off-formal-talks-with-europe-on-closer-ties-carney/", "verified": true, "lang": "en"},
+        {"text": "Entró en vigor una tregua local en Oleshky (Jersón), ocupada por Rusia, para llevar ayuda humanitaria y evacuar civiles.", "url": "https://www.primicias.ec/internacional/tregua-rusia-ucrania-oleshky-ayuda-humanitaria-135794/", "verified": true}
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {"text": "Apple presentó su primer MacBook Pro con pantalla táctil (desde US$ 2.899), un iMac con chip M6 y un nuevo iPad mini. Llegan a las tiendas el 6 de noviembre.", "url": "https://www.sopitas.com/geek/todos-anuncios-pro-and-tell-evento-apple-productos-costos/", "verified": true},
+        {"text": "Microsoft superó las previsiones gracias al crecimiento de la nube y su acción subió cerca de 4 %.", "url": "https://cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html", "verified": true, "lang": "en"},
+        {"text": "Gemini superó los 1.000 millones de usuarios, pero las acciones de Alphabet cayeron cerca de 8 % tras sus resultados.", "url": "https://infobae.com/tecno/2026/10/28/gemini-supero-los-1000-millones-de-usuarios-pero-las-acciones-de-alphabet-cayeron-cerca-de-8-tras-sus-resultados", "verified": true},
+        {"text": "Países Bajos planea eliminar 25.000 empleos públicos hasta 2035 y apoyarse en la IA para sostener el trabajo del Estado.", "url": "https://www.c5n.com/tecnologia/eliminan-25000-empleos-publicos-2035-y-la-ia-servira-sostener-el-trabajo-n252679", "verified": true},
+        {"text": "OpenAI planea comprar chips TPU de Google para entrenar sus modelos, según The Information. Ninguna de las dos empresas lo ha confirmado.", "url": "https://infobae.com/tecno/2026/10/28/openai-planea-comprar-chips-google-para-entrenar-sus-modelos-de-ia", "verified": false}
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {"text": "El Indie World de Nintendo mostró 23 juegos para Switch y Switch 2: Witchbrook sale el 28 de enero y Slime Rancher 2 llega a Switch 2 en enero.", "url": "https://vandal.elespanol.com/noticia/2026301034/resumen-todos-los-anuncios-del-indie-world-con-23-juegos-para-nintendo-switch-y-switch-2", "verified": true},
+        {"text": "Xbox: en el trimestre, los ingresos por contenido y servicios cayeron 2 % y el hardware 14 %. Crecen los juegos propios, pero baja Game Pass.", "url": "https://generacionxbox.com/microsoft-presenta-sus-resultados-financieros-los-juegos-propios-crecen-y-game-pass-pierde-ingresos/", "verified": true},
+        {"text": "Crimson Desert recibe hoy su gran expansión Charting the Unknown, con navegación, exploración submarina y nuevos jefes.", "url": "https://gamecored.com/crimson-desert-recibe-una-expansion-gigantesca-que-promete-transformar-pywel-con-nuevas-aventuras-jefes-y-combates-navales/", "verified": true},
+        {"text": "Emberville, el RPG que mezcla Stardew Valley con fantasía oscura, retrasó su acceso anticipado al 7 de enero de 2027, un día antes de salir.", "url": "https://es.kotaku.com/emberville-el-rpg-que-combina-stardew-valley-con-fantasia-oscura-retrasa-su-lanzamiento-a-ultimo-momento-2000055701", "verified": true},
+        {"text": "Los desarrolladores de Rockstar en Reino Unido votarán su sindicato justo durante el lanzamiento de GTA 6.", "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-will-hold-union-vote-right-on-top-of-grand-theft-auto-6-release/", "verified": true, "lang": "en"}
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {"text": "HBO prepara una serie limitada que reimagina Los pájaros de Hitchcock, protagonizada por Sarah Snook (Succession).", "url": "https://au.variety.com/2026/tv/news/the-birds-reboot-sarah-snook-hbo-series-hitchcock-42018/", "verified": true, "lang": "en"},
+        {"text": "Connor Storrie negocia para ser el villano de Ghost Rider, la película de Marvel con Ryan Gosling.", "url": "https://www.thewrap.com/creative-content/movies/connor-storrie-ryan-gosling-ghost-rider/", "verified": true, "lang": "en"},
+        {"text": "Coyote vs. Acme, la película que Warner casi enterró, buscará competir por el Oscar a mejor película de animación.", "url": "https://decine21.com/noticias/132277-coyote-acme-oscar-animacion", "verified": true},
+        {"text": "La película de Call of Duty, del creador de Yellowstone, se centrará en el costo humano de la guerra.", "url": "https://www.sensacine.com/noticias/cine/noticia-1000229281/", "verified": false},
+        {"text": "El laberinto de las mariposas, la primera serie en español de Can Yaman, ya tiene fecha de estreno.", "url": "https://www.sensacine.com/noticias/series/noticia-1000229276/", "verified": false}
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {"text": "Batacazo en Inglaterra: el Fleetwood Town, de cuarta división, eliminó por penaltis (5 a 3) al Arsenal, campeón de la Premier, en la Copa de la Liga.", "url": "https://www.primicias.ec/deportes/futbol/piero-hincapie-regresa-eliminado-arsenal-fleetwood-carabao-cup-135851/", "verified": true},
+        {"text": "Según ESPN y otros medios ingleses, el Manchester United discute el despido de Michael Carrick tras su peor arranque en 40 años. Falta el anuncio oficial.", "url": "https://sports.yahoo.com/articles/espn-uninvited-carrick-arrives-carrington-150500971.html", "verified": true, "lang": "en"},
+        {"text": "Inter de Bogotá venció 3 a 1 al Medellín, que terminó con un expulsado, y sigue en la pelea por los ocho. El DIM suma cuatro partidos sin ganar.", "url": "https://www.eltiempo.com/deportes/futbol-colombiano/inter-de-bogota-gano-con-expulsado-sigue-en-pelea-en-liga-y-dejo-agonizando-al-medellin-3597101", "verified": true},
+        {"text": "Once Caldas le ganó a Alianza en el partido aplazado y se mantiene en el grupo de los ocho de la Liga BetPlay.", "url": "https://www.eltiempo.com/deportes/futbol-colombiano/once-caldas-le-gano-a-alianza-y-sigue-en-el-grupo-de-los-ocho-pero-no-se-puede-descuidar-3597084", "verified": true},
+        {"text": "Brasileirão: Fluminense remontó en el final y Remo venció al Botafogo en la jornada del miércoles.", "url": "https://esbrasil.com.br/rodada-do-brasileirao-quarta-28-outubro-2026/", "verified": true, "lang": "pt"}
+      ]
+    }
+  ],
+  "omitidas": [
+    {"title": "Los Cerveceros de Milwaukee ganaron su primera Serie Mundial y el venezolano William Contreras fue elegido MVP", "level": "media", "reason": "no cupo, béisbol"},
+    {"title": "Liverpool eliminó al Chelsea por penaltis y pasó a cuartos de la Copa de la Liga inglesa", "level": "media", "reason": "no cupo (ya hay dos noticias de fútbol inglés)"},
+    {"title": "La presidenta de Perú, Keiko Fujimori, llegó a El Salvador para reunirse con Bukele y visitar la megacárcel Cecot", "level": "media", "reason": "no cupo"},
+    {"title": "El Banco Central Europeo anuncia hoy si cambia los tipos de interés", "level": "media", "reason": "la decisión aún no se conocía"},
+    {"title": "El Partido Comunista chino cierra hoy un pleno en el que podría haber nuevas purgas", "level": "baja", "reason": "aún sin resultados"},
+    {"title": "Haití habría aplazado sus elecciones hasta julio de 2027", "level": "baja", "reason": "sin confirmar"},
+    {"title": "Trump pidió al Gobierno de EE. UU. dejar de decir \"IA\" y usar \"Superinteligencia\"", "level": "baja", "reason": "de nicho"}
+  ]
+}
