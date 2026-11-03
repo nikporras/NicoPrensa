@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-31",
+  "title": "Hackeo récord a Binance: US$6.300 millones",
+  "rates": {
+    "dolar": "$3.183",
+    "libra": "$4.239",
+    "real": "R$ 7,25"
+  },
+  "resumen": [
+    {"emoji": "🇨🇴", "text": "Gasolina y ACPM no suben en noviembre"},
+    {"emoji": "🌎", "text": "Lula invitará a Trump y Milei a su posesión"},
+    {"emoji": "🏛️", "text": "Encuestas anticipan amplia victoria demócrata en EE. UU."},
+    {"emoji": "💻", "text": "Apple vuelve a superar a Nvidia en valor"},
+    {"emoji": "🎮", "text": "FromSoftware retrasa The Duskbloods a 2027"},
+    {"emoji": "🎬", "text": "Netflix estrena el thriller español Colisión"},
+    {"emoji": "⚽", "text": "Chelsea y United, partido clave para Carrick"}
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {"text": "Binance sufrió el mayor robo de criptomonedas de la historia, unos US$6.300 millones, y suspendió depósitos y retiros. Dos firmas de ciberseguridad culpan al grupo norcoreano TraderTraitor; el bitcoin cayó con fuerza.", "url": "https://www.swissinfo.ch/spa/firmas-acusan-a-corea-del-norte-de-estar-detr%C3%A1s-del-ciberataque-a-binance/92302384", "verified": true},
+        {"text": "La Bolsa de São Paulo cerró su peor semana desde marzo de 2020 (cayó 18,1 %) tras la reelección de Lula, y el dólar terminó en R$ 5,44, su nivel más alto del año.", "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-30-outubro-2026/", "verified": true, "lang": "pt"},
+        {"text": "El Banco de la República dejó la tasa de interés en 12,25 % en una votación dividida: cuatro directores votaron por mantenerla y tres pidieron subirla.", "url": "https://www.semana.com/economia/macroeconomia/articulo/banco-de-la-republica-mantuvo-inalteradas-las-tasas-de-interes-al-1225/202638/", "verified": true}
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {"text": "El Gobierno congela en noviembre los precios de la gasolina (promedio $15.886 el galón) y del ACPM ($11.320). Villavicencio, Cali y Bogotá siguen siendo las ciudades más caras.", "url": "https://eltiempo.com/economia/sectores/gobierno-mantendra-precios-de-gasolina-y-acpm-en-noviembre-asi-quedara-el-valor-del-galon-por-ciudades-villavicencio-cali-y-bogota-los-mas-altos-3597657", "verified": true},
+        {"text": "El desempleo bajó al 8 % en septiembre, según el DANE, con 322.000 personas más trabajando que hace un año.", "url": "https://www.portafolio.co/economia/gobierno/atencion-desempleo-en-colombia-bajo-al-8-en-septiembre-322-000-personas-mas-con-trabajo-frente-a-505426", "verified": true},
+        {"text": "El Consejo de Seguridad de la ONU renovó por un año, hasta 2027, la Misión de Verificación de paz en Colombia.", "url": "https://www.semana.com/mundo/articulo/consejo-de-seguridad-de-la-onu-renovo-la-mision-de-verificacion-en-colombia-hasta-2027/202625/", "verified": true},
+        {"text": "El Gobierno no renovará el contrato con Fiduprevisora para manejar la salud de los maestros (Fomag) y abre una transición de un año.", "url": "https://www.eltiempo.com/politica/gobierno/gobierno-de-abelardo-de-la-espriella-anuncia-finalizacion-del-contrato-fiduciario-del-fomag-para-la-salud-de-los-maestros-e-inicia-etapa-de-transicion-3597636", "verified": true},
+        {"text": "Afinia, la empresa de energía de EPM en el Caribe, pierde unos $150.000 millones al mes, y EPM no descarta un apagón que afectaría a cerca de 7 millones de personas.", "url": "https://www.semana.com/politica/articulo/afinia-esta-en-crisis-posible-apagon-afectaria-a-7-millones-de-colombianos/202608/", "verified": false}
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {"text": "Lula invitará a Trump y a Milei a su posesión del 5 de enero, aunque ninguno de los dos lo ha felicitado todavía por su victoria.", "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/lula-convidara-trump-e-milei-para-cerimonia-de-posse-em-janeiro/", "verified": false, "lang": "pt"},
+        {"text": "Brasil citó a la encargada de negocios de Argentina para pedir explicaciones sobre cómo salió Flávio Bolsonaro rumbo a Estados Unidos.", "url": "https://www.infobae.com/america/america-latina/2026/10/30/brasil-convoco-a-la-encargada-de-negocios-de-argentina-para-pedir-informacion-sobre-la-salida-de-flavio-bolsonaro-hacia-estados-unidos/", "verified": false},
+        {"text": "La derecha brasileña aceptó el resultado electoral y tomó distancia de Flávio Bolsonaro, que se proclamó presidente electo desde Miami.", "url": "https://www.infobae.com/america/america-latina/2026/10/30/la-derecha-brasilena-respaldo-el-resultado-electoral-en-brasil-y-se-distancio-de-flavio-bolsonaro/", "verified": false},
+        {"text": "Ya está la agenda del papa León XIV en Argentina: será parte de su primera gira por Sudamérica en noviembre, que también lo llevará a Uruguay y Perú.", "url": "https://www.infobae.com/sociedad/2026/10/30/cuando-llega-el-papa-leon-xiv-a-la-argentina-y-como-sera-su-agenda-en-el-pais/", "verified": true}
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {"text": "A tres días de las elecciones de mitad de mandato en EE. UU., las encuestas dan a los demócratas su mayoría más amplia en la Cámara de Representantes desde 2009.", "url": "https://infobae.com/estados-unidos/2026/10/31/las-encuestas-sobre-las-elecciones-en-eeuu-pronostican-la-mayoria-democrata-mas-amplia-en-la-camara-baja-desde-2009", "verified": true},
+        {"text": "EE. UU. aprobó vender a Ucrania 500 misiles interceptores Patriot por US$2.100 millones, que pagarán aliados europeos y Canadá.", "url": "https://es.qz.com/eeuu-aprueba-venta-de-misiles-patriot-a-ucrania", "verified": true},
+        {"text": "En la reunión de cancilleres del G20 en Atlanta, Rubio recibió al ruso Lavrov y se suspendió la foto de grupo por las divisiones sobre Ucrania.", "url": "https://www.rferl.org/a/g20-meeting-atlanta-us-ukraine-russia/33887200.html", "verified": true, "lang": "en"},
+        {"text": "El primer ministro británico, Andy Burnham, se mostró abierto a pedir perdón por el papel del Reino Unido en la esclavitud, pero descarta pagar reparaciones. El tema marcará la cumbre de la Commonwealth en Antigua.", "url": "https://time.news/burnham-open-to-apology-for-britains-role-in-transatlantic-slave-trade/", "verified": false, "lang": "en"},
+        {"text": "En Israel, el presidente Herzog consultará a los partidos para decidir quién intenta formar gobierno, porque Netanyahu ganó las elecciones pero no tiene mayoría.", "url": "https://www.infobae.com/america/mundo/2026/10/30/el-presidente-de-israel-dialogara-con-los-partidos-y-designara-al-proximo-encargado-de-formar-gobierno/", "verified": true}
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {"text": "Apple superó a Nvidia y volvió a ser la empresa más valiosa del mundo en bolsa.", "url": "https://www.bloomberglinea.com/negocios/apple-supera-a-nvidia-y-vuelve-a-ser-la-empresa-mas-valiosa-del-mundo/", "verified": true},
+        {"text": "OpenAI, Google, Microsoft y Anthropic respetarán una sola señal estándar para que cualquier web impida que su contenido se use para entrenar inteligencia artificial.", "url": "https://www.xataka.com.mx/robotica-e-ia/openai-google-anthropic-han-creado-boton-unico-para-evitar-que-usen-tu-web-para-entrenar-ia-asi-funciona-nuevo-estandar", "verified": true},
+        {"text": "En Wall Street crece la preocupación por los US$750.000 millones que las grandes tecnológicas invierten en IA, mientras sus negocios crecen más despacio.", "url": "https://www.bloomberglinea.com/mercados/la-apuesta-de-us750000-millones-por-la-ia-choca-con-la-desaceleracion-de-las-grandes-tecnologicas/", "verified": true},
+        {"text": "El regulador de telecomunicaciones de EE. UU. (FCC) votó para que los laboratorios chinos dejen de certificar los aparatos electrónicos que se venden en ese país.", "url": "https://tomshardware.com/tech-industry/fcc-votes-to-ban-all-chinese-labs-from-certifying-electronics-sold-in-the-us", "verified": true, "lang": "en"},
+        {"text": "Desde hoy, 31 de octubre, WhatsApp deja de funcionar en varios modelos antiguos de celulares. Vale la pena revisar si el suyo está en la lista.", "url": "https://www.infobae.com/tecno/2026/10/21/lista-de-celulares-que-perderan-whatsapp-el-31-de-octubre-de-2026/", "verified": false}
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {"text": "FromSoftware retrasa a 2027 The Duskbloods, su juego exclusivo de Switch 2, que está en la \"fase final de ajustes\".", "url": "https://gamingbolt.com/the-duskbloods-delayed-to-2027-development-in-the-final-adjustment-stage", "verified": true, "lang": "en"},
+        {"text": "Ubisoft dio novedades de Assassin's Creed Codename Hexe y del multijugador Invictus, pero trajo malas noticias para quienes esperaban más remakes.", "url": "https://www.levelup.com/noticias/assassins-creed-comparte-novedades-de-la-nueva-entrega-codename-hexe-y-el-juego-multijugador-invictus-pero-hay-malas-noticias-para-los-fans-de-los-remakes/", "verified": true},
+        {"text": "El remake de Zelda: Ocarina of Time llega el 5 de noviembre a Switch 2, y su productor, Eiji Aonuma, admite que está nervioso por la reacción de los fans.", "url": "https://www.levelup.com/noticias/eiji-aonuma-esta-nervioso-por-el-remake-de-zelda-ocarina-of-time-y-teme-la-reaccion-de-los-fans/", "verified": true},
+        {"text": "Sword of the Sea, el juego de surf de Giant Squid que era exclusivo de PlayStation, ya salió en Xbox y Switch 2.", "url": "https://news.instant-gaming.com/en/articles/22668-upd-giant-squid-s-stunning-sword-of-the-sea-is-coming-to-xbox-and-switch-2-on-october-29", "verified": true, "lang": "en"},
+        {"text": "Path of Exile 2 mostrará todos los detalles de su versión 1.0 el 3 de noviembre.", "url": "https://gamingbolt.com/path-of-exile-2-1-0-is-getting-a-full-reveal-on-november-3rd", "verified": false, "lang": "en"}
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {"text": "Netflix estrenó Colisión, el thriller de Daniel Sánchez Arévalo con Luis Zahera; la crítica lo destaca por sus sorpresas.", "url": "https://www.espinof.com/criticas/nuevo-thriller-netflix-lleno-sorpresas-que-entretiene-todo-momento-colision-vibrante-sorpresa-reparto-primera", "verified": true},
+        {"text": "Las cadenas de cines Regal y Cinemark no proyectarán The Further Mis-Adventures of Cliff Booth, la película de Netflix dirigida por David Fincher y protagonizada por Brad Pitt.", "url": "https://deadline.com/2026/10/further-mis-adventures-of-cliff-booth-regal-cinemark-1237209962", "verified": false, "lang": "en"},
+        {"text": "El festival de cine de Valladolid (Seminci) entrega sus premios y cierra con Hombre al agua, la nueva película de Gael García Bernal como actor y director.", "url": "https://www.democrata.es/en/society/seminci-valladolid-2026-last-days-awards-list-and-closing-without-gala/", "verified": true, "lang": "en"},
+        {"text": "La película española La bola negra se acerca a los 30 millones de euros en taquilla, impulsada por la Fiesta del Cine.", "url": "https://www.ecartelera.com/noticias/la-bola-negra-roza-30-millones-taquilla-fiesta-del-cine-84084/", "verified": false},
+        {"text": "Ya se conoce el calendario de episodios de la segunda temporada de la serie Stick.", "url": "https://deadline.com/2026/10/stick-season-2-release-schedule-new-episodes-streaming-1237207773", "verified": false, "lang": "en"}
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {"text": "Chelsea recibe hoy al Manchester United en Stamford Bridge, un partido decisivo para el futuro de Michael Carrick en el banco del United.", "url": "https://www.aljazeera.com/sports/2026/10/30/chelsea-vs-manchester-united-premier-league-teams-prediction-lineups", "verified": true, "lang": "en"},
+        {"text": "Liverpool recibe el domingo al Arsenal en Anfield. El Arsenal, segundo y empatado en puntos con el líder City, llega sin Saka ni Saliba y no gana allí desde 2012.", "url": "https://ifmnoticias.com/deportes/liverpool-recibe-al-arsenal-en-anfield-con-el-liderato-de-la-premier-league-en-j", "verified": false},
+        {"text": "Bucaramanga le dio vuelta 2 a 1 al Pasto, con goles de Batalla y Pons, en un partido aplazado de la Liga BetPlay, y queda a un paso de los cuadrangulares.", "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/bucaramanga-remonta-a-pasto-con-goles-de-batalla-y-pons-en-vibrante-duelo-de-liga-betplay-274650", "verified": true},
+        {"text": "Pereira le ganó 1 a 0 a Jaguares, que queda al borde del descenso.", "url": "https://www.semana.com/deportes/articulo/tabla-del-descenso-tras-la-derrota-de-jaguares-ante-pereira-dos-equipos-se-quieren-salvar/202600/", "verified": true},
+        {"text": "Corinthians le ganó 2 a 0 al Mirassol, cortó una racha de diez partidos sin ganar en el Brasileirão y aprieta la lucha por no descender.", "url": "https://www.itatiaia.com.br/esportes/futebol/futebol-nacional/brasileirao-serie-a/corinthians-vence-mirassol-encerra-jejum-no-brasileiro-e-embola-luta-contra-o-z4/", "verified": true, "lang": "pt"}
+      ]
+    }
+  ],
+  "omitidas": [
+    {"title": "Ucrania lanzó un ataque masivo con drones contra Moscú, con unos 850 aparatos según el alcalde", "level": "media", "reason": "sin confirmar"},
+    {"title": "Zelenski viajó a Estambul para reunirse con Erdogan y hablar de la guerra y de los ataques a barcos en el mar Negro", "level": "media", "reason": "sin confirmar"},
+    {"title": "La policía rodeó el Tribunal Constitucional de Polonia en plena pelea por quién lo controla", "level": "media", "reason": "sin confirmar"},
+    {"title": "La expresentadora mexicana Inés Gómez Mont fue detenida en Florida tras cinco años prófuga", "level": "media", "reason": "sin confirmar"},
+    {"title": "Llegaron a Colombia los drones Reaper que envió Estados Unidos para operaciones militares", "level": "media", "reason": "no cupo"},
+    {"title": "Comcast despedirá a 912 empleados de atención al cliente y los reemplazará con agentes de IA", "level": "baja", "reason": "de nicho"}
+  ]
+}
