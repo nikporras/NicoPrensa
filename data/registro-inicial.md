@@ -1,0 +1,38 @@
+# Noticias publicadas el 2026-11-02
+- Irán: Jameneí amenaza sin límites geográficos, Ormuz en dos días
+- Midterms EE. UU. se votan el 3 nov, demócratas +8
+- Arsenal gana 1 a 0 en Anfield y es líder
+- Bombardeo venezolano al ELN en Apure: 19 muertos, CIA y FBI según AFP
+- CUT convoca paro nacional el 19 de noviembre
+- De la Espriella reúne gabinete en Barranquilla, Ley de Sometimiento
+- Restrepo admite promesa de no subir impuestos, culpa a gastos ocultos
+- Cae alias J. J., compañía Eiber González en El Cerrito
+- Lula niega fin de programas sociales, habla de fake news
+- Lula retoma viajes: COP31 10 nov, Mercosur, G20 Doral
+- Rubio recibe a canciller venezolano Oliver Blanco el 2 nov
+- Milei viaja a Madrid a Cumbre Iberoamericana 4 y 5 nov
+- Fin de la misión de la ONU en el Sáhara (MINURSO)
+- Termina tregua en Jersón, ciberataques a apps de alerta aérea
+- Yotova gana Bulgaria según sondeos a pie de urna
+- Disturbios en Fráncfort: 100 policías heridos, 54 detenidos
+- Burnham admite presupuesto menos radical de lo esperado
+- Apple presenta resultados 2 nov, primeros con Ternus
+- ChatGPT y Codex compartirán cupo de uso desde diciembre
+- Apple Intelligence en China con iOS 27.3 y Qwen
+- Altman critica DRAM en computadores personales
+- Estudio de ADN en perros de Chernóbil
+- PS Plus noviembre: Dead Island 2, Tomb Raider IV a VI
+- Estrenos de la semana: Division 2 DLC, WoW Forever, Lightyear Frontier
+- 3DJuegos: estrenos destacados de noviembre
+- Epic regala juego el 5 de noviembre
+- Steam Deck octubre: Slay the Spire 2 primero, Cyberpunk tercero
+- Netflix estrena Palacio el 6 de noviembre
+- 13 estrenos Netflix semana del 2 al 8 nov
+- 25 estrenos de plataformas semana del 2 al 8 nov, La edad dorada T4
+- Criminal Minds termina con temporada 20
+- La bola negra supera 36 millones, tercera española más taquillera
+- Boca 1 a 0 River, Superclásico
+- Jackson Martínez vuelve con gol, Medellín 2 a 1 Valledupar, Cali 2 a 0 Chicó
+- Gobierno anuncia cuatro medidas contra violencia en estadios
+- Real Madrid 3 a 0 Racing
+- Palmeiras vs Flamengo fijado para el 21 de noviembre
