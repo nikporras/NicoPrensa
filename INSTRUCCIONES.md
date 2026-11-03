@@ -33,7 +33,10 @@ HOW TO SEARCH (this decides whether the run works):
   2. Turn each topic you discover into a specific query: names, places, numbers, plus month and year, such as "Rusia ataque escuela Komishuvaja Zaporiyia 26 muertos" or "Everton Newcastle November 2026 Thierno Barry".
   3. For tech, games and film, WebFetch https://www.xataka.com/ and https://www.3djuegos.com/ to discover today's headlines, and use those article URLs only if the same URL also appears in a WebSearch result or the fetched page lists it.
 - Accept an article when its URL or page shows a date within the allowed window. Do not reject a good article only because search results show no date: open it with WebFetch and check.
-- Expect 40 to 80 searches and fetches in a normal run. Do NOT give up early. Stopping with sections empty is a failed run.
+- Use the WebFetch tool to open pages, not curl or other shell commands. Open the links for Lo más importante, Colombia and Política as step 6 requires.
+- Never pass these domains in allowed_domains, because the search rejects them with error 400: marca.com, as.com, bbc.com, bbc.co.uk, theguardian.com, elpais.com, hobbyconsolas.com. Name the outlet in the query text instead. Their URLs are still valid links when they appear in normal results.
+- If one search with allowed_domains returns error 400, immediately repeat it without allowed_domains.
+- Expect 60 to 120 searches and fetches in a normal run. Do NOT give up early or stop at a time budget. Stopping with sections empty is a failed run.
 - Rates: TRM from https://dolar.wilkinsonpc.com.co/ (a weekend or holiday TRM stays valid until the next working day), pound to COP from https://currencyconvert.online/gbp/cop, pound to real from https://pt.tradingeconomics.com/united-kingdom/currency. Use the latest figure available.
 
 ## 2. Score
