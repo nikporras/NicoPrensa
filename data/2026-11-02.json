@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-02",
+  "title": "Irán amenaza mientras negocia reabrir Ormuz",
+  "rates": {
+    "dolar": "$3.183",
+    "libra": "$4.251",
+    "real": "R$ 7,26"
+  },
+  "resumen": [
+    {"emoji": "🇨🇴", "text": "Bombardeo venezolano al ELN deja 19 muertos"},
+    {"emoji": "🌎", "text": "Lula: ningún programa social será eliminado"},
+    {"emoji": "🏛️", "text": "La ONU cierra su misión en el Sáhara"},
+    {"emoji": "💻", "text": "Apple presenta hoy resultados con Ternus"},
+    {"emoji": "🎮", "text": "Llegan Dead Island 2 y Tomb Raider a PS Plus"},
+    {"emoji": "🎬", "text": "Netflix estrena Palacio el viernes"},
+    {"emoji": "⚽", "text": "Boca venció a River en el Superclásico"}
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "El líder supremo de Irán prometió una respuesta \"sin límites geográficos\" ante cualquier ataque, mientras su canciller dice que Ormuz podría reabrirse en dos días. Catar media y Washington advierte de una posible campaña después de las elecciones de mañana.",
+          "url": "https://es.euronews.com/2026/11/01/iran-amenaza-eeuu-represalias-sin-limites-geograficos-negociaciones",
+          "verified": true
+        },
+        {
+          "text": "Estados Unidos vota mañana en las elecciones de mitad de mandato, con toda la Cámara, 35 escaños del Senado y 36 gobernaciones en juego. Las encuestas dan unos 8 puntos de ventaja a los demócratas y Trump cierra hoy su campaña.",
+          "url": "https://www.cronista.com/internacionales/elecciones-en-estados-unidos-2026-que-se-vota-el-3-de-noviembre-y-que-dicen-las-ultimas-encuestas/",
+          "verified": true
+        },
+        {
+          "text": "Arsenal ganó 1 a 0 en Anfield por primera vez en 14 años, con gol de Havertz, y es líder de la Premier con 24 puntos. Liverpool quedó quinto con 15.",
+          "url": "https://www.elcolombiano.com/deportes/futbol/arsenal-liverpool-14-anos-premier-league-arteta-havertz-JB43066395",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "Un bombardeo atribuido al Ejército venezolano contra un campamento del ELN en Apure dejó al menos 19 muertos, según Fundaredes. Una fuente militar anónima dijo a AFP que la CIA y el FBI ayudaron; no hay confirmación oficial.",
+          "url": "https://www.elimparcial.com/mundo/2026/11/01/la-cia-y-el-fbi-apoyaron-a-venezuela-en-un-bombardeo-contra-un-campamento-del-eln-en-la-frontera-con-colombia-que-dejo-19-muertos/",
+          "verified": true
+        },
+        {
+          "text": "La CUT convocó un paro nacional para el 19 de noviembre contra la Ley de Rescate Económico. Rechaza el IVA del 19 % a alimentos y el aumento de la cotización en salud del 4 % al 8 %.",
+          "url": "https://www.vanguardia.com/colombia/2026/11/01/cut-anuncia-paro-nacional-por-propuesta-del-gobierno-que-contempla-iva-del-19-a-los-alimentos/",
+          "verified": true
+        },
+        {
+          "text": "De la Espriella reunió a su gabinete el domingo en Barranquilla para coordinar la agenda legislativa. Sus prioridades son la Ley de Rescate y la Ley de Sometimiento, que debe aprobarse a más tardar el 4 de noviembre.",
+          "url": "https://www.semana.com/confidenciales/articulo/aqui-no-paramos-abelardo-de-la-espriella-reunio-a-su-gabinete-de-ministros-este-domingo/202658/",
+          "verified": true
+        },
+        {
+          "text": "El vicepresidente Restrepo reconoció que prometieron no subir impuestos y atribuyó el cambio a gastos ocultos del gobierno anterior. Dijo que el Gobierno asume el costo político de la crisis fiscal.",
+          "url": "https://www.semana.com/politica/articulo/jose-manuel-restrepo-explico-por-que-en-campana-el-y-abelardo-de-la-espriella-dijero-que-no-habria-mas-impuestos-y-hoy-se-proponen/202640/",
+          "verified": false
+        },
+        {
+          "text": "El Gobierno anunció la desarticulación de la compañía Eiber González, disidencia de Mordisco, en El Cerrito (Valle). Capturaron a tres personas, entre ellas el cabecilla alias J. J., y un presunto integrante murió.",
+          "url": "https://www.semana.com/nacion/articulo/golpe-a-las-disidencias-de-ivan-mordisco-capturan-a-principal-cabecilla-de-la-compania-eiber-gonzalez-en-el-valle/202636/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "Lula dijo en un video que ningún programa social será eliminado y calificó esos rumores como \"fake news\" de la extrema derecha. También aseguró que recuperó su salud y su voz.",
+          "url": "https://www.metropoles.com/brasil/lula-desmente-extrema-direita-sobre-fim-de-programas-muita-fake-news",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Lula retoma sus viajes internacionales: COP31 en Turquía el 10 de noviembre, Mercosur el 4 de diciembre y G20 en Florida el 14 de diciembre. Ni EE. UU. ni Argentina han reconocido su reelección.",
+          "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/01/lula-retoma-viagens-internacionais-cop31-mercosul-g20",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Marco Rubio recibe hoy en Washington al nuevo canciller venezolano, Oliver Blanco. Será el primer encuentro entre los jefes de la diplomacia de ambos países desde que restablecieron relaciones.",
+          "url": "https://www.infobae.com/america/agencias/2026/11/02/marco-rubio-y-el-nuevo-canciller-venezolano-se-reuniran-este-lunes-en-washington/",
+          "verified": true
+        },
+        {
+          "text": "Milei viajaría esta noche a Madrid para la Cumbre Iberoamericana del 4 y 5 de noviembre, en plena pelea con Pedro Sánchez. Podría cruzarse con Lula, con quien tiene una relación muy deteriorada.",
+          "url": "https://www.iprofesional.com/politica/467915-milei-cumbre-madrid-que-puede-pasar-cruza-lula-sanchez-tension",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "La misión de la ONU en el Sáhara Occidental, activa desde 1991, llegó a su fin tras un bloqueo cruzado de EE. UU. y Rusia en el Consejo de Seguridad. El referéndum que debía organizar nunca se celebró.",
+          "url": "https://www.swissinfo.ch/spa/el-papel-de-la-minurso-en-el-s%C3%A1hara:-cronolog%C3%ADa-de-una-misi%C3%B3n-que-no-logro-su-objetivo/92306233",
+          "verified": true
+        },
+        {
+          "text": "Terminó la tregua local en Jersón y Ucrania y Rusia denunciaron ciberataques a sus aplicaciones de alerta aérea. Zelenski dijo que dejaría de atacar refinerías rusas si EE. UU. le entrega misiles Patriot.",
+          "url": "https://www.euronews.com/2026/11/02/ukraine-and-russia-say-air-raid-alert-apps-hit-by-cyberattacks-after-truce-ends",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Iliana Yotova, partidaria del diálogo con Moscú, ganó la segunda vuelta presidencial de Bulgaria según los sondeos a pie de urna, con cerca de 51 %. Los resultados oficiales se esperan hoy.",
+          "url": "https://www.aljazeera.com/news/2026/11/1/bulgarian-president-yotova-leads-runoff-exit-polls-show",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Las protestas juveniles por el costo de vida llegaron a Alemania con disturbios en Fráncfort: más de 100 policías heridos, 54 detenidos y cinco tiendas saqueadas.",
+          "url": "https://www.abc.net.au/news/2026-11-02/protests-europe-germany-frankfurt/107334774",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Andy Burnham admitió que su primer presupuesto fue menos radical de lo que esperaba y culpó a la inestabilidad mundial y a la guerra en Irán. Badenoch lo despachó con un \"¿eso es todo?\".",
+          "url": "https://londonlovesbusiness.com/will-healey-now-resign-as-burnham-admits-budget-was-not-radical-enough/",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Apple presenta hoy sus primeros resultados con John Ternus como CEO. Los analistas esperan unos 113.300 millones de dólares en ingresos y preguntarán por la producción del iPhone Duo.",
+          "url": "https://www.ithinkdiff.com/apple-q4-2026-earnings-what-to-expect/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Desde diciembre, ChatGPT y Codex compartirán un solo cupo de uso para suscriptores Plus, Pro y Business. Los chats instantáneos no lo consumirán.",
+          "url": "https://artificiallyintimidating.com/p/ai-brief-november-1-2026",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Apple Intelligence llegará a China en diciembre con iOS 27.3, con Qwen de Alibaba y sin el nuevo Siri. La beta para desarrolladores sale el 4 de noviembre.",
+          "url": "https://macrumors.com/2026/10/30/apple-says-ios-27-3-beta-coming-next-week/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Sam Altman dijo que es \"bastante terrible\" que tanta memoria DRAM mundial esté en computadores personales, usada apenas un 5 % del tiempo. Defiende concentrarla en la nube, y los gamers no quedaron contentos.",
+          "url": "https://www.pcgamer.com/software/ai/sam-altman-argues-that-its-bad-you-want-dram-in-your-computer-and-not-a-data-center-actually/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Un estudio halló en perros de Chernóbil más de 100 regiones de ADN con señales de selección natural, ligadas a reparación genética e inmunidad. Aún no se puede atribuir el cambio directamente a la radiación.",
+          "url": "https://www.lanacion.com.ar/lifestyle/los-perros-de-chernobil-sorprenden-a-los-cientificos-descubrieron-indicios-de-adaptacion-genetica-nid01112026/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "Desde mañana y hasta el 30 de noviembre, PS Plus ofrece Dead Island 2, Tomb Raider IV a VI Remastered y Monster Train 2. Hoy es el último día para reclamar los juegos de octubre.",
+          "url": "https://es.kotaku.com/playstation-plus-sorprende-con-sus-juegos-gratuitos-de-noviembre-y-uno-de-ellos-es-una-aventura-muy-esperada-2000055867",
+          "verified": true
+        },
+        {
+          "text": "Semana cargada: mañana llega un DLC de The Division 2 y el 4 salen World of Warcraft: Forever, Lightyear Frontier 1.0 y VOID/BREAKER.",
+          "url": "https://gamingbolt.com/?p=655878",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Noviembre trae más de 20 estrenos destacados además de GTA 6 y Ocarina of Time, entre ellos Metaphor: ReFantazio y Stellar Blade para Switch 2.",
+          "url": "https://www.3djuegos.com/recopilacion/noticias/hay-23-videojuegos-que-no-tienen-miedo-gta-6-ocarina-of-time-estos-nuestros-estrenos-destacados-noviembre",
+          "verified": true
+        },
+        {
+          "text": "Epic Games Store seguirá con sus regalos semanales: el jueves 5 de noviembre habrá un juego de PC gratis y contenido adicional para otro título.",
+          "url": "https://derechadiario.com.ar/entretenimiento/epic-games-store-confirmo-proximo-juego-gratis-podra-reclamar",
+          "verified": false
+        },
+        {
+          "text": "Slay the Spire 2 sigue primero en ventas de Steam Deck en octubre, Cyberpunk 2077 subió al tercer lugar y Final Fantasy Resonance entró séptimo.",
+          "url": "https://gamingonsteam.com/2026/11/01/steam-deck-top-sellers-news-october-2026",
+          "verified": false,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Netflix estrena el viernes 6 de noviembre Palacio, la serie colombiana sobre la toma y retoma del Palacio de Justicia.",
+          "url": "https://about.netflix.com/es/news/under-siege-arrives-on-netflix-on-november-6",
+          "verified": true
+        },
+        {
+          "text": "Netflix suma 13 estrenos esta semana, entre ellos la temporada 2 de Palomas negras y Un amor posible, de Lee Chang-dong.",
+          "url": "https://www.sensacine.com/noticias/cine/noticia-1000229921/",
+          "verified": true
+        },
+        {
+          "text": "Las demás plataformas traen 25 novedades: hoy vuelve La edad dorada a HBO Max, Disney+ estrena la temporada 2 de Todas las de la ley y Movistar Plus suma Cumbres borrascosas.",
+          "url": "https://www.sensacine.com/noticias/cine/noticia-1000230011/",
+          "verified": true
+        },
+        {
+          "text": "Criminal Minds terminará con su temporada 20 en Paramount+, tras dos décadas al aire. El último ciclo se emitirá el próximo año.",
+          "url": "https://www.tvline.com/2302964/criminal-minds-evolution-canceled-paramount-plus/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "La bola negra superó los 36 millones de euros y ya es la tercera película española más taquillera de la historia, por delante de Ocho apellidos catalanes.",
+          "url": "https://www.que.es/2026/11/01/la-bola-negra-taquilla-record-4/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Boca venció 1 a 0 a River en La Bombonera con gol de Di Lollo, y River terminó con nueve jugadores. Boca queda a un triunfo de ganar la Tabla Anual.",
+          "url": "https://www.ellitoral.com/deportes/boca-river-superclasico-torneoclausura-noviembre-2026_0_Av3FW9pqj2.html",
+          "verified": true
+        },
+        {
+          "text": "Jackson Martínez volvió tras 2.288 días y marcó el gol del triunfo de Medellín 2 a 1 sobre Valledupar. Cali ganó 2 a 0 a Chicó y hoy juegan Bucaramanga y Nacional.",
+          "url": "https://eltiempo.com/deportes/futbol-colombiano/tabla-de-posiciones-de-la-liga-betplay-cali-sigue-en-la-pelea-por-el-punto-invisible-y-medellin-con-gol-de-jackson-se-afianza-entre-los-ocho-3597878",
+          "verified": true
+        },
+        {
+          "text": "El Gobierno anunció cuatro medidas contra la violencia en los estadios colombianos, entre ellas detectores de metales en los accesos y aplicar estrictamente la identificación de hinchas.",
+          "url": "https://www.semana.com/deportes/articulo/gobierno-de-la-espriella-se-toma-en-serio-la-violencia-en-el-futbol-anuncia-cuatro-medidas-sobre-seguridad/202621/",
+          "verified": false
+        },
+        {
+          "text": "Real Madrid goleó 3 a 0 al Racing con tantos de Mbappé, Bellingham y Diomande. Es tercero con 27 puntos, a tres del líder.",
+          "url": "https://noticiasargentinas.com/deportes/el-real-madrid-goleo-al-racing-de-santander-y-no-le-pierde-pisada-a-los-lideres-de-laliga_a6ae7e3318632362f8262b04d",
+          "verified": true
+        },
+        {
+          "text": "La CBF fijó el Palmeiras vs Flamengo, clave por el título del Brasileirão, para el 21 de noviembre. Flamengo lidera con 73 puntos, tres más que Palmeiras.",
+          "url": "https://www.cartacapital.com.br/esporte/cbf-marca-final-do-brasileirao-entre-palmeiras-x-flamengo-para-21-de-novembro/",
+          "verified": true,
+          "lang": "pt"
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {"title": "Israel sigue sin mayoría tras las elecciones y Netanyahu continúa como primer ministro interino", "level": "media", "reason": "sin cupo"},
+    {"title": "Enviados de Trump propusieron que gas ruso vuelva a Europa pasando por Ucrania", "level": "media", "reason": "sin cupo"},
+    {"title": "Un gendarme resultó quemado en París y Francia abrió una investigación por intento de homicidio", "level": "media", "reason": "sin confirmar con una segunda fuente"},
+    {"title": "Un atentado con explosivos en Algeciras, Huila, dejó tres policías heridos", "level": "media", "reason": "sin confirmar con una segunda fuente"},
+    {"title": "Colombia investiga una posible muerte por ébola de un viajero que venía de RD Congo", "level": "media", "reason": "sin confirmar con una segunda fuente"},
+    {"title": "El colombiano David Alonso ganó el Gran Premio de Malasia de Moto2", "level": "baja", "reason": "sin sección para otros deportes"},
+    {"title": "Aston Villa y Fulham empataron 1 a 1 en la Premier League", "level": "baja", "reason": "sin cupo"},
+    {"title": "Barcos chinos estarían mapeando cables submarinos cerca de Japón y Filipinas", "level": "baja", "reason": "de nicho"}
+  ]
+}
