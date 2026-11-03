@@ -1,0 +1,278 @@
+{
+  "date": "2026-11-01",
+  "title": "Irán declara terroristas a la Marina y la RAF",
+  "rates": {
+    "dolar": "$3.183",
+    "libra": "$4.254",
+    "real": "R$ 7,26"
+  },
+  "resumen": [
+    {"emoji": "🇨🇴", "text": "Malaria del Congo en Valle, descartan ébola"},
+    {"emoji": "🌎", "text": "Rubio niega ayuda de EE. UU. a fuga de Flávio"},
+    {"emoji": "🏛️", "text": "Trump aún no decide si vuelve a atacar Irán"},
+    {"emoji": "💻", "text": "CEO de Apple: IA sí, pero no para aparentar"},
+    {"emoji": "🎮", "text": "Activision pide perdón por imágenes de Itaewon"},
+    {"emoji": "🎬", "text": "Taquilla de Halloween: A24 supera a Clayface"},
+    {"emoji": "⚽", "text": "United cae 2 a 0 ante Chelsea y se hunde"}
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Irán declaró organizaciones terroristas a la Marina Real y a la Real Fuerza Aérea británicas, y calificó al MI6 de \"grupo hostil\". Teherán lo presenta como respuesta al papel de Londres en la guerra contra Irán.",
+          "url": "https://www.infobae.com/america/agencias/2026/11/01/iran-designa-como-organizaciones-terroristas-a-la-marina-y-la-fuerza-aerea-britanicas/",
+          "verified": true
+        },
+        {
+          "text": "A dos días de las elecciones de medio mandato del martes 3 en EE. UU., Trump retomó sus mítines presenciales en Iowa y Kansas, que había cancelado, para intentar frenar unas encuestas adversas a los republicanos.",
+          "url": "https://thehill.com/homenews/campaign/6183998-trump-iowa-kansas-rallies-back-on/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Una motobomba destruyó por segunda vez en menos de tres semanas el peaje El Mango, en la Panamericana (Cauca). Las autoridades culpan a disidencias de alias Mordisco y Mintransporte desplegó el Plan Meteoro en la vía.",
+          "url": "https://www.elcolombiano.com/colombia/mintransporte-plan-meteoro-via-panamericana-atentado-peaje-cauca-JD43044863",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "MinSalud activó vigilancia en el Valle del Cauca tras confirmar malaria en dos colombianos llegados de RD Congo: uno murió en Palmira y otro está aislado en Cali. Se aplican protocolos para descartar ébola.",
+          "url": "https://www.eltiempo.com/salud/ministerio-de-salud-anuncia-dos-casos-de-malaria-en-pacientes-procedentes-de-la-republica-democratica-del-congo-intensifica-vigilancia-en-colombia-3597763",
+          "verified": true
+        },
+        {
+          "text": "El Gobierno publicó el decreto que oficializa a Alejandro Ordóñez como ministro del Interior en reemplazo de Rodrigo Lara. Se posesionaría la próxima semana ante el presidente De la Espriella.",
+          "url": "https://www.semana.com/politica/articulo/gobierno-publico-el-decreto-que-oficializa-la-llegada-de-alejandro-ordonez-al-ministerio-del-interior/202657/",
+          "verified": true
+        },
+        {
+          "text": "El gobernador de Antioquia, Andrés Julián Rendón, propondrá a De la Espriella reducir los ministerios de 18 a 7 y otros recortes que, según él, ahorrarían 28 billones de pesos al año.",
+          "url": "https://eltiempo.com/colombia/medellin/gobernador-de-antioquia-propone-reducir-de-18-a-7-los-ministerios-y-ahorrar-28-billones-al-ano-se-reunira-hoy-con-el-presidente-de-la-espriella-3597747",
+          "verified": false
+        },
+        {
+          "text": "Sube a siete el número de muertos del bombardeo contra el Clan del Golfo en Nóvita (Chocó). Entre ellos estaba alias Alex Ocanoso, señalado como tercer cabecilla de la organización.",
+          "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/operacion-militar-contra-el-clan-del-golfo-en-novita-choco-dejo-siete-muertos-y-un-capturado-tras-bombardeo-identificaron-a-tercer-cabecilla-3597791",
+          "verified": true
+        },
+        {
+          "text": "La directora de la Agencia Nacional de Tierras, Lina María Garrido, denunció que el gobierno anterior gastó 5,5 billones en predios, con más de 2.000 compras irregulares, y dijo que el caso será \"vergonzoso\".",
+          "url": "https://eltiempo.com/politica/gobierno/si-al-pais-le-dolio-el-escandalo-de-la-ungrd-lo-de-la-agencia-de-tierras-sera-vergonzoso-lina-maria-garrido-directora-de-la-ant-3597739",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "Marco Rubio negó que EE. UU. haya ayudado a Flávio Bolsonaro a huir de Brasil y acordó una nueva reunión con el canciller brasileño Mauro Vieira en plena tensión diplomática.",
+          "url": "https://www.opovo.com.br/noticias/brasil/2026/11/01/amp/marco-rubio-nega-que-eua-tenham-ajudado-na-fuga-de-flavio-bolsonaro.html",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Lula, recién reelegido, confirmó que asistirá a la cumbre del clima COP31, que se celebra en noviembre en Antalya, Turquía.",
+          "url": "https://www.otempo.com.br/politica/2026/10/31/lula-vai-participar-da-cop31-emnovembro-na-turquia",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "La presentadora mexicana Inés Gómez Mont fue detenida en Florida por su situación migratoria irregular, tras más de cinco años prófuga de la justicia de México.",
+          "url": "https://www.jornada.com.mx/noticia/2026/10/30/politica/ines-gomez-mont-es-detenida-en-florida-estados-unidos",
+          "verified": true
+        },
+        {
+          "text": "Desde hoy y hasta el 10 de noviembre rige en Ecuador un nuevo toque de queda nocturno en cinco provincias de la Costa, el cuarto del año, por la ola de violencia.",
+          "url": "https://www.primicias.ec/seguridad/nuevo-toque-queda-ecuador-guayas-manabi-esmeraldas-provincias-gobierno-134963/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "Rubio aseguró que Trump \"no ha tomado ninguna decisión\" sobre reanudar los ataques contra Irán, aunque medios de EE. UU. reportan que Washington e Israel preparan una ofensiva para después de las elecciones.",
+          "url": "https://www.infobae.com/america/agencias/2026/10/31/trump-no-ha-tomado-una-decision-sobre-reanudar-ataques-a-iran-afirma-marco-rubio/",
+          "verified": true
+        },
+        {
+          "text": "Bulgaria elige hoy presidente en una segunda vuelta reñida entre la presidenta en funciones Iliana Yotova, cercana a Rusia, y el proeuropeo Andrey Gyurov.",
+          "url": "https://www.clickorlando.com/news/world/2026/11/01/bulgarians-vote-in-a-presidential-runoff-marked-by-regional-security-threats/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Arranca en Antigua y Barbuda la cumbre de la Commonwealth con el rey Carlos III. La Caricom pide que la disculpa de Burnham por la esclavitud sea oficial, en nombre del Estado británico, y insiste en las reparaciones.",
+          "url": "https://www.infobae.com/america/agencias/2026/10/31/la-caricom-prefiere-que-burnham-se-disculpe-de-la-esclavitud-en-nombre-del-reino-unido/",
+          "verified": true
+        },
+        {
+          "text": "Miles de opositores marcharon en Nueva Delhi para exigir la renuncia del jefe electoral de India, acusado de borrar a millones de votantes de las listas.",
+          "url": "https://www.news4jax.com/news/world/2026/11/01/indian-opposition-parties-stage-new-protest-against-the-elections-chief/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "El gobierno de las Malvinas presentó un plan de más de 300 millones de libras hasta 2030, con nuevo puerto y un fondo para futuros ingresos petroleros, mientras Argentina lleva el proyecto Sea Lion a un tribunal internacional.",
+          "url": "https://www.canal26.com/internacionales/2026/10/31/en-medio-de-la-tension-por-malvinas-reino-unido-anuncio-inversiones-por-mas-de-400-millones-de-dolares-y-proyecta-un-fondo-petrolero/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "John Ternus, CEO de Apple, dijo que la compañía usará IA solo donde mejore sus productos, no por aparentar, y rechazó que los agentes de IA vayan a reemplazar a las apps.",
+          "url": "https://www.infobae.com/tecno/2026/11/01/lo-que-importa-es-construimos-algo-que-les-encante-john-ternus-ceo-de-apple-sobre-lanzar-productos-con-ia/",
+          "verified": false
+        },
+        {
+          "text": "OpenAI lanzó una IA especializada en biología que responde más consultas sensibles, pero solo la entregará a laboratorios aprobados.",
+          "url": "https://www.infobae.com/tecno/2026/11/01/openai-lanzo-una-ia-para-biologia-que-responde-mas-consultas-de-riesgo-y-solo-la-daran-a-laboratorios-aprobados/",
+          "verified": false
+        },
+        {
+          "text": "OpenAI recortó en 10.000 millones de dólares la ronda de inversión que busca, en plena caída de las acciones tecnológicas.",
+          "url": "https://infobae.com/tecno/2026/10/31/openai-recorto-usd-10000-millones-la-ronda-de-inversion-que-busca-en-plena-caida-de-las-tecnologicas",
+          "verified": false
+        },
+        {
+          "text": "Bill Gates resumió la lógica de la automatización como \"contratar al robot, despedir al humano y no mirar atrás\", mientras Microsoft prepara recortes de plantilla.",
+          "url": "https://www.xataka.com/robotica-e-ia/bill-gates-fundador-microsoft-consiste-contratar-al-robot-despedir-al-humano-no-mirar-atras",
+          "verified": false
+        },
+        {
+          "text": "Una cadena de fallos en los enlaces compartidos de ChatGPT permitía acceder a chats privados. OpenAI ya la corrigió y pagó una recompensa al investigador.",
+          "url": "https://www.qore.com/tecnologia/falla-de-chatgpt-permitia-leer-chats-privados-con-un-enlace/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "Activision pidió perdón por incluir en Call of Duty: Modern Warfare 4 imágenes reales de la tragedia de Itaewon (Corea del Sur), que dejó 159 muertos, tras las quejas de las familias.",
+          "url": "https://vandal.elespanol.com/noticia/2026303029/activision-pide-perdon-por-incluir-imagenes-de-una-tragedia-real-con-159-muertos-en-call-of-duty-modern-warfare-4",
+          "verified": true
+        },
+        {
+          "text": "Kojima Productions anunció por sorpresa Death Stranding Odradek: Tokyo Prototype, una experiencia que lleva su universo al mundo real, junto a la exposición por los 10 años del estudio en Tokio.",
+          "url": "https://vandal.elespanol.com/noticia/2026303015/kojima-productions-presenta-su-nueva-experiencia-lleva-el-universo-de-death-stranding-al-mundo-real/",
+          "verified": true
+        },
+        {
+          "text": "A menos de tres semanas del lanzamiento de GTA 6 (19 de noviembre), Rockstar dice que quiere que el jugador pueda \"tener su propia vida\": ir de compras, tomar el tren o salir de fiesta.",
+          "url": "https://vandal.elespanol.com/noticia/2026303018/rockstar-quiere-que-puedas-tener-tu-propia-vida-en-gta-6-ir-de-compras-coger-el-tren-o-salir-de-fiesta",
+          "verified": true
+        },
+        {
+          "text": "Celeste y TowerFall desaparecieron de la tienda de Xbox: su estudio los retiró para sumarse al boicot BDS contra Microsoft.",
+          "url": "https://vandal.elespanol.com/noticia/2026303010/celeste-y-towerfall-desaparecen-de-xbox-y-la-desarrolladora-explica-la-decision-apoyar-el-boicot-bds/",
+          "verified": false
+        },
+        {
+          "text": "Crimson Desert ya tiene prueba gratuita de cinco horas en PS5 y Xbox Series.",
+          "url": "https://vandal.elespanol.com/noticia/2026303028/ya-puedes-jugar-gratis-a-crimson-desert-durante-cinco-horas-en-ps5-y-xbox-series-asi-puedes-conseguirlo",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "En un fin de semana de Halloween flojo en taquilla, el terror de A24 You Can See Everything superó el viernes a Clayface, de DC, con 3,56 millones de dólares.",
+          "url": "https://variety.com/2026/film/box-office/box-office-you-can-see-everything-clayface-1236936071/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Dao, del director franco senegalés Alain Gomis, ganó la Espiga de Oro de la 71 Seminci de Valladolid. La Gradiva se llevó la de Plata.",
+          "url": "https://www.seminci.com/2026/noticias/dao-de-alain-gomis-gala-la-espiga-de-oro-de-la-71-seminci/",
+          "verified": true
+        },
+        {
+          "text": "HBO Max estrenó sin aviso por Halloween un especial de 30 minutos de It: Bienvenidos a Derry, ambientado siglos antes de la llegada de Pennywise.",
+          "url": "https://www.infobae.com/entretenimiento/2026/10/31/el-regalo-de-hbo-en-halloween-un-episodio-sorpresa-de-it-bienvenidos-a-derry-con-nuevos-secretos-del-pueblo-maldito/",
+          "verified": false
+        },
+        {
+          "text": "Ciudad de México prepara una exposición gratuita de Godzilla por el estreno en noviembre de Godzilla Minus Zero, de Takashi Yamazaki.",
+          "url": "https://www.infobae.com/mexico/2026/10/31/cdmx-alista-una-expo-gratis-de-godzilla-por-la-nueva-pelicula-de-takashi-yamazaki/",
+          "verified": false
+        },
+        {
+          "text": "Estrenos de la semana de Halloween en plataformas: llegan la secuela de una película española de zombis y un thriller sobrenatural, entre otras novedades.",
+          "url": "https://www.sensacine.com/noticias/cine/noticia-1000228895/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Chelsea venció 2 a 0 al Manchester United con goles de Rogers y Palmer (de penal) tras la expulsión de Lisandro Martínez. El United es 17º y crece la presión sobre Carrick.",
+          "url": "https://www.skysports.com/football/chelsea-vs-manchester-united/report/559527",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Junior, campeón del primer semestre, quedó eliminado de la Liga BetPlay tras perder 3 a 2 con Llaneros en Villavicencio.",
+          "url": "https://www.eltiempo.com/deportes/futbol-colombiano/junior-certifica-su-eliminacion-en-la-liga-cayo-contra-llaneros-y-ya-no-le-queda-ninguna-opcion-matematica-3597768",
+          "verified": true
+        },
+        {
+          "text": "Batacazo en el Etihad: Brighton ganó 1 a 0 al Manchester City con gol de Yasin Ayari y se mete arriba en la tabla de la Premier.",
+          "url": "https://www.metropoles.com/esportes/brighton-vence-city-fora-de-casa-e-cola-na-vice-lideranca-da-premier-league",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Sin Luis Díaz, que tiene una pequeña rotura en el muslo y se perdería entre dos y cuatro semanas, el Bayern empató 2 a 2 con el Dortmund. Su presencia en la próxima fecha FIFA con Colombia está en duda.",
+          "url": "https://www.clarosports.com/futbol/bundesliga/primer-clasico-sin-luis-diaz/",
+          "verified": true
+        },
+        {
+          "text": "El Atlético de Madrid venció al Levante y es líder provisional de LaLiga, presionando al Barcelona.",
+          "url": "https://www.foxdeportes.com/la-liga/nota/atletico-de-madrid-mete-presion-a-barcelona-tras-llegar-a-la-cima-de-la-liga",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {"title": "La OPEP+ se reúne hoy para decidir si ajusta su producción de petróleo", "level": "media", "reason": "todavía no hay decisión"},
+    {"title": "El pesista Hugo Montes ganó la primera medalla de Colombia en el Mundial de Pesas de Ningbo", "level": "media", "reason": "sin fuente confiable con enlace"},
+    {"title": "El estado de Amazonas habría reducido 39 % sus focos de incendio en octubre, según el Inpe", "level": "media", "reason": "solo en medios pequeños, contradice otros reportes"},
+    {"title": "Tottenham venció 2 a 0 al Crystal Palace, que jugó casi todo el partido con diez", "level": "baja", "reason": "no cupo (máximo dos de Premier)"},
+    {"title": "Bournemouth le ganó 2 a 0 al Leeds y subió al séptimo puesto de la Premier", "level": "baja", "reason": "no cupo"},
+    {"title": "Japón cambia desde hoy el sistema de compras sin impuestos para turistas", "level": "baja", "reason": "de nicho"},
+    {"title": "La cantante argentina Lali Espósito se casó en una ceremonia privada", "level": "baja", "reason": "farándula"}
+  ]
+}
