@@ -1,0 +1,320 @@
+{
+ "date": "2026-11-04",
+ "title": "Demócratas arrebatan a Trump Cámara y Senado",
+ "rates": {
+  "dolar": "$3.236",
+  "libra": "$4.340",
+  "real": "R$ 7,36"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Ley de Sometimiento, lista para sanción presidencial"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Dólar en Brasil llega al máximo del año"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Banco de Inglaterra subiría tipos al 4 %"
+  },
+  {
+   "emoji": "💻",
+   "text": "Nvidia vuelve a ser la empresa más valiosa"
+  },
+  {
+   "emoji": "🎮",
+   "text": "The Elder Scrolls VI ya tiene nombre: Sentinel"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Resident Evil supera los 400 millones de dólares"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Cunha remonta para el United ante la Roma"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Los demócratas recuperaron la Cámara de Representantes, donde podrían llegar a 244 escaños, y según las proyecciones también el Senado, con triunfos en Texas, Kansas, Iowa, Ohio, las dos Carolinas y Maine. Es un duro golpe para Trump, que reconoció la derrota y dijo estar dispuesto a trabajar con la nueva mayoría.",
+     "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/democratas-le-arrebatan-a-los-republicanos-el-control-de-la-camara-de-representantes-asi-estan-las-proyecciones-tras-elecciones-de-mitad-de-mandato-3598279",
+     "verified": true
+    },
+    {
+     "text": "Un temblor de magnitud 5,6 con epicentro en Chaparral (Tolima) despertó a Colombia a las 4:13 a. m. del martes. Se sintió en Bogotá, Medellín y Pereira, dejó al menos un herido, grietas en viviendas y daños en una iglesia de Quimbaya.",
+     "url": "https://www.eltiempo.com/amp/colombia/otras-ciudades/ungrd-entrega-primer-balance-tras-el-fuerte-temblor-de-magnitud-5-6-que-sacudio-a-colombia-este-martes-3-de-noviembre-3598030",
+     "verified": true
+    },
+    {
+     "text": "Irán rechazó la respuesta de Washington a su propuesta de paz: dice que solo reabrirá el estrecho de Ormuz si EE. UU. cumple sus siete condiciones, entre ellas levantar el bloqueo naval y pagar indemnizaciones. Trump insiste en que un acuerdo es muy probable.",
+     "url": "https://israelnoticias.com/iran/iran-rechaza-la-respuesta-de-ee-uu-a-la-propuesta-de-paz/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "El Congreso aprobó la Ley de Sometimiento y debe ser sancionada hoy. Durará 4 años (no 10) y excluye de beneficios a quienes tengan pedido de extradición o hayan reclutado menores. El Gobierno la presenta como el fin de la \"paz total\".",
+     "url": "https://www.elespectador.com/politica/ley-de-sometimiento-de-de-la-espriella-termina-tramite-en-congreso-y-va-a-sancion/",
+     "verified": true
+    },
+    {
+     "text": "El Gobierno radicó mensaje de urgencia para la Ley de Rescate Económico. La Cámara tendría 30 días para decidir sobre el proyecto, que incluye la devolución del IVA con EfectIVA y una renta corporativa más baja.",
+     "url": "https://www.portafolio.co/economia/gobierno/gobierno-de-la-espriella-radico-en-el-congreso-mensaje-de-urgencia-para-acelerar-tramite-de-ley-de-rescate-fiscal-505646",
+     "verified": true
+    },
+    {
+     "text": "Arranca el debate por el salario mínimo de 2027: las propuestas van del 8 % de Corficolombiana al 38,5 % que evalúa pedir la CUT. El Gobierno estudia adelantar la mesa al 18 de noviembre.",
+     "url": "https://portafolio.co/economia/aumento-del-salario-minimo-2027-propuestas-van-del-8-al-38-505643",
+     "verified": true
+    },
+    {
+     "text": "El dólar saltó más de 50 pesos el martes y cerró en $3.244, a la espera de las elecciones en EE. UU. Con eso, la TRM de hoy queda en $3.235,59.",
+     "url": "https://www.semana.com/economia/macroeconomia/articulo/dolar-mas-caro-el-precio-de-la-divisa-da-un-salto-de-mas-de-50-pesos-este-martes/202618/",
+     "verified": true
+    },
+    {
+     "text": "Desde el puente de Tienditas, De la Espriella ordenó construir \"infraestructura de vigilancia\" y barreras en la frontera con Venezuela para cerrar pasos clandestinos.",
+     "url": "https://www.semana.com/politica/articulo/de-la-espriella-ordeno-la-construccion-de-infraestructura-de-vigilancia-en-zonas-estrategicas-de-la-frontera-con-venezuela/202649/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Brasil: el Ibovespa cayó por sexta sesión seguida y el dólar subió a R$ 5,48, su mayor cotización del año, por el deterioro del panorama interno. Hoy el Copom decide la Selic.",
+     "url": "https://www.moneytimes.com.br/ibovespa-3-11-26-lils/",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Brasil: Flávio Bolsonaro, en EE. UU. desde el 28 de octubre, pidió al STF recuperar sus pasaportes y apartar a Alexandre de Moraes de la investigación en su contra.",
+     "url": "https://m.imirante.com/noticias/brasil/2026/11/03/ipolitica-flavio-bolsonaro-pede-devolucao-passaportes-afastamento-moraes-investigacao",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "La Cumbre Iberoamericana arranca hoy en Madrid con 10 de 22 líderes y sin Lula, Sheinbaum ni Delcy Rodríguez. Colombia enviará a su vicepresidencia y Milei sí asistirá.",
+     "url": "https://www.publico.es/internacional/america-latina/lula-sheinbaum-delcy-rodriguez-participaran-cumbre-iberoamericana-madrid.html",
+     "verified": true
+    },
+    {
+     "text": "Keiko Fujimori cumple cien días como presidenta de Perú, con la seguridad y la prevención de El Niño como prioridades. Analistas dicen que aún es pronto para evaluarla.",
+     "url": "https://www.exitosanoticias.pe/actualidad/los-100-primeros-dias-gobierno-keiko-fujimori-no-son-suficientes-evaluar-su-gestion-senala-analista-n187497",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "El Banco de Inglaterra decide mañana y una encuesta de Reuters anticipa una subida del 3,75 % al 4 %, la primera desde 2023, por la energía y la guerra de Irán.",
+     "url": "https://www.indexbox.io/es/blog/bank-of-england-expected-to-raise-rates-to-40-as-energy-costs-drive-inflation/",
+     "verified": true
+    },
+    {
+     "text": "El Tribunal Supremo británico estudia hoy y mañana la apelación contra la prohibición de Palestine Action. Unas 4.200 personas han sido detenidas desde que se ilegalizó el grupo.",
+     "url": "https://www.euronews.com/2026/11/04/uk-supreme-court-to-hear-appeal-against-ban-on-palestine-action-group",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Andy Burnham negó haber propuesto a la UE restaurar la libre circulación, aunque se negocia un acuerdo sobre alimentos, emisiones y movilidad juvenil.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/03/burnham-rechaza-haber-propuesto-a-la-ue-restaurar-la-libre-circulacion-con-reino-unido/",
+     "verified": true
+    },
+    {
+     "text": "España: el ministro de Transportes, Óscar Puente, dimitió por sorpresa tras los accidentes ferroviarios y deja a Sánchez sin él para las elecciones del 29 de noviembre.",
+     "url": "https://www.eldiario.es/politica/puente-dimite-sorpresa-comunica-sanchez-decision-ultimo-minuto_1_13635818.html",
+     "verified": true
+    },
+    {
+     "text": "Lukashenko aseguró que la guerra en Ucrania terminará \"en los próximos meses\" porque las partes están agotadas, y ofreció Minsk como sede de negociaciones.",
+     "url": "https://www.swissinfo.ch/spa/la-guerra-en-ucrania-terminar%C3%A1-en-los-pr%C3%B3ximos-meses,-seg%C3%BAn-lukashenko/92319103",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "Nvidia recuperó el título de empresa más valiosa del mundo con 5,02 billones de dólares. Apple cayó 2 % porque John Ternus advirtió de precios de memoria \"sin precedentes\".",
+     "url": "https://forbes.pe/negocios/2026-11-03/nvidia-recupera-el-titulo-de-la-empresa-mas-valiosa-del-mundo-mientras-que-las-acciones-de-apple-caen",
+     "verified": true
+    },
+    {
+     "text": "Anthropic avisó en sus documentos para salir a bolsa que podría alcanzar pronto un umbral de IA que acelera su propio desarrollo. Dice que ningún modelo actual lo ha cruzado y que mantendrá supervisión humana.",
+     "url": "https://www.profesionalreview.com/2026/11/03/anthropic-dice-en-su-documentacion-para-salir-a-bolsa-que-podria-alcanzar-pronto-un-umbral-de-automejora-recursiva-de-la-ia/",
+     "verified": true
+    },
+    {
+     "text": "OpenAI y Google lanzaron GPT-6.1 Terra y Gemini 4 Carbon, enfocados en coste y programación. Google sumó Genie 4, un modelo de mundos interactivos.",
+     "url": "https://foro3d.com/2026/noviembre/gpt-61-terra-gemini-4-carbon-y-genie-4-marcan-la-semana-en-ia.html",
+     "verified": true
+    },
+    {
+     "text": "Un estudio en Nature Astronomy halló las cinco bases del ADN y el ARN en muestras del asteroide Ryugu, lo que refuerza la idea de que los ingredientes de la vida llegaron del espacio.",
+     "url": "https://www.cadena3.com/noticia/ciencia/descubren-las-cinco-bases-geneticas-de-la-vida-en-un-asteroide-de-4500-millones-de-anos_609909",
+     "verified": true
+    },
+    {
+     "text": "Un experimento publicado en Nature Geoscience sugiere que la Tierra pudo fabricar buena parte de su propia agua, sin depender solo de cometas y asteroides.",
+     "url": "https://es.gizmodo.com/la-tierra-pudo-fabricar-su-propia-agua-un-experimento-sugiere-que-una-lluvia-de-rocas-fundidas-en-una-atmosfera-de-hidrogeno-creo-cientos-de-oceanos-2000269446",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "Bethesda confirmó el nombre del próximo Elder Scrolls: The Elder Scrolls VI: Sentinel. Todo apunta a Hammerfell y no llegaría antes de 2028.",
+     "url": "https://www.3djuegos.com/juegos/the-elder-scrolls-vi/noticias/oficial-the-elder-scrolls-6-tiene-nombre-logo-pista-muy-obvia-donde-se-ambientara-su-mundo-abierto",
+     "verified": true
+    },
+    {
+     "text": "Xbox explora vender Arkane Lyon, creadores de Dishonored que trabajan en Marvel's Blade. Según Bloomberg, Ubisoft y otras dos empresas ya hicieron ofertas.",
+     "url": "https://www.3djuegos.com/juegos/dishonored/noticias/xbox-quiere-desprenderse-creadores-dishonored-su-futuro-podria-estar-lejos-cierre",
+     "verified": true
+    },
+    {
+     "text": "Remedy ingresó 39,6 millones de euros en el trimestre, un 226 % más, gracias a Control Resonant, y volvió a tener beneficio operativo.",
+     "url": "https://www.3djuegos.com/juegos/control-resonant/noticias/se-acabo-sufrimiento-despues-anos-perdiendo-dinero-estudio-control-resonant-fin-tiene-motivos-para-sacar-pecho",
+     "verified": true
+    },
+    {
+     "text": "Game Pass suma 21 juegos en la primera quincena de noviembre, y 13 títulos, entre ellos GoldenEye 007, salen el día 15.",
+     "url": "https://www.3djuegos.com/xbox-series-xs/noticias/xbox-anuncia-21-juegos-gratis-principios-noviembre-2026-para-miembros-game-pass-otros-13-titulos-que-abandonaran-pronto-servicio",
+     "verified": true
+    },
+    {
+     "text": "Según Jason Schreier, Gears of War: E-Day costó cerca de 500 millones de dólares sin contar marketing. Microsoft no lo ha confirmado.",
+     "url": "https://www.3djuegos.com/juegos/gears-of-war-e-day/noticias/sale-a-luz-cuanto-le-ha-costado-gears-of-war-e-day-a-xbox-casi-imposible-que-shooter-the-coalition-acabe-siendo-rentable",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Resident Evil, de Zach Cregger, superó los 400 millones de dólares en el mundo y desde ayer está en alquiler y compra digital.",
+     "url": "https://www.alucine.es/2026/11/03/resident-evil-supera-los-400-millones-y-llega-hoy-al-vod/",
+     "verified": true
+    },
+    {
+     "text": "El Festival de Marrakech anunció 76 películas. Abrirá con The Debut, de Jesse Eisenberg, y Marion Cotillard preside el jurado.",
+     "url": "https://www.screendaily.com/news/the-debut-to-open-marrakech-international-film-festival-as-2026-lineup-unveiled/5221941.article",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Sacamantecas, thriller con Antonio de la Torre y Patricia López Arnaiz sobre un asesino real del siglo XIX en Álava, llega a los cines el 6 de noviembre.",
+     "url": "https://www.sensacine.com/noticias/cine/noticia-1000229992/",
+     "verified": true
+    },
+    {
+     "text": "Los Javis y Guitarricadelafuente reciben hoy en Miami premios de Variety por La bola negra, candidata española al Oscar.",
+     "url": "https://www.netflixjunkie.com/netflix-news-la-bola-negra-keeps-its-festival-momentum-rolling-with-a-major-miami-film-festival-honor/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Andy Weir, autor de Marte, propuso que Star Wars cuente la guerra civil galáctica desde personajes secundarios, en plena mala racha de la saga en cines.",
+     "url": "https://www.3djuegos.com/tv-series/noticias/star-wars-lleva-demasiado-tiempo-mirandose-al-espejo-escritor-proyecto-salvacion-marte-cree-que-ha-llegado-hora-tomar-decision-muy-dificil",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Colombianos en Champions: Dávinson Sánchez dio una asistencia en el 2 a 0 del Galatasaray al Stuttgart y Luis Javier Suárez jugó todo el 1 a 0 del Sporting sobre el Shakhtar.",
+     "url": "https://www.radionacional.co/actualidad/deportes/champions-noviembre",
+     "verified": true
+    },
+    {
+     "text": "Jefferson Lerma podría volver a la Selección Colombia para los amistosos ante Chile (13 y 17 de noviembre). La lista se conocería esta semana.",
+     "url": "https://www.deportesrcn.com/futbol/seleccion-colombia/seleccion-colombia-el-volante-que-volveria-a-la-convocatoria-contra-chile-159239",
+     "verified": false
+    },
+    {
+     "text": "Manchester United perdía 2 a 0 con la Roma y remontó 3 a 2 con un penalti de Bruno Fernandes y dos goles tardíos de Matheus Cunha.",
+     "url": "https://www.espn.com/soccer/report/_/gameId/401915308",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Barcelona goleó 3 a 0 al Aston Villa con goles de Lamine Yamal y Raphinha, y entró en la zona buena de la Champions.",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/champions-league-un-insolito-error-de-aston-villa-termino-en-gol-de-lamine-que-esta-jugando-un-nid03112026/",
+     "verified": true
+    },
+    {
+     "text": "Sin Luis Díaz, lesionado, el Bayern ganó 2 a 0 en el campo del Atlético con goles de Karl y Laimer.",
+     "url": "https://www.semana.com/deportes/articulo/bayern-munich-respira-en-champions-league-y-sin-luis-diaz-golpe-al-atletico-de-madrid/202601/",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "El PSG goleó 6 a 0 al Villarreal en la Champions",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El Supremo de Brasil terminó la audiencia sobre prohibir las apuestas deportivas y los clubes se opusieron",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "En Israel, Herzog empieza hoy las consultas para elegir quién formará gobierno",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Virgin Media O2 eliminará miles de empleos en Reino Unido en dos años",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "La Policía destruyó 12 excavadoras de minería ilegal en Ataco, Tolima",
+   "level": "baja",
+   "reason": "muy local"
+  },
+  {
+   "title": "Microsoft prepara un cambio para que el trazado de rayos aproveche mejor las tarjetas gráficas",
+   "level": "baja",
+   "reason": "de nicho"
+  }
+ ]
+}
