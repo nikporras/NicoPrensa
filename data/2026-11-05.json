@@ -1,0 +1,326 @@
+{
+ "date": "2026-11-05",
+ "title": "El petróleo se hunde tras la derrota de Trump",
+ "rates": {
+  "dolar": "$3.221",
+  "libra": "$4.358",
+  "real": "R$ 7,37"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "JEP imputa a nueve exjefes de las Farc"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Brasil frena recortes: Selic sigue en 13,75 %"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Trump amenaza con vetar al nuevo Congreso"
+  },
+  {
+   "emoji": "💻",
+   "text": "El telescopio Swift cae sobre Sumatra"
+  },
+  {
+   "emoji": "🎮",
+   "text": "Zelda Ocarina of Time llega con 96 puntos"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Godzilla Minus Zero apunta a US$ 30 millones"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Real Madrid remonta, Liverpool cae en Turquía"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "El Brent se desplomó 8,67 %, hasta US$ 94,62, tras la victoria demócrata y las esperanzas de paz con Irán. Acumula una caída cercana al 20 % desde el viernes.",
+     "url": "https://www.lanacion.com.ar/estados-unidos/los-precios-del-petroleo-se-desploman-tras-la-victoria-democrata-en-las-legislativas-de-eeuu-nid04112026/",
+     "verified": true
+    },
+    {
+     "text": "De la Espriella sancionó la ley de sometimiento (Ley 2640 de 2026), que pone fin a las negociaciones de la Paz Total. Ofrece rebajas de pena a cambio de bienes, armas y rutas, sin suspender órdenes de captura ni extradiciones.",
+     "url": "https://www.elespectador.com/politica/de-la-espriella-sanciono-la-ley-de-sometimiento-tras-aprobacion-contrarreloj-en-el-congreso/",
+     "verified": true
+    },
+    {
+     "text": "Hong Kong condenó al activista Joshua Wong a 10 años de cárcel por conspirar con fuerzas extranjeras. Preso desde 2020, seguiría en prisión hasta 2036.",
+     "url": "https://excelsior.com.mx/internacional/joshua-wong-condena",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "La JEP imputó a nueve exjefes regionales de las Farc por torturas, ejecuciones y abortos forzados contra niños reclutados. Al menos 62 menores fueron ejecutados y los imputados tienen 30 días para responder.",
+     "url": "https://www.eltiempo.com/justicia/jep-colombia/jep-imputo-a-nueve-exmandos-de-las-farc-por-torturas-fusilamientos-y-abortos-forzados-contra-ninos-reclutados-3598409",
+     "verified": true
+    },
+    {
+     "text": "Un ataque con explosivos contra la estación de Policía de El Estrecho (Patía, Cauca) habría dejado un muerto y seis heridos. El Gobierno ordenó buscar a los responsables.",
+     "url": "https://www.eluniversal.com.co/colombia/2026/11/04/terror-en-cauca-explosion-contra-subestacion-de-policia-habria-dejado-un-muerto/",
+     "verified": true
+    },
+    {
+     "text": "El equipo técnico del Banco de la República subió su proyección de inflación para 2026 a 7,1 % y bajó la de crecimiento a 2 %.",
+     "url": "https://www.larepublica.co/economia/equipo-tecnico-de-banco-central-de-colombia-ve-mayor-inflacion-y-menor-crecimiento-economico-este-y-el-proximo-ano-4517960",
+     "verified": true
+    },
+    {
+     "text": "El exembajador Kevin Whitaker advirtió que la nueva mayoría demócrata pesará en la ayuda de EE. UU. a Colombia y que rechaza la militarización de la lucha antidrogas.",
+     "url": "https://www.elpais.com.co/mundo/exembajador-whitaker-advierte-que-nueva-mayoria-democrata-en-congreso-de-eeuu-tendra-influencia-en-ayuda-para-colombia-0420.html",
+     "verified": true
+    },
+    {
+     "text": "La Corte Constitucional calificó de \"tragedia humanitaria\" la situación de las cárceles, 13 años después de declarar el estado de cosas inconstitucional.",
+     "url": "https://www.semana.com/nacion/articulo/tragedia-humanitaria-en-las-carceles-del-pais-corte-reconoce-deficiencia-en-cumplimiento-de-la-eci/202617/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Brasil: el Copom mantuvo la Selic en 13,75 % y cortó una serie de cinco recortes, en medio del temor fiscal tras la reelección de Lula. El dólar ya cerró en R$ 5,45.",
+     "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/copom-novembro-2026/",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Paraguay: 35 diputados presentaron un pedido de juicio político contra el presidente Santiago Peña y su vicepresidente por la crisis de Ueno Bank. El oficialismo colorado anunció que no lo apoyará.",
+     "url": "https://www.ultimahora.com/con-35-firmas-oficializan-en-diputados-pedido-de-juicio-politico-contra-pena-y-alliana",
+     "verified": true
+    },
+    {
+     "text": "Brasil: Flávio Bolsonaro reaparece hoy en la CPAC de Mar-a-Lago, en su primer acto público tras perder con Lula, y busca llevar la oposición al exterior.",
+     "url": "https://sbtnews.sbt.com.br/colunas/coluna-do-tulio/flavio-e-eduardo-querem-internacionalizar-oposicao-na-cpac",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "El papa León XIV arranca mañana su primera gira por América Latina: Uruguay, Argentina y Perú hasta el 17 de noviembre. Uruguay ultima su llegada.",
+     "url": "https://www.vaticannews.va/es/mundo/news/2026-11/la-expectativa-en-uruguay-ante-la-llegada-del-papa-leon-xiv.html",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "Trump minimizó la derrota en las legislativas, dijo que él no estaba en las papeletas y amenazó con vetar las leyes del nuevo Congreso demócrata.",
+     "url": "https://eldiario.es/internacional/trump-patalea-derrota-midterms-amenaza-vetar-iniciativas-congreso_1_13636119.html",
+     "verified": true
+    },
+    {
+     "text": "Irán afirma que cuatro petroleros arden en Ormuz tras chocar con minas al usar un paso prohibido. No hay confirmación independiente del alcance de los daños.",
+     "url": "https://www.excelsior.com.mx/internacional/iran-petroleros-estrecho-ormuz",
+     "verified": true
+    },
+    {
+     "text": "Corea del Norte lanzó varios misiles al mar de Japón y Kim Yo-jong calificó de innecesario hablar con Washington, lo que enfría una posible cumbre entre Trump y Kim.",
+     "url": "https://www.eldebate.com/internacional/20261104/corea-norte-lanza-varios-misiles-hacia-mar-japon-tacha-innecesario-dialogo-estados-unidos_477001.html",
+     "verified": true
+    },
+    {
+     "text": "Reino Unido: el Gobierno de Burnham calificó de \"inviable\" pagar reparaciones por la esclavitud, aunque se abrió a una disculpa oficial y a un diálogo con la Commonwealth.",
+     "url": "https://es-us.noticias.yahoo.com/gobierno-brit%C3%A1nico-inviable-pagar-indemnizaciones-113239512.html",
+     "verified": true
+    },
+    {
+     "text": "El balance del ataque ruso a la escuela de Komishuvaja, en Zaporiyia, subió a 33 muertos, y Zelenski teme que más de 50 personas sigan bajo los escombros.",
+     "url": "https://es-us.noticias.yahoo.com/ucrania-teme-decenas-muertos-escombros-162649650.html",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "El telescopio espacial Swift de la NASA cayó sobre Sumatra sin causar daños, tras casi 22 años en órbita y un rescate fallido.",
+     "url": "https://biobiochile.cl/noticias/ciencia-y-tecnologia/ciencia/2026/11/04/telescipio-swift-de-la-nasa-cae-en-sumatra-sin-causar-danos-luego-de-casi-22-anos-en-el-espacio.shtml",
+     "verified": true
+    },
+    {
+     "text": "Corea del Norte habría robado 6.340 millones de dólares a Binance: según la empresa, todo empezó con falsas entrevistas de trabajo y código malicioso enviado a un ingeniero.",
+     "url": "https://www.naiz.eus/en/info/noticia/20261105/el-robo-de-criptomonedas-deja-en-el-aire-la-reunion-entre-donald-trump-y-kim-jong-un",
+     "verified": true
+    },
+    {
+     "text": "Google respaldará parte de las obligaciones de Anthropic en un arrendamiento de US$ 19.000 millones por un campus de centros de datos en Kentucky.",
+     "url": "https://www.diariobitcoin.com/mineria/google-respalda-obligaciones-de-anthropic-en-un-arrendamiento-de-terawulf-por-usd-19-000-millones/",
+     "verified": true
+    },
+    {
+     "text": "Tencent lanzó su modelo abierto Hy4, de 770.000 millones de parámetros, con visión y capacidad de operar computadores.",
+     "url": "https://ecosistemastartup.com/tencent-lanza-hy4-770b-parametros-open-source-desde-us083-m/",
+     "verified": true
+    },
+    {
+     "text": "Dario Amodei, jefe de Anthropic, sugirió cobrar la IA con precios dinámicos según el valor de cada tarea.",
+     "url": "https://www.xataka.com/empresas-y-economia/no-todos-tokens-que-producen-modelos-valen-dario-amodei-sugiere-modelo-precios-dinamicos-funcion-tarea",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "El remake de Zelda: Ocarina of Time sale hoy en Switch 2 con 96 en Metacritic, la mejor nota de un juego en 2026.",
+     "url": "https://nintenduo.com/zelda-ocarina-of-time-switch-2-nota-metacritic/",
+     "verified": true
+    },
+    {
+     "text": "God of War Laufey se retrasa tres meses: pasa del 16 de febrero al 20 de mayo de 2027 en PS5.",
+     "url": "https://kotaku.com/god-of-war-laufey-delay-ps5-new-release-date-santa-monica-2000753374",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Nintendo informó que Switch 2 ya suma 26,35 millones de consolas vendidas, y su beneficio operativo del semestre subió 49,1 %.",
+     "url": "https://www.nintenderos.com/nintendo-switch-2/nuevos-resultados-financieros-de-nintendo-con-switch-2-superando-los-26-millones-de-consolas-vendidas-y-mas-datos/",
+     "verified": true
+    },
+    {
+     "text": "El Guild Wars original recibirá Afterlife, su primer DLC en casi 20 años.",
+     "url": "https://www.invenglobal.com/articles/28101/guild-wars-gets-its-first-new-dlc-in-nearly-20-years-with-guild-wars-afterlife",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Nexus Mods, la mayor plataforma de mods para PC, endureció sus reglas contra las creaciones hechas con IA.",
+     "url": "https://pcgamer.com/gaming-industry/nexus-mods-finally-tightens-the-screws-on-ai-though-its-still-playing-softball-with-the-tide-of-slop",
+     "verified": true,
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Godzilla Minus Zero llega este fin de semana y se perfila como líder de taquilla en EE. UU., con unos US$ 30 millones, por delante de The Cat in the Hat con 20 millones.",
+     "url": "https://variety.com/2026/film/box-office/godzilla-minus-zero-box-office-opening-weekend-estimates-cat-in-the-hat-1236938885/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Se estrena I Play Rocky, la película sobre cómo Sylvester Stallone defendió su guion hace 50 años, con Anthony Ippolito como protagonista.",
+     "url": "https://culturageek.com.ar/i-play-rocky-critica/",
+     "verified": true
+    },
+    {
+     "text": "Arranca hoy el 41.º Festival de Cine de Mar del Plata, con Wild Horse Nine de Martin McDonagh en la apertura y un homenaje a Natalia Oreiro.",
+     "url": "https://www.lacapitalmdp.com/con-la-necesidad-de-sumar-publico-empieza-el-festival-internacional-de-cine/",
+     "verified": true
+    },
+    {
+     "text": "Prime Video estrena mañana Campus Drivers, adaptación francesa de la saga juvenil de C. S. Quill.",
+     "url": "https://www.aboutamazon.com/news/entertainment/campus-drivers-prime-video",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Espinof reúne 56 series, películas y documentales que llegan esta semana a Netflix, Prime Video, HBO Max y otras plataformas.",
+     "url": "https://www.espinof.com/estrenos/estrenos-4-noviembre-series-peliculas-documentales-netflix-prime-video-hbo-max-disney-plus-movistar-plus-filmin-apple-tv-skyshowtime",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Champions: Real Madrid remontó 3 a 2 en Atenas ante el AEK y es colíder con PSG, mientras Liverpool cayó 3 a 2 en Estambul ante Fenerbahçe.",
+     "url": "https://www.semana.com/deportes/articulo/tabla-de-posiciones-de-la-champions-league-real-madrid-hizo-la-epica-y-liverpool-perdio/202619/",
+     "verified": true
+    },
+    {
+     "text": "Arsenal ganó 2 a 1 en Praga con goles de Madueke y Gyökeres, y subió al tercer lugar de la Champions.",
+     "url": "https://www.futbolred.com/champions-league/arsenal-vencio-2-1-a-slavia-praga-en-la-champions-league-con-goles-de-madueke-y-gyoekeres-274877",
+     "verified": true
+    },
+    {
+     "text": "Millonarios y América empataron 0 a 0 en El Campín y cerraron la fecha 17 de la Liga BetPlay.",
+     "url": "https://www.deportesrcn.com/futbol/liga-betplay/liga-betplay-2026-ii-resultados-y-tabla-de-posiciones-tras-la-fecha-17-159310",
+     "verified": true
+    },
+    {
+     "text": "La Selección Colombia dará a conocer entre hoy y mañana su lista para los amistosos ante Chile.",
+     "url": "https://www.noticiascaracol.com/golcaracol/seleccion-colombia/cuando-sale-la-convocatoria-de-la-seleccion-colombia-para-los-juegos-preparatorios-contra-chile-so35",
+     "verified": true
+    },
+    {
+     "text": "Dortmund venció 2 a 1 a Betis, con Nelson Deossa convocado y sin Cucho Hernández, lesionado.",
+     "url": "https://www.futbolred.com/champions-league/borussia-dortmund-supero-2-1-al-betis-en-un-vibrante-duelo-de-champions-league-274876",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "El vasco Asador Etxebarri fue elegido mejor restaurante del mundo en Lima, y Celele de Cartagena quedó en el puesto 31",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Manchester City ganó 3 a 2 en Leipzig con gol de Haaland",
+   "level": "media",
+   "reason": "cupo de Premier lleno"
+  },
+  {
+   "title": "El presidente de Israel inició consultas para decidir quién intentará formar gobierno",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Francia despliega 70.000 agentes por la huelga general de hoy",
+   "level": "media",
+   "reason": "aún sin balance"
+  },
+  {
+   "title": "Un patrullero de 27 años murió baleado en Medellín durante un choque entre bandas",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El ministro de Hacienda acusó a Petro de tener una \"adicción\" a la deuda",
+   "level": "baja",
+   "reason": "cruce político sin hechos nuevos"
+  },
+  {
+   "title": "Rafa Nadal habría entrado a la junta directiva del Real Madrid",
+   "level": "baja",
+   "reason": "sin confirmar"
+  }
+ ]
+}
