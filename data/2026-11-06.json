@@ -1,0 +1,329 @@
+{
+ "date": "2026-11-06",
+ "title": "Wall Street se hunde por temor a la IA",
+ "rates": {
+  "dolar": "$3.228",
+  "libra": "$4.340",
+  "real": "R$ 7,34"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Video de Deicy Jiménez agrava escándalo contra Petro"
+  },
+  {
+   "emoji": "🌎",
+   "text": "STF discute plazo para fin de escala 6x1"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Demócratas prometen investigar la corrupción de Trump"
+  },
+  {
+   "emoji": "💻",
+   "text": "Tesla y SpaceX pierden US$ 420.000 millones"
+  },
+  {
+   "emoji": "🎮",
+   "text": "GTA 6 roza 8 millones de reservas"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Se estrena El gato con sombrero"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Liga BetPlay define cupos en fecha 18"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Wall Street vivió su peor jornada en meses: el Nasdaq cayó cerca de 5,5 % y se esfumaron unos US$ 2,5 billones en bolsa. Los inversionistas temen que el Congreso demócrata frene los centros de datos de IA; Nvidia perdió cerca de 9 %.",
+     "url": "https://www.xataka.com/empresas-y-economia/hundimiento-historico-bolsa-estadounidense-grandes-tecnologicas-se-dejan-a-esta-hora-9-19",
+     "verified": true
+    },
+    {
+     "text": "Santiago Peña anunció su renuncia a la presidencia de Paraguay por el colapso de Ueno Bank, donde casi la mitad del país tenía ahorros. El Congreso sigue adelante con el juicio político en su contra.",
+     "url": "https://elcomercio.pe/mundo/latinoamerica/santiago-pena-presidente-de-paraguay-renuncia-al-cargo-por-el-escandalo-ueno-bank-juicio-politico-en-el-congreso-noticia/",
+     "verified": true
+    },
+    {
+     "text": "El Banco de Inglaterra subió los tipos de 3,75 % a 4 %, su primera alza desde 2023, por la energía encarecida con la guerra en Irán. Prevé que la inflación llegue a cerca de 5 % a mediados de 2027.",
+     "url": "https://es.euronews.com/2026/11/05/el-banco-de-inglaterra-sube-el-tipo-clave-al-4-primera-subida-desde-2023",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "Deicy Jiménez, quien denunció una presunta red de contratos a cambio de favores sexuales en el gobierno Petro, publicó un video que presenta como prueba. Petro niega haber usado contratos para eso y su abogado dice que el video no está peritado.",
+     "url": "https://www.eltiempo.com/justicia/investigacion/escandalo-del-video-de-deicy-jimenez-y-gustavo-petro-reacciones-y-efectos-en-la-denuncia-por-presunta-violencia-sexual-3598602",
+     "verified": true
+    },
+    {
+     "text": "La Armada interceptó una lancha que venía de Honduras con 104 armas, entre ellas 69 fusiles, para las Autodefensas Conquistadoras de la Sierra. De la Espriella lo llamó el mayor decomiso en 45 años; hay cinco capturados.",
+     "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/presidente-de-la-espriella-anuncio-la-incautacion-de-104-armas-en-la-operacion-poseidon-en-la-alta-guajira-seria-el-mayor-decomiso-en-45-anos-3598904",
+     "verified": true
+    },
+    {
+     "text": "El Tribunal Superior de Bogotá ordenó la libertad inmediata del exministro Luis Fernando Velasco, procesado por el caso UNGRD. Revocó la decisión apelada y negó la medida de aseguramiento.",
+     "url": "https://www.eltiempo.com/justicia/investigacion/tribunal-superior-de-bogota-ordeno-libertad-inmediata-a-luis-fernando-velasco-exministro-del-interior-del-gobierno-petro-procesado-por-caso-ungrd-3598809",
+     "verified": true
+    },
+    {
+     "text": "Tras la falla del 4 de noviembre en El Dorado, con 79 vuelos cancelados y 97 demorados, el Gobierno busca un crédito de US$ 300 millones con la CAF para renovar radares y centros de control.",
+     "url": "https://www.portafolio.co/economia/gobierno/tras-la-falla-en-bogota-el-gobierno-busca-credito-de-300-millones-de-dolares-para-actualizar-el-control-aereo-505800",
+     "verified": true
+    },
+    {
+     "text": "El Centro Democrático puso reparos a la ley de rescate fiscal: Uribe dijo que el ahorro es muy poco, y la bancada pide más recortes y no respalda el IVA a alimentos básicos.",
+     "url": "https://eltiempo.com/politica/congreso/centro-democratico-expresa-reparos-a-la-ley-de-rescate-fiscal-del-gobierno-pide-mas-recortes-y-cuestiona-propuestas-sobre-el-iva-3598866",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "El ministro Flávio Dino convocó para el 10 de noviembre una audiencia en el STF sobre el plazo del fin de la escala 6x1. El comercio pide aplazar la reducción de la jornada, cuya primera etapa empieza el 16 de diciembre.",
+     "url": "https://www.cnnbrasil.com.br/politica/dino-marca-audiencia-para-discutir-prazo-para-implementar-fim-da-escala-6x1/",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Lula llamó \"pé-frio\" a Flávio Bolsonaro en una transmisión en vivo: dijo que llegó a Estados Unidos y Trump perdió. También afirmó que el senador deberá volver a Brasil para responder ante la justicia.",
+     "url": "https://www.metropoles.com/brasil/em-live-lula-chama-flavio-de-pe-frio-chegou-nos-eua-o-trump-perdeu",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "El papa León XIV llega hoy a Uruguay, la primera visita papal en 38 años, y allí arranca la gira que seguirá por Argentina y Perú hasta el 16 de noviembre.",
+     "url": "https://rpp.pe/mundo/latinoamerica/montevideo-se-prepara-para-la-visita-de-leon-xiv-la-primera-de-un-papa-en-38-anos-noticia-1716157",
+     "verified": true
+    },
+    {
+     "text": "La Cumbre Iberoamericana cerró con la Declaración de Madrid, que no menciona el embargo a Cuba. Milei atacó al socialismo en la plenaria y Zelenski apareció por sorpresa.",
+     "url": "https://es.euronews.com/2026/11/05/la-xxx-cumbre-iberoamericana-ausencias-desencuentros-visita-sorpresa",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "Los demócratas anunciaron investigaciones sobre los negocios de Trump y su familia, el caso Epstein y las redadas de ICE. Jeffries no descartó un tercer juicio político; la Casa Blanca niega irregularidades.",
+     "url": "https://www.proceso.com.mx/internacional/2026/11/5/democratas-prometen-investigar-la-corrupcion-de-trump-tras-tomar-el-control-del-congreso-383180.html",
+     "verified": true
+    },
+    {
+     "text": "La huelga general en Francia sacó a la calle a cerca de 600.000 personas según el Gobierno y 1,6 millones según la CGT, en reclamo de mejores salarios. Hubo 448 detenidos y Lecornu convocó una conferencia social para el lunes.",
+     "url": "https://es-us.noticias.yahoo.com/600-000-1-6-millones-170951076.html",
+     "verified": true
+    },
+    {
+     "text": "Melania Trump recibió en la Casa Blanca a enviados de Rusia y Ucrania y pidió elegir \"la humanidad por encima de la guerra\", antes de las conversaciones de Abu Dabi del 10 y 11 de noviembre.",
+     "url": "https://es-us.noticias.yahoo.com/melania-trump-pide-prevalezca-humanidad-204135258.html",
+     "verified": true
+    },
+    {
+     "text": "Andy Burnham dijo que su plan a 10 años para el Reino Unido podría aplazarse de diciembre a enero. Rechazó las versiones de que será menos ambicioso de lo esperado.",
+     "url": "https://nation.cymru/news/10-year-plan-will-lay-out-clear-vision-for-britain-says-andy-burnham",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Nuevo golpe en el caso Koldo en España: la UCO registró la casa de Ábalos en Valencia y hubo seis detenidos, entre ellos, según ABC, el exchófer de Pedro Sánchez. La pieza investiga presuntas mordidas en obra pública.",
+     "url": "https://www.telecinco.es/noticias/espana/20261105/uco-registra-casa-abalos-valencia-nuevo-operativo-caso-koldo_18_020626094.html",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "Tesla y SpaceX perdieron más de US$ 420.000 millones en valor combinado tras las elecciones, por el temor a un freno a los centros de datos y a su posible fusión.",
+     "url": "https://www.cnbc.com/2026/11/05/tesla-spacex-stocks-fall-after-2026-midterms.html",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "OpenAI presentó GPT-6 Cyber, un modelo de ciberseguridad que reprodujo 1.724 fallas del kernel de Linux en pruebas controladas. El acceso inicial es solo para investigadores autorizados.",
+     "url": "https://www.muycomputer.com/2026/11/05/openai-presenta-gpt-6-cyber-una-ia-capaz-de-encontrar-y-explotar-cientos-de-vulnerabilidades/",
+     "verified": true
+    },
+    {
+     "text": "Investigadores de Stanford crearon un modelo de IA que detecta patrones cerebrales del alzhéimer entre 5 y 15 años antes de los síntomas, comparando pacientes con personas de memoria excepcional en la vejez.",
+     "url": "https://www.infosalus.com/mayores/noticia-cerebro-podria-dar-pistas-alzheimer-15-anos-antes-sintomas-20261105080647.html",
+     "verified": true
+    },
+    {
+     "text": "Apple redujo de US$ 300 a US$ 200 diarios el gasto en tokens de IA de algunos ingenieros, según Bloomberg, y estudia bajarlo a US$ 100 en ciertos equipos.",
+     "url": "https://www.xataka.com/robotica-e-ia/apple-quiere-que-siri-ia-este-todas-partes-al-tiempo-limita-a-200-dolares-gasto-tokens-para-sus-empleados",
+     "verified": true
+    },
+    {
+     "text": "OpenAI dice que GPT-6 y Astra diseñaron un dispositivo electrónico en menos de una semana, aunque fabricarlo exigió revisiones y ajustes de ingenieros humanos.",
+     "url": "https://es.gizmodo.com/openai-gpt-6-astra-disena-dispositivo-electronico-una-semana-2000269962",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "GTA 6 tendría unos 7,7 millones de reservas y US$ 751 millones en ingresos, según Sensor Tower, sin confirmación de Rockstar. Sale el 19 de noviembre y la predescarga empieza el 10.",
+     "url": "https://vandal.elespanol.com/noticia/2026308002/gta-6-ya-ha-generado-mas-de-750-millones-de-dolares-en-reservas-y-todavia-quedan-dos-semanas-para-su-lanzamiento/",
+     "verified": true
+    },
+    {
+     "text": "PS5 llegó a 97,9 millones de consolas vendidas y la ganancia de PlayStation subió 89 %. Sony dice que PS6 avanza según lo previsto, sin fecha anunciada.",
+     "url": "https://www.3djuegos.com/ps5/noticias/ps5-se-acerca-a-100-millones-consolas-vendidas-sony-aprovecha-para-hablar-ps6",
+     "verified": true
+    },
+    {
+     "text": "Sony reveló que Marvel's Wolverine vendió 2,4 millones de copias, una cifra por debajo de lo esperado según la prensa especializada.",
+     "url": "https://www.3djuegos.com/juegos/marvels-wolverine/noticias/playstation-confirma-ventas-marvel-s-wolverine-no-buenas-noticias-para-sony",
+     "verified": true
+    },
+    {
+     "text": "El creador de Escape from Tarkov mostró 14 minutos de Fragmentary Order, su nuevo shooter táctico de ciencia ficción.",
+     "url": "https://vandal.elespanol.com/noticia/2026309006/el-creador-de-escape-from-tarkov-muestra-14-minutos-de-fragmentary-order-su-nuevo-shooter-de-ciencia-ficcion/",
+     "verified": true
+    },
+    {
+     "text": "Stellar Blade llega a Nintendo Switch 2 y sorprende con su calidad gráfica, aunque su modo de 60 FPS tiene limitaciones, según el análisis de Vandal.",
+     "url": "https://vandal.elespanol.com/analisis/switch2/stellar-blade-complete-edition/235976",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "La película animada El gato con sombrero, con Bill Hader, se estrena hoy en cines. En Estados Unidos se le pronostican entre US$ 20 y 25 millones en su primer fin de semana.",
+     "url": "https://es.qz.com/pelcula-animada-gato-en-el-sombrero-bill-hader-cines-110526",
+     "verified": true
+    },
+    {
+     "text": "DC Studios prepara una nueva película de Constantine, con guion de Francis Galluppi. Sería una nueva versión, lo que aleja el regreso de Keanu Reeves.",
+     "url": "https://hipertextual.com/cine-television/el-universo-dc-ya-tiene-nueva-pelicula-en-marcha-aunque-no-es-exactamente-lo-que-los-fans-esperaban/",
+     "verified": true
+    },
+    {
+     "text": "Los miserables, con Vincent Lindon y Tahar Rahim, y Ramayana encabezan junto a Godzilla Minus Zero los 13 estrenos de hoy en cines de España.",
+     "url": "https://cinerama.es/estrenos-cine-6-de-noviembre-2026/",
+     "verified": true
+    },
+    {
+     "text": "Kill Jackie, la serie de Catherine Zeta-Jones, llegará a Latinoamérica el 11 de diciembre por Universal+. Tiene ocho episodios y Óscar Jaenada en el reparto.",
+     "url": "https://www.infobae.com/mexico/2026/11/05/la-quimica-con-catherine-zeta-jones-el-duelo-y-los-pixies-oscar-jaenada-anticipa-la-llegada-de-kill-jackie-a-latinoamerica/",
+     "verified": true
+    },
+    {
+     "text": "Callum Turner y Jack Lowden estarían entre los candidatos finales para ser James Bond, aunque Amazon MGM aún no anuncia nada oficial.",
+     "url": "https://actualtv.es/callum-turner-james-bond-rumor/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "La Liga BetPlay arranca hoy la fecha 18 con Nacional, América y Cali ya clasificados. Quedan cinco cupos en juego y Junior está eliminado.",
+     "url": "https://www.semana.com/deportes/articulo/lista-de-equipos-clasificados-y-eliminados-en-la-liga-betplay-de-cara-a-la-fecha-18-aun-hay-cupos/202609/",
+     "verified": true
+    },
+    {
+     "text": "Jorge Carrascal apunta a la convocatoria de Lorenzo para los amistosos ante Chile en Cali, el 13 y 17 de noviembre. La lista se espera para hoy.",
+     "url": "https://www.deportesrcn.com/futbol/seleccion-colombia/seleccion-colombia-filtran-el-primer-convocado-para-la-fecha-fifa-vs-chile-159340",
+     "verified": false
+    },
+    {
+     "text": "Sorpresas en Europa League: Ferencváros ganó 2 a 0 en Milán, Marsella venció 1 a 0 a Leverkusen y Sunderland perdió 2 a 0 con Dinamo Zagreb en casa. Bournemouth ganó 3 a 1 en Praga.",
+     "url": "https://es.uefa.com/uefaeuropaleague/news/02ab-220046b5e815-1f3eb827fcfa-1000--resumen-y-videos-de-la-jornada-4-de-la-europa-league-uni/",
+     "verified": true
+    },
+    {
+     "text": "Amar Dedic, defensa del Newcastle, fue detenido por seis patrullas tras ser visto con arco y flechas en Northumberland. La policía dijo que eran de uso recreativo y que no había amenaza.",
+     "url": "https://www.football365.com/news/newcastle-six-police-cars-dedic-bow-arrows",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Hoy empieza la venta de entradas para hinchas de Palmeiras y Estudiantes para la final de la Libertadores, el 28 de noviembre en el Centenario de Montevideo.",
+     "url": "https://noticiasargentinas.com/deportes/final-de-la-copa-libertadores-2026--conmebol-habilitara-12-mil-entradas-para-estudiantes-y-palmeiras_a6aea657f362d45b1b5e0a700",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Irán reportó más petroleros incendiados en Ormuz y el Pentágono está listo para retomar combates",
+   "level": "media",
+   "reason": "muy parecida a lo publicado ayer"
+  },
+  {
+   "title": "El rey de Bélgica decide hoy si acepta la dimisión del primer ministro De Wever",
+   "level": "media",
+   "reason": "no cupo, aún sin decisión"
+  },
+  {
+   "title": "Amenazas de bomba falsas afectaron a 27 vuelos de pasajeros en Europa",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Tres hombres con antecedentes fueron hallados en la casa del director del Dapre, quien denunció contratos del gobierno Petro",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El periodista colombiano Walter López sufrió un ataque armado en su casa tras perder su protección",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "La bolsa de Brasil cayó 0,82 % y el dólar cerró en R$ 5,48",
+   "level": "baja",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El Metro de Bogotá recibió respaldo del Banco Mundial por $2,8 billones",
+   "level": "baja",
+   "reason": "muy local"
+  },
+  {
+   "title": "Grupo Nutresa reabrirá 12 restaurantes Presto en Colombia",
+   "level": "baja",
+   "reason": "muy local"
+  }
+ ]
+}
