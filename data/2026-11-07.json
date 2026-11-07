@@ -1,0 +1,320 @@
+{
+ "date": "2026-11-07",
+ "title": "Paraguay destituye y detiene a Santiago Peña",
+ "rates": {
+  "dolar": "$3.237,83",
+  "libra": "$4.320",
+  "real": "R$ 7,35"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Migración expulsa a 80 extranjeros de Bogotá"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Asesinan a diputado y tres policías en Guatemala"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Wall Street rebota tras desplome por la IA"
+  },
+  {
+   "emoji": "💻",
+   "text": "IA aprenderá lenguas indígenas de México"
+  },
+  {
+   "emoji": "🎮",
+   "text": "GeForce NOW suma 24 juegos en noviembre"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Godzilla Minus Zero arrasa en preestrenos"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Colombia convoca a Devis Vásquez y Deossa"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "El Senado de Paraguay destituyó por unanimidad (44 votos) al presidente Santiago Peña por su vínculo con el colapso de Ueno Bank. Asumió el vicepresidente Pedro Alliana y Peña quedó detenido en su casa por orden de la Fiscalía.",
+     "url": "https://www.eltiempo.com/mundo/latinoamerica/senado-de-paraguay-destituye-a-santiago-pena-como-presidente-tras-escandalo-por-ueno-bank-3599127",
+     "verified": true
+    },
+    {
+     "text": "Nueva Zelanda votó en las elecciones más reñidas en años entre el conservador Christopher Luxon y el laborista Chris Hipkins. Hubo un récord de 1,66 millones de votos anticipados y los resultados llegan hoy.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/07/nueva-zelanda-suma-166-millones-de-votos-anticipados-en-una-jornada-electoral-lluviosa/",
+     "verified": true
+    },
+    {
+     "text": "Estados Unidos creó 165.000 empleos en octubre, casi el triple de lo esperado, y el desempleo bajó al 4,1 %. El dato aumenta la presión sobre la Reserva Federal.",
+     "url": "https://www.bolsamania.com/noticias/economia/mercado-laboral-eeuu-sorprende-octubre-crea-165000-nuevos-empleos--24073608.html",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "Migración expulsó a 80 extranjeros que acumulaban más de 1.100 medidas correctivas en Bogotá. Fueron llevados a Cúcuta y diez quedaron detenidos en Venezuela por órdenes de captura.",
+     "url": "https://www.elespectador.com/mundo/migracion-de-la-espriella-expulsa-a-80-extranjeros-en-bogota/",
+     "verified": true
+    },
+    {
+     "text": "El dólar cerró la semana al alza en $3.237 y la TRM para este fin de semana queda en $3.237,83, tras días de volatilidad por las elecciones en EE. UU.",
+     "url": "https://www.semana.com/economia/macroeconomia/articulo/dolar-al-alza-la-moneda-cierra-mas-cara-la-jornada-del-viernes-6-de-noviembre/202610/",
+     "verified": true
+    },
+    {
+     "text": "La Ley de Rescate contempla vender participaciones del Estado para obtener ingresos. Las empresas públicas valdrían unos $197 billones, con Ecopetrol e ISA entre las opciones, según Semana.",
+     "url": "https://semana.com/economia/macroeconomia/articulo/privatizacion-de-empresas-publicas-opcion-de-ingresos-en-ley-de-rescate-las-que-hay-cuestan-197-billones/202600",
+     "verified": false
+    },
+    {
+     "text": "El Gobierno ordenó que todas las entidades del Estado compren solo café 100 % colombiano, anunció el ministro de Agricultura en la cumbre de Asoexport en Cartagena.",
+     "url": "https://www.semana.com/economia/macroeconomia/articulo/todas-las-entidades-del-estado-vamos-a-consumir-cafe-de-colombia-la-orden-del-gobierno-para-promover-la-industria-cafetera/202651/",
+     "verified": false
+    },
+    {
+     "text": "De la Espriella nombró a seis diplomáticos de carrera como embajadores tras un concurso de méritos, con destinos como Polonia, Egipto, Dinamarca y Canadá.",
+     "url": "https://www.elespectador.com/politica/de-la-espriella-designo-a-seis-funcionarios-de-carrera-diplomatica-como-embajadores/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Un ataque armado en Río Hondo, Zacapa (Guatemala), mató al diputado Julio César Portillo y a tres policías de su escolta.",
+     "url": "https://www.infobae.com/guatemala/2026/11/07/el-diputado-julio-cesar-portillo-de-guatemala-muere-tras-un-ataque-armado-en-rio-hondo-zacapa/",
+     "verified": true
+    },
+    {
+     "text": "El Tribunal Superior Electoral de Brasil admitió una acción del partido Novo contra Lula y Alckmin por presunto abuso de poder político. Tienen cinco días para responder.",
+     "url": "https://cnnbrasil.com.br/politica/tse-aceita-acao-do-novo-contra-lula-e-alckmin-por-abuso-de-poder-politico",
+     "verified": false,
+     "lang": "pt"
+    },
+    {
+     "text": "La bolsa de São Paulo subió 1,39 % y el dólar cerró en R$ 5,51, mientras el mercado espera el plan económico del nuevo mandato de Lula.",
+     "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-6-novembro-2026/",
+     "verified": false,
+     "lang": "pt"
+    },
+    {
+     "text": "Lula le deseó éxito a Pedro Alliana, nuevo presidente de Paraguay, y se ofreció a trabajar con él tras la destitución de Peña.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/07/lula-le-desea-exito-a-alliana-y-se-propone-a-trabajar-con-el-nuevo-presidente-paraguayo/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "Wall Street cerró mixto el viernes: el Nasdaq rebotó 1,09 % tras su peor caída desde abril de 2025, pero sigue más de 10 % bajo su máximo de octubre por el temor a regulaciones de la IA.",
+     "url": "https://www.lanacion.com.ar/estados-unidos/wall-street-cierra-con-resultados-mixtos-y-leve-repunte-en-el-sector-tecnologico-nid06112026/",
+     "verified": true
+    },
+    {
+     "text": "Francia despliega 70.000 policías y gendarmes para otra jornada de protestas este sábado contra el costo de vida, tras 154 detenidos el viernes en marchas estudiantiles.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/06/francia-vuelve-a-desplegar-70000-policias-este-sabado-pese-a-menos-actos-de-protestas/",
+     "verified": true
+    },
+    {
+     "text": "Un tribunal de Kenia condenó a 200 años de cárcel al pastor Paul Mackenzie por la muerte por inanición de 190 niños de su secta en el bosque de Shakahola.",
+     "url": "https://www.excelsior.com.mx/internacional/condenan-lider-secta-kenia-200-anos-prision-por-muerte-190-ninos",
+     "verified": true
+    },
+    {
+     "text": "El líder opositor de Tanzania, Tundu Lissu, fue absuelto de traición (que podía acarrear pena de muerte), pero condenado a cuatro años de cárcel por incitación.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/06/condenan-a-cuatro-anos-de-carcel-al-lider-opositor-tanzano-tundu-lissu-por-provocacion/",
+     "verified": true
+    },
+    {
+     "text": "Tras la derrota republicana en las legislativas, Trump insistió en que acabará con los conflictos con Irán y Ucrania durante su mandato y dijo que EE. UU. lidera la carrera de la IA frente a China.",
+     "url": "https://www.democrata.es/internacional/trump-reitera-que-pondra-fin-a-los-conflictos-con-iran-y-ucrania-durante-su-mandato-tras-las-midterms/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "Las empresas Monarca Lab (México) y WideLabs (Brasil) entrenan un modelo de IA en lenguas indígenas mexicanas. Esperan resultados en un año.",
+     "url": "https://www.semana.com/tecnologia/articulo/entrenan-una-inteligencia-artificial-para-hablar-lenguas-indigenas-que-no-queden-de-lado-las-comunidades/202619/",
+     "verified": false
+    },
+    {
+     "text": "Un informe del Instituto Cervantes cuenta 19.832 programas abiertos de IA etiquetados en español, fuertes en traducción y voz pero escasos en imagen y video.",
+     "url": "https://infobae.com/espana/agencias/2026/11/06/mas-de-19000-programas-abiertos-de-inteligencia-artificial-estan-etiquetados-en-espanol",
+     "verified": false
+    },
+    {
+     "text": "El robo y la filtración de datos de empresas mexicanas se disparan en 2026 porque la IA facilita los ciberataques, según El Financiero.",
+     "url": "https://elfinanciero.com.mx/empresas/2026/11/06/ia-facilita-ciberataques-robo-y-filtracion-de-datos-de-empresas-mexicanas-se-disparan-en-2026",
+     "verified": false
+    },
+    {
+     "text": "Epic Games defendió el uso de IA en Unreal Engine 6: dice que es una realidad y no va a desaparecer.",
+     "url": "https://vandal.elespanol.com/noticia/2026309032/epic-games-defiende-la-adopcion-de-la-ia-con-unreal-engine-6-y-asegura-que-es-una-realidad-y-no-va-a-desaparecer/",
+     "verified": false
+    },
+    {
+     "text": "NVIDIA mostró en un nuevo tráiler cómo DLSS 5 transforma con IA los gráficos de Hogwarts Legacy.",
+     "url": "https://vandal.elespanol.com/noticia/2026309022/hogwarts-legacy-muestra-su-espectacular-mejora-grafica-con-dlss-5-en-un-nuevo-trailer-asi-cambia-el-juego/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "NVIDIA anunció los 24 juegos que llegan a GeForce NOW en noviembre, entre ellos WoW Forever.",
+     "url": "https://vandal.elespanol.com/noticia/2026310034/nvidia-anuncia-los-24-juegos-que-llegan-a-geforce-now-en-noviembre-y-una-gran-mejora-para-hogwarts-legacy/",
+     "verified": true
+    },
+    {
+     "text": "Amazon regala 7 juegos de PC en noviembre a sus suscriptores y añade gratis Kingdom Come: Deliverance II a Luna.",
+     "url": "https://vandal.elespanol.com/noticia/2026309044/amazon-regala-7-juegos-para-pc-en-noviembre-y-anade-gratis-kingdom-come-deliverance-ii-a-luna/",
+     "verified": false
+    },
+    {
+     "text": "Cuatro juegos con licencia, como Avatar: The Last Airbender y Hotel Transylvania 3, dejarán de venderse en Steam antes de fin de año. Quienes ya los compraron los conservan.",
+     "url": "https://generacionxbox.com/xbox-podria-pierde-otros-4-juegos-antes-de-terminar-2026/",
+     "verified": false
+    },
+    {
+     "text": "Solo Leveling: Karma confirmó su cronología y marca distancia con el último gran juego de la serie.",
+     "url": "https://vandal.elespanol.com/noticia/2026310041/solo-leveling-karma-confirma-su-cronologia-y-marca-distancia-con-el-ultimo-gran-juego-de-la-serie",
+     "verified": false
+    },
+    {
+     "text": "Ya está disponible Theos: Cities of Myth, juego de construir ciudades en la antigua Grecia de los creadores de Pharaoh: A New Era.",
+     "url": "https://vandal.elespanol.com/noticia/2026310020/ya-disponible-theos-cities-of-myth-un-juego-de-crear-ciudades-en-la-antigua-grecia-de-los-autores-de-pharaoh",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Godzilla Minus Zero recaudó US$6,7 millones en los preestrenos del jueves en EE. UU., por encima de El gato con sombrero, y va hacia un estreno récord.",
+     "url": "https://variety.com/2026/film/box-office/box-office-godzilla-minus-zero-previews-1236941301/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Netflix estrenó Palacio, la serie colombiana sobre la toma y retoma del Palacio de Justicia, a 41 años del holocausto.",
+     "url": "https://www.semana.com/cultura/television/articulo/palacio-de-netflix-revive-la-herida-que-colombia-no-ha-podido-cerrar-en-41-anos-del-holocausto/202600/",
+     "verified": true
+    },
+    {
+     "text": "Ramayana: Part 1, con Ranbir Kapoor y Yash, superó los 100 crore de rupias en el mundo en su estreno, uno de los mejores arranques del cine indio.",
+     "url": "https://www.siasat.com/ramayana-enters-rs-100-crore-club-already-eyes-rs-1000-crore-3568958/amp/",
+     "verified": false,
+     "lang": "en"
+    },
+    {
+     "text": "La búsqueda del nuevo James Bond se amplía: Robert Pattinson y Nicholas Hoult entran en la carrera, según The Playlist.",
+     "url": "https://theplaylist.net/bond-26-robert-pattinson-nicholas-hoult-james-bond-casting-20261106",
+     "verified": false,
+     "lang": "en"
+    },
+    {
+     "text": "El Ballet de la Ópera de París regresa a los cines colombianos con cuatro funciones.",
+     "url": "https://www.eltiempo.com/cultura/cine-y-tv/el-ballet-de-la-opera-de-paris-regresa-a-los-cines-colombianos-fechas-y-detalles-de-las-cuatro-funciones-3599087",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Néstor Lorenzo convocó a 26 jugadores para los amistosos ante Chile (13 de noviembre en Cali y 17 en Santiago). Devis Vásquez y Nelson Deossa son novedad y Jhon Jáder Durán quedó fuera.",
+     "url": "https://www.semana.com/deportes/articulo/oficial-convocatoria-de-la-seleccion-colombia-para-los-amistosos-contra-chile-en-noviembre/202657/",
+     "verified": true
+    },
+    {
+     "text": "Independiente Medellín goleó 3 a 0 a Fortaleza en Techo y quedó cerca de clasificar a los cuadrangulares de la Liga BetPlay.",
+     "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/independiente-medellin-goleo-3-0-a-fortaleza-fc-en-techo-con-mena-como-figura-274997",
+     "verified": false
+    },
+    {
+     "text": "Palmeiras goleó 6 a 1 al Remo y sigue a la caza del líder Flamengo en el Brasileirão.",
+     "url": "https://www.correiobraziliense.com.br/esportes/2026/11/7534160-palmeiras-goleia-o-remo-e-segue-na-caca-ao-lider-flamengo-no-brasileirao.html",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Moisés Caicedo es duda en el Chelsea para visitar al Sunderland el domingo. Xabi Alonso decidirá tras el último entrenamiento.",
+     "url": "https://www.elcomercio.com/deportes/futbol/moises-caicedo-chelsea-lesion-sunderland-alarma/",
+     "verified": false
+    },
+    {
+     "text": "Jack Grealish, apartado por indisciplina, se perderá el partido del Everton ante el Coventry. Moyes no dio plazos para su regreso.",
+     "url": "https://es-us.noticias.yahoo.com/deportes/jack-grealish-perder%C3%A1-duelo-coventry-162359826.html",
+     "verified": false
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Lula reunió a Haddad, Alckmin y Durigan para discutir la política económica",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El papa León XIV oficia hoy misa en Paysandú y una vigilia en el estadio Centenario",
+   "level": "media",
+   "reason": "actualización menor de una noticia ya publicada"
+  },
+  {
+   "title": "Boyacá Chicó remontó y le ganó 2 a 1 a Internacional de Bogotá",
+   "level": "baja",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Bayern publicó un parte sobre la recuperación de Luis Díaz",
+   "level": "baja",
+   "reason": "sin novedades de fondo"
+  },
+  {
+   "title": "De la Espriella cerró su gira regional del Plan de Desarrollo con 221 proyectos priorizados",
+   "level": "baja",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El Ideam prevé lluvias fuertes en varias regiones este fin de semana",
+   "level": "baja",
+   "reason": "muy local"
+  }
+ ]
+}
