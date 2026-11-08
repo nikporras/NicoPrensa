@@ -1,0 +1,325 @@
+{
+ "date": "2026-11-08",
+ "title": "Herzog encarga a Eisenkot formar gobierno en Israel",
+ "rates": {
+  "dolar": "$3.238",
+  "libra": "$4.422",
+  "real": "R$ 7,35"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Evacúan Caracol Televisión por alerta de bomba"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Choque de bus y camión deja 11 muertos en Chile"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Coalición de Luxon roza la mayoría en Nueva Zelanda"
+  },
+  {
+   "emoji": "💻",
+   "text": "OpenAI capta 11.000 millones y vale 1,25 billones"
+  },
+  {
+   "emoji": "🎮",
+   "text": "WoW: Forever logra el mayor lanzamiento de su historia"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Godzilla Minus Zero arrasa en la taquilla de EE. UU."
+  },
+  {
+   "emoji": "⚽",
+   "text": "Arsenal gana y saca seis puntos al City"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Israel: el presidente Isaac Herzog encargó al opositor Gadi Eisenkot formar gobierno, tras recibir 67 recomendaciones de diputados frente a 46 de Netanyahu. Tendrá hasta 42 días, y podría poner fin a la era Netanyahu.",
+     "url": "https://www.eltiempo.com/amp/mundo/medio-oriente/el-presidente-israeli-encomienda-al-lider-opositor-gadi-eisenkot-la-formacion-de-un-nuevo-gobierno-lo-que-representa-un-golpe-para-benjamin-netanyahu-3599283",
+     "verified": true
+    },
+    {
+     "text": "Polonia: un hombre de 25 años con ideas ultranacionalistas mató a seis personas (entre ellas un británico) y hirió a 15 en la Plaza Mayor de Cracovia. El gobierno lo califica de acto terrorista y en su casa hallaron muertos a tres familiares.",
+     "url": "https://elfinanciero.com.mx/mundo/2026/11/07/tiroteo-en-cracovia-polonia-que-sabemos-del-atacante-que-mato-a-seis-personas-y-dejo-15-heridos",
+     "verified": true
+    },
+    {
+     "text": "Colombia: un ataque con drones cargados de explosivos contra el cantón militar de Santa Rosa del Sur (Bolívar) dejó tres militares muertos y ocho heridos. De la Espriella ordenó intensificar operaciones; una hipótesis apunta al ELN.",
+     "url": "https://www.elcolombiano.com/colombia/militares-ejercito-ataque-drones-sur-de-bolivar-PF43310719",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "Caracol Televisión evacuó su sede en Bogotá por una alerta de posible atentado de grupos ilegales contra medios. La Policía no halló explosivos, Caracol Radio activó protocolos y la Alcaldía convocó a los organismos de inteligencia.",
+     "url": "https://www.eltiempo.com/bogota/atencion-evacuan-instalaciones-de-caracol-television-por-amenaza-de-bomba-esto-se-sabe-3599325",
+     "verified": true
+    },
+    {
+     "text": "Primera reunión en Barranquilla entre Gobierno y congresistas sobre la Ley de Rescate: hubo coincidencias, pero amplio rechazo a subir el IVA del 5 % al 19 % en algunos productos básicos. Siguen mesas técnicas y el plazo es el 16 de diciembre.",
+     "url": "https://www.larepublica.co/economia/asi-fue-la-primera-reunion-entre-miembros-del-congreso-y-gobierno-sobre-la-tributaria-4519991",
+     "verified": true
+    },
+    {
+     "text": "Capturan en Neiva a un funcionario activo de la DNI acusado de ciberataques contra la Fiscalía y de copiar sin autorización el sistema de inteligencia del Estado.",
+     "url": "https://www.elcolombiano.com/colombia/funcionario-activo-dni-hackear-sistema-de-inteligencia-del-estado-LF43318506",
+     "verified": false
+    },
+    {
+     "text": "Arranca la discusión del salario mínimo 2027: con un alza del 8 % la hora ordinaria costaría unos $9.005, y con el 38,5 % que piden las centrales obreras, unos $11.548.",
+     "url": "https://www.larepublica.co/economia/la-hora-laboral-en-2027-costaria-entre-9-000-y-11-500-con-propuestas-del-minimo-4519988",
+     "verified": false
+    },
+    {
+     "text": "El Gobierno denunció una \"manipulación cronológica\" en publicaciones que unían la visita de De la Espriella a Tolemaida con el atentado de Planadas, que ocurrió un día después.",
+     "url": "https://www.infobae.com/colombia/2026/11/07/gobierno-denuncio-manipulacion-cronologica-de-la-visita-de-abelardo-de-la-espriella-a-tolemaida-y-el-atentado-en-planadas-fabricar-una-noticia-para-cazar-likes/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Chile: un choque frontal entre un bus y un camión en la Ruta de la Fruta, región de Valparaíso, dejó al menos 11 muertos y 15 heridos (EFE eleva la cifra a 12).",
+     "url": "https://www.t13.cl/noticia/nacional/lo-se-sabe-accidente-multiple-dejo-11-fallecidos-15-lesionados-ruta-fruta-7-11-2026",
+     "verified": true
+    },
+    {
+     "text": "Brasil: Lula hablará esta noche en cadena nacional para defender un ajuste fiscal, intentar calmar al mercado y llamar a la pacificación del país.",
+     "url": "https://www.correiobraziliense.com.br/economia/2026/11/7533249-lula-fara-pronunciamento-na-tv-sobre-ajuste-fiscal-e-contas-publicas.html",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "El papa León XIV llega hoy a Argentina, donde Milei lo recibirá al pie del avión. Es la primera visita papal al país desde 1987 y durará cuatro días.",
+     "url": "https://www.ambito.com/politica/javier-milei-recibira-al-papa-leon-xiv-al-pie-del-avion-aeroparque-los-detalles-su-arribo-la-argentina-n6339773",
+     "verified": true
+    },
+    {
+     "text": "Brasil: más de 5 millones de estudiantes presentan hoy el primer día del Enem 2026, el gran examen de acceso a la universidad. La segunda prueba es el 15 de noviembre.",
+     "url": "https://www.band.com.br/educacao/enem-2026-tudo-o-que-voce-precisa-saber-para-a-prova-deste-domingo",
+     "verified": true,
+     "lang": "pt"
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "Nueva Zelanda: la coalición de Luxon (Nacional, ACT y NZ First) suma 67 escaños, uno más de la mayoría, aunque el laborismo ganó por poco en votos. El resultado oficial llega el 27 de noviembre.",
+     "url": "https://www.eldebate.com/internacional/20261107/resultados-elecciones-nueva-zelanda-dejan-empate-tecnico-parlamento-aire_478444.html",
+     "verified": true
+    },
+    {
+     "text": "Francia: el cuarto sábado de protestas por el poder adquisitivo y la educación reunió a 146.000 personas según el Gobierno, la menor cifra en semanas, con 232 detenidos. Hay nueva huelga educativa el martes.",
+     "url": "https://www.biobiochile.cl/noticias/internacional/europa/2026/11/07/reduccion-en-convocatoria-marca-nuevo-sabado-de-manifestaciones-en-francia.shtml",
+     "verified": true
+    },
+    {
+     "text": "La COP31 arranca mañana en Antalya (Turquía) con la financiación climática en el centro y bajas expectativas. Se esperan unos 85 líderes, entre ellos Lula.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/07/la-cop31-de-antalya-turquia-arranca-este-lunes-con-el-foco-puesto-en-el-acuerdo-de-paris-y-la-financiacion-climatica/",
+     "verified": true
+    },
+    {
+     "text": "Reino Unido prepara una visita de Estado de Zelenski para 2027, con el rey Carlos III como anfitrión, según el Financial Times.",
+     "url": "https://infobae.com/america/agencias/2026/11/07/el-reino-unido-prepara-una-visita-de-estado-de-zelenski-para-2027/?outputType=amp-type",
+     "verified": false
+    },
+    {
+     "text": "Los Ángeles: un conductor de 60 años se subió a una acera en Arlington Heights y atropelló a 10 personas; ocho fueron hospitalizadas y aún se desconoce el motivo.",
+     "url": "https://www.informador.mx/mexico/estados-unidos-conductor-arrolla-a-10-personas-en-los-angeles-por-motivos-desconocidos-20261107-0095.html",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "OpenAI cerró una ronda de financiación de 11.000 millones de dólares que la valora en 1,25 billones, mientras Anthropic prepara su salida a bolsa.",
+     "url": "https://es.investing.com/news/stock-market-news/openai-cierra-una-ronda-de-financiacion-de-11000-millones-de-dolares-3917355",
+     "verified": true
+    },
+    {
+     "text": "Científicos chinos lograron enfriar átomos a una temperatura récord a bordo de la estación espacial Tiangong, un hito para la física cuántica en el espacio.",
+     "url": "https://sciencenews.org/article/lowest-temperature-china-space-station",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Tres hombres usaron IA para imitar la voz de directivos de empresas y robaron 129 millones de dólares.",
+     "url": "https://www.infobae.com/tecno/2026/11/07/tres-hombres-imitaron-con-ia-la-voz-de-directores-ejecutivos-y-robaron-usd-129-millones-a-empresas/",
+     "verified": false
+    },
+    {
+     "text": "Una ola de ciberataques contra plataformas de inteligencia artificial roba claves de acceso y carga gastos a las víctimas.",
+     "url": "https://infobae.com/tecno/2026/11/07/una-ola-de-ciberataques-afecta-a-plataformas-de-inteligencia-artificial-hackers-roban-claves-de-acceso-y-generan-gastos-a-las-victimas",
+     "verified": false
+    },
+    {
+     "text": "India anuncia GPU propias en un plazo de 24 meses y busca dar salida comercial a sus chips RISC-V.",
+     "url": "https://www.xataka.com/robotica-e-ia/india-anuncia-planes-para-desarrollar-gpu-nacionales-24-meses-busca-dar-salida-comercial-a-sus-chips-risc-v",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "WoW: Forever es el mayor lanzamiento en la historia de World of Warcraft, con récord de jugadores conectados y de veteranos que regresan.",
+     "url": "https://www.elotrolado.net/noticias/juegos/world-of-warcraft-forever-lanzamiento-jugadores-concurrentes",
+     "verified": true
+    },
+    {
+     "text": "El fondo saudí PIF y Silver Lake, nuevos dueños de EA, estudiarían comprar Unity por unos 25.000 millones de dólares.",
+     "url": "https://gamerant.com/ea-owner-saudi-arabia-pif-buyout-unity/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Shawn Layden, exjefe de PlayStation, critica la idea de una PS6 de 1.200 dólares: para él, la verdadera innovación sería una consola de 300.",
+     "url": "https://www.3djuegos.com/ps5/noticias/shawn-layden-65-anos-exjefe-playstation-ps6-innovacion-no-deberia-consistir-hacer-ps6-1-200-dolares",
+     "verified": true
+    },
+    {
+     "text": "Path of Exile 2 presentó la enorme actualización con la que dejará el acceso anticipado.",
+     "url": "https://www.3djuegos.com/juegos/path-of-exile-2/noticias/path-of-exile-2-se-despide-acceso-anticipado-actualizacion-enorme-sus-creadores-tampoco-se-olvidan-primer-poe",
+     "verified": true
+    },
+    {
+     "text": "Los GTA clásicos estarán rebajados en Steam hasta el estreno de GTA 6, el 19 de noviembre.",
+     "url": "https://www.gamesradar.com/games/grand-theft-auto/a-bunch-of-grand-theft-auto-games-will-be-cheap-on-steam-until-gta-6-comes-out-and-only-one-of-them-sucks/",
+     "verified": true,
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Godzilla Minus Zero rompe récords y lidera la taquilla de EE. UU. con unos 30 millones de dólares, por delante de El gato con sombrero.",
+     "url": "https://www.espinof.com/estrenos/godzilla-minus-one-peta-su-nueva-version-revienta-espectacular-record-taquilla",
+     "verified": true
+    },
+    {
+     "text": "Netflix publicó el primer adelanto de Other Worlds, la precuela en imagen real de Stranger Things.",
+     "url": "https://hipertextual.com/cine-television/other-worlds-stranger-things-precuela-netflix/",
+     "verified": true
+    },
+    {
+     "text": "Keanu Reeves volverá como John Wick en una precuela animada sobre la \"Tarea Imposible\".",
+     "url": "https://www.3djuegos.com/tv-series/noticias/llevamos-anos-escuchando-hablar-ella-fin-vamos-a-verla-john-wick-tendra-precuela-keanu-reeves-tarea-imposible-como-protagonista",
+     "verified": true
+    },
+    {
+     "text": "Disney confirma que Avengers: Secret Wars llegará el 17 de diciembre de 2027, pese a los rumores de retraso.",
+     "url": "https://www.cinemascomics.com/disney-rumores-vengadores-secret-wars/",
+     "verified": true
+    },
+    {
+     "text": "Los Anillos de Poder estrena su tercera temporada el 11 de noviembre en Prime Video, con un calendario de emisión poco convencional.",
+     "url": "https://www.3djuegosguias.com/otros-generos/temporada-3-anillos-poder-no-se-emitira-manera-convencional-sabemos-calendarios-para-serie-prime-video",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Arsenal venció 1 a 0 al Hull con gol de Ødegaard y ya saca seis puntos al Manchester City en la Premier.",
+     "url": "https://www.skysports.com/football/news/13593193/arsenal-1-0-hull-city-martin-odegaard-breaks-tigers-resistance-to-clinch-victory-for-premier-league-champions",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Nottingham Forest goleó 3 a 1 al Manchester City con doblete de Liam Delap; es la tercera derrota seguida del City.",
+     "url": "https://www.lanacion.com.ar/deportes/canchallena/nottingham-forest-vencio-por-3-1-a-manchester-city-por-la-premier-league-2026-nid07112026/",
+     "verified": true
+    },
+    {
+     "text": "Nacional ganó 4 a 3 al Pereira con doblete de Morelos y ya es cabeza de grupo en los cuadrangulares. Once Caldas venció 1 a 0 a Águilas con gol de Dayro y entra a los ocho.",
+     "url": "https://www.semana.com/deportes/articulo/asi-quedo-la-tabla-de-la-liga-betplay-tras-triunfos-agonicos-de-nacional-y-once-caldas-movimiento-en-los-8/202635/",
+     "verified": false
+    },
+    {
+     "text": "América y Deportivo Cali empataron sin goles el clásico caleño en el Pascual Guerrero.",
+     "url": "https://www.eltiempo.com/deportes/futbol-colombiano/america-y-deportivo-cali-no-se-hacen-ano-y-sellan-empate-en-el-pascual-guerrero-3599350",
+     "verified": true
+    },
+    {
+     "text": "Real Madrid goleó 3 a 0 al Valencia en Mestalla con goles de Valverde, Güler y Mbappé.",
+     "url": "https://www.milenio.com/deportes/futbol-internacional/resultado-valencia-vs-real-madrid-resumen-goles-jornada-12-laliga-2026",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Paraguay incautó dos aviones, autos de lujo y un yate en la investigación del Ueno Bank",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Un sismo de magnitud 5,7 en el centro de Japón dejó unos 20 heridos",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Los ucranianos esperan poco de las conversaciones con Rusia en Abu Dabi la próxima semana",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Uruguay decretó duelo nacional por la muerte del científico Gonzalo Moratorio",
+   "level": "baja",
+   "reason": "muy local"
+  },
+  {
+   "title": "Los partidos españoles cierran la precampaña para las elecciones del 29 de noviembre",
+   "level": "baja",
+   "reason": "solo había transmisiones en directo"
+  },
+  {
+   "title": "La tormenta Bruna obliga a suspender todas las reuniones públicas en Gran Canaria",
+   "level": "baja",
+   "reason": "muy local"
+  },
+  {
+   "title": "Kevin Viveros se expone a una dura sanción en el fútbol de Brasil",
+   "level": "baja",
+   "reason": "de nicho"
+  }
+ ]
+}
