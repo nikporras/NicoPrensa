@@ -1,0 +1,322 @@
+{
+ "date": "2026-11-09",
+ "title": "Hutíes atacan torre de Aramco en Riad",
+ "rates": {
+  "dolar": "$3.237",
+  "libra": "$4.328",
+  "real": "R$ 7,36"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Atentado con explosivos en peaje de Villa Rica"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Huelga docente en Paraguay por fondos en Ueno"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "EE. UU. extiende por tierra el bloqueo a Irán"
+  },
+  {
+   "emoji": "💻",
+   "text": "Arranca la Web Summit con IA y robots"
+  },
+  {
+   "emoji": "🎮",
+   "text": "Assassin's Creed Hexe se retrasaría hasta 2028"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Godzilla Minus Zero logra estreno récord"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Manchester United empata 4 a 4 y sigue en descenso"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Los hutíes atacaron una torre de Aramco en el distrito financiero de Riad, mientras bombardeos saudíes cerca de Saná dejan al menos 44 muertos, según medios hutíes. La escalada entre Arabia Saudita y Yemen se agrava.",
+     "url": "https://france24.com/es/medio-oriente/20261108-los-hut%C3%ADes-atacan-un-edificio-de-aramco-en-riad-y-agravan-la-escalada-militar-entre-arabia-saudita-y-yemen",
+     "verified": true
+    },
+    {
+     "text": "La junta de Nvidia abrió una investigación independiente sobre su CEO, Jensen Huang, por su relación con una mujer presuntamente reclutada por la inteligencia china. Huang dice que cooperará.",
+     "url": "https://www.elespanol.com/mundo/20261108/nvidia-pone-investigacion-ceo-jensen-huang-mantener-relacion-amorosa-espia-china/1003744450802_0.html",
+     "verified": true
+    },
+    {
+     "text": "Ucrania, Rusia y EE. UU. retoman este martes en Abu Dabi sus negociaciones directas, las primeras en nueve meses, con pocas expectativas de acuerdo.",
+     "url": "https://www.eltiempo.com/mundo/europa/ucrania-vuelve-a-sentarse-con-rusia-y-estados-unidos-sin-expectativa-de-un-acuerdo-y-en-medio-de-bombardeos-que-bloquea-que-se-logre-la-paz-3599143",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "Un ataque con explosivos golpeó el peaje de Villa Rica (Cauca) y obligó a cerrar la vía Panamericana entre Popayán y Cali. El presidente De la Espriella anunció despliegue de la Fuerza Pública.",
+     "url": "https://www.eltiempo.com/colombia/cali/ataque-con-explosivos-en-peaje-de-villa-rica-cauca-cierran-la-via-panamericana-entre-popayan-y-cali-3599448",
+     "verified": true
+    },
+    {
+     "text": "Gobierno y comisiones económicas del Congreso instalan mesas técnicas para revisar artículo por artículo la Ley de Rescate. El Centro Democrático pide sacar del IVA la canasta básica.",
+     "url": "https://www.elheraldo.co/politica/2026/11/08/ley-de-rescate-se-conforman-mesas-tecnicas-entre-las-comisiones-economicas-del-congreso-y-el-gobierno/",
+     "verified": true
+    },
+    {
+     "text": "La Corte Suprema rechazó las amenazas contra periodistas y medios, tras la evacuación de Caracol Televisión por una alerta de bomba.",
+     "url": "https://www.semana.com/nacion/articulo/corte-suprema-de-justicia-respalda-la-libertad-de-prensa-y-rechaza-amenazas-contra-medios-de-comunicacion/202638/",
+     "verified": false
+    },
+    {
+     "text": "La Línea 1 del Metro de Bogotá llegó al 84 % de ejecución tras terminar el puente ferroviario de la NQS con calle 8 Sur.",
+     "url": "https://www.larepublica.co/economia/metro-linea-1-de-bogota-alcanzo-84-de-ejecucion-con-puente-ferroviario-4520097",
+     "verified": false
+    },
+    {
+     "text": "Bomberos controlaron un incendio en una tienda de la calle de La Moneda, en el Centro Histórico de Cartagena. El hotel vecino se salvó.",
+     "url": "https://www.eltiempo.com/colombia/otras-ciudades/bomberos-controlaron-un-incendio-en-el-centro-historico-de-cartagena-hotel-y-locales-vecinos-se-salvaron-de-las-llamas-3599417",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Docentes de Paraguay paran y marchan para exigir la devolución de sus fondos de jubilación depositados en el quebrado Ueno Bank, primer gran desafío del nuevo presidente Pedro Alliana.",
+     "url": "https://ladiaria.com.uy/mundo/articulo/2026/11/en-paraguay-alliana-comienza-su-gobierno-con-una-huelga-de-maestros-y-sin-saber-el-alcance-de-la-deuda-del-ueno-con-el-estado/",
+     "verified": true
+    },
+    {
+     "text": "Encuesta Quaest tras las elecciones en Brasil: 48 % aprueba y 44 % desaprueba el gobierno de Lula, y 70 % prevé más choques con el Congreso.",
+     "url": "https://www.cnnbrasil.com.br/politica/quaest-70-acham-que-governo-lula-tera-mais-conflitos-com-o-congresso/",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Temporales en el sur de Brasil afectan a más de 200 ciudades y las autoridades investigan cuatro muertes relacionadas.",
+     "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/autoridades-investigam-quatro-mortes-relacionadas-temporais-no-sul",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Chile dejaría de ser la cuarta economía de Sudamérica en 2027, superado por Perú, según proyecciones.",
+     "url": "https://www.elmostrador.cl/mercados/2026/11/08/estancamiento-chile-sera-superado-por-peru-y-dejara-de-ser-la-cuarta-economia-de-sudamerica/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "EE. UU. lanzó la Task Force Iron Gate para bloquear también el comercio terrestre de Irán, como complemento al bloqueo naval en el Golfo.",
+     "url": "https://www.eldebate.com/internacional/20261108/estados-unidos-anuncia-operacion-puerta-hierro-bloquear-tambien-comercio-terrestre-iran_478576.html",
+     "verified": true
+    },
+    {
+     "text": "El primer ministro británico, Andy Burnham, dijo que los acuerdos que negocia con la UE para la cumbre del 20 de noviembre no son el límite de su ambición.",
+     "url": "https://www.abc.com.py/internacionales/2026/11/08/burnham-afirma-que-los-acuerdos-que-se-negocia-con-la-ue-no-son-el-limite-de-su-ambicion/",
+     "verified": true
+    },
+    {
+     "text": "Cinco gazatíes, entre ellos tres niños, murieron al derrumbarse un talud de arena sobre tiendas de desplazados tras lluvias intensas.",
+     "url": "https://www.cooperativa.cl/noticias/mundo/medio-oriente/palestina/gaza-cinco-palestinos-murieron-tras-derrumbe-sobre-tiendas-de-desplazados/2026-11-08/182709.html",
+     "verified": true
+    },
+    {
+     "text": "Russell Brand conocerá hoy su condena en Londres tras ser declarado culpable de una violación y tres agresiones sexuales.",
+     "url": "https://www.france24.com/en/live-news/20261109-disgraced-comedian-russell-brand-to-be-sentenced-for-rape-assaults",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Nóvaya Gazeta, el último gran diario independiente de Rusia, cierra tras 33 años por la presión del Kremlin.",
+     "url": "https://www.eldiario.es/internacional/adios-novaya-gazeta-deja-tocado-muerte-periodismo-independiente-rusia_1_13644243.html",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "Arranca en Lisboa la Web Summit (9 al 12 de noviembre), con la IA, la robótica china y los robots humanoides como protagonistas.",
+     "url": "https://www.eluniversal.com.co/tecnologia/2026/11/08/comienza-una-nueva-edicion-de-la-web-summit-ia-y-robotica-en-la-agenda/",
+     "verified": true
+    },
+    {
+     "text": "El Nikkei repuntó más de 3 % este lunes impulsado por los fabricantes de chips, pese al escándalo en Nvidia.",
+     "url": "https://www.abc.com.py/internacionales/2026/11/09/el-nikkei-repunta-un-344-a-media-sesion-impulsado-por-el-sector-de-los-chips/",
+     "verified": true
+    },
+    {
+     "text": "SpaceX apunta al viernes 13 de noviembre para el vuelo 15 de Starship, con el primer intento de atrapar también la nave en la torre.",
+     "url": "https://www.teslarati.com/spacex-starship-catch-nov-13/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "La NASA eligió a Starship para una misión de comunicaciones entre la Tierra y la Luna en 2028.",
+     "url": "https://www.tecstudio.com.br/tecnologia/nasa-escolhe-starship-da-spacex-para-missao-de-comunicacao-cislunar-em-2028/",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Casinos Austria sufrió un ciberataque que afecta a datos de unos 150.000 clientes.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/07/casinos-austria-sufrio-un-ciberataque-que-afecta-a-150000-clientes/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "La precarga de GTA 6 arranca mañana, 10 de noviembre, en PS5 y Xbox Series, con hasta 212 GB. El juego sale el 19.",
+     "url": "https://www.avpasion.com/gta-6-adelanta-2-dias-predescarga-confirma-peso/",
+     "verified": true
+    },
+    {
+     "text": "Assassin's Creed Hexe se habría retrasado internamente un año, hasta 2028, y Ubisoft prepararía otro Assassin's Creed en la Antigua Roma, según Insider Gaming.",
+     "url": "https://generacionxbox.com/assassins-creed-hexe-se-retrasaria-hasta-2028/",
+     "verified": true
+    },
+    {
+     "text": "Eiji Aonuma frenó la idea de incluir guiños a la cronología de Zelda en el remake de Ocarina of Time, que sale este mes.",
+     "url": "https://www.gamesradar.com/games/the-legend-of-zelda/zelda-ocarina-of-time-remake-devs-wanted-to-add-nods-to-the-series-notoriously-convoluted-timeline-but-series-boss-eiji-aonuma-shut-them-down/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Casey Hudson, director original de Mass Effect, se mostró optimista sobre el regreso de la saga durante el N7 Day.",
+     "url": "https://www.gamesradar.com/games/mass-effect/original-mass-effect-director-is-optimistic-the-series-will-return-as-love-for-biowares-rpg-pours-in-on-n7-day-to-all-the-stories-left-untold/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Apex Legends lanza un evento con Godzilla que destruye edificios en su battle royale.",
+     "url": "https://es.kotaku.com/edificios-destruidos-fuego-atomico-y-leyendas-del-cine-el-evento-apex-legends-godzilla-sacude-las-arenas-del-battle-royale-2000056626",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Godzilla Minus Zero cerró su estreno en EE. UU. con US$31,6 millones, récord para una película de imagen real no estadounidense, y superó a El gato con sombrero (US$20,5 millones).",
+     "url": "https://www.razon.com.mx/entretenimiento/2026/11/08/godzilla-debuta-con-record-de-316-millones-de-dolares-en-taquilla-supera-a-the-cat-in-the-hat/",
+     "verified": true
+    },
+    {
+     "text": "Homenajes en todo el mundo a Sebastián Lelio, el director chileno ganador del Óscar por Una mujer fantástica, fallecido a los 52 años. Julianne Moore lo despidió con un mensaje.",
+     "url": "https://emol.com/noticias/Nacional/2026/11/08/1216457/julianne-moore-sebastian-lelio.html",
+     "verified": true
+    },
+    {
+     "text": "Netflix estrena esta semana El crimen de Pazos, La ley de Alicia, la tercera temporada de La Emperatriz y El Exorcista: Creyente, entre otros títulos.",
+     "url": "https://www.sensacine.com/noticias/cine/noticia-1000230217/",
+     "verified": true
+    },
+    {
+     "text": "Prime Video, Disney+, HBO Max, Movistar Plus y Filmin suman 21 estrenos esta semana, entre ellos la forja del Anillo Único en Los Anillos de Poder.",
+     "url": "https://www.sensacine.com/noticias/cine/noticia-1000231126/",
+     "verified": true
+    },
+    {
+     "text": "Steven Spielberg quiere rodar en 2027 su primer western, según su director de fotografía, Janusz Kamiński.",
+     "url": "https://screenrant.com/steven-spielberg-western-movie-filming-2027-janusz-kaminski/",
+     "verified": true,
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Tolima remontó 2 a 1 a Millonarios en Ibagué, pese al primer gol de Cuadrado con los azules, y deja a los bogotanos al borde de la eliminación en la Liga BetPlay.",
+     "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/goles-resumen-y-resultado-deportes-tolima-vs-millonarios-fecha-18-liga-betplay-2026-ii-275080",
+     "verified": true
+    },
+    {
+     "text": "Santa Fe goleó 5 a 0 a la Sub 20 de Pasto (el plantel profesional no jugó por falta de pagos), con triplete de Rodallega, y aseguró su cupo a cuadrangulares.",
+     "url": "https://www.elespectador.com/deportes/futbol-colombiano/santa-fe/santa-fe-sello-su-clasificacion-con-goleada-en-el-campin-contra-los-juveniles-de-pasto/",
+     "verified": true
+    },
+    {
+     "text": "Manchester United empató 4 a 4 con Aston Villa gracias a un gol de Dorgu en el minuto 96, pero sigue en zona de descenso.",
+     "url": "https://rpp.pe/futbol/futbol-mundial/manchester-united-empato-4-4-con-aston-villa-por-premier-league-2026-y-esta-en-puestos-de-descenso-a-segunda-division-noticia-1716677",
+     "verified": true
+    },
+    {
+     "text": "Sunderland venció 1 a 0 al Chelsea de Xabi Alonso con un penal de Le Fée y salió del fondo de la tabla.",
+     "url": "https://www.lanacion.com.ar/deportes/canchallena/sunderland-vencio-por-1-0-a-chelsea-por-la-premier-league-2026-nid08112026/",
+     "verified": true
+    },
+    {
+     "text": "El Barcelona remontó y ganó 2 a 1 al Atlético en el Metropolitano para seguir líder de LaLiga.",
+     "url": "https://www.eluniverso.com/deportes/futbol/el-fc-barcelona-remonta-y-gana-2-1-al-atletico-de-madrid-para-seguir-lider-de-laliga-nota/",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Luis Javier Suárez marcó un golazo en la victoria 1 a 0 del Sporting sobre el Moreirense",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Liverpool ganó 3 a 1 en la cancha del Crystal Palace",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Un análisis advierte que la Ley de Rescate subiría el aporte a salud de quienes ganan más de dos salarios mínimos",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El papa León XIV celebra hoy una misa multitudinaria en Buenos Aires",
+   "level": "media",
+   "reason": "aún no ocurre"
+  },
+  {
+   "title": "Bucaramanga goleó 4 a 0 a Jaguares como visitante y ya está en cuadrangulares",
+   "level": "baja",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El Premio Booker 2026 se entrega esta noche en Londres",
+   "level": "baja",
+   "reason": "aún no ocurre"
+  }
+ ]
+}
