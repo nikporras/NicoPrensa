@@ -1,0 +1,316 @@
+{
+ "date": "2026-11-11",
+ "title": "Rusia y Ucrania negocian en Abu Dabi con EE. UU.",
+ "rates": {
+  "dolar": "$3.297",
+  "libra": "$4.355",
+  "real": "R$ 7,45"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Atacan con explosivos hidroeléctrica de Celsia en Palmira"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Lula abre hoy la cumbre de líderes de la COP31"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Merz condiciona el presupuesto de la UE a Ucrania"
+  },
+  {
+   "emoji": "💻",
+   "text": "Anthropic lanza Claude Fable 5.2 y Mythos 5.2"
+  },
+  {
+   "emoji": "🎮",
+   "text": "GTA 6 estará en Xbox Cloud desde el día uno"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Warner prepara nueva versión de You've Got Mail"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Golazo de James salva a Nacional en Manizales"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Rusia, Ucrania y EE. UU. cierran hoy en Abu Dabi su primera ronda de negociaciones en nueve meses. Rubio calificó la primera jornada de \"muy productiva\" y se perfila un gran canje de prisioneros, aunque no hay tregua a la vista.",
+     "url": "https://www.france24.com/es/europa/20261110-rusia-y-ucrania-vuelven-a-la-mesa-de-negociaci%C3%B3n-en-abu-dabi-tras-casi-nueve-meses-sin-contactos",
+     "verified": true
+    },
+    {
+     "text": "La inflación de EE. UU. subió 0,4 % en octubre, más de lo esperado, y deja casi segura una subida de tipos de la Fed en diciembre. El dólar en Colombia ya roza los $3.300.",
+     "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Al menos 12 muertos y 46 heridos en un choque en cadena de unos 50 vehículos por una densa niebla en la autopista Trakia, cerca de Yambol, en Bulgaria.",
+     "url": "https://www.lanacion.com.ar/el-mundo/tragedia-en-bulgaria-un-choque-multiple-de-50-vehiculos-en-medio-de-una-densa-niebla-dejo-al-menos-nid10112026/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "Dos hombres armados dejaron un explosivo en la pequeña central hidroeléctrica Amaime de Celsia, en Palmira (Valle). Hubo daños materiales pero no víctimas, y el gremio de generadores pide un plan para proteger la infraestructura eléctrica.",
+     "url": "https://www.elcolombiano.com/colombia/atentado-explosivo-central-hidroelectrica-amaime-celsia-palmira-AA43432222",
+     "verified": true
+    },
+    {
+     "text": "El Comité de la Regla Fiscal advierte que la Ley de Rescate no bastaría: el déficit podría llegar al 9,5 % del PIB en 2027, el más alto de la historia del país.",
+     "url": "https://www.valoraanalitik.com/carf-advierte-que-ley-de-rescate-fiscal-seria-insuficiente-para-lograr-el-ajuste-que-necesita-colombia/",
+     "verified": true
+    },
+    {
+     "text": "Luz Stella Murgas, presidenta de Naturgas, fue elegida presidenta de la Andi en reemplazo de Bruce Mac Master. Es la primera mujer en el cargo en 82 años.",
+     "url": "https://www.eltiempo.com/economia/sectores/luz-stella-murgas-es-elegida-como-la-primera-mujer-presidenta-de-la-andi-en-82-anos-de-fundacion-su-hoja-de-vida-y-conocimientos-3599939",
+     "verified": true
+    },
+    {
+     "text": "De la Espriella anunció el octavo bombardeo de su gobierno, ejecutado anoche a las 10:17 p. m. Hoy dirá en qué región fue, contra qué grupo y con qué resultado.",
+     "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/presidente-de-la-espriella-reporta-el-octavo-bombardeo-de-su-gobierno-48-horas-despues-de-operacion-en-el-catatumbo-3600078",
+     "verified": true
+    },
+    {
+     "text": "Ecopetrol aplazó la entrega de sus resultados del tercer trimestre. La petrolera había proyectado utilidades de hasta $5 billones.",
+     "url": "https://www.elespectador.com/economia/empresas/ecopetrol-aplaza-entrega-de-resultados-del-tercer-trimestre-estas-son-las-nuevas-fechas/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "🇧🇷 Lula participa hoy en la apertura de la cumbre de líderes de la COP31 en Antalya (Turquía), en su primer viaje internacional tras ser reelegido. Luego irá a la cumbre de la Asean en Filipinas.",
+     "url": "https://www.correiodamanha.com.br/politica/2026/11/333438-lula-embarca-para-a-turquia-para-participar-da-cop31.html",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "El papa León XIV cierra hoy su visita a Argentina con una misa multitudinaria en Luján y viaja a Lima para empezar su gira por Perú.",
+     "url": "https://www.a24.com/actualidad/el-ultimo-dia-del-papa-leon-xiv-la-argentina-como-sera-la-agenda-este-miercoles-y-que-hora-parte-rumbo-peru-n1615178",
+     "verified": true
+    },
+    {
+     "text": "Irán declaró \"organizaciones terroristas\" a la Armada y la Fuerza Aérea de Argentina, en respuesta a que Buenos Aires hizo lo mismo con la Guardia Revolucionaria.",
+     "url": "https://www.arabnews.com/middle-east/iran-classifies-argentine-air-and-naval-forces-as-terrorist-organizations-3011114",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "🇧🇷 La Cámara de Diputados de Brasil debate esta semana bajar la mayoría de edad penal de 18 a 16 años. El relator presentará su texto a fines de noviembre.",
+     "url": "https://www.diariodepernambuco.com.br/politica/2026/11/11728374-reducao-da-maioridade-penal-relator-na-camara-quer-apresentar-texto-no-fim-de-novembro.html",
+     "verified": true,
+     "lang": "pt"
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "El canciller alemán Merz amenaza con bloquear el próximo presupuesto de la UE si todos los países no se comprometen a financiar a Ucrania en 2027 y después.",
+     "url": "https://euronews.com/2026/11/09/no-deal-on-ukraine-aid-then-no-deal-on-eu-budget-merz-says",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "El brote de ébola en la RD del Congo supera los 11.000 casos y los 5.387 muertos, ya el más letal de la historia del país.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/11/la-rd-del-congo-supera-la-barrera-de-los-11000-casos-de-ebola-incluidos-5387-muertos/",
+     "verified": true
+    },
+    {
+     "text": "El británico M. John Harrison, de 81 años, ganó en Londres el premio Booker con la novela distópica The End of Everything y es el ganador más veterano de su historia.",
+     "url": "https://es.euronews.com/2026/11/09/m-john-harrison-es-el-ganador-mas-veterano-del-booker-por-the-end-of-everything",
+     "verified": true
+    },
+    {
+     "text": "Las acciones tecnológicas rebotan tras su desplome, pero pesa en los mercados el temor a más subidas de tipos en EE. UU.",
+     "url": "https://es.euronews.com/2026/11/11/las-tecnologicas-rebotan-tras-el-desplome-pero-pesan-los-temores-a-mas-subidas-de-tipos-en",
+     "verified": true
+    },
+    {
+     "text": "El Gobierno de Andy Burnham no aceptará alinear de forma automática las reglas financieras británicas con las de la UE, un límite a su acercamiento posbrexit.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-10/burnham-rejects-eu-financial-rules-showing-brexit-reset-s-limits",
+     "verified": false,
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "Anthropic lanzó Claude Fable 5.2 y Mythos 5.2, hasta 30 % más rápidos y más baratos. Fable es para todos y Mythos queda reservado a organizaciones verificadas.",
+     "url": "https://9to5mac.com/2026/11/09/anthropic-upgrades-claude-with-new-fable-5-2-model-details-here/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "OpenAI facturó por primera vez US$10.000 millones en un trimestre, casi 50 % más que el anterior. Anthropic sigue por delante con cerca de US$17.000 millones.",
+     "url": "https://www.infobae.com/tecno/2026/11/11/openai-facturo-usd-10000-millones-en-tres-meses-casi-50-mas-que-el-trimestre-anterior/",
+     "verified": true
+    },
+    {
+     "text": "Las acusaciones de espionaje chino en Nvidia abren espacio a rivales como Qualcomm, Google y AMD en el negocio de chips para IA, según expertos.",
+     "url": "https://www.semana.com/tecnologia/articulo/nvidia-pierde-terreno-en-medio-de-acusaciones-de-espionaje-chino-qualcomm-google-y-amd-aparecen-en-escena/202619/",
+     "verified": false
+    },
+    {
+     "text": "Nvidia cede OpenShell, su software para controlar agentes de IA, a la fundación CNCF y presenta su propio Kubernetes para centros de datos de IA.",
+     "url": "https://revistacloud.com/nvidia-openshell-cncf-kubecon-nvke-snapshot-agent-substrate",
+     "verified": false
+    },
+    {
+     "text": "La NASA ofrece US$1 millón en premios a estudiantes que propongan ideas para su futura base cerca del polo sur de la Luna.",
+     "url": "https://infobae.com/america/ciencia-america/2026/11/10/la-nasa-convoca-a-estudiantes-para-disenar-la-futura-base-en-la-luna-ofrece-usd-1-millon-en-premios",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "GTA 6 podrá jugarse en Xbox Cloud Gaming desde su lanzamiento el 19 de noviembre, solo en consolas Xbox. GTA V y Red Dead Redemption 2 llegarán después a la nube.",
+     "url": "https://hipertextual.com/videojuegos/gta-v-y-red-dead-redemption-llegaran-xbox-cloud-gaming/",
+     "verified": true
+    },
+    {
+     "text": "Sony cerrará el 10 de diciembre la app de PlayStation Plus para PC por baja demanda, y suma Death Stranding 2 al catálogo de PS Plus Extra de noviembre.",
+     "url": "https://www.infobae.com/tecno/2026/11/11/sony-retira-playstation-plus-de-pc-la-app-cerrara-el-10-de-diciembre-de-2026-por-su-baja-demanda/",
+     "verified": true
+    },
+    {
+     "text": "La edición especial de Switch 2 por los 40 años de Zelda dio a Nintendo su mejor semana de ventas de 2026 en EE. UU.",
+     "url": "https://vandal.elespanol.com/noticia/2026314017/zelda-impulsa-las-ventas-de-nintendo-switch-2-que-consigue-su-mejor-semana-de-2026-en-estados-unidos/",
+     "verified": true
+    },
+    {
+     "text": "Devolver Digital anunció All Army Attack, su primer juego AAA, para 2027. Tendrá demo del 16 al 23 de noviembre en Steam.",
+     "url": "https://www.reporteindigo.com/geek/noticia/devolver-digital-all-army-attack-primer-juego-aaa-20261110-0011.html",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Johnny Depp vuelve a una gran película de Hollywood tras ocho años con Ebenezer, la versión de terror de Cuento de Navidad de Ti West. Llega a los cines de Latinoamérica el 12 de noviembre.",
+     "url": "https://derechadiario.com.ar/entretenimiento/regreso-johnny-depp-luego-7-anos-estrena-nueva-pelicula-que-trata-tyc-sports",
+     "verified": true
+    },
+    {
+     "text": "Warner prepara una nueva versión de You've Got Mail, la comedia romántica de Tom Hanks y Meg Ryan, que escribirá y dirigirá Jason Orley.",
+     "url": "https://ahoramismo.com/entretenimiento/celebrity/nueva-version-de-youve-got-mail-con-tom-hanks-y-meg-ryan/",
+     "verified": false
+    },
+    {
+     "text": "La serie de terror From, éxito de HBO Max, llega a Netflix el 24 de noviembre con sus tres primeras temporadas.",
+     "url": "https://www.adslzone.net/noticias/streaming-tv/netflix-estrena-from-noviembre/",
+     "verified": false
+    },
+    {
+     "text": "Miles Caton, de Sinners, se suma al nuevo thriller de Christopher McQuarrie con Denzel Washington, que se rodará en Nueva Jersey y llegará en octubre de 2027.",
+     "url": "https://foro3d.com/2026/noviembre/miles-caton-ficha-por-el-thriller-de-mcquarrie-con-denzel-washington.html",
+     "verified": false
+    },
+    {
+     "text": "Hugh Bonneville y Nicholas Denton protagonizarán Tragedy Man, una película sobre el turbulento rodaje del clásico británico de terror Witchfinder General.",
+     "url": "https://foro3d.com/2026/noviembre/nicholas-denton-hugh-bonneville-y-tim-downie-se-suman-a-tragedy-man.html",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Nacional empató 1 a 1 con Once Caldas en Manizales, en la ida de semifinales de la Copa BetPlay, gracias al primer gol de James Rodríguez con el club.",
+     "url": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/nacional-salvado-con-golazo-de-james-rodriguez-1-1-con-once-caldas-y-serie-abierta-en-copa-betplay-rg10",
+     "verified": true
+    },
+    {
+     "text": "América remontó y le ganó 2 a 1 al Inter de Bogotá, con un hombre más, en la ida de la otra semifinal de la Copa BetPlay. La vuelta será en Cali.",
+     "url": "https://www.futbolred.com/futbol-colombiano/copa-betplay/america-de-cali-vencio-a-inter-de-bogota-y-quedo-cerca-de-la-final-de-la-copa-betplay-275137",
+     "verified": true
+    },
+    {
+     "text": "El Manchester United, 18.º en la Premier y en zona de descenso, se acerca a despedir a Michael Carrick. Mauricio Pochettino es el gran candidato para reemplazarlo.",
+     "url": "https://www.infobae.com/deportes/2026/11/10/el-manchester-united-a-punto-de-despedir-a-su-entrenador-el-argentino-que-podria-reemplazarlo/",
+     "verified": true
+    },
+    {
+     "text": "Jorge Luis Pinto criticó con dureza a Néstor Lorenzo por dejar de lado a jugadores de la Liga BetPlay en la convocatoria para los amistosos ante Chile.",
+     "url": "https://futbolred.com/seleccion-colombia/jorge-luis-pinto-exploto-con-nestor-lorenzo-criticas-a-convocatoria-de-colombia-y-fuertes-palabras-275139",
+     "verified": false
+    },
+    {
+     "text": "Falcao volverá a vestir la 9 del Atlético de Madrid el domingo 15 en un partido de leyendas contra el América de México, en Puebla.",
+     "url": "https://www.eltiempo.com/amp/deportes/futbol-internacional/falcao-regresara-a-atletico-de-madrid-con-el-dorsal-9-para-disputar-un-partido-de-leyendas-en-mexico-3600027",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Daddy Yankee fue nombrado Persona del Año por la Academia Latina de la Grabación",
+   "level": "media",
+   "reason": "no tiene sección (música)"
+  },
+  {
+   "title": "Santos, Duque y Petro debaten en Bogotá los diez años del Acuerdo de Paz con las Farc",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Irán mostró misiles y drones en una exhibición en Teherán",
+   "level": "baja",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Un bus chocó contra unos 30 carros en Bundang (Corea del Sur) y dejó 57 heridos",
+   "level": "baja",
+   "reason": "muy local"
+  },
+  {
+   "title": "Cinco países de la UE piden acelerar el regreso del Reino Unido al mercado eléctrico europeo",
+   "level": "baja",
+   "reason": "ya tenía varios días"
+  },
+  {
+   "title": "Rockstar estrenó un anuncio de GTA 6 y abrió la precarga para quienes lo reservaron",
+   "level": "baja",
+   "reason": "ya publicada"
+  }
+ ]
+}
