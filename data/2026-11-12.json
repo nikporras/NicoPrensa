@@ -1,0 +1,251 @@
+{
+ "date": "2026-11-12",
+ "title": "Enviados de Trump se reúnen hoy con Putin",
+ "rates": {
+  "dolar": "$3.297",
+  "libra": "$4.401",
+  "real": "R$ 7,39"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Secuestran a la esposa del alcalde de Uribia"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Sheinbaum lidera ranking de presidentes latinoamericanos"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Wall Street rebota impulsado por CoreWeave"
+  },
+  {
+   "emoji": "💻",
+   "text": "Accionistas demandan a Nvidia y a Jensen Huang"
+  },
+  {
+   "emoji": "🎮",
+   "text": "Resident Evil Requiem, juego del año en Golden Joystick"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Netflix estrena La ley de Alicia"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Luis Díaz tardaría más en volver"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Los enviados de Trump, Steve Witkoff y Jared Kushner, llegaron hoy a Moscú para reunirse con Putin tras cerrar en Abu Dabi una ronda en la que Rusia y Ucrania pactaron un gran canje de prisioneros. Después verán a Zelenski en Dublín.",
+     "url": "https://www.infobae.com/america/mundo/2026/11/12/los-enviados-de-trump-se-reunen-con-putin-y-zelensky-para-avanzar-en-las-negociaciones-de-paz-tras-las-conversaciones-en-abu-dhabi/",
+     "verified": true
+    },
+    {
+     "text": "Anthropic, la creadora de Claude, fijó entre 70 y 78 dólares por acción su salida a bolsa en el Nasdaq: ofrecerá 825 millones de acciones y podría captar unos 64.000 millones de dólares, con una valoración que superaría el billón.",
+     "url": "https://es.euronews.com/2026/11/11/anthropic-apunta-a-valoracion-de-hasta-14-billones-de-dolares-en-su-opv",
+     "verified": true
+    },
+    {
+     "text": "El Manchester United llegó a un acuerdo verbal con Mauricio Pochettino para reemplazar a Michael Carrick. El equipo es 18º en la Premier, en zona de descenso, en su peor arranque en 40 años.",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/con-mauricio-pochettino-a-un-paso-de-manchester-united-estados-unidos-apunta-a-pep-guardiola-nid11112026/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "Secuestraron a Nancy Gómez, esposa del alcalde de Uribia (La Guajira), cuando salía de su casa. Las primeras versiones apuntan al ELN y el presidente De la Espriella ordenó un despliegue total para rescatarla.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/11/de-la-espriella-anuncia-un-despliegue-total-para-rescatar-a-esposa-de-un-alcalde-secuestrada-en-la-guajira/",
+     "verified": true
+    },
+    {
+     "text": "El dólar siguió subiendo: la TRM quedó en $3.297,07, vigente también hoy jueves, su nivel más alto en más de un mes.",
+     "url": "https://portafolio.co/economia/finanzas/precio-del-dolar-en-colombia-continua-subiendo-y-ya-roza-los-3-300-asi-cotiza-este-11-de-noviembre-506113",
+     "verified": true
+    },
+    {
+     "text": "El vicepresidente José Manuel Restrepo arremetió contra los congresistas por la ley de ajuste fiscal, mientras el Gobierno hace cuentas para asegurar apoyos en las comisiones económicas.",
+     "url": "https://www.elespectador.com/politica/cuentas-legislativas-que-hace-gobierno-de-la-espriella-para-ley-de-ajuste-fiscal/?outputType=amp",
+     "verified": false
+    },
+    {
+     "text": "Sarita, imitadora de Whitney Houston, ganó la final de Yo me llamo Mini en Caracol y recibió 100 millones de pesos para sus estudios universitarios.",
+     "url": "https://www.semana.com/gente/articulo/quien-gano-yo-me-llamo-mini-2026-asi-se-vivio-la-emotiva-final-por-los-100-millones-de-pesos/202644/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Claudia Sheinbaum encabeza por tercer mes seguido el ranking de aprobación de presidentes latinoamericanos de CB Global Data, con 69,8 %. Javier Milei aparece en el puesto 12 de 18.",
+     "url": "https://www.excelsior.com.mx/ultima-hora/claudia-sheinbaum-encabeza-ranking-popularidad-america-latina",
+     "verified": true
+    },
+    {
+     "text": "Brasil prepara la posesión del cuarto mandato de Lula: el 5 de enero podría ser festivo en Brasilia, con megaconciertos y un plan que moviliza a 22 organismos.",
+     "url": "https://ndmais.com.br/politica/posse-lula-show-feriado-caravanas-brasilia/",
+     "verified": false,
+     "lang": "pt"
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "Las bolsas de EE. UU. subieron el miércoles impulsadas por los buenos resultados de CoreWeave, y Nvidia rebotó tras varios días de fuertes caídas por el escándalo de su CEO.",
+     "url": "https://es.qz.com/reanudacin-valores-tecnolgicos-coreweave-futuros-nvidia-111126",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "Accionistas de Nvidia demandaron a la empresa y a su CEO, Jensen Huang, por su presunta relación con una mujer acusada de espiar para China. La acción llegó a perder cerca de 10,5 % en dos días.",
+     "url": "https://www.jornada.com.mx/2026/11/11/economia/019n1eco?partner=rss",
+     "verified": true
+    },
+    {
+     "text": "Un informe de Vercel concluye que los equipos de desarrollo cambian de modelo de IA cada pocas semanas: la vida media de un modelo sería de unas seis semanas.",
+     "url": "https://infobae.com/tecno/2026/11/12/los-modelos-de-ia-ahora-tienen-una-vida-media-de-solo-6-semanas-esta-es-la-causa",
+     "verified": false
+    },
+    {
+     "text": "La IA generativa divide a las escuelas de EE. UU.: centros como Alpha School prometen duplicar el ritmo de aprendizaje, mientras expertos alertan de dependencia cognitiva.",
+     "url": "https://noticiassin.com/tecnologia/2026/11/11/ia-en-las-aulas-divide-a-escuelas-y-expertos-en-ee-uu-2168237",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "Resident Evil Requiem ganó el juego del año en los Golden Joystick Awards de Londres, con 17 % de los votos frente a 16 % de Phantom Blade Zero. Sumó cuatro premios y Capcom fue elegido estudio del año.",
+     "url": "https://insider-gaming.com/resident-evil-requiem-wins-2026-golden-joystick/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Activision retira hoy, con una actualización, las imágenes reales de la tragedia de Itaewon (Seúl) que aparecían en la campaña de Call of Duty: Modern Warfare 4.",
+     "url": "https://www.playnews.gg/es/actualizaciones/call-of-duty-modern-warfare-4-eliminara-las-imagenes-de-la-avalancha-de-itaewon-el-12-de-noviembre-de-2026",
+     "verified": true
+    },
+    {
+     "text": "El cooperativo Exterminauts abre hoy una beta en Steam hasta el 18 de noviembre, y la aventura Hope in the City ya está disponible en PC, Xbox y Game Pass.",
+     "url": "https://neutralgame.com.mx/anuncios-trailers-golden-joystick-awards-2026/",
+     "verified": false
+    },
+    {
+     "text": "La PlayStation Store renovó sus ofertas semanales para PS4 y PS5, con rebajas en Baldur's Gate 3, varios Assassin's Creed y Metal Gear Solid V.",
+     "url": "https://vandal.elespanol.com/noticia/2026315009/las-mejores-ofertas-de-ps4-y-ps5-en-la-ps-store-de-esta-semana-11112026",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Netflix estrenó La ley de Alicia, serie mexicana con Fernanda Castillo inspirada en The Good Wife. La segunda parte llegará el 9 de diciembre.",
+     "url": "https://www.informador.mx/entretenimiento/netflix-estrenos-de-hoy-miercoles-11-de-noviembre-de-2026-20261110-0123.html",
+     "verified": true
+    },
+    {
+     "text": "Semana cargada en plataformas, con 55 estrenos: destacan el thriller Infamia en HBO Max y Siendo Heumann, con Mark Ruffalo, en Apple TV.",
+     "url": "https://www.espinof.com/estrenos/estrenos-11-noviembre-series-peliculas-documentales-netflix-prime-video-hbo-max-movistar-plus-disney-plus-filmin-apple-tv-skyshowtime",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Luis Díaz avanza en su recuperación en el Bayern, pero según reportes de Alemania su regreso podría tardar hasta finales de noviembre o más. No estará con Colombia ante Chile.",
+     "url": "https://www.semana.com/deportes/articulo/sale-novedad-de-luis-diaz-y-su-lesion-en-bayern-munich-regreso-tardaria-mas-de-lo-pensado/202626/",
+     "verified": true
+    },
+    {
+     "text": "Arranca hoy la última fecha FIFA del año, con Nations League en Europa y Concacaf y amistosos como Argentina vs. Brasil este viernes.",
+     "url": "https://cnnespanol.cnn.com/2026/11/11/deportes/nations-league-concacaf-uefa-amistosos-orix",
+     "verified": true
+    },
+    {
+     "text": "Lamine Yamal se perderá el España vs. República Checa de hoy por molestias en la rodilla derecha, aunque se espera que llegue al duelo ante Inglaterra.",
+     "url": "https://www.365scores.com/es/news/barcelona-fecha-fifa-noviembre-2026/",
+     "verified": false
+    },
+    {
+     "text": "Ecuador llega a sus amistosos ante Costa Rica y Bolivia con bajas: Alan Franco está lesionado y Enner Valencia ya se retiró de la selección.",
+     "url": "https://365scores.com/es/news/ecuador-lesionados-y-bajas-fecha-fifa",
+     "verified": false
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Los Latin Grammy entregan sus premios esta noche en Las Vegas",
+   "level": "media",
+   "reason": "aún no ocurre"
+  },
+  {
+   "title": "España vivió su primera huelga general en 14 años, por la vivienda",
+   "level": "media",
+   "reason": "sin enlace verificable"
+  },
+  {
+   "title": "Italia evacuó cientos de colegios por amenazas de bomba que también apuntaban a Meloni",
+   "level": "media",
+   "reason": "sin enlace verificable"
+  },
+  {
+   "title": "Cuatro países de la UE rechazan el ultimátum de Merz sobre la ayuda a Ucrania",
+   "level": "media",
+   "reason": "sin fuente confiable"
+  },
+  {
+   "title": "El Reino Unido publica hoy el PIB del tercer trimestre",
+   "level": "media",
+   "reason": "aún no publicado"
+  },
+  {
+   "title": "Murió Javier Toro Tamayo, exjugador récord de la Selección Colombia",
+   "level": "baja",
+   "reason": "sin enlace al artículo"
+  },
+  {
+   "title": "Ecopetrol presenta hoy sus resultados del tercer trimestre",
+   "level": "baja",
+   "reason": "aún no publicados"
+  }
+ ]
+}
