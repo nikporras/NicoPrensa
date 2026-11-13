@@ -1,0 +1,328 @@
+{
+ "date": "2026-11-13",
+ "title": "Jensen Huang dimite como CEO de Nvidia",
+ "rates": {
+  "dolar": "$3.302",
+  "libra": "$4.370",
+  "real": "R$ 7,47"
+ },
+ "resumen": [
+  {
+   "emoji": "🔥",
+   "text": "Jensen Huang dimite como CEO de Nvidia"
+  },
+  {
+   "emoji": "🇨🇴",
+   "text": "Ataque con drones mata a cuatro militares en Tibú"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Brasil mantiene la escala 5x2 desde diciembre"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Rusia acepta el mayor canje de prisioneros"
+  },
+  {
+   "emoji": "💻",
+   "text": "SpaceX intentará atrapar cohete y nave Starship"
+  },
+  {
+   "emoji": "🎮",
+   "text": "Wolfenstein 3 ya está en producción"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Serie coreana bate récord de estreno en Disney+"
+  },
+  {
+   "emoji": "⚽",
+   "text": "El TAS le quita tres puntos al América"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Jensen Huang renunció con efecto inmediato como CEO de Nvidia tras el escándalo por sus relaciones extramatrimoniales, una de ellas con una presunta espía china. La directora financiera, Colette Kress, asume de forma interina y las acciones se desplomaron.",
+     "url": "https://www.eluniverso.com/larevista/tecnologia/ceo-de-nvidia-jensen-huang-es-destituido-tras-escandalo-de-relaciones-extramatrimoniales-nota/",
+     "verified": true
+    },
+    {
+     "text": "Rosalía arrasó en los Latin Grammy: ganó álbum del año con “Lux” y canción del año con “La Perla”. El colombiano Juanes se llevó mejor álbum pop/rock, Karol G mejor álbum urbano y Milo J grabación del año.",
+     "url": "https://www.telemundo.com/noticias/noticias-telemundo/cultura/lux-de-la-cantante-espanola-rosalia-gana-el-premio-al-album-del-ano-en-rcna609112",
+     "verified": true
+    },
+    {
+     "text": "El Manchester United despidió a Michael Carrick tras su peor arranque en décadas, con el equipo en zona de descenso. Mauricio Pochettino, hoy técnico de Estados Unidos, es el gran favorito para reemplazarlo.",
+     "url": "https://www.semana.com/deportes/articulo/comunicado-oficial-del-manchester-united-sobre-michael-carrick-y-su-nuevo-director-tecnico/202619/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "Cuatro militares murieron en Tibú, Norte de Santander, en un ataque con explosivos lanzados desde drones. De la Espriella ordenó perseguir a los responsables y dijo que “van a pagar”.",
+     "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/abelardo-de-la-espriella-se-pronuncia-tras-ataque-con-explosivos-en-tibu-norte-de-santander-que-dejo-cuatro-militares-muertos-van-a-pagar-3600616",
+     "verified": false
+    },
+    {
+     "text": "El Gobierno presentó las bases del Plan Nacional de Desarrollo 2026 a 2030, “Patria Milagro”, con siete ejes que van de la seguridad a la reconstrucción tras el terremoto, y abre la puerta al fracking.",
+     "url": "https://www.elheraldo.co/colombia/2026/11/12/gobierno-de-de-la-espriella-presento-las-bases-de-su-plan-de-desarrollo-conozca-las-prioridades/",
+     "verified": true
+    },
+    {
+     "text": "La Corte Constitucional avaló la emergencia económica por el terremoto de agosto, con condiciones: los recursos solo irán a zonas con daños comprobados y no podrán usarse para tapar el déficit.",
+     "url": "https://www.eluniversal.com.co/colombia/2026/11/11/corte-constitucional-avalo-la-emergencia-economica-del-gobierno-de-la-espriella/",
+     "verified": false
+    },
+    {
+     "text": "De la Espriella ordenó frenar la nómina del Fondo Milagro, de unos $765 millones al mes, por considerar excesivos los salarios de sus funcionarios.",
+     "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/presidente-abelardo-de-la-espriella-ordeno-frenar-la-nomina-del-fondo-milagro-por-los-altos-salarios-de-sus-funcionarios-no-los-autorizo-3600682",
+     "verified": false
+    },
+    {
+     "text": "El ministro del Interior, Alejandro Ordóñez, anunció ante la JEP el “fin de la feria” de los esquemas de protección de la UNP para quienes delinquen.",
+     "url": "https://www.semana.com/nacion/articulo/gobierno-de-abelardo-de-la-espriella-anuncio-el-fin-de-la-feria-de-los-esquemas-de-proteccion-y-seguridad/202630/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Brasil: el ministro del STF Flávio Dino mantuvo para el 16 de diciembre el inicio de la escala 5x2, que acaba con la jornada 6x1, y permitió jornadas de hasta 8 horas y 24 minutos durante la transición.",
+     "url": "https://paraibaonline.com.br/brasil/2026/11/12/dino-mantem-prazo-inicial-da-5x2-mas-flexibiliza-regra-de-transicao/",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Venezuela: chavismo y oposición inician hoy la cuarta ronda de diálogo, la primera desde el regreso de María Corina Machado, con un nuevo CNE y las inhabilitaciones políticas sobre la mesa.",
+     "url": "https://eltiempo.com/mundo/venezuela/chavismo-y-oposicion-retoman-negociaciones-en-venezuela-con-la-recomposicion-del-poder-judicial-y-del-consejo-nacional-electoral-como-telon-de-fondo-3600584",
+     "verified": true
+    },
+    {
+     "text": "Perú: el papa León XIV celebra hoy una misa multitudinaria en Chiclayo, la diócesis donde fue obispo, tras un recibimiento masivo en Lima.",
+     "url": "https://larepublica.pe/sociedad/2026/11/12/chiclayo-deja-todo-listo-para-recibir-al-papa-leon-xiv-tras-tres-anos-de-espera-848388",
+     "verified": true
+    },
+    {
+     "text": "Brasil: Lula pidió a los seguidores del grupo “Exército do Lula” exigir a la prensa disculpas por el caso del tríplex de Guarujá, por el que pasó 580 días preso.",
+     "url": "https://publico.pt/2026/11/12/mundo/noticia/lula-quer-exercito-digital-forcar-desculpas-media-caso-apartamento-2194768",
+     "verified": true,
+     "lang": "pt"
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "Zelenski anunció en Dublín que Rusia aceptó el mayor intercambio de prisioneros de la guerra, tras la visita de Witkoff y Kushner a Putin. Europa se sumará a la próxima ronda de negociación.",
+     "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20261113024339/zelenski-confirma-desbloqueo-negociaciones-rusia-mayor-intercambio-prisioneros",
+     "verified": true
+    },
+    {
+     "text": "España arrancó oficialmente la campaña para las elecciones generales del 29 de noviembre, con mítines de Sánchez, Feijóo y Abascal y las encuestas a favor de PP y Vox.",
+     "url": "https://www.estrelladigital.es/espana/cuaderno-campana-29n-arranque/20261113073000453273.html",
+     "verified": true
+    },
+    {
+     "text": "Andy Burnham se reunió en Dublín con líderes europeos y busca firmar el 20 de noviembre tres acuerdos con la UE: menos trabas a los alimentos, mercado de emisiones e intercambio juvenil.",
+     "url": "https://www.infobae.com/america/mundo/2026/11/12/andy-burnham-busca-cerrar-un-acuerdo-con-la-ue-para-profundizar-la-cooperacion-con-el-reino-unido-tras-el-brexit/",
+     "verified": true
+    },
+    {
+     "text": "Los 27 líderes de la UE celebran hoy en Dublín una cumbre informal dedicada a la inteligencia artificial, con la participación del Nobel Geoffrey Hinton.",
+     "url": "https://www.brusselstimes.com/2390745/eu-leaders-to-meet-in-dublin-for-ai-summit-next-week",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Burnham prometió presentar antes de Navidad su plan para la próxima década, con el que dice querer acabar con “40 años de neoliberalismo” en Reino Unido.",
+     "url": "https://www.democrata.es/internacional/burnham-se-compromete-a-desvelar-su-plan-para-la-proxima-decada-antes-del-paron-navideno/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "SpaceX lanza hoy el vuelo 15 de Starship (desde las 22:45, hora de Londres): por primera vez intentará atrapar con la torre tanto el cohete como la nave, y desplegará 26 satélites Starlink.",
+     "url": "https://www.diariobitcoin.com/noticias/spacex-prepara-el-vuelo-15-de-starship-con-una-doble-captura-inedita/",
+     "verified": true
+    },
+    {
+     "text": "Una caída de Microsoft dejó sin Outlook, Teams y Microsoft 365 a miles de usuarios el jueves, antes de que el servicio se fuera recuperando.",
+     "url": "https://www.nmas.com.mx/ciencia-tecnologia/caida-microsoft-hoy-12-de-noviembre-2026-usuarios-reportan-falla-en-outlook-y-teams/",
+     "verified": true
+    },
+    {
+     "text": "Grok Build, la herramienta de programación con IA de la empresa de Elon Musk, dejó expuestos datos sensibles de miles de usuarios por un fallo en sus enlaces compartidos.",
+     "url": "https://ecosistemastartup.com/?p=130429",
+     "verified": true
+    },
+    {
+     "text": "La brasileña WEG invertirá 250 millones de dólares en una planta en Hidalgo, México, para fabricar equipos eléctricos para centros de datos e inteligencia artificial.",
+     "url": "https://www.infobae.com/mexico/2026/11/12/mexico-recibira-inversion-de-250-mdd-de-weg-para-produccion-de-tecnologia-e-inteligencia-artificial/",
+     "verified": true
+    },
+    {
+     "text": "Expertos reunidos en el congreso español de IA (CAEPIA) pidieron regular la inteligencia artificial antes de que genere riesgos graves para la sociedad.",
+     "url": "https://www.infobae.com/espana/agencias/2026/11/12/los-expertos-urgen-a-regular-la-ia-ante-los-riesgos-alarmantes-para-la-sociedad/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "Wolfenstein 3 ya está oficialmente en producción en MachineGames, confirmó la CEO de Xbox en el 25 aniversario de la marca. Vuelven los actores de BJ Blazkowicz y Grace Walker.",
+     "url": "https://gamersrd.com/wolfenstein-3-produccion-machinegames/",
+     "verified": true
+    },
+    {
+     "text": "id Software, el estudio de DOOM, confirmó que ya trabaja en su próximo juego, aunque no reveló detalles.",
+     "url": "https://www.purexbox.com/news/2026/11/xbox-ceo-announces-major-new-bethesda-games-in-the-works-including-wolfenstein-3",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "La Comisión Europea propone prohibir para menores las cajas de botín pagadas y las mecánicas de pago para ganar, dentro de su nueva Ley de Equidad Digital.",
+     "url": "https://es.euronews.com/2026/11/09/la-comision-europea-propone-vetar-10-disenos-web-manipuladores-en-nueva-ley-de-equidad-dig",
+     "verified": true
+    },
+    {
+     "text": "Metaphor: ReFantazio, el aclamado RPG de Atlus, ya está disponible en Nintendo Switch 2.",
+     "url": "https://www.tvazteca.com/aztecadeportes/cuando-llega-metaphor-refantazio-a-la-nintendo-switch-2/",
+     "verified": true
+    },
+    {
+     "text": "También llegó Pikmin 4 Nintendo Switch 2 Edition, con la nueva Academia Dandori y comandos de voz para Oatchi.",
+     "url": "https://www.videogameschronicle.com/news/pikmin-4-is-getting-a-nintendo-switch-2-edition-with-new-content-and-voice-commands/",
+     "verified": true,
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "La serie coreana “La emperatriz divorciada” se convirtió en el estreno original más visto de la historia de Disney+ en sus tres primeros días, según la plataforma.",
+     "url": "https://www.sensacine.com/noticias/series/noticia-1000231919/",
+     "verified": true
+    },
+    {
+     "text": "Llega a los cines “Wild Horse Nine”, la nueva película de Martin McDonagh con John Malkovich (Copa Volpi en Venecia) y Sam Rockwell.",
+     "url": "https://www.que.es/2026/11/09/wild-horse-nine-ovacion-venecia/",
+     "verified": true
+    },
+    {
+     "text": "Netflix estrena hoy “El crimen de Pazos”, miniserie de tres episodios basada en un crimen real en Galicia, protagonizada por Tristán Ulloa.",
+     "url": "https://about.netflix.com/es_es/news/murder-in-galicia-comes-to-netflix-on-13-november",
+     "verified": true
+    },
+    {
+     "text": "Estrenos de cine de la semana: “Cómo robar un banco”, de David Leitch con Nicholas Hoult y Zoë Kravitz, y “Yo soy Rocky”, sobre cómo Stallone logró protagonizar Rocky.",
+     "url": "https://spoiler.mx/estrenos-cine-12-noviembre-2026-que-ver-donde/",
+     "verified": true
+    },
+    {
+     "text": "Netflix sumó el jueves la tercera temporada de “La Emperatriz” y la comedia romántica sueca “El intercambio navideño”.",
+     "url": "https://www.informador.mx/entretenimiento/netflix-estrenos-de-hoy-jueves-12-de-noviembre-de-2026-20261111-0171.html",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "El TAS le quitó tres puntos al América de Cali por la alineación de Yhormar Hurtado ante Inter Bogotá. Cae al tercer lugar y el Deportivo Cali queda segundo antes de la última fecha.",
+     "url": "https://www.elespectador.com/deportes/futbol-colombiano/el-tas-le-quito-tres-puntos-a-america-asi-queda-la-tabla-de-la-liga-betplay/",
+     "verified": true
+    },
+    {
+     "text": "Italia remontó y le ganó 3 a 1 a la Francia de Zidane en San Siro, con doblete de Pio Esposito, y pasa a liderar su grupo de la Liga de Naciones.",
+     "url": "https://www.eluniverso.com/deportes/futbol/italia-remonta-ante-francia-y-se-impone-3-1-en-la-uefa-nations-league-nota/",
+     "verified": true
+    },
+    {
+     "text": "Inglaterra venció 2 a 1 a Croacia y se clasificó a cuartos de la Liga de Naciones, con un penal de Harry Kane en una noche histórica para él.",
+     "url": "https://www.publimetro.com.mx/deportes/2026/11/13/nations-league-2026-todos-los-resultados-de-hoy-italia-tumba-a-francia-y-kane-hace-historia/",
+     "verified": true
+    },
+    {
+     "text": "Junior, ya eliminado, se despidió de la Liga BetPlay con un triunfo 1 a 0 en Pasto, gol del juvenil Carlos Pérez.",
+     "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/junior-se-impuso-0-1-a-pasto-en-el-departamental-libertad-por-la-liga-betplay-275195",
+     "verified": true
+    },
+    {
+     "text": "El sorteo de los cuadrangulares de la Liga BetPlay será el sábado 14 de noviembre, justo después de la última fecha.",
+     "url": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/hora-y-fecha-de-sorteo-de-cuadrangulares-de-liga-betplay-2026-ii-los-equipos-pendientes-rg10",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Lula viaja a Filipinas, primera visita de un presidente brasileño, y asistirá a la cumbre de la ASEAN",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Un informe de Pares dice que en los 100 días de De la Espriella aumentaron los ataques armados y el reclutamiento de menores",
+   "level": "media",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El Crystal Palace, último de la Premier, prepara el despido de su técnico Pierre Sage",
+   "level": "media",
+   "reason": "aún sin anuncio oficial"
+  },
+  {
+   "title": "El Banco Central de Perú subió su tasa de interés al 4,50 % por la inflación y El Niño",
+   "level": "baja",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Google DeepMind presentó AlphaGenome 2, una IA que predice cómo los cambios en el ADN afectan a cada tipo de célula",
+   "level": "baja",
+   "reason": "sin fuente confiable"
+  },
+  {
+   "title": "Capcom ganó el premio a Estudio del Año en los Golden Joystick",
+   "level": "baja",
+   "reason": "ya contamos esos premios ayer"
+  },
+  {
+   "title": "Una encuesta dice que la aprobación de Lula subió al 50,4 %",
+   "level": "baja",
+   "reason": "fuente poco confiable"
+  }
+ ]
+}
