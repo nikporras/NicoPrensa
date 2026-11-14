@@ -1,0 +1,285 @@
+{
+ "date": "2026-11-14",
+ "title": "EE.UU. paralizó todos sus vuelos cuatro horas",
+ "rates": {
+  "dolar": "$3.316",
+  "libra": null,
+  "real": null
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Dos temblores sacuden Tolima sin dejar daños"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Lula llega a Manila en visita histórica"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Trump, Putin y Xi se reunirán en Shenzhen"
+  },
+  {
+   "emoji": "💻",
+   "text": "La salida de Huang sacude la financiación IA"
+  },
+  {
+   "emoji": "🎮",
+   "text": "The Game Awards se verán en Disney+"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Jessica Chastain estrena Heartland en Netflix"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Colombia vence 1 a 0 a Chile en Cali"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Una falla de telecomunicaciones del control aéreo obligó a la FAA a detener todos los despegues en EE.UU. durante más de cuatro horas el viernes. Hubo miles de retrasos y cancelaciones (también en rutas a Latinoamérica) y cerca de 1,5 millones de pasajeros varados; el Gobierno descarta un ciberataque.",
+     "url": "https://www.elespectador.com/mundo/america/vuelos-ee-uu-suspendidos-falla-en-comunicaciones/",
+     "verified": true
+    },
+    {
+     "text": "Trump dijo en una entrevista de radio que consideraría usar la fuerza militar contra Cuba y que quiere resolver el tema antes de dejar el cargo. Es la primera vez que pone un plazo a una posible operación, en medio del bloqueo petrolero que mantiene a la isla en crisis.",
+     "url": "https://www.aljazeera.com/news/2026/11/13/trump-moots-toppling-cuba-authorities-before-leaving-office",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "El Senado de Brasil aprobó por 45 votos contra 31 el texto base del ajuste fiscal de Lula, que endurece el control del gasto y recorta beneficios tributarios. El Gobierno calcula un ahorro de 50.000 a 60.000 millones de reales en 2027; los cambios pendientes se votan el martes.",
+     "url": "https://www.infomoney.com.br/politica/senado-aprova-texto-base-do-ajuste-fiscal-do-governo-lula-por-45-votos-a-31/",
+     "verified": true,
+     "lang": "pt"
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "Dos temblores, el mayor de magnitud 4,2, sacudieron el centro del país el viernes con epicentro en Chaparral, Tolima. En Ibagué se evacuaron edificios de forma preventiva, pero no se reportan daños.",
+     "url": "https://www.semana.com/nacion/articulo/temblo-dos-veces-en-colombia-este-viernes-13-de-noviembre-sgc-confirmo-magnitud-superior-a-4/202625/",
+     "verified": true
+    },
+    {
+     "text": "La TRM para este sábado quedó en $3.316,70, casi 15 pesos más que el viernes y el nivel más alto desde finales de septiembre.",
+     "url": "https://www.colombia.com/actualidad/economia/precio-del-dolar-hoy-en-colombia-sabado-14-de-noviembre-de-2026-612606",
+     "verified": true
+    },
+    {
+     "text": "Colombia y Estados Unidos acordaron reforzar su capacidad militar conjunta contra el crimen organizado, según anunció el Ejército estadounidense tras una ronda de conversaciones en Bogotá. El acuerdo no contempla despliegue de tropas.",
+     "url": "https://www.infobae.com/colombia/2026/11/13/colombia-y-estados-unidos-acordaron-fortalecer-su-capacidad-militar-conjunta-frente-al-crimen-organizado-y-amenazas-regionales/",
+     "verified": false
+    },
+    {
+     "text": "El ministro de Hacienda destacó una reunión con el Banco Mundial sobre la Ley de Rescate, clave para que el Gobierno sanee las finanzas públicas.",
+     "url": "https://www.semana.com/economia/macroeconomia/articulo/minhacienda-destaca-reunion-con-el-banco-mundial-sobre-la-ley-rescate-esfuerzo-de-colombia-por-salir-del-hueco-fiscal/202622/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Lula hace hoy en Manila la primera visita de Estado de un presidente brasileño a Filipinas, en los 80 años de relaciones. Busca vender más café, açaí y alimentos, y el domingo participa en la cumbre de la ASEAN.",
+     "url": "https://www.rtp.pt/noticias/mundo/lula-nas-filipinas-para-estreitar-relacoes-do-brasil-com-sudeste-asiatico_n1777551",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "El Gobierno de Kast pactó con los gremios de camioneros una rebaja de 142 pesos chilenos por litro de diésel y congelar los combustibles hasta marzo de 2027. Algunos transportistas independientes siguen movilizados.",
+     "url": "https://www.elmostrador.cl/noticias/pais/2026/11/13/paro-de-camioneros-sigue-pese-a-acuerdo-con-el-gobierno-independientes-exigen-rebaja-de-bencinas/",
+     "verified": true
+    },
+    {
+     "text": "Estados Unidos asegura que ha devuelto a Venezuela más de 12.000 millones de dólares por las exportaciones de petróleo, oro y otros productos que gestiona bajo su tutela.",
+     "url": "https://elpais.com/us/2026-11-13/estados-unidos-asegura-que-ha-devuelto-a-venezuela-mas-de-12000-millones-de-dolares-por-exportaciones-tuteladas.html",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "La Casa Blanca confirmó que Trump, Putin y Xi tendrán el jueves en Shenzhen, al margen de la APEC, la primera reunión a tres entre los líderes de EE.UU., Rusia y China. Hablarán de armas nucleares e Irán, no de Ucrania.",
+     "url": "https://www.excelsior.com.mx/internacional/trump-xi-y-putin-tendran-primera-reunion-trilateral-hablara-iran-no-ucrania",
+     "verified": true
+    },
+    {
+     "text": "Tras la parálisis aérea, el secretario de Transporte, Sean Duffy, culpó a equipos analógicos obsoletos y pidió al Congreso fondos urgentes para modernizar el control del tráfico aéreo.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/14/eeuu-reabre-su-espacio-aereo-tras-cuatro-horas-de-paralizacion-por-fallos-en-las-telecomunicaciones/",
+     "verified": true
+    },
+    {
+     "text": "Microsoft pidió disculpas por la caída global de Outlook, Teams y Copilot, aseguró que ya resolvió la causa y descartó un ciberataque. Se estima que el apagón costó más de 7.000 millones de dólares.",
+     "url": "https://www.semana.com/tecnologia/articulo/microsoft-hace-importante-anuncio-en-medio-de-crisis-por-caida-global-de-sus-servicios-lamentamos-profundamente/202600/",
+     "verified": true
+    },
+    {
+     "text": "El secretario de Seguridad Nacional de EE.UU. no descartó que un nuevo sistema de control aéreo asistido por IA influyera en la falla de los vuelos; se investiga.",
+     "url": "https://www.biobiochile.cl/noticias/internacional/eeuu/2026/11/13/secretario-de-seguridad-no-descarta-influencia-de-la-ia-en-fallo-que-paralizo-vuelos-en-eeuu.shtml",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "La salida de Jensen Huang de Nvidia sacude la red de financiación de la IA que él mismo construyó, incluido el compromiso de 105.000 millones de dólares con OpenAI.",
+     "url": "https://cnnespanol.cnn.com/2026/11/13/economia/auge-ia-jensen-huang-trax",
+     "verified": true
+    },
+    {
+     "text": "Varias ONG demandaron en San Francisco a OpenAI, Anthropic, Google, Meta y la división de IA de SpaceX para frenar el desarrollo de los modelos de IA más avanzados por considerarlos una amenaza.",
+     "url": "https://www.jornada.com.mx/2026/11/13/economia/024n2eco?partner=rss",
+     "verified": false
+    },
+    {
+     "text": "Anthropic mantiene su salida a bolsa para finales de mes, mientras OpenAI la aplazó al próximo año, en plena duda del mercado sobre una posible burbuja de la IA.",
+     "url": "https://es-us.noticias.yahoo.com/estallar-burbuja-ia-anthropic-punto-194600868.html",
+     "verified": false
+    },
+    {
+     "text": "Fans lograron arrancar Astro Bot, exclusivo de PS5, en PC mediante un emulador experimental, en plena polémica por el fin de los discos físicos de Sony.",
+     "url": "https://insider-gaming.com/astro-bot-has-been-emulated-for-pc-as-sony-disc-backlash-continues/",
+     "verified": true,
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "The Game Awards 2026 se transmitirán en directo por Disney+ la noche del 10 de diciembre, además de YouTube y Twitch.",
+     "url": "https://www.que.es/2026/11/13/the-game-awards-disney-directo/",
+     "verified": false
+    },
+    {
+     "text": "Jurassic World Evolution 2 ya se puede reclamar gratis con Amazon Prime, dentro de los siete juegos de PC de noviembre.",
+     "url": "https://www.vidaextra.com/pc/confirmados-siete-videojuegos-para-descargar-gratis-amazon-prime-gaming-noviembre-2026",
+     "verified": true
+    },
+    {
+     "text": "A menos de una semana del estreno de GTA VI (19 de noviembre), Rockstar abrió la precarga con un tráiler de 30 segundos y una empresa premia a sus empleados fans del juego.",
+     "url": "https://www.elcomercio.com/games/gta-vi-logitech-videojuegos-empleados/",
+     "verified": false
+    },
+    {
+     "text": "Halo: Campaign Evolved recibiría en diciembre una última actualización con el modo Tiroteo (Firefight) y el modo Cine.",
+     "url": "https://www.tweaktown.com/news/113961/report-last-halo-campaign-evolved-update-to-add-firefight-and-theater-modes/index.html",
+     "verified": false,
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Netflix estrenó Heartland, thriller con Jessica Chastain como una exestrella del country que investiga la desaparición de su sobrina.",
+     "url": "https://www.informador.mx/entretenimiento/netflix-estrenos-de-hoy-viernes-13-de-noviembre-de-2026-20261111-0180.html",
+     "verified": true
+    },
+    {
+     "text": "HBO Max estrenó El final de Oak Street, ciencia ficción de David Robert Mitchell con Anne Hathaway y Ewan McGregor.",
+     "url": "https://www.mdzol.com/mdz-show/2026/11/13/de-lo-nuevo-de-anne-hathaway-a-una-miniserie-basada-en-hechos-reales-7-estrenos-para-ver-en-streaming-1995267.html",
+     "verified": true
+    },
+    {
+     "text": "Apple TV estrenó 12 12 12, miniserie de suspenso con Anthony Mackie y Jamie Dornan.",
+     "url": "https://examedia.com.ar/portada/post/88232784",
+     "verified": false
+    },
+    {
+     "text": "HBO Max sumó Silent Night, serie polaca basada en una tragedia ocurrida en la Nochebuena de 1976.",
+     "url": "https://www.elnacional.cat/es/cultura/estrenos-llegan-netflix-max-movistar-plus-13-noviembre-ver-este-fin-semana_1723208_102.html",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Colombia venció 1 a 0 a Chile en Cali con autogol de Maripán, en un amistoso discreto que recaudó fondos para las víctimas del terremoto. La Selección no jugaba en el Pascual Guerrero desde 1999; el martes repiten en Santiago.",
+     "url": "https://www.semana.com/deportes/articulo/un-autogol-le-dio-el-triunfo-a-colombia-sobre-chile-cali-fue-la-fiesta-en-un-juego-opaco/202637/",
+     "verified": true
+    },
+    {
+     "text": "Liga BetPlay: hoy se juega la última fecha del todos contra todos y al final se sortean los cuadrangulares. Nacional, América, Cali, Bucaramanga y Santa Fe ya están clasificados; quedan tres cupos.",
+     "url": "https://www.bluradio.com/deportes/futbol-colombiano/a-que-hora-y-donde-ver-el-sorteo-de-los-cuadrangulares-de-la-liga-betplay-2026-ii-so35",
+     "verified": true
+    },
+    {
+     "text": "Uruguay ganó 2 a 1 a Argentina en La Bombonera, en el primer partido de la Albiceleste tras el retiro de Messi. Marcaron Balerdi en contra y Maxi Araújo; descontó Julián Álvarez.",
+     "url": "https://www.lanacion.com.ar/deportes/canchallena/uruguay-vencio-2-1-a-argentina-en-un-amistoso-internacional-nid13112026/",
+     "verified": true
+    },
+    {
+     "text": "Brasil enfrenta hoy a Japón en Singapur (7:15 de Brasilia) en el penúltimo partido del año de Ancelotti; el martes juega ante Singapur.",
+     "url": "https://tribunadejundiai.com.br/mais/selecao-treina-com-elenco-quase-todo-a-disposicao-mas-poupa-4-jogadores/",
+     "verified": false,
+     "lang": "pt"
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Ecopetrol ganó $4,75 billones en el tercer trimestre, mucho más que hace un año",
+   "level": "media",
+   "reason": "sin fuente confiable con enlace"
+  },
+  {
+   "title": "El ELN difundió una prueba de vida de la subteniente Pantoja, secuestrada en Arauca",
+   "level": "media",
+   "reason": "sin fuente confiable con enlace"
+  },
+  {
+   "title": "Irán dice que destruyó un radar de EE.UU. en Bahréin y Washington lo niega",
+   "level": "media",
+   "reason": "sin fuente confiable"
+  },
+  {
+   "title": "La OPS decidió si EE.UU. pierde el estatus de país libre de sarampión",
+   "level": "media",
+   "reason": "sin confirmar"
+  },
+  {
+   "title": "Rusia aceptaría a países europeos en las conversaciones de paz con Ucrania, pero no tropas",
+   "level": "media",
+   "reason": "sin fuente confiable con enlace"
+  },
+  {
+   "title": "Mercedes-Benz frena nuevas inversiones en sus fábricas de Alemania y estudia cierres",
+   "level": "baja",
+   "reason": "sin enlace reciente"
+  }
+ ]
+}
