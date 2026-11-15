@@ -1,0 +1,306 @@
+{
+ "date": "2026-11-15",
+ "title": "Irán dice que siete petroleros ardieron en Ormuz",
+ "rates": {
+  "dolar": "$3.316,70",
+  "libra": "$4.397",
+  "real": "R$ 7,49"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "Incautan 1,68 toneladas de cocaína en Urabá"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Militares presos en Venezuela denuncian abusos judiciales"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Burnham: el Brexit costó más de lo que dio"
+  },
+  {
+   "emoji": "💻",
+   "text": "Solo un tercio sabe aprovechar la IA"
+  },
+  {
+   "emoji": "🎮",
+   "text": "Xbox cumple 25 años y crece la espera por Helix"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Godzilla Minus Zero logra un estreno récord"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Japón le gana 3 a 2 a Brasil"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Irán asegura que siete petroleros chocaron con minas y se incendiaron en Ormuz en 24 horas, y que derribó un dron estadounidense MQ-1 sobre la isla de Qeshm. EE. UU. no lo ha confirmado.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/14/la-guardia-revolucionaria-irani-dice-haber-derribado-un-dron-mq-1-de-eeuu/",
+     "verified": true
+    },
+    {
+     "text": "El uribismo le dijo al Gobierno en Rionegro que no apoyará subir el IVA a la canasta familiar, a los insumos del campo ni al internet de estratos 1, 2 y 3 en la Ley de Rescate Fiscal.",
+     "url": "https://www.elcolombiano.com/colombia/los-detalles-de-la-reunion-del-centro-democratico-con-el-gobierno-por-la-ley-de-rescate-fiscal-que-acordaron-BB43604005",
+     "verified": true
+    },
+    {
+     "text": "La explosión de un caño de gas en Lanús (Buenos Aires) dejó un muerto, 30 heridos y dos desaparecidos; una máquina perforó la tubería durante obras de MetroGAS y dos directivos fueron demorados.",
+     "url": "https://www.losandes.com.ar/policiales/al-menos-un-muerto-dos-desaparecidos-y-30-heridos-la-explosion-un-cano-gas-lanus-n6014218",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "La Policía incautó 1.680 kilos de cocaína escondidos en cajas de banano en el puerto de Urabá, con destino a Amberes (Bélgica).",
+     "url": "https://www.semana.com/nacion/bogota/articulo/abelardo-de-la-espriella-anuncia-contundente-golpe-al-narcotrafico-no-vamos-a-darles-tregua-los-vamos-a-perseguir/202644/",
+     "verified": true
+    },
+    {
+     "text": "De la Espriella cumplió 100 días de gobierno; sindicatos y el Pacto Histórico convocan una nueva protesta el 19 de noviembre contra el costo de vida y los nuevos impuestos.",
+     "url": "https://www.jornada.com.mx/2026/11/14/mundo/018n1mun?partner=rss",
+     "verified": false
+    },
+    {
+     "text": "El Gaula rescató sano y salvo a un odontólogo secuestrado en Cúcuta; hay tres capturados y los captores pedían 100 millones de pesos.",
+     "url": "https://www.eluniversal.com.co/colombia/2026/11/14/abelardo-de-la-espriella-confirmo-rescate-de-odontologo-secuestrado-en-cucuta/",
+     "verified": true
+    },
+    {
+     "text": "El riesgo país de Colombia bajó a 1,8 %, según la consultora Sectorial, tras haber llegado a 5,2 % en años anteriores.",
+     "url": "https://www.semana.com/confidenciales/articulo/riesgo-pais-de-colombia-cae-a-18-tras-la-llegada-de-abelardo-de-la-espriella/202643/",
+     "verified": false
+    },
+    {
+     "text": "El presidente habló por videollamada con Lucas, el niño de Cúcuta cuya lucha por sobrevivir conmovió al país y que sigue recuperándose.",
+     "url": "https://www.semana.com/politica/articulo/eres-mi-mayor-aliciente-el-presidente-de-la-espriella-celebra-la-recuperacion-de-lucas-el-nino-que-conmovio-a-colombia/202642/",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Más de 150 militares presos en Ramo Verde (Venezuela) denuncian violaciones al debido proceso y anuncian una protesta pacífica indefinida.",
+     "url": "https://www.eltiempo.com/mundo/venezuela/mas-de-150-militares-presos-en-venezuela-denuncian-violaciones-al-debido-proceso-y-anuncian-protesta-indefinida-en-carcel-de-ramo-verde-3601209",
+     "verified": true
+    },
+    {
+     "text": "Argentina tuvo 2,2 % de inflación en octubre y sigue como el segundo país con más inflación de la región, solo detrás de Venezuela.",
+     "url": "https://www.ambito.com/economia/argentina-volvio-quedar-el-segundo-puesto-paises-mayor-inflacion-latinoamerica-n6345351",
+     "verified": true
+    },
+    {
+     "text": "Lula tendrá que negociar con un Senado de mayoría conservadora desde 2027 para llenar hasta cuatro vacantes en el Supremo (STF).",
+     "url": "https://www.gazetadopovo.com.br/republica/senado-conservador-lula-negociar-indicacoes-stf/",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Lula volvió a defender la creación de una Guardia Nacional permanente dentro de un futuro Ministerio de Seguridad Pública; la oposición pide límites claros.",
+     "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/lula-guarda-nacional-venezuela-pessima-ideia/",
+     "verified": true,
+     "lang": "pt"
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "Burnham dijo que el Reino Unido perdió más de lo que ganó con el Brexit y viajará el 20 de noviembre a Bruselas para cerrar acuerdos sobre alimentos, movilidad juvenil y tasas universitarias.",
+     "url": "https://www.infobae.com/america/mundo/2026/11/15/andy-burnham-aseguro-que-el-reino-unido-perdio-mas-de-lo-que-gano-con-el-brexit/",
+     "verified": true
+    },
+    {
+     "text": "Europa formó un equipo para negociar la paz en Ucrania con la UE y cinco países: Alemania, Francia, Italia, Polonia y Reino Unido. España quedó fuera.",
+     "url": "https://www.mundiario.com/internacional/europa-renuncia-voz-unica-negociar-paz-ucrania-deja-espana-fuera-equipo/20261114014350452763.html",
+     "verified": true
+    },
+    {
+     "text": "El Kremlin dijo que no pondrá condiciones a ese equipo europeo y que espera una nueva ronda de negociaciones bastante pronto.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/14/rusia-dice-que-no-pone-condiciones-al-equipo-negociador-europeo/",
+     "verified": true
+    },
+    {
+     "text": "Zelenski acusó a Rusia de proponer una tregua para evacuar Kostiantínivka con el fin de quedarse con toda la ciudad; Moscú lo niega.",
+     "url": "https://unitel.bo/noticias/agencias/zelenski-dice-que-los-rusos-quieren-usar-evacuacion-de-kostiantinivka-para-tomar-la-ciudad-MI24798370",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "Un estudio con 1.656 profesionales encontró que el 98 % usa inteligencia artificial, pero solo uno de cada tres sabe sacarle provecho.",
+     "url": "https://ambito.com/tecnologia/inteligencia-artificial-el-98-la-usa-pero-solo-uno-cada-tres-profesionales-sabe-aprovecharla-n6345245",
+     "verified": false
+    },
+    {
+     "text": "Una experta de la Politécnica de Valencia advierte que la adopción de la IA va más rápido que la comprensión de sus riesgos, como los contenidos falsos.",
+     "url": "https://www.infobae.com/espana/agencias/2026/11/14/experta-informatica-avisa-adoptar-la-ia-ha-ido-mucho-mas-rapido-que-su-alfabetizacion/",
+     "verified": false
+    },
+    {
+     "text": "Expertos en México debaten si la IA puede reemplazar a los abogados: dicen que acerca el conocimiento jurídico, pero no sustituye el criterio humano.",
+     "url": "https://infobae.com/mexico/2026/11/14/la-inteligencia-artificial-podria-reemplazar-a-los-abogados-experto-advierte-como-cambiaria-el-sistema-de-justicia",
+     "verified": false
+    },
+    {
+     "text": "En el festival REC'n'Play de Recife plantean que Brasil puede ser proveedor de aplicaciones de IA, apoyado en casos como Pix y Embraer.",
+     "url": "https://prensa-latina.cu/2026/11/14/brasil-por-protagonismo-tecnologico-mediante-inteligencia-artificial",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "Xbox cumple hoy 25 años y los fans esperan alguna novedad de Project Helix, su próxima consola, aunque Microsoft no ha anunciado ningún evento.",
+     "url": "https://generacionxbox.com/xbox-puede-presentar-manana-15-de-noviembre-su-nueva-consola-project-helix/",
+     "verified": true
+    },
+    {
+     "text": "Los nominados de The Game Awards 2026 se conocen el martes 17; GTA VI es elegible aunque sale el 19 de noviembre.",
+     "url": "https://que.es/2026/11/14/the-game-awards-2026-nominados",
+     "verified": true
+    },
+    {
+     "text": "Ocho clásicos como Perfect Dark y Banjo-Kazooie llegan hoy a Game Pass Essential por el aniversario de Xbox.",
+     "url": "https://generacionxbox.com/juegos-confirmados-del-16-al-22-de-noviembre-en-xbox-game-pass/",
+     "verified": false
+    },
+    {
+     "text": "Un analista de Circana cree que The Elder Scrolls VI: Sentinel no podrá llenar el vacío comercial que dejará GTA VI.",
+     "url": "https://vandal.elespanol.com/noticia/2026318001/un-analista-lo-tiene-claro-the-elder-scrolls-6-jamas-podra-ocupar-el-inmenso-vacio-que-deje-gta-6",
+     "verified": false
+    },
+    {
+     "text": "El simulador de videoclub Retro Rewind se actualiza y ahora permite alquilar videojuegos de consolas retro.",
+     "url": "https://vandal.elespanol.com/noticia/2026318007/es-el-simulador-de-videoclub-favorito-de-la-comunidad-y-acaba-de-expandirse-con-el-alquiler-de-videojuegos/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Godzilla Minus Zero logró el mejor estreno en EE. UU. para una película de acción real que no es en inglés, con unos 32 millones de dólares.",
+     "url": "https://www.sensacine.com/noticias/cine/noticia-1000232059/",
+     "verified": true
+    },
+    {
+     "text": "Johnny Depp es Ebenezer Scrooge en Scrooge y los fantasmas de la Navidad, de Ti West, que ya está en cines.",
+     "url": "https://www.accioncine.es/estrenos-de-cine-y-plataformas-del-13-de-noviembre",
+     "verified": true
+    },
+    {
+     "text": "Netflix presentó el tráiler de Tantara, el drama coreano de Gong Yoo y Song Hye-kyo sobre la industria musical de Corea entre los 60 y los 80.",
+     "url": "https://www.infobae.com/entretenimiento/2026/11/14/el-nuevo-kdrama-de-gong-yoo-y-song-hye-kyo-ya-tiene-trailer-cuando-se-estrenara-en-netflix/",
+     "verified": false
+    },
+    {
+     "text": "La película concierto de Rammstein grabada en el Foro Sol de Ciudad de México llega a los cines este fin de semana.",
+     "url": "https://www.hellofriki.com/estrenos-de-cine-en-la-cartelera-13-de-noviembre-de-2026/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Japón le ganó 3 a 2 a Brasil en Singapur con gol en el descuento; Vinícius hizo doblete y Ancelotti y Raphinha fueron expulsados.",
+     "url": "https://www.si.com/mx/internacional/brasil-cae-ante-japon-y-termina-con-ancelotti-y-raphinha-expulsados",
+     "verified": true
+    },
+    {
+     "text": "Quedaron los cuadrangulares de la Liga BetPlay: Grupo A con Nacional, Once Caldas, Santa Fe y Medellín; Grupo B con América, Bucaramanga, Millonarios y Cali. Arrancan el 20 de noviembre.",
+     "url": "https://www.noticiascaracol.com/golcaracol/futbol-colombiano/asi-quedaron-los-cuadrangulares-de-liga-betplay-ii-2026-tras-el-sorteo-habra-clasicos-so35",
+     "verified": true
+    },
+    {
+     "text": "La Selección Colombia cierra el año el martes 17 ante Chile en Santiago, a las 6:00 p. m. hora colombiana.",
+     "url": "https://www.eltiempo.com/amp/deportes/futbol-internacional/la-seleccion-colombia-ya-tiene-fecha-para-su-proximo-partido-hora-rival-y-por-donde-ver-el-juego-3601082",
+     "verified": true
+    },
+    {
+     "text": "Es oficial: Pochettino es el nuevo técnico del Manchester United y asumirá el 18 de noviembre, después de dirigir a EE. UU. ante Haití.",
+     "url": "https://www.lanacion.com.ar/deportes/futbol/manchester-united-anuncio-a-mauricio-pochettino-como-su-nuevo-entrenador-nid13112026/",
+     "verified": true
+    },
+    {
+     "text": "Liga de Naciones: Dinamarca goleó 4 a 1 a Portugal en Braga y Noruega le ganó 3 a 1 a Gales con gol de Haaland.",
+     "url": "https://unitel.bo/noticias/agencias/los-resultados-de-la-liga-de-naciones-y-clasificaciones-OO24806923",
+     "verified": true
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Cayó alias Primo Gay, cabecilla disidente buscado en Antioquia",
+   "level": "media",
+   "reason": "sin enlace verificado en la búsqueda"
+  },
+  {
+   "title": "Glenn Close y Ridley Scott reciben hoy su Óscar honorífico",
+   "level": "media",
+   "reason": "la gala aún no ocurre"
+  },
+  {
+   "title": "Trump llega a Manila para la cumbre de la ASEAN",
+   "level": "media",
+   "reason": "aún no ocurre"
+  },
+  {
+   "title": "Los nominados a los Grammy 2027 se conocerán el lunes 16",
+   "level": "baja",
+   "reason": "aún no ocurre"
+  },
+  {
+   "title": "Boca goleó 3 a 0 y jugará la final de la Copa Argentina",
+   "level": "baja",
+   "reason": "no cupo"
+  },
+  {
+   "title": "Novorizontino ganó la Serie B de Brasil y sube con Juventude",
+   "level": "baja",
+   "reason": "sin enlace al artículo"
+  },
+  {
+   "title": "El papa León XIV celebra hoy misa en Cusco",
+   "level": "baja",
+   "reason": "aún no ocurre"
+  }
+ ]
+}
