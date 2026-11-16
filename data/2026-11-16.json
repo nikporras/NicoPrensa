@@ -1,0 +1,303 @@
+{
+ "date": "2026-11-16",
+ "title": "Inglaterra acaba con el invicto de España",
+ "rates": {
+  "dolar": "$3.316,70",
+  "libra": null,
+  "real": "R$ 7,47"
+ },
+ "resumen": [
+  {
+   "emoji": "🇨🇴",
+   "text": "De la Espriella acusa a Petro de narcoterrorismo"
+  },
+  {
+   "emoji": "🌎",
+   "text": "Lula se reúne hoy con Sánchez en Madrid"
+  },
+  {
+   "emoji": "🏛️",
+   "text": "Nueva noche de drones entre Rusia y Ucrania"
+  },
+  {
+   "emoji": "💻",
+   "text": "Falla el Vulcan: Amazon pierde 40 satélites"
+  },
+  {
+   "emoji": "🎮",
+   "text": "GTA 6 llega el jueves con 11 millones de reservas"
+  },
+  {
+   "emoji": "🎬",
+   "text": "Glenn Close recibe por fin su Óscar"
+  },
+  {
+   "emoji": "⚽",
+   "text": "Bélgica golea 4 a 1 y elimina a Italia"
+  }
+ ],
+ "sections": [
+  {
+   "id": "top",
+   "emoji": "🔥",
+   "title": "Lo más importante",
+   "stories": [
+    {
+     "text": "Inglaterra le ganó 3 a 2 a España en Madrid, jugando media hora con 10, y acabó con el invicto de 43 partidos de los campeones del mundo. Con goles de Kane (penal), Konsa y White, termina primera de su grupo en la Liga de Naciones.",
+     "url": "https://uk.news.yahoo.com/england-hold-victory-over-spain-230046264.html",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "En su balance de 100 días, el presidente De la Espriella prometió que la canasta familiar no pagará IVA y dijo que Hacienda estudia bajar la tarifa general del 19 % al 18 % o al 17 %.",
+     "url": "https://www.portafolio.co/amp/economia/gobierno/de-la-espriella-promete-no-gravar-la-canasta-familiar-pero-la-ley-de-rescate-plantea-cambios-en-el-iva-506433",
+     "verified": true
+    },
+    {
+     "text": "Hito espacial: SpaceX atrapó por primera vez la nave Starship con los brazos de su torre en Texas, tras 22,5 horas de vuelo y 14 órbitas. El propulsor Super Heavy no se pudo recuperar.",
+     "url": "https://okdiario.com/techy/nave-starship-spacex-atrapa-torre-starbase-vuelo-15-20901809",
+     "verified": true
+    }
+   ]
+  },
+  {
+   "id": "colombia",
+   "emoji": "🇨🇴",
+   "title": "Colombia",
+   "stories": [
+    {
+     "text": "En la misma alocución, De la Espriella acusó al gobierno de Petro de haber sido socio del narcoterrorismo y presentó sus cifras de seguridad, con la lista de cabecillas capturados o abatidos.",
+     "url": "https://eltiempo.com/politica/abelardo-de-la-espriella/presidente-de-la-espriella-arremete-contra-el-gobierno-de-gustavo-petro-el-gobierno-anterior-era-complice-y-socio-del-narcoterrorismo-3601352",
+     "verified": true
+    },
+    {
+     "text": "Puente festivo violento en el Huila: estalló un carro bomba en la vía a Aipe, otro fue desactivado, y el derribo de tres torres de energía dejó sin luz zonas del Huila y el Caquetá.",
+     "url": "https://www.eltiempo.com/colombia/otras-ciudades/ataques-contra-tres-torres-de-energia-deja-sin-servicio-electrico-a-zonas-del-huila-y-caqueta-se-suman-a-los-atentados-contra-peajes-con-carros-bomba-3601315",
+     "verified": false
+    },
+    {
+     "text": "Arranca hoy en Nueva York la primera Milagro Week: el Gobierno presenta 86 proyectos por US$56.799 millones a inversionistas internacionales, con Citi y JP Morgan como aliados.",
+     "url": "https://www.larepublica.co/economia/gobierno-llevara-86-proyectos-por-us-56-799-millones-a-rueda-de-inversion-en-nueva-york-4506984",
+     "verified": true
+    },
+    {
+     "text": "Por el festivo, la TRM de $3.316,70 sigue vigente hasta el martes. El dólar cerró la semana por encima de $3.300, su nivel más alto en seis semanas.",
+     "url": "https://www.rtanoticias.com/el-dolar-en-colombia-2026-proyecciones/",
+     "verified": true
+    },
+    {
+     "text": "En Bogotá hoy no hay pico y placa por el festivo. Desde el martes 17 vuelve la medida: los días impares circulan las placas terminadas en 1 a 5.",
+     "url": "https://citytv.eltiempo.com/noticias/movilidad/pico-y-placa-en-bogota-asi-aplica-la-medida-del-16-al-22-de-noviembre-de-2026_97375",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "latam",
+   "emoji": "🌎",
+   "title": "Latinoamérica",
+   "stories": [
+    {
+     "text": "Brasil: Lula se reúne hoy con Pedro Sánchez en la Moncloa, a dos semanas de las elecciones españolas del 29 de noviembre. El mitin que iban a compartir se canceló por la afonía del presidente brasileño, que llega desde la cumbre de la ASEAN en Manila.",
+     "url": "https://es-us.noticias.yahoo.com/lula-reunir%C3%A1-lunes-presidente-espa%C3%B1ol-144935032.html",
+     "verified": true
+    },
+    {
+     "text": "El papa León XIV cierra hoy su primera gira por Latinoamérica con una misa en la base aérea Las Palmas de Lima, donde se esperan 1,2 millones de fieles, antes de volver a Roma.",
+     "url": "https://elperuano.pe/noticia/305337-papa-leon-xiv-en-peru-preven-1200000-asistentes-en-misa-en-base-las-palmas",
+     "verified": true
+    },
+    {
+     "text": "Venezuela: presos políticos de la cárcel de Ramo Verde iniciaron una huelga de hambre, mientras la Asamblea Nacional aprobó la reforma de la ley del servicio eléctrico.",
+     "url": "https://eldiario.com/2026/11/15/resumen-noticias-venezuela-semana-domingo-15-noviembre/",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "politica",
+   "emoji": "🏛️",
+   "title": "Política",
+   "stories": [
+    {
+     "text": "Rusia lanzó 132 drones contra Ucrania en la noche del sábado: 106 fueron neutralizados, pero hubo impactos en 20 lugares y, según EFE, ocho muertos en varias regiones.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/15/ucrania-neutraliza-106-de-132-drones-rusos-e-informa-de-ataques-contra-infraestructuras/",
+     "verified": true
+    },
+    {
+     "text": "Del lado ruso, Moscú dice haber derribado 533 drones ucranianos. Un ataque en Taganrog (Rostov) mató a una persona, hirió a cuatro e interrumpió el tráfico de trenes.",
+     "url": "https://www.infobae.com/america/agencias/2026/11/15/un-ataque-con-drones-en-rostov-deja-al-menos-un-muerto-y-cuatro-heridos-e-interrumpe-el-trafico-ferroviario/",
+     "verified": true
+    },
+    {
+     "text": "Reino Unido: 75 diputados laboristas firmaron una carta contra el yacimiento petrolero Rosebank, en el mar del Norte. Es la primera gran rebelión contra el primer ministro Andy Burnham.",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-15/burnham-faces-labour-rebellion-over-rosebank-sunday-times-says",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Burnham prometió una reforma generacional para los jóvenes que ni estudian ni trabajan, con las ayudas sociales como último recurso y más inversión desde la infancia.",
+     "url": "https://www.itv.com/news/2026-11-15/pm-benefits-will-be-backstop-under-generational-neets-reform",
+     "verified": false,
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "tec",
+   "emoji": "💻",
+   "title": "Tecnología",
+   "stories": [
+    {
+     "text": "Golpe para Amazon: el cohete Vulcan de ULA falló 10 minutos después de despegar, en su regreso al vuelo, y se perdieron los 40 satélites de internet Amazon Leo que llevaba.",
+     "url": "https://spaceflightnow.com/2026/11/15/ula-suffers-first-total-mission-failure-with-loss-of-vulcan-rocket-carrying-40-amazon-leo-satellites/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "OpenAI presentó ChatGPT Wallet, que permite a sus agentes de IA completar compras con la tarjeta del usuario y su autorización, en alianza con Visa, Mastercard y American Express.",
+     "url": "https://www.muycomputer.com/2026/11/15/chatgpt-wallet-lleva-a-los-agentes-de-ia-hasta-la-caja/",
+     "verified": false
+    },
+    {
+     "text": "El movimiento Stop The AI Race marchó en una veintena de ciudades para exigir a Trump y Xi un tratado sobre inteligencia artificial antes de la cumbre APEC de Shenzhen.",
+     "url": "https://moncloa.com/2026/11/15/tratado-inteligencia-artificial-protestas-apec-3468390",
+     "verified": false
+    },
+    {
+     "text": "Las empresas ya usan IA de forma masiva, pero crece el reto de controlar cuánto cuesta y medir su impacto real en el negocio, según un análisis publicado este domingo.",
+     "url": "https://mdzol.com/economia/2026/11/15/la-inteligencia-artificial-crece-en-las-empresas-pero-quien-controla-cuanto-cuesta-1995048.html",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "juegos",
+   "emoji": "🎮",
+   "title": "Videojuegos",
+   "stories": [
+    {
+     "text": "GTA 6 sale este jueves 19 de noviembre con 11 millones de reservas, según Sensor Tower, que calcula hasta 25 millones de copias el día del lanzamiento.",
+     "url": "https://www.que.es/2026/11/15/gta-6-lanzamiento-19-noviembre-3/",
+     "verified": false
+    },
+    {
+     "text": "Slay the Spire 2 recibió su mayor actualización: un personaje nuevo, dos modos de juego (entre ellos Blitz) y una larga lista de ajustes.",
+     "url": "https://es.kotaku.com/uno-de-los-juegos-mas-adictivos-de-2026-recibe-su-mayor-actualizacion-y-sorprende-con-tres-grandes-novedades-2000057227",
+     "verified": false
+    },
+    {
+     "text": "Xbox Game Pass ya confirmó cinco juegos para diciembre de 2026.",
+     "url": "https://generacionxbox.com/xbox-game-pass-ya-tiene-nuevos-juegos-confirmados-para-diciembre-de-2026-todas-las-fechas",
+     "verified": false
+    },
+    {
+     "text": "Por los 25 años de Xbox, Microsoft regala la revista digital oficial del aniversario, con historias de sus juegos y consolas.",
+     "url": "https://generacionxbox.com/microsoft-regala-la-revista-oficial-del-25-aniversario-de-xbox-link-disponible",
+     "verified": false
+    },
+    {
+     "text": "Epic Games Store regala el juego de estrategia Knightica hasta el 19 de noviembre.",
+     "url": "https://generacionxbox.com/epic-games-store-regala-un-juegazo-de-estrategia-consiguelo-ahora",
+     "verified": false
+    }
+   ]
+  },
+  {
+   "id": "cine",
+   "emoji": "🎬",
+   "title": "Cine y series",
+   "stories": [
+    {
+     "text": "Glenn Close por fin tiene su Óscar: recibió el honorífico en los Governors Awards tras ocho nominaciones sin ganar. Ridley Scott también fue premiado, aunque no asistió por un procedimiento médico reciente.",
+     "url": "https://www.yahoo.com/entertainment/movies/articles/governors-awards-glenn-close-ridley-045713079.html",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Taquilla de EE. UU.: Ebenezer, la versión de Cuento de Navidad con Johnny Depp como Scrooge, debutó en el número uno con US$19 millones (US$42 millones en el mundo).",
+     "url": "https://variety.com/2026/film/box-office/ebenezer-box-office-johnny-depp-opening-weekend-how-to-rob-a-bank-1236948055/",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Cómo robar un banco, de David Leitch con Nicholas Hoult y Zoë Kravitz, tropezó en su estreno con apenas unos US$5 millones.",
+     "url": "https://www.worldofreel.com/blog/2026/11/14/3j64xd7tqm48jumt5oezv1yuc9o7q5",
+     "verified": true,
+     "lang": "en"
+    },
+    {
+     "text": "Godzilla Minus Zero cayó 73 % en su segundo fin de semana en EE. UU. y bajó al tercer puesto, aunque ya suma unos US$48 millones allí.",
+     "url": "https://geeksandgamers.com/ebenezer-wins-the-weekend-while-godzilla-minus-zero-falls-box-office-breakdown/",
+     "verified": true,
+     "lang": "en"
+    }
+   ]
+  },
+  {
+   "id": "futbol",
+   "emoji": "⚽",
+   "title": "Fútbol",
+   "stories": [
+    {
+     "text": "Bélgica remontó y goleó 4 a 1 a Italia en Bruselas: los belgas pasan a cuartos de la Liga de Naciones y la Italia de Mancini queda eliminada.",
+     "url": "https://www.semana.com/deportes/articulo/belgica-aterriza-a-italia-que-sonaba-con-su-renacer-goleada-y-eliminacion-en-la-nations-league/202641/",
+     "verified": true
+    },
+    {
+     "text": "La Dimayor publicó el calendario completo de los cuadrangulares de la Liga BetPlay, que arrancan el viernes 20, con clásico paisa en el grupo A y clásico vallecaucano en el B.",
+     "url": "https://www.elespectador.com/deportes/futbol-colombiano/dimayor-confirmo-el-fixture-de-los-cuadrangulares-de-la-liga-betplay-asi-se-jugaran/",
+     "verified": true
+    },
+    {
+     "text": "James Rodríguez y Juan Fernando Quintero, frente a frente: Nacional, líder del grupo A, y Medellín reeditan el clásico paisa en los cuadrangulares.",
+     "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/nacional-y-dim-vuelven-a-cruzarse-en-cuadrangulares-antecedentes-y-cuentas-pendientes-275289",
+     "verified": false
+    },
+    {
+     "text": "El Internacional es campeón por primera vez de la Copa do Brasil femenina: venció 1 a 0 al Flamengo en el Beira Rio (4 a 1 en el global) ante más de 20.000 hinchas.",
+     "url": "https://www.band.com.br/esportes/futebol/futebol-feminino/internacional-vence-flamengo-de-novo-e-conquista-a-copa-do-brasil-feminina",
+     "verified": true,
+     "lang": "pt"
+    },
+    {
+     "text": "Así va la reclasificación de la Liga BetPlay antes de los cuadrangulares, en la pelea por los cupos a Libertadores y Sudamericana.",
+     "url": "https://www.infobae.com/colombia/deportes/2026/11/15/asi-va-la-tabla-de-reclasificacion-antes-de-iniciar-los-cuadrangulares-recta-final-para-llegar-a-la-libertadores-y-sudamericana/",
+     "verified": false
+    }
+   ]
+  }
+ ],
+ "omitidas": [
+  {
+   "title": "Irán dijo haber atacado con drones una base de EE. UU. en Baréin y amenazó con ampliar la guerra",
+   "level": "media",
+   "reason": "sin fuente confiable"
+  },
+  {
+   "title": "Lula dijo en Manila que Brasil no le implorará a EE. UU. y buscará nuevos socios comerciales",
+   "level": "media",
+   "reason": "sin fuente confiable"
+  },
+  {
+   "title": "Francia le ganó 2 a 1 a Turquía y también pasó a cuartos de la Liga de Naciones",
+   "level": "baja",
+   "reason": "no cupo"
+  },
+  {
+   "title": "México perdió 3 a 2 en Jamaica en la Liga de Naciones de la Concacaf",
+   "level": "baja",
+   "reason": "no cupo"
+  },
+  {
+   "title": "El segundo día del Enem 2026 se aplicó el domingo en todo Brasil",
+   "level": "baja",
+   "reason": "sin artículo propio reciente"
+  },
+  {
+   "title": "Las guerreras K-pop anunciaron una gira de 61 conciertos, sin fechas en España",
+   "level": "baja",
+   "reason": "sin artículo propio reciente"
+  }
+ ]
+}
