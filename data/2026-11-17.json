@@ -1,0 +1,257 @@
+{
+  "date": "2026-11-17",
+  "title": "Burnham admite que el Brexit no ha funcionado",
+  "rates": {
+    "dolar": "$3.316,70",
+    "libra": null,
+    "real": null
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "De la Espriella abre la Milagro Week por video"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Senado de Brasil cierra hoy el ajuste fiscal"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "Japón y Corea despegan cazas ante aviones rusos"
+    },
+    {
+      "emoji": "💻",
+      "text": "EE.UU. arma alianza de diez países por la IA"
+    },
+    {
+      "emoji": "🎮",
+      "text": "Semana de GTA VI: todos los estrenos"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Netflix estrena Los altruistas con Julia Garner"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Lorenzo promete rodaje ante Chile esta noche"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "El primer ministro británico, Andy Burnham, dijo anoche en el banquete del Guildhall que hay que admitir que el Brexit no ha funcionado y que el Reino Unido necesita una relación mucho más cercana con la UE, aunque los grandes cambios llegarían después de las próximas elecciones. El viernes hay cumbre en Bruselas.",
+          "url": "https://www.washingtonpost.com/world/2026/11/16/andy-burnham-lord-mayor-banquet-speech-brexit/515b0da0-e207-11f1-a99e-b3e3805c6b8b_story.html",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Trump llega hoy a Manila para el cierre de la cumbre de la ASEAN y dijo que podría reunirse con Kim Jong-un en China durante la APEC, algo que según él depende de Xi Jinping.",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008848853",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Mercados nerviosos el día en que Nvidia presenta sus primeros resultados sin Jensen Huang: el exjefe de la SEC Gary Gensler advirtió que la burbuja de la IA probablemente estallará y causará una recesión antes de 2028.",
+          "url": "https://cnnespanol.cnn.com/2026/11/16/economia/burbuja-inteligencia-artificial-recesion-advertencia-trax",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "De la Espriella inauguró por video la Milagro Week en Nueva York, ante inversionistas, y reafirmó que no saldrá de Colombia durante su gobierno. El encuentro va hasta el 19 de noviembre.",
+          "url": "https://www.semana.com/amp/economia/macroeconomia/articulo/abelardo-de-la-espriella-dio-apertura-a-la-milagro-week-con-contundente-mensaje-no-saldre-de-colombia-durante-mi-gobierno/202603/",
+          "verified": true
+        },
+        {
+          "text": "El puente festivo dejó 11 atentados contra peajes en Huila, Cauca y Meta, incluido un vehículo con explosivos en el peaje Pipiral, en la vía Bogotá-Villavicencio.",
+          "url": "https://www.bluradio.com/noticias-de-la-manana/fin-de-semana-de-ataques-terroristas-en-peajes-noticias-de-la-manana-16-de-noviembre-2026-pr30",
+          "verified": true
+        },
+        {
+          "text": "Alerta en el Atlántico: organizaciones de mujeres cuentan 74 mujeres asesinadas en lo que va de 2026, más que en todo 2025.",
+          "url": "https://minuto60.com/judicial/barranquilla-alerta-74-mujeres-que-han-sido-asesinadas-2026/18785",
+          "verified": true
+        },
+        {
+          "text": "Avanzó el Plan Retorno a Bogotá tras el puente de la Independencia de Cartagena, con pico y placa regional y reversibles para el ingreso.",
+          "url": "https://bogota.gov.co/mi-ciudad/movilidad/2026-11/movilidad-bogota-avanza-plan-retorno-hoy-lunes-16-de-noviembre-2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "El Senado de Brasil vota hoy los cuatro cambios pendientes del ajuste fiscal de Lula (texto base aprobado 45 a 31), que busca ahorrar hasta R$ 56.000 millones en 2027; luego pasa a la Cámara.",
+          "url": "https://www.otempo.com.br/politica/congresso/2026/11/16/senado-deve-concluir-votacao-do-ajuste-fiscal-de-lula-nesta-terca-16-11",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "El ajuste divide a la izquierda brasileña: la cúpula del PT lo apoya, pero legisladores del PSOL lo llaman tesouraço por el posible recorte al presupuesto de salud.",
+          "url": "https://agorarn.com.br/brasil/ajuste-fiscal-lula-pt-esquerda-tesouraco/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Lula regresa a Brasil tras su gira y lo esperan la creación del Ministerio de Seguridad Pública, la vacante en el Supremo y el debate sobre la jornada 6x1.",
+          "url": "https://tmc.com.br/politica/lula-retorno-brasil-ajuste-fiscal-ministerio-seguranca/",
+          "verified": false,
+          "lang": "pt"
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "Japón y Corea del Sur hicieron despegar cazas tras una incursión de aviones militares rusos, en vísperas de la cumbre de APEC en China.",
+          "url": "https://www.10things.news/p/10-things-global-news-17th-november-e83",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Michael Barr, de la Reserva Federal, advirtió que la IA y la deuda creciente de sus grandes empresas podrían amplificar futuras crisis financieras.",
+          "url": "https://es.gizmodo.com/la-reserva-federal-inteligencia-artificial-con-los-riesgos-financieros-2000272387",
+          "verified": true
+        },
+        {
+          "text": "Alemania pidió a Israel permitir la entrada de mucha más ayuda humanitaria a Gaza antes del invierno, antes de una reunión de cancilleres de la UE en Bruselas.",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-17-2026/4127219",
+          "verified": false,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Estados Unidos y nueve socios firmaron una alianza para proteger chips, minerales e infraestructura de la IA y reducir la dependencia de China, según Reuters.",
+          "url": "https://es.gizmodo.com/estados-unidos-acaba-de-reunir-a-diez-paises-para-proteger-la-tecnologia-que-hace-funcionar-la-inteligencia-artificial-el-objetivo-es-reducir-la-dependencia-de-china-y-controlar-los-recursos-mas-estr-2000272383",
+          "verified": false
+        },
+        {
+          "text": "Tras el escándalo de Jensen Huang, demócratas y republicanos en el Congreso de EE.UU. buscan endurecer las exportaciones de chips de IA a China.",
+          "url": "https://cafeconia.substack.com/p/cafe-con-ia-16-de-noviembre-de-2026",
+          "verified": false
+        },
+        {
+          "text": "Nvidia, AMD, Intel, Google y Meta fundaron el consorcio SGLang para impulsar la inferencia de IA de código abierto.",
+          "url": "https://reviblog.net/2026/11/16/resumen-tech-semanal-16-noviembre-2026/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "Semana histórica: además de GTA VI el jueves, llegan varios estrenos para PC, PS5, Xbox y Switch 2 entre el 16 y el 20 de noviembre.",
+          "url": "https://www.libertaddigital.com/ciencia-tecnologia/videojuegos/2026-11-16/estrenos-de-videojuegos-16-20-nov-gta-6-llega-a-las-tiendas-tras-una-eternidad-esperando-7491918/",
+          "verified": true
+        },
+        {
+          "text": "Ya salió Spirit Crossing, el MMO acogedor de los creadores de Cozy Grove, para PC, Switch y Switch 2, a 29,99 dólares y sin microtransacciones.",
+          "url": "https://www.playnews.gg/es/anuncios/fecha-de-lanzamiento-de-spirit-crossing-el-mmo-acogedor-llega-el-16-de-noviembre-de-2026-a-pc-y-switch",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Netflix estrena esta semana Los altruistas, con Julia Garner, además de Génesis (sobre Ferran Adrià y elBulli) y la animada Hermanastras.",
+          "url": "https://www.sensacine.com/noticias/cine/noticia-1000231727/",
+          "verified": true
+        },
+        {
+          "text": "Los Juegos del Hambre: Amanecer en la cosecha llega a cines esta semana y encabeza los estrenos, mientras Percy Jackson lidera lo nuevo en streaming.",
+          "url": "https://www.imagenradio.com.mx/entretenimiento/que-ver-cine-streaming-todos-estrenos-16-22-noviembre-mexico",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Colombia cierra hoy el año ante Chile en Santiago (6:00 p. m.) y Lorenzo anunció cambios para darles rodaje a jugadores como Juan Rengifo.",
+          "url": "https://www.semana.com/deportes/articulo/lorenzo-escucha-a-colombia-y-patea-el-tablero-contra-chile-en-santiago-se-le-dara-rodaje/202617/",
+          "verified": true
+        },
+        {
+          "text": "Néstor Lorenzo hizo balance del 2026 y calificó de muy bueno el Mundial, en el que Colombia cayó en octavos ante Suiza.",
+          "url": "https://www.noticiascaracol.com/golcaracol/seleccion-colombia/nestor-lorenzo-hace-balance-del-2026-en-seleccion-colombia-un-mundial-muy-bueno-rg10",
+          "verified": true
+        },
+        {
+          "text": "Liga de Naciones: la Alemania de Klopp goleó 5-0 a Países Bajos y ambos avanzan a cuartos; Suiza le ganó 4-0 a Escocia.",
+          "url": "https://www.101greatgoals.com/football/internationals/nations-league-results-today-scores-promotion-play-offs-standings/",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {
+      "title": "Ucrania volvió a atacar el puente de Kerch en medio de una ola récord de drones",
+      "level": "media",
+      "reason": "sin fuente confiable reciente"
+    },
+    {
+      "title": "Francia vive hoy otra jornada de huelga y protestas contra el costo de vida",
+      "level": "media",
+      "reason": "sin enlace del día"
+    },
+    {
+      "title": "Robert Pattinson sería el favorito de Amazon para ser el nuevo James Bond",
+      "level": "media",
+      "reason": "sin confirmación oficial"
+    },
+    {
+      "title": "Paraguay: el destituido Santiago Peña sigue detenido en un cuartel militar por el caso Ueno Bank",
+      "level": "media",
+      "reason": "sin novedad reciente"
+    },
+    {
+      "title": "La UE sanciona a la fundadora de Wildberries, la mujer más rica de Rusia",
+      "level": "baja",
+      "reason": "sin enlace del día"
+    },
+    {
+      "title": "El Parlamento israelí vota hoy reemplazar a su presidente",
+      "level": "baja",
+      "reason": "sin enlace del día"
+    },
+    {
+      "title": "Microsoft abre hoy su conferencia Ignite en San Francisco",
+      "level": "baja",
+      "reason": "sin fuente en español o inglés"
+    }
+  ]
+}
