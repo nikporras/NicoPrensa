@@ -1,0 +1,300 @@
+{
+  "date": "2026-11-18",
+  "title": "Ucrania derrumba un tramo del puente de Crimea",
+  "rates": {
+    "dolar": "$3.309",
+    "libra": "$4.361",
+    "real": "R$ 7,63"
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "Arranca la negociación del salario mínimo 2027"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Senado de Brasil aplaza cambios al ajuste fiscal"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "Cinco países de la UE deportarán migrantes a Ruanda"
+    },
+    {
+      "emoji": "💻",
+      "text": "Nvidia duplica ingresos y marca récord"
+    },
+    {
+      "emoji": "🎮",
+      "text": "GTA VI encabeza nominados a The Game Awards"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Serie de Netflix arrasa pese a pedidos de cancelación"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Colombia empata 0 a 0 con Chile en Santiago"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Un ataque ucraniano con misiles y drones derrumbó un tramo de unos 200 metros del puente de Crimea, que une la península con Rusia. El tráfico quedó cortado y el Kremlin promete repararlo.",
+          "url": "https://www.swissinfo.ch/spa/ucrania-destruye-parte-de-un-puente-de-crimea-en-un-ataque-con-misiles/92393396",
+          "verified": true
+        },
+        {
+          "text": "Xi Jinping y Putin se reúnen hoy en Shenzhen, en la cumbre APEC, en la víspera de una inédita cumbre a tres con Trump el jueves. El control de armas nucleares estará sobre la mesa.",
+          "url": "https://es-us.noticias.yahoo.com/putin-ve-beneficios-potenciales-pr%C3%B3xima-062254105.html",
+          "verified": true
+        },
+        {
+          "text": "Frenazo de la economía colombiana: el PIB creció apenas 0,5 % en el tercer trimestre, por debajo de todas las previsiones. Cayeron el agro (6,7 %) y la industria (1,2 %).",
+          "url": "https://www.elcolombiano.com/negocios/pib-colombia-tercer-trimestre-2026-dane-CH43665788",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "Hoy se instala la mesa para definir el salario mínimo de 2027. Los sindicatos piden hasta 38,5 % y los gremios proponen entre 7 % y 9,5 %; hay plazo hasta el 15 de diciembre.",
+          "url": "https://www.elcolombiano.com/negocios/salario-minimo-2027-fechas-negociacion-aumento-colombia-NH43666182",
+          "verified": true
+        },
+        {
+          "text": "Primer balance de la Milagro Week en Nueva York: anuncios por US$25.900 millones, de ellos US$21.400 millones de la banca multilateral y US$4.500 millones de empresas como Avianca.",
+          "url": "https://www.minuto30.com/milagro-week-balance-anuncios-inversion/1731393/",
+          "verified": true
+        },
+        {
+          "text": "Gobierno y ponentes tuvieron su primera reunión sobre la Ley de Rescate Económico. El primer debate en comisiones se votaría el 1 o 2 de diciembre.",
+          "url": "https://www.semana.com/economia/macroeconomia/articulo/termino-la-primera-reunion-entre-ponentes-y-gobierno-sobre-la-ley-de-rescate-en-esta-fecha-iniciaria-su-primer-debate/202616/",
+          "verified": true
+        },
+        {
+          "text": "De la Espriella anunció que los alimentos para mascotas no tendrán aumento de IVA, en la misma línea de su decisión sobre la canasta familiar.",
+          "url": "https://www.eluniversal.com.co/colombia/2026/11/17/de-la-espriella-anuncia-que-no-aumentara-el-iva-a-los-alimentos-para-mascotas/",
+          "verified": false
+        },
+        {
+          "text": "Al menos nueve temblores sacudieron Colombia el martes, la mayoría con epicentro en Santander. El más fuerte fue de magnitud 3,9 en Los Santos.",
+          "url": "https://www.noticiasrcn.com/colombia/temblor-en-colombia-hoy-17-de-noviembre-de-2026-1082733",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "🇧🇷 El Senado de Brasil aplazó para hoy la votación de los cambios al ajuste fiscal de Lula por falta de acuerdo con la oposición. La Cámara sigue esperando el texto.",
+          "url": "https://www.gazetadopovo.com.br/economia/senado-adia-votacao-de-destaques-que-podem-mudar-ajuste-fiscal-de-lula/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "🇧🇷 De vuelta de Asia, Lula reunió a sus aliados para armar el nuevo gabinete y anunciará en los próximos días los primeros ministros de su próximo mandato.",
+          "url": "https://www.gazetadopovo.com.br/republica/lula-reune-aliados-para-definir-nova-esplanada-e-prepara-anuncio-de-ministros/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Miles de haitianos marcharon en Puerto Príncipe en apoyo a los más de 2.000 soldados salvadoreños que combaten a las pandillas. Bukele dijo que nunca esperó algo así.",
+          "url": "https://www.semana.com/mundo/articulo/bukele-reacciona-a-multitudinaria-marcha-en-apoyo-al-despliegue-militar-en-haiti-nunca-espere-algo-asi/202625/",
+          "verified": true
+        },
+        {
+          "text": "La izquierda salvadoreña (FMLN) inscribió al médico Rafael Aguirre como candidato para enfrentar a Bukele en las presidenciales del 28 de febrero de 2027.",
+          "url": "https://www.diariolasamericas.com/america-latina/la-izquierda-salvadorena-inscribe-su-candidato-competir-bukele-la-eleccion-presidencial-n5405453",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "Alemania, Dinamarca, Austria, Países Bajos y Grecia pactaron con Ruanda abrir en 2027 el primer centro fuera de Europa para deportar a solicitantes de asilo rechazados.",
+          "url": "https://es.euronews.com/2026/11/16/5-paises-de-la-ue-pactan-con-ruanda-abrir-el-primer-centro-fuera-de-europa-para-deportar-i",
+          "verified": true
+        },
+        {
+          "text": "Serbia estrena Parlamento: el movimiento estudiantil que derrotó a Vučić asume sus 140 escaños con la promesa de acabar con la corrupción.",
+          "url": "https://www.lanacion.com.ar/usa/what-to-know-as-a-serbian-student-movement-prepares-to-govern-after-election-win-nid16112026/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "COP31 en Antalya: el primer borrador pide acelerar el abandono de los combustibles fósiles, pero la UE lo rechazó y se espera un segundo texto antes del cierre del viernes.",
+          "url": "https://elmercurio.com.ec/?p=1291836",
+          "verified": true
+        },
+        {
+          "text": "Letonia: Andris Kulbergs cerró un acuerdo de coalición de centroderecha y fue investido primer ministro tras su triunfo electoral de octubre.",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/16/un-accord-de-coalition-gouvernementale-conclu-en-lettonie-OXWJNETOMRFNLGNRRWOHZP6Z3Q/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Nvidia duplicó sus ingresos y marcó récord: US$115.800 millones en el trimestre (103 % más). Fue su primer informe sin Jensen Huang y prevé US$130.000 millones para el próximo.",
+          "url": "https://es-us.noticias.yahoo.com/nvidia-duplic%C3%B3-ingresos-alcanz%C3%B3-r%C3%A9cord-220000340.html",
+          "verified": true
+        },
+        {
+          "text": "Microsoft presentó en su conferencia Ignite siete nuevos modelos de IA propios (MAI) para código, ciberseguridad, imagen y voz, y puso en producción su chip Maia 200.",
+          "url": "https://pasqualepillitteri.it/es/news/34521/microsoft-lanza-siete-modelos-mai-ignite-2026",
+          "verified": true
+        },
+        {
+          "text": "EE.UU. incluyó a Brasil en una lista de países que necesitarán licencia para comprar chips avanzados de IA para centros de datos, una medida pensada para frenar el acceso de China.",
+          "url": "https://www.tnh1.com.br/noticia/nid/eua-incluem-brasil-em-lista-de-paises-com-restricoes-para-comprar-chips-para-data-centers/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Google lleva su asistente Ask Maps a 30 países de Europa, entre ellos Reino Unido y España. Ahora arma itinerarios de varios días y busca en tus listas guardadas.",
+          "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-is-coming-to-europe/",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "The Game Awards anunció sus nominados: GTA VI, Resident Evil Requiem, Zelda Ocarina of Time, 007 First Light, Control Resonant y Phantom Blade Zero pelean el GOTY. La gala es el 10 de diciembre.",
+          "url": "https://www.3djuegos.com/pc/noticias/the-game-awards-2026-lista-completa-nominados-todos-juegos-candidatos-al-goty",
+          "verified": true
+        },
+        {
+          "text": "GTA VI se desbloquea esta medianoche en PS5 y Xbox. Sensor Tower estima unas 15,9 millones de copias en preventa.",
+          "url": "https://www.elfinanciero.com.mx/entretenimiento/2026/11/17/lanzamiento-de-gta-vi-fecha-hora-consolas-de-que-trata-y-todo-lo-que-debes-saber/",
+          "verified": false
+        },
+        {
+          "text": "La nominación de GTA VI a Juego del Año sin haber salido aún desató críticas de jugadores en redes.",
+          "url": "https://www.semana.com/tecnologia/articulo/gta-6-creo-polemica-al-ser-nominado-a-juego-del-ano-sin-haber-salido-desatan-rechazo-en-redes/202609/",
+          "verified": false
+        },
+        {
+          "text": "Xbox Game Pass suma nuevos juegos entre hoy y el 1 de diciembre, entre ellos High on Life 2, The Outlast Trials y Sniper Ghost Warrior Contracts 2.",
+          "url": "https://www.pcmrace.com/2026/11/17/game-pass-pc-xbox-noviembre-2026/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "La serie «El Cuerpo» (The Body) conquista los rankings de Netflix en todo el mundo, pero en EE.UU. una petición con más de 90.000 firmas pide cancelarla.",
+          "url": "https://www.adorocinema.com/noticias/series/noticia-1000232605/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Estrenos de streaming de la semana: vuelve Percy Jackson con su tercera temporada en Disney+ y Hugh Jackman reinventa a Robin Hood en Movistar Plus+.",
+          "url": "https://www.cinemascomics.com/estrenos-streaming-16-22-noviembre-2026/",
+          "verified": false
+        },
+        {
+          "text": "Matthew Lillard se suma a «Anything But Ghosts», lo nuevo del director de «Obsession», junto a Aaron Paul y Bryce Dallas Howard.",
+          "url": "https://decine21.com/noticias/132592-matthew-lillard-obsession",
+          "verified": false
+        },
+        {
+          "text": "HBO Max anunció «Festival», una comedia de seis episodios sobre el caos tras bambalinas de un festival, con Javier Gutiérrez y Ana Polvorosa.",
+          "url": "https://www.eldiario.es/vertele/series/hbo-max-anuncia-nueva-serie-javier-gutierrez-caos-festival-lanza-primeras-imagenes_1_13671375.html",
+          "verified": false
+        },
+        {
+          "text": "Carla Díaz y María Pedraza, de «Élite», protagonizarán «Topple», un thriller de acción que se rodará en Croacia y Nueva York en 2027.",
+          "url": "https://www.mundiario.com/cineseries/maria-pedraza-carla-diaz-protagonizaran-topple-thriller-accion/20261117211400453444.html",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Colombia cerró 2026 con un 0 a 0 ante Chile en Santiago. Luis Javier Suárez falló un penal y Néstor Lorenzo hizo balance de la gira.",
+          "url": "https://www.elespectador.com/deportes/seleccion-colombia/saco-muchas-conclusiones-de-todo-lo-que-veo-nestor-lorenzo-luego-del-empate-con-chile/",
+          "verified": true
+        },
+        {
+          "text": "Alarma en la Selección: Gustavo Puerta salió en ambulancia con una lesión de rodilla y Dávinson Sánchez también se retiró lesionado. Se esperan los exámenes.",
+          "url": "https://www.deportesrcn.com/futbol/seleccion-colombia/lorenzo-sembro-dudas-por-la-lesion-de-gustavo-puerta-no-puedo-decir-nada-159740",
+          "verified": true
+        },
+        {
+          "text": "Lorenzo probó caras nuevas como Juan Manuel Rengifo y Samuel Velásquez: así fueron las calificaciones de la Selección ante Chile.",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/seleccion-colombia-puso-a-rodar-a-los-nuevos-balance-y-calificaciones-individuales-contra-chile-3601855",
+          "verified": true
+        },
+        {
+          "text": "Argentina goleó 7 a 0 a Costa Rica en Córdoba con dobletes de Nico Paz, Julián Álvarez y Franco Mastantuono.",
+          "url": "https://www.lanacion.com.ar/deportes/canchallena/argentina-vencio-7-0-a-costa-rica-en-un-amistoso-internacional-nid17112026/",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {
+      "title": "El Senado de Chile aprobó por unanimidad congelar el precio de los combustibles tras un acuerdo con los camioneros",
+      "level": "media",
+      "reason": "no cupo"
+    },
+    {
+      "title": "Francia vivió una nueva jornada de huelga general contra el costo de la vida",
+      "level": "media",
+      "reason": "sin fuente confiable del día"
+    },
+    {
+      "title": "El sindicato CUT de Chile marcha hoy en todo el país contra los recortes de Kast",
+      "level": "media",
+      "reason": "aún no ocurre"
+    },
+    {
+      "title": "El Gobierno de Kast firmó un acuerdo con OpenAI que genera dudas sobre protección de datos",
+      "level": "media",
+      "reason": "sin confirmar"
+    },
+    {
+      "title": "Paraguay presiona a Brasil para revisar el tratado de Itaipú",
+      "level": "baja",
+      "reason": "sin fuente confiable"
+    },
+    {
+      "title": "La muerte de un futbolista juvenil tras recibir un balonazo conmociona a Argentina",
+      "level": "baja",
+      "reason": "muy local"
+    }
+  ]
+}
