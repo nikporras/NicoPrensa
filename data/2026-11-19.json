@@ -1,0 +1,312 @@
+{
+  "date": "2026-11-19",
+  "title": "Trump, Xi y Putin, cumbre inédita hoy en China",
+  "rates": {
+    "dolar": "$3.326,96",
+    "libra": null,
+    "real": null
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "Paro nacional hoy contra la Ley de Rescate"
+    },
+    {
+      "emoji": "🌎",
+      "text": "EE.UU. y Venezuela firman acuerdo militar"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "Europa se reúne en Berlín por Ucrania"
+    },
+    {
+      "emoji": "💻",
+      "text": "Ciberataque masivo afecta webs de BBC y Zoom"
+    },
+    {
+      "emoji": "🎮",
+      "text": "GTA VI ya está disponible en el mundo"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Tráiler final de Cliff Booth con Brad Pitt"
+    },
+    {
+      "emoji": "⚽",
+      "text": "América, a la final de Copa ante Once Caldas"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Trump, Xi y Putin celebran hoy en Shenzhen (China) la primera cumbre a tres de la historia, tras darse la mano ayer en la APEC. Se espera que hablen de armas nucleares, Ucrania e Irán.",
+          "url": "https://diariocorreo.pe/mundo/apec-2026-donald-trump-y-vladimir-putin-se-saludan-brevemente-en-la-vispera-de-la-cumbre-trilateral-con-china-noticia/",
+          "verified": true
+        },
+        {
+          "text": "Irán lanzó drones contra una base de EE.UU. en Kuwait y contra Bahréin, en respuesta a bombardeos estadounidenses en la isla de Qeshm (estrecho de Ormuz). Teherán amenaza con una respuesta 'sin límites geográficos'.",
+          "url": "https://elcomercio.pe/mundo/oriente-medio/iran-ataca-bahrein-y-kuwait-tras-los-bombardeos-de-estados-unidos-contra-la-isla-de-qeshm-noticia/",
+          "verified": true
+        },
+        {
+          "text": "Anthropic, creadora de Claude, debuta hoy en el Nasdaq tras fijar su salida a bolsa en 83 dólares por acción: la mayor OPI de la historia, por encima de la de SpaceX.",
+          "url": "https://www.infobae.com/america/agencias/2026/11/19/anthropic-fija-en-83-dolares-el-precio-de-su-salida-a-bolsa-en-la-mayor-opi-de-la-historia/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "Hoy es el paro nacional contra la Ley de Rescate de De la Espriella. En Bogotá la marcha principal sale a las 9 a. m. del Parque Nacional hacia la Plaza de Bolívar; el presidente dice que marchan 'por los problemas que ellos mismos generaron'.",
+          "url": "https://elespectador.com/bogota/paro-nacional-en-bogota-puntos-y-horarios-de-las-movilizaciones-del-19-de-noviembre",
+          "verified": true
+        },
+        {
+          "text": "El Gobierno desmintió a The New York Times, que dijo que Colombia rechazó operaciones militares conjuntas con EE.UU. 'No he rechazado ninguna propuesta de Trump', dijo De la Espriella durante la visita de Pete Hegseth.",
+          "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/abelardo-de-la-espriella-desmiente-version-de-the-new-york-times-sobre-cooperacion-con-estados-unidos-no-he-rechazado-ninguna-propuesta-de-trump-3602221",
+          "verified": true
+        },
+        {
+          "text": "El dólar sigue subiendo: la TRM de hoy es $3.326,96, su nivel más alto en más de un mes.",
+          "url": "https://www.colombia.com/actualidad/economia/precio-del-dolar-hoy-en-colombia-jueves-19-de-noviembre-de-2026-613241",
+          "verified": true
+        },
+        {
+          "text": "El Banco de Bogotá advierte que Colombia entraría en estanflación (economía estancada con inflación alta) a final de 2026 y durante buena parte de 2027.",
+          "url": "https://www.valoraanalitik.com/?p=622864",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "Pete Hegseth visitó Caracas por sorpresa y firmó con el gobierno de Delcy Rodríguez un acuerdo de cooperación militar entre EE.UU. y Venezuela, la primera desde 2005.",
+          "url": "https://es.euronews.com/2026/11/18/hegseth-visita-caracas-sorpresa-anuncia-acuerdo-militar-venezuela",
+          "verified": true
+        },
+        {
+          "text": "Brasil: el Senado terminó de aprobar el ajuste fiscal de Lula ('plano Moretti') y la Cámara lo votaría el martes 24 sin cambios.",
+          "url": "https://www.otempo.com.br/politica/governo/2026/11/18/camara-vota-projeto-de-ajuste-fiscal-do-governo-na-proxima-terca-feira-24-11-diz-ministro-de-lula",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Brasil: la Fiscalía (PGR) denunció ante el Supremo al senador Flávio Bolsonaro por calumnia contra Lula, por una publicación en X.",
+          "url": "https://istoe.com.br/pgr-denuncia-flavio-bolsonaro-stf-calunia-lula",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Brasil: Petrobras y Transpetro negocian con empresas chinas inversiones para impulsar la industria naval del país.",
+          "url": "https://iclnoticias.com.br/exclusivo-brasil-negocia-investimento-da-china-para-impulsionar-industria-naval-nacional/",
+          "verified": false,
+          "lang": "pt"
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "Merz, Macron y Burnham reúnen hoy en Berlín a más de 20 líderes de la 'coalición de voluntarios' para asegurar la financiación de la defensa de Ucrania en 2027.",
+          "url": "https://www.deutschland.de/es/news/merz-convoca-en-berlin-a-la-coalicion-de-voluntarios",
+          "verified": true
+        },
+        {
+          "text": "Rusia atacó Ucrania en la noche del martes con 4 misiles Iskander y 114 drones; los misiles y 13 drones impactaron en 15 lugares.",
+          "url": "https://unn.ua/en/amp/russia-attacked-with-4-ballistic-iskanders-101-out-of-114-russian-drones-neutralized",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "La Corte Internacional de Justicia dicta hoy su sentencia sobre si Myanmar cometió genocidio contra los rohinyás, en la demanda presentada por Gambia en 2019.",
+          "url": "https://bdnews24.com/neighbours/goo6exgfg1",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "España: Sánchez y Feijóo se enfrentan esta noche (22:00 hora española) en el único cara a cara antes de las elecciones del 29 de noviembre.",
+          "url": "https://www.democrata.es/actualidad/debate-sanchez-feijoo-hora-donde-ver-19-noviembre/",
+          "verified": true
+        },
+        {
+          "text": "Reino Unido: Downing Street indica que Burnham no presentará antes de Navidad sus opciones para la futura relación con la UE, porque primero las hablará con Bruselas.",
+          "url": "https://nation.cymru/news/burnham-unlikely-to-set-out-options-for-uks-long-term-eu-ties-before-christmas/",
+          "verified": false,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Un ataque a la herramienta Optimizely hizo que unas 180 webs, entre ellas BBC, CNN, Zoom, IKEA y Air France, sirvieran código malicioso para robar tarjetas y criptomonedas.",
+          "url": "https://www.publimetro.co/tecnologia/2026/11/17/alerta-cibernetica-mundial-hackers-atacaron-varios-de-los-sitios-web-mas-visitados-del-mundo-estan-en-riesgo-quienes-los-visitaron/",
+          "verified": true
+        },
+        {
+          "text": "Ola de fallos tecnológicos en EE.UU.: tras la caída mundial de Microsoft 365 y la parada de vuelos de la FAA, fallaron bancos como Chase y un sistema interno de la NSA.",
+          "url": "https://www.primicias.ec/internacional/fallas-caida-microsoft-nsa-bancos-vuelos-estados-unidos-apagon-mundial-17noviembre-137367/",
+          "verified": true
+        },
+        {
+          "text": "La sonda Voyager 1 llegó a un día luz de la Tierra (unos 25.900 millones de km): sus señales ya tardan 24 horas en llegar.",
+          "url": "https://theconversation.com/la-sonda-voyager-i-alcanza-la-distancia-de-un-dia-luz-que-hay-alli-295779",
+          "verified": true
+        },
+        {
+          "text": "Samsung lanzará el 10 de diciembre sus gafas inteligentes con Gemini, hechas con Google, Gentle Monster y Warby Parker, en 30 modelos.",
+          "url": "https://www.prnewswire.com/mx/comunicados-de-prensa/samsung-anuncia-el-lanzamiento-en-diciembre-de-sus-lentes-inteligentes-que-ofrecen-una-forma-mas-inteligente-de-ver-el-mundo-302944392.html",
+          "verified": true
+        },
+        {
+          "text": "Premios Xataka 2026: el iPhone 18 Pro Max ganó como mejor móvil premium, el Nothing Phone (4a) Pro como mejor calidad/precio y Apple TV+ como mejor plataforma de streaming.",
+          "url": "https://www.xataka.com/seleccion/donde-comprar-barato-dispositivos-ganadores-premios-xataka-verisure-2026",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "GTA VI ya está disponible: tras 13 años de espera, Rockstar lo lanza por zonas horarias en PS5 y Xbox Series X|S, empezando por Oceanía y Asia. Aún no hay fecha para PC.",
+          "url": "https://www.infobae.com/tecno/2026/11/18/gta-vi-ya-esta-disponible-en-oceania-y-asia-asi-se-puede-jugar-antes-de-su-llegada-a-latinoamerica/",
+          "verified": true
+        },
+        {
+          "text": "League of Legends prueba un chat de voz con IA de la empresa valenciana Voicemod, que permite cambiar la voz para evitar el acoso.",
+          "url": "https://www.3djuegos.com/juegos/league-of-legends/noticias/pequena-empresa-familiar-valencia-ha-sido-clave-league-of-legends-reciba-uno-mayores-cambios-su-historia",
+          "verified": true
+        },
+        {
+          "text": "Fortnite sufrió una caída el miércoles que impidió iniciar sesión a muchos jugadores; Epic Games confirmó el fallo.",
+          "url": "https://www.milenio.com/videojuegos/fortnite-caido-hoy-18-noviembre-2026-fallas-servidores",
+          "verified": true
+        },
+        {
+          "text": "Spyro: A Realm Beyond, el primer Spyro nuevo en casi 20 años, mostrará más en The Game Awards del 10 de diciembre; ya hay primeras capturas.",
+          "url": "https://www.gematsu.com/2026/11/spyro-a-realm-beyond-teased-for-the-game-awards-2026",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Netflix lanzó el tráiler final de 'Las nuevas desventuras de Cliff Booth': Fincher dirige un guion de Tarantino con Brad Pitt. Llega a salas IMAX el 25 de noviembre y a Netflix el 23 de diciembre.",
+          "url": "https://www.que.es/2026/11/18/cliff-booth-trailer-fincher-tarantino/",
+          "verified": false
+        },
+        {
+          "text": "Nicolas Cage vuelve 21 años después en 'Lords of War', secuela de 'El señor de la guerra': ya hay tráiler y se estrena el 22 de enero de 2027 en EE.UU.",
+          "url": "https://que.es/2026/11/18/secuela-senor-guerra-nicolas-cage",
+          "verified": true
+        },
+        {
+          "text": "'Madden', con Nicolas Cage como John Madden y Christian Bale como Al Davis, ya está en Prime Video, con críticas muy duras.",
+          "url": "https://www.thedailybeast.com/obsessed/madden-oscar-winners-nicolas-cage-and-christian-bale-deliver-a-gridiron-catastrophe-of-epic-proportions",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "La nueva película de Viernes 13 se llamará 'Jason': llega a cines el 13 de agosto de 2027 con Natalie Alyn Lind como protagonista.",
+          "url": "https://ecartelera.com/noticias/desvelado-titulo-reparto-pelicula-viernes-13-84112",
+          "verified": true
+        },
+        {
+          "text": "Para el fin de semana en streaming: Prime Video estrena 'Perfectos mentirosos' (novelas de Alex Mírez) y llega 'Confidencial (Black Bag)', ambas el 20 de noviembre.",
+          "url": "https://www.cinemascomics.com/estrenos-streaming-16-22-noviembre-2026/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "América eliminó al Inter de Bogotá con gol de Marcos Mina al 87 (1 a 1, global 3 a 2) y jugará la final de la Copa BetPlay ante Once Caldas, que sacó a Nacional por penales.",
+          "url": "https://www.eltiempo.com/deportes/futbol-colombiano/america-con-gol-agonico-elimina-al-inter-de-bogota-y-va-a-la-final-de-la-copa-betplay-3601887",
+          "verified": true
+        },
+        {
+          "text": "Hinchas de Boca y Atlético Mineiro ya llegan a Barranquilla y Cartagena para la final de la Sudamericana del sábado, con colombianos en ambos equipos (Montero y Villa en Boca).",
+          "url": "https://www.publimetro.co/barranquilla/2026/11/17/hinchas-del-boca-juniors-y-atletico-mineiro-ya-estan-llegando-a-la-final-suramericana-en-barranquilla-y-se-gozan-cartagena-y-santa-marta/",
+          "verified": true
+        },
+        {
+          "text": "Pochettino ya está en Manchester: el nuevo técnico del United, 18º en la Premier, debuta este fin de semana en Anfield ante el Liverpool.",
+          "url": "https://www.101greatgoals.com/football/premier-league/mauricio-pochettino-what-needs-to-be-done-end-manchester-united-tragicomedy/",
+          "verified": true
+        },
+        {
+          "text": "Piden con urgencia donantes de sangre O+ para Norberto Peluffo, histórico del fútbol colombiano, en tratamiento contra el cáncer en Bucaramanga.",
+          "url": "https://www.publimetro.co/deportes/2026/11/17/con-extrema-urgencia-norberto-peluffo-atraviesa-delicado-estado-de-salud-y-solicitan-donantes-de-sangre/",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {
+      "title": "Un tribunal suspendió provisionalmente a Julia Daza, directora de la Biblioteca Nacional",
+      "level": "media",
+      "reason": "sin enlace a un artículo"
+    },
+    {
+      "title": "Palmeiras y Flamengo se juegan el título del Brasileirão este sábado",
+      "level": "media",
+      "reason": "sin nota reciente"
+    },
+    {
+      "title": "Ecuador de Gallardo venció 2 a 0 a Bolivia en su último amistoso del año",
+      "level": "baja",
+      "reason": "solo había transmisión en vivo"
+    },
+    {
+      "title": "Wall Street cerró mixto el miércoles: el Dow Jones cayó 1,1 % y el Nasdaq subió",
+      "level": "baja",
+      "reason": "no cupo"
+    },
+    {
+      "title": "Trump cuestionó las acusaciones de espionaje contra la mujer vinculada a Jensen Huang",
+      "level": "baja",
+      "reason": "no cupo"
+    },
+    {
+      "title": "El estudio del videojuego MindsEye debe unos 74 millones de euros",
+      "level": "baja",
+      "reason": "de nicho"
+    },
+    {
+      "title": "La directora narrativa de Clair Obscur: Expedition 33 dejó Sandfall Interactive",
+      "level": "baja",
+      "reason": "de nicho"
+    }
+  ]
+}
