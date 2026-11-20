@@ -1,0 +1,315 @@
+{
+  "date": "2026-11-20",
+  "title": "Trump, Xi y Putin firman una declaración de paz",
+  "rates": {
+    "dolar": "$3.415",
+    "libra": "$4.474",
+    "real": "R$ 7,75"
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "El dólar supera los $3.400 en Colombia"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Lula reglamenta el fin de la escala 6x1"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "La CIJ declara a Birmania culpable de genocidio"
+    },
+    {
+      "emoji": "💻",
+      "text": "Trump destituye a su jefe de ciberseguridad"
+    },
+    {
+      "emoji": "🎮",
+      "text": "GTA VI rompe récord: US$1.840 millones"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Los juegos del hambre apunta a US$100 millones"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Arrancan hoy los cuadrangulares de la Liga BetPlay"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Trump, Xi y Putin cerraron en Shenzhen su primera cumbre a tres con una declaración de paz: dicen que una guerra nuclear no se puede ganar y abrirán un diálogo para reducir riesgos, pero no hubo plan de control de armas ni avances sobre Ucrania.",
+          "url": "https://www.abc.net.au/news/2026-11-20/key-takeaways-from-trump-xi-putin-meeting/107407564",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Anthropic, creadora de Claude, debutó en el Nasdaq con la mayor salida a bolsa de la historia: recaudó US$81.300 millones, abrió 34% por encima de su precio y cerró con una subida del 17%.",
+          "url": "https://www.eldia.com/el-mundo/wall-street-en-rojo-pese-al-buen-debut-de-anthropic-el-mundo_1795150393",
+          "verified": true
+        },
+        {
+          "text": "Primer paro nacional contra el gobierno de De la Espriella: miles marcharon en Bogotá, Medellín, Cali y otras ciudades contra la Ley de Rescate Económico, y el presidente advirtió que no tolerará bloqueos.",
+          "url": "https://www.elheraldo.co/colombia/2026/11/19/marchas-en-algunas-ciudades-contra-ley-de-rescate-del-gobierno/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "El dólar se disparó: la TRM de hoy quedó en $3.415,10, unos 88 pesos más que ayer y en su nivel más alto en más de cuatro meses.",
+          "url": "https://www.colombia.com/actualidad/economia/precio-del-dolar-hoy-en-colombia-viernes-20-de-noviembre-de-2026-613420",
+          "verified": true
+        },
+        {
+          "text": "El Gobierno prometió recursos para que la Rama Judicial no se paralice por los recortes y estudia con la Corte Suprema crear un arancel judicial.",
+          "url": "https://www.valoraanalitik.com/gobierno-de-la-espriella-promete-recursos-para-financiar-deficit-de-la-rama-judicial-en-medio-de-crisis-fiscal/",
+          "verified": true
+        },
+        {
+          "text": "Tras el paro, De la Espriella habló de 55.000 asistentes en 285 movilizaciones y propuso convocar una gran marcha nacional contra la corrupción del gobierno anterior.",
+          "url": "https://www.semana.com/politica/articulo/presidente-abelardo-de-la-espriella-propuso-gran-marcha-nacional-este-seria-el-motivo/202640/",
+          "verified": false
+        },
+        {
+          "text": "El presidente anunció un nuevo bombardeo en el Valle del Cauca, el décimo de su gobierno, tras una operación urbana que dejó 64 capturados.",
+          "url": "https://www.infobae.com/colombia/2026/11/19/abelardo-de-la-espriella-anuncio-nuevo-bombardeo-en-el-valle-del-cauca-seria-el-decimo-de-su-gobierno/",
+          "verified": false
+        },
+        {
+          "text": "Capturaron en Cali a alias Blue, señalada de participar durante años en hechos violentos en protestas; le hallaron canicas y pólvora.",
+          "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/presidente-abelardo-de-la-espriella-anuncio-la-captura-de-alias-blue-en-cali-investigada-por-actos-violentos-durante-manifestaciones-publicas-3602588",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "Lula firmó el decreto que reglamenta el fin de la escala laboral 6x1 en Brasil y anunció la creación de un Ministerio de las Personas Mayores.",
+          "url": "https://ndmais.com.br/politica/lula-ministerio-idoso-escolhera-ministros-na-hora-que-quiser/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Lula exoneró temporalmente al ministro de Desarrollo Social, Wellington Dias, para que vote enmiendas en el Congreso; volvería al cargo la próxima semana.",
+          "url": "https://www.otempo.com.br/politica/governo/2026/11/19/lula-exonera-ministro-do-desenvolvimento-social-wellington-dias",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Desde hoy el Supremo de Brasil juzga el recurso de Flávio Bolsonaro, que salió del país, contra la retención de sus pasaportes.",
+          "url": "https://tvsimbrasil.com.br/brasil/eleicoes-2026/noticia/2026/11/17/stf-vai-julgar-recurso-flavio-bolsonaro-passaporte",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Nayib Bukele se presenta ante el tribunal electoral para formalizar su candidatura a un tercer mandato en las elecciones de 2027 en El Salvador.",
+          "url": "https://www.diariolasamericas.com/america-latina/nayib-bukele-se-prepara-disputar-un-tercer-periodo-presidencial-el-salvador-n5405570",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "La Corte Internacional de Justicia declaró por primera vez a un Estado culpable de genocidio: Birmania, por la ofensiva de 2017 contra los rohinyás, y le ordenó reparar a las víctimas.",
+          "url": "https://www.eltiempo.com/mundo/asia/las-9-claves-del-historico-fallo-que-declaro-a-birmania-responsable-de-genocidio-contra-los-rohinyas-que-podria-pasar-con-casos-de-gaza-y-ucrania-3602472",
+          "verified": true
+        },
+        {
+          "text": "Hoy es la cumbre entre la UE y el Reino Unido en Bruselas: Burnham busca acuerdos sobre alimentos, energía y movilidad juvenil.",
+          "url": "https://www.gov.uk/government/news/prime-minister-to-attend-uk-eu-summit-in-brussels-on-20-november",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Wall Street cayó más de 2%: el Nasdaq cerró en su nivel más bajo en siete meses y Nvidia sumó seis sesiones seguidas a la baja.",
+          "url": "https://www.investing.com/news/stock-market-news/wall-street-ends-sharply-lower-asanthropics-debut-fails-to-revive-ai-fervor-5040108",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "La COP31 en Turquía llega a su último día sin consenso sobre combustibles fósiles ni financiación, y podría alargarse al fin de semana.",
+          "url": "https://es-us.noticias.yahoo.com/horas-negociaciones-cop31-b%C3%BAsqueda-acuerdos-043830603.html",
+          "verified": true
+        },
+        {
+          "text": "Italia vive hoy una huelga general de 24 horas convocada por el sindicato CGIL contra el alto costo de vida, con un centenar de manifestaciones.",
+          "url": "https://www.ilfoglio.it/en/current-affairs/2026/11/17/news/on-friday-20-november-2026-the-cgil-is-calling-for-a-24-hour-general-strike-full-details--413912",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Trump destituyó a su director nacional de ciberseguridad, Sean Cairncross, tras una semana de fallos que afectaron vuelos, bancos y la red clasificada de la NSA.",
+          "url": "https://parade.com/news/white-house-cybersecurity-chief-fired-amid-wave-of-nationwide-outages",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Google lanzó Gemini 4 Neon, un modelo de IA avanzado que promete resolver tareas a un costo entre 50% y 80% menor que sus rivales.",
+          "url": "https://www.infobae.com/tecno/2026/11/19/google-lanzo-gemini-4-neon-un-modelo-de-ia-mas-rapido-y-barato/",
+          "verified": true
+        },
+        {
+          "text": "Apple desarrolla un asistente de IA autónomo capaz de programar y controlar apps, para competir con OpenAI y Anthropic hacia finales de 2027.",
+          "url": "https://www.gurufocus.com/news/9211162/apple-aapl-pushes-forward-with-autonomous-ai-assistant-to-rival-meta-and-openai",
+          "verified": false,
+          "lang": "en"
+        },
+        {
+          "text": "OVH presentó OVHai Workspace, una plataforma europea de IA para empresas que reúne correo, documentos y creación de webs.",
+          "url": "https://revistacloud.com/ovhai-workspace-ovh-lleva-la-ia-agentica-a-correo-webs-y-datos-de-empresa/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "GTA VI rompió récords en su estreno: unos US$1.840 millones y más de 19 millones de copias en su primer día, más del doble que GTA V.",
+          "url": "https://www.noticiasrcn.com/economia/gta-vi-rompe-records-en-su-estreno-apunta-a-convertirse-en-el-videojuego-mas-vendido-de-la-historia-1083557",
+          "verified": true
+        },
+        {
+          "text": "Con su recepción en Metacritic, GTA VI ya figura como el juego mejor calificado de la historia, y 75% de sus ventas fueron en PlayStation.",
+          "url": "https://playersoflife.com/nacional/gta-6-ingresos-primer-dia-lanzamiento-ventas/",
+          "verified": false
+        },
+        {
+          "text": "Arrancaron las ofertas de Black Friday de Xbox: hasta 80% de descuento en más de 2.000 juegos, hasta el 2 de diciembre.",
+          "url": "https://www.ofzenandcomputing.com/xbox-black-friday-2026-deals-revealed/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Xbox anunció los 9 juegos que llegan a Game Pass en la segunda mitad de noviembre, entre ellos Black Jacket y Motorslice.",
+          "url": "https://www.profesionalreview.com/2026/11/19/anunciados-los-9-nuevos-juegos-de-xbox-game-pass-para-la-segunda-quincena-de-noviembre-2026/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Los juegos del hambre: Amanecer en la cosecha se estrena hoy y apunta a un debut de más de US$100 millones en Estados Unidos.",
+          "url": "https://variety.com/2026/film/box-office/sunrise-on-reaping-box-office-hunger-games-opening-weekend-1236950225/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Hoy llegan 19 estrenos a los cines, entre ellos El director, Adolescencia, sexo y muerte en Campamento Miasma, Rose y el Dune de Lynch en 4K.",
+          "url": "https://cinerama.es/estrenos-cine-20-de-noviembre-2026/",
+          "verified": true
+        },
+        {
+          "text": "Disney lanzó el primer tráiler de La Era del Hielo: Mundo de lava, sexta película de la saga, que llegará en 2027.",
+          "url": "https://www.excelsior.com.mx/espectaculos/era-hielo-mundo-lava-lanza-trailer-oficial-rumbo-estreno-2027",
+          "verified": false
+        },
+        {
+          "text": "Francis Lawrence, director de la saga, dijo que quiere hacer más precuelas de Los juegos del hambre.",
+          "url": "https://www.infobae.com/entretenimiento/2026/11/19/francis-lawrence-quiere-mas-precuelas-de-los-juegos-del-hambre-y-revelo-a-sus-personajes-favoritos-para-protagonizarlas/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Hoy arrancan los cuadrangulares de la Liga BetPlay: abren Medellín contra Santa Fe, y también juegan Bucaramanga contra América y Cali contra Millonarios.",
+          "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/cuadrangulares-de-liga-betplay-equipos-con-racha-sin-ser-campeon-y-apretada-lucha-en-el-palmares-275438",
+          "verified": true
+        },
+        {
+          "text": "Luis Díaz podría volver hoy con el Bayern ante el Colonia, tras su lesión muscular de octubre.",
+          "url": "https://bolavip.com/bundesliga/kompany-vuelve-a-entrenar-al-bayern-munich-cuando-lo-hara-luis-diaz",
+          "verified": false
+        },
+        {
+          "text": "El Manchester United reportó un aumento del 174% en sus pérdidas y una deuda de US$775 millones, el reto que hereda Pochettino.",
+          "url": "https://es-us.noticias.yahoo.com/manchester-united-aumenta-p%C3%A9rdidas-174-195400795.html",
+          "verified": false
+        },
+        {
+          "text": "Boca, ya en Barranquilla para la final de la Sudamericana del sábado ante Atlético Mineiro, pasó un control antidopaje sorpresa de la Conmebol.",
+          "url": "https://www.eldia.com/deportes/sorpresivo-control-antidoping-deportes_1795154499",
+          "verified": false
+        },
+        {
+          "text": "En Argentina arrancan hoy los octavos de final del Clausura con Vélez contra Belgrano, el vigente campeón.",
+          "url": "https://www.eldia.com/deportes/se-levanta-el-telon-para-los-playoffs-deportes_1795154919",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {
+      "title": "La JEP señaló a 10 generales retirados como máximos responsables de falsos positivos",
+      "level": "media",
+      "reason": "sin enlace verificado"
+    },
+    {
+      "title": "California prohibió a los robotaxis de Waymo circular por autopistas",
+      "level": "media",
+      "reason": "noticia de hace tres días"
+    },
+    {
+      "title": "Lula visitó al cacique Raoni y firmó la demarcación de tierras indígenas",
+      "level": "baja",
+      "reason": "sin enlace verificado"
+    },
+    {
+      "title": "Chile y Filipinas firmaron un acuerdo comercial, el primero de Filipinas con Latinoamérica",
+      "level": "baja",
+      "reason": "no cupo"
+    },
+    {
+      "title": "Tesla empezó a operar oficialmente en Argentina",
+      "level": "baja",
+      "reason": "sin fuente confiable"
+    },
+    {
+      "title": "Netflix despidió a más trabajadores de su división de videojuegos",
+      "level": "baja",
+      "reason": "noticia de más de dos días"
+    },
+    {
+      "title": "Hoy se sortean los cuartos de final de la Liga de Naciones, con Inglaterra en el bombo",
+      "level": "baja",
+      "reason": "sin enlace verificado"
+    }
+  ]
+}
