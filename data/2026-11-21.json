@@ -1,0 +1,325 @@
+{
+  "date": "2026-11-21",
+  "title": "Misiles rusos caen en Polonia; OTAN en alerta",
+  "rates": {
+    "dolar": "$3.462",
+    "libra": "$4.583",
+    "real": "R$ 7,79"
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "La TRM toca su máximo en cinco meses"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Sismo de 6,9 en Perú se sintió en Bogotá"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "Dinamarca expulsa al agregado militar ruso"
+    },
+    {
+      "emoji": "💻",
+      "text": "Trump amenaza a quien construya centros de datos afuera"
+    },
+    {
+      "emoji": "🎮",
+      "text": "GTA 6 vende 32,5 millones y hace historia"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Juegos del Hambre arrasa en preestrenos"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Mineiro y Boca definen la Sudamericana en Barranquilla"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Dos misiles rusos y un dron cayeron el viernes en el sureste de Polonia durante un ataque masivo contra Ucrania, sin víctimas. Varsovia lo llamó una \"provocación\" y el jefe de la OTAN, Mark Rutte, viaja hoy a Varsovia.",
+          "url": "https://www.infobae.com/america/mundo/2026/11/20/polonia-y-sus-aliados-calificaron-de-provocacion-del-kremlin-la-caida-de-un-misil-ruso-en-su-territorio/",
+          "verified": true
+        },
+        {
+          "text": "Viernes negro en Wall Street: el S&P 500 cayó 3,7% y entró en corrección, y el Nasdaq se hundió 5,3% y borró lo ganado en 2026, arrastrado por Nvidia (casi 14% abajo) y por Anthropic en su segundo día en bolsa.",
+          "url": "https://expansion.mx/mercados/2026/11/20/viernes-negro-acciones-tecnologicas-wall-street-peor-racha",
+          "verified": true
+        },
+        {
+          "text": "Reino Unido y la UE firmaron en Bruselas su mayor acercamiento desde el Brexit: menos controles a alimentos, mercados de carbono enlazados y un plan para que 100.000 jóvenes de cada lado vivan hasta tres años en el otro, casi todo desde 2028.",
+          "url": "https://www.eldiario.es/internacional/ue-reino-unido-escenifican-reinicio-brexit-pasos-politicos-acuerdos-claves_1_13679720.html",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "La TRM para este fin de semana quedó en $3.461,92, la más alta en más de cinco meses, tras subir $46,82 en un día por la caída de los mercados globales.",
+          "url": "https://www.colombia.com/actualidad/economia/precio-del-dolar-hoy-en-colombia-sabado-21-de-noviembre-de-2026-613577",
+          "verified": true
+        },
+        {
+          "text": "El presidente Abelardo de la Espriella envió una carta de seis páginas a sus ministros: exige resultados, pide distancia de gremios y medios tradicionales y advierte que un fracaso se pagará en las urnas de 2027 y 2030.",
+          "url": "https://www.eluniversal.com.co/colombia/2026/11/20/de-la-espriella-envio-una-dura-advertencia-a-todos-sus-ministros-que-les-dijo/",
+          "verified": true
+        },
+        {
+          "text": "La exdecana de la Universidad Nacional que confirmó el diploma falso de la representante del Pacto Histórico Verónica Estrada dijo a Semana que la Fiscalía tenía denuncias por el caso desde 2024.",
+          "url": "https://www.semana.com/politica/articulo/exdecana-que-confirmo-fraude-de-veronica-estrada-revelo-que-desde-2024-fiscalia-conocia-el-tema-recomendo-revisiones-que-miedo/202636/",
+          "verified": true
+        },
+        {
+          "text": "La Superfinanciera pidió a las aseguradoras acelerar los pagos por el terremoto del 10 de agosto: ya van $1,43 billones indemnizados y más de 103.000 avisos de siniestro.",
+          "url": "https://www.portafolio.co/economia/regiones/superfinanciera-exige-acelerar-pagos-por-el-terremoto-aseguradoras-ya-han-indemnizado-1-43-billones-506624",
+          "verified": true
+        },
+        {
+          "text": "Arrancaron las obras de ampliación de la Autopista Norte de Bogotá, que pasará de 6 a 12 carriles, en un acto del presidente De la Espriella y el alcalde Carlos Fernando Galán.",
+          "url": "https://www.pulzo.com/nacion/espriella-con-radiotelefono-mano-inauguro-obras-autopista-norte-PP5360489",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "Un sismo de magnitud 6,9 con epicentro en Junín, en el centro de Perú, se sintió con fuerza la noche del viernes en Bogotá, Cali y otras ciudades de Colombia. Hasta ahora no se reportan daños graves.",
+          "url": "https://www.eltiempo.com/colombia/otras-ciudades/temblor-de-magnitud-6-9-en-peru-estas-son-las-ciudades-de-colombia-donde-se-sintio-con-mayor-fuerza-3602928",
+          "verified": true
+        },
+        {
+          "text": "El expresidente Jair Bolsonaro fue internado en Brasilia con una obstrucción parcial del intestino. Está estable, pero los médicos no descartan una cirugía.",
+          "url": "https://www.brasildefato.com.br/2026/11/20/jair-bolsonaro-e-hospitalizado-com-obstrucao-intestinal/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Argentina: el riesgo país superó los 1.070 puntos y el dólar oficial llegó a $1.600, el mismo día en que Milei celebró la llegada de Tesla al país.",
+          "url": "https://www.perfil.com/economia/la-empresa-de-elon-musk-inauguro-oficialmente-sus-operaciones-en-argentina-en-un-acto-en-la-boca-aAlh46Y563D3",
+          "verified": true
+        },
+        {
+          "text": "Lula quiere nominar a un nuevo ministro del Supremo antes de que asuma, en febrero, el Senado electo, más conservador. La silla está vacía desde la salida de Barroso.",
+          "url": "https://tvsimbrasil.com.br/df/brasilia/politica/noticia/2026/11/21/lula-indicar-ministro-stf-antes-senado-conservador",
+          "verified": false,
+          "lang": "pt"
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "Dinamarca expulsó al agregado militar ruso y frenará los visados no esenciales a rusos, tras frustrar un plan de la inteligencia rusa para asesinar al rapero ucraniano Kyivstoner en un concierto.",
+          "url": "https://theobjective.com/internacional/2026-11-20/dinamarca-expulsa-conspirar-asesinar-rapero/",
+          "verified": true
+        },
+        {
+          "text": "Un bombardeo ruso sobre Kiev dañó las embajadas de Austria y Países Bajos, sin víctimas entre el personal diplomático. Rusia lanzó misiles y 98 drones contra 18 localidades.",
+          "url": "https://es.euronews.com/video/2026/11/20/ataques-rusos-danan-las-embajadas-de-austria-y-paises-bajos-en-kiev",
+          "verified": true
+        },
+        {
+          "text": "Arabia Saudita dijo que un ataque de los hutíes de Yemen dañó la torre del fondo soberano PIF, el rascacielos más alto de Riad, sin dejar heridos.",
+          "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "India evacuó a decenas de miles de personas en Odisha y cerró escuelas ante la llegada del ciclón Akvan, con vientos de hasta 110 km/h.",
+          "url": "https://www.biobiochile.cl/noticias/internacional/deutsche-welle/2026/11/19/casi-50-000-evacuados-por-la-llegada-del-potente-ciclon-akvan-en-india.shtml",
+          "verified": true
+        },
+        {
+          "text": "Lufthansa recortará 1.000 empleos en Fráncfort y Múnich y reducirá vuelos cortos tras perder 180 millones de euros en nueve meses (artículo en alemán).",
+          "url": "https://www.stuttgarter-zeitung.de/wirtschaft/brief-an-mitarbeiter-lufthansa-will-1000-stellen-an-drehkreuzen-streichen-79723146.html",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Trump amenazó con un \"impuesto enorme\" y sanciones a las tecnológicas de EE. UU. que construyan centros de datos de IA en otros países.",
+          "url": "https://noticiasrcn.com/internacional/trump-amenaza-con-sanciones-a-empresas-que-construyan-centros-de-datos-fuera-de-ee-uu-1083846",
+          "verified": true
+        },
+        {
+          "text": "Un comité del Congreso de EE. UU. reveló que el Gobierno aprobó licencias para vender unos 879.000 chips de IA de Nvidia y AMD a empresas chinas. Nvidia dice que ya frenó los envíos del H200.",
+          "url": "https://www.thestandard.com.hk/world/article/349075/US-signed-off-on-sales-of-nearly-900000-AI-chips-to-China-in-six-months-committee-says",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Google activó en la app de Gemini para Mac el control del computador: la IA puede abrir apps, llenar formularios y hacer tareas por el usuario, con su permiso.",
+          "url": "https://macrumors.com/2026/11/19/google-gemini-mac-app-control",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Apple busca ingenieros para construir su propio agente de IA, capaz de navegar la web, usar apps y escribir código, según Bloomberg.",
+          "url": "https://macrumors.com/2026/11/19/apple-ai-agent-development",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "México pidió información a SpaceX por restos del cohete Starship que llegan a sus costas del noreste. La empresa asegura que se han hallado muy pocos fragmentos.",
+          "url": "https://infobae.com/america/agencias/2026/11/20/mexico-en-contacto-con-spacex-y-pendiente-de-la-llegada-de-restos-de-starship-a-su-costa",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "Es oficial: GTA 6 vendió 32,5 millones de copias antes de su estreno y facturó 3.790 millones de dólares en su primer día, el mayor lanzamiento de entretenimiento de la historia.",
+          "url": "https://vandal.elespanol.com/noticia/2026324039/rockstar-anuncia-las-ventas-de-gta-6-es-el-mayor-estreno-de-la-historia-del-entretenimiento/",
+          "verified": true
+        },
+        {
+          "text": "Valve agotó la Steam Machine de 2 TB y cerró su lista de espera por la escasez y el alza de precios de la memoria. El modelo de 512 GB ya se compra sin reserva.",
+          "url": "https://www.gamesradar.com/games/valve-says-memory-and-storage-costs-are-so-bad-it-wont-do-steam-machine-waitlists-anymore-as-it-doesnt-know-how-many-it-can-make-or-what-theyll-cost/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "World of Warcraft: Forever le dio a la saga su semana con más jugadores en 15 años, según su productora ejecutiva.",
+          "url": "https://godisageek.com/2026/11/wow-forever-15-year-player-high/",
+          "verified": false,
+          "lang": "en"
+        },
+        {
+          "text": "Slay the Spire 2 se acerca a los 8 millones de copias vendidas y unos 157 millones de dólares, según la firma Alinea Analytics.",
+          "url": "https://es.kotaku.com/un-videojuego-independiente-esta-logrando-algo-extraordinario-en-2026-y-sus-cifras-sorprenden-incluso-a-la-industria-2000057746",
+          "verified": false
+        },
+        {
+          "text": "Machine Party, la colección de minijuegos que vendió 2,5 millones en PC, llegará a PS5, Xbox y Switch el 26 de noviembre.",
+          "url": "https://www.fantasymundo.com/machine-party-llegara-a-ps5-xbox-series-y-nintendo-switch-el-26-de-noviembre-tras-superar-los-25-millones-de-copias-vendidas-en-pc/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Los Juegos del Hambre: Amanecer en la cosecha sumó 21,25 millones de dólares en preestrenos en EE. UU., el segundo mejor arranque de la saga, y apunta a superar los 100 millones en su primer fin de semana.",
+          "url": "https://www.abandomoviez.net/noticia.php?film=47712",
+          "verified": true
+        },
+        {
+          "text": "Prime Video estrenó Melania, The Series, una docuserie de dos capítulos sobre la primera dama de EE. UU., pese al fracaso en taquilla de su documental de enero.",
+          "url": "https://www.mediapost.com/publications/article/419459/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Variety publicó su lista de las 100 mayores estrellas de cine de la historia: Marilyn Monroe encabeza, y la ausencia de Johnny Depp y Mel Gibson generó polémica.",
+          "url": "https://perfil.com/personas/las-100-mejores-estrellas-de-cine-de-la-historia-segun-variety-el-ranking-completo-y-las-ausencias-mas-polemicas-a50-sacm-aUeHR1l2ow3T",
+          "verified": true
+        },
+        {
+          "text": "Las nuevas desventuras de Cliff Booth, con guion de Tarantino, dirección de Fincher y Brad Pitt, llegará a los cines de Argentina el 26 de noviembre y a Netflix el 23 de diciembre.",
+          "url": "https://www.perfil.com/edicion-impresa/el-regreso-de-quentin-tarantino-al-cine-esta-vez-como-guionista-aLyV98L2NBnM",
+          "verified": false
+        },
+        {
+          "text": "Estrenos del fin de semana en plataformas: llega la cuarta y última temporada de Yellowjackets, y HBO Max suma Armageddon y Monuments Men.",
+          "url": "https://www.3djuegos.com/tv-series/noticias/146-estrenos-semana-cines-streaming-regreso-saga-sci-fi-3-300-millones-dolares-fin-puedes-ver-casa-taquillazo-ano",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Hoy (5:30 p. m. hora de Colombia) Atlético Mineiro y Boca Juniors juegan en Barranquilla la final única de la Copa Sudamericana, con cuatro colombianos en cancha y 10 millones de dólares en premio.",
+          "url": "https://www.elcolombiano.com/deportes/futbol/boca-juniors-vs-atletico-mineiro-final-copa-sudamericana-barranquilla-PJ43860294",
+          "verified": true
+        },
+        {
+          "text": "Flamengo puede ser campeón del Brasileirão hoy: le basta empatar ante Palmeiras en São Paulo (16:30 hora de Brasil). El líder suma 79 puntos y el Verdão, 73.",
+          "url": "https://revistaoeste.com/esporte/palmeiras-ainda-pode-ser-campeao-brasileiro-2026/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Arrancaron los cuadrangulares de la Liga BetPlay: Independiente Medellín venció 1-0 a Santa Fe con gol de Jeison Medina y lidera el Grupo A.",
+          "url": "https://www.deportesrcn.com/futbol/liga-betplay/liga-betplay-resultados-y-tabla-de-posiciones-de-los-cuadrangulares-tras-la-fecha-1-159873",
+          "verified": true
+        },
+        {
+          "text": "En el Grupo B todo quedó igualado: Bucaramanga y América empataron 2-2 con doblete de Luciano Pons, y Deportivo Cali y Millonarios igualaron 0-0.",
+          "url": "https://www.semana.com/deportes/articulo/tabla-de-reclasificacion-tras-el-arranque-de-cuadrangulares-cupos-a-libertadores-y-sudamericana/202604/",
+          "verified": true
+        },
+        {
+          "text": "El líder Arsenal visita hoy a Newcastle (17:30 en Londres) con cinco puntos de ventaja, y Bruno Guimarães vuelve a St James' Park con la camiseta de los Gunners.",
+          "url": "https://iol.co.za/sport/soccer/premier-league/2026-11-21-arteta-braces-for-newcastle-test-on-guimaraes-return-as-maresca-seeks-manchester-city-reset/",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {
+      "title": "Robert Pattinson fue anunciado como el nuevo James Bond",
+      "level": "media",
+      "reason": "ocurrió el 16 de noviembre, ya no es reciente"
+    },
+    {
+      "title": "España enfrentará a Francia en los cuartos de final de la Liga de Naciones",
+      "level": "media",
+      "reason": "no cupo"
+    },
+    {
+      "title": "Una tormenta golpeó Tupanciretã, en el sur de Brasil, y el Gobierno de Lula envió ayuda",
+      "level": "baja",
+      "reason": "muy local"
+    },
+    {
+      "title": "Neymar insultó a hinchas del Coritiba tras un triunfo del Santos",
+      "level": "baja",
+      "reason": "de nicho"
+    },
+    {
+      "title": "Slow Horses fue renovada hasta su décima temporada",
+      "level": "baja",
+      "reason": "ocurrió el 16 de noviembre"
+    },
+    {
+      "title": "Presidencia negó haber ordenado un borrador para flexibilizar las corridas de toros",
+      "level": "baja",
+      "reason": "poco relevante"
+    }
+  ]
+}
