@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-22",
+  "title": "Boca, campeón de la Sudamericana en Barranquilla",
+  "rates": {
+    "dolar": "$3.461,92",
+    "libra": null,
+    "real": "R$ 7,78"
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "Semana revela supuesto plan de Fiscalía para primera línea"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Lula defiende el ajuste fiscal y critica al mercado"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "Hernández de Cos, a un paso del BCE"
+    },
+    {
+      "emoji": "💻",
+      "text": "El papa advierte sobre la IA sin ética"
+    },
+    {
+      "emoji": "🎮",
+      "text": "GTA 6 apenas movió a Steam y Roblox"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Amanecer en la cosecha arrasa en taquilla"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Flamengo, campeón del Brasileirão 2026"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Boca Juniors es campeón de la Copa Sudamericana tras vencer 2 a 0 a Atlético Mineiro en el Metropolitano de Barranquilla, con goles de Ascacíbar y Merentiel. Cortó 18 años sin títulos internacionales y en su plantel están los colombianos Álvaro Montero y Sebastián Villa.",
+          "url": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-juega-hoy-boca-vs-atletico-mineiro-y-por-donde-se-puede-ver-en-vivo-nid21112026/",
+          "verified": true
+        },
+        {
+          "text": "La COP31 de Antalya llega a su plenario de cierre con un borrador final que no menciona de forma directa los combustibles fósiles, tras más de un día de prórroga. Solo los incluye de manera implícita al citar el acuerdo de la COP28.",
+          "url": "https://www.infobae.com/america/agencias/2026/11/22/el-nuevo-borrador-de-cop31-incluye-implicitamente-los-fosiles-y-deja-sin-cifras-al-ccus/",
+          "verified": true
+        },
+        {
+          "text": "La Guardia Revolucionaria de Irán dice haber atacado con misiles y drones dos radares Patriot de EE.UU. en bases de Bahréin. Bahréin solo reportó un ataque contra una fábrica que causó un incendio, sin heridos.",
+          "url": "https://www.latercera.com/mundo/noticia/iran-anuncia-un-ataque-contra-dos-radares-del-sistema-patriot-de-eeuu-en-bahrein/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "Semana publica documentos de un supuesto plan en la Fiscalía para beneficiar a procesados por terrorismo de la primera línea, en más de 80 expedientes. Según la revista, respondería a favores políticos.",
+          "url": "https://www.semana.com/nacion/articulo/exclusivo-la-prueba-del-plan-de-la-fiscalia-para-beneficiar-a-procesados-por-terrorismo-en-la-protesta-social-un-favor-politico/202653/",
+          "verified": false
+        },
+        {
+          "text": "La Procuraduría abrió investigación contra la representante Verónica Estrada (Pacto Histórico) por presuntas irregularidades en sus títulos de bachiller y profesional. El Copnia asegura que nunca le expidió tarjeta profesional.",
+          "url": "https://www.vanguardia.com/colombia/2026/11/19/procuraduria-abre-investigacion-contra-veronica-estrada-por-presuntas-irregularidades-en-sus-titulos-de-bachiller-y-profesional/",
+          "verified": true
+        },
+        {
+          "text": "El Ideam prevé lluvias fuertes este domingo en Magdalena, Cesar, Bolívar y Antioquia, pero advierte que noviembre sigue por debajo del promedio por El Niño, lo que mantiene la preocupación por los embalses.",
+          "url": "https://www.pulzo.com/nacion/donde-hay-lluvias-colombia-21-22-noviembre-que-dijo-ideam-bogota-PP5361109",
+          "verified": false
+        },
+        {
+          "text": "La Policía y la DEA incautaron tres toneladas de cocaína del Clan del Golfo en una bodega de Dibulla, La Guajira, avaluadas en US$101 millones y con destino a EE.UU.",
+          "url": "https://www.boyacadigital.com/colombia/incautan-tres-toneladas-de-cocaina-del-clan-del-golfo-en-dibulla-la-guajira",
+          "verified": false
+        },
+        {
+          "text": "Capturan en Magdalena a 10 presuntos integrantes de las ACSN y el Clan del Golfo, señalados de homicidios, hurtos y extorsiones.",
+          "url": "https://www.infobae.com/colombia/2026/11/22/capturaron-a-10-presuntos-integrantes-de-las-acsn-y-el-clan-del-golfo-en-magdalena-serian-responsables-de-homicidios-hurtos-y-extorsiones/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "Lula defendió en un directo el paquete de ajuste fiscal, dijo que el sistema financiero no le enseñará a gobernar Brasil y prometió que el salario mínimo seguirá subiendo por encima de la inflación.",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Lula afirmó que hubo pavor en el mundo cuando Flávio Bolsonaro ganó la primera vuelta, y que su reelección fue recibida como un alivio en los BRICS, el G7 y el G20.",
+          "url": "https://tvsimbrasil.com.br/df/brasilia/politica/noticia/2026/11/21/lula-diz-houve-pavor-no-mundo-vitoria-flavio-1-turno",
+          "verified": false,
+          "lang": "pt"
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "Pablo Hernández de Cos queda a un paso de presidir el Banco Central Europeo tras el reparto franco alemán: Brunnermeier sería economista jefe y Laurence Boone llevaría operaciones de mercado. Sucedería a Lagarde en febrero de 2027.",
+          "url": "https://www.elespanol.com/invertia/economia/bancos-centrales/20261120/cos-despeja-camino-presidencia-bce-repartirse-alemania-francia-resto-cupula/1003744466771_0.html",
+          "verified": true
+        },
+        {
+          "text": "Hallan muerto de un disparo en su casa de campo al exjefe de la Policía italiana Gianni De Gennaro, investigado por obstruir las pesquisas del atentado contra el juez Borsellino. Los medios italianos apuntan a un suicidio.",
+          "url": "https://www.publico.es/internacional/europa/suicidio-exjefe-policia-sacude-italia-reabre-incognitas-atentado-borsellino.html",
+          "verified": true
+        },
+        {
+          "text": "Tras su primera cumbre con la UE, el primer ministro británico Andy Burnham abrirá una lluvia de ideas sobre la relación futura con Bruselas. Su ministro de Exteriores, Ed Miliband, dijo que todas las opciones están sobre la mesa, incluso volver al bloque.",
+          "url": "https://www.infobae.com/america/agencias/2026/11/21/burnham-acerca-al-reino-unido-a-la-ue-mientras-busca-una-formula-para-sortear-el-brexit/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "El papa León XIV advirtió, ante la Federación Internacional de Astronáutica, que la tecnología y la IA sin principios éticos pueden traer riesgos enormes para la humanidad.",
+          "url": "https://enblancoynegro.com.mx/2026/11/21/papa-leon-xiv-lanza-advertencia-sobre-la-inteligencia-artificial-alerta-por-los-riesgos-para-la-humanidad/",
+          "verified": true
+        },
+        {
+          "text": "Premios Xataka México 2026: el OPPO Find X9 Ultra fue elegido mejor móvil premium y el LG OLED G6 el mejor televisor de gama alta.",
+          "url": "https://edr.com.mx/2026/11/21/los-ganadores-de-los-premios-xataka-mexico-2026-esta-es-la-mejor-tecnologia-del-ano-xataka-mexico/",
+          "verified": false
+        },
+        {
+          "text": "Resumen de la semana en IA: OpenAI eliminó el límite de 10 minutos en las grabaciones de ChatGPT y la app de Gemini ya llega a móviles Android con menos memoria.",
+          "url": "https://tucodigodigital.com/ia-esta-semana-2026-11-21/",
+          "verified": false
+        },
+        {
+          "text": "La Agencia Espacial Europea respalda un simposio sobre espacio y salud el 4 de diciembre en Noordwijk (Países Bajos), centrado en medicina regenerativa y nuevos fármacos.",
+          "url": "https://aerospaceacademy.es/eventos-y-ferias/la-esa-apoya-un-encuentro-sobre-innovacion-espacial-y-salud/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "Pese a su récord de ventas, el estreno de GTA 6 apenas cambió el número de jugadores simultáneos en Steam y Roblox, que se mantuvieron casi igual que la semana anterior.",
+          "url": "https://es.kotaku.com/gta-6-arrasa-en-ventas-pero-steam-y-roblox-sorprenden-asi-reaccionaron-sus-jugadores-al-lanzamiento-2000057911",
+          "verified": false
+        },
+        {
+          "text": "La policía china detuvo a 13 personas en Shanghái y Guangzhou por fabricar y vender figuras falsas de Tifa, de Final Fantasy VII.",
+          "url": "https://criticalhits.com.br/games/china-detem-13-suspeitos-por-falsificacao-de-figuras-de-tifa",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Red Hook presenta este fin de semana en la WePlay Expo de Shanghái The Butcher's Asylum, el DLC de arena de Darkest Dungeon II que llegará en 2027.",
+          "url": "https://worthplaying.com/article/2026/11/3/news/151349-darkest-dungeon-ii-to-get-the-butchers-asylum-in-2027-more-details-later-this-month-trailer/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Policías de Hong Kong, EE.UU. y Reino Unido aprovecharon el estreno de GTA 6 para recordar que en la vida real los delitos sí tienen consecuencias.",
+          "url": "https://www.levelup.com/noticias/la-policia-de-estos-paises-aprovecho-el-debut-de-gta-6-para-enviar-un-mensaje-a-los-criminales-del-mundo-real-no-estan-en-un-videojuego/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Los juegos del hambre: Amanecer en la cosecha sumó US$56 millones en su primer día en Norteamérica y apunta a superar los US$120 millones en su fin de semana de estreno, muy por encima de lo previsto.",
+          "url": "https://www.vanguardia.com/entretenimiento/recomendados/2026/11/21/los-juegos-del-hambre-amanecer-en-la-cosecha-arrasa-en-taquilla-recauda-us56-millones-en-su-estreno/",
+          "verified": true
+        },
+        {
+          "text": "David Fincher defendió el uso de herramientas digitales e IA en el cine, en medio de acusaciones no confirmadas de imágenes generadas por IA en Las nuevas desventuras de Cliff Booth.",
+          "url": "https://www.infobae.com/espana/cultura/2026/11/21/david-fincher-defiende-el-uso-de-inteligencia-artificial-en-medio-de-las-acusaciones-a-las-nuevas-desventuras-de-cliff-booth-no-temo-a-lo-desconocido/",
+          "verified": false
+        },
+        {
+          "text": "Estrenos del fin de semana en plataformas: vuelve Percy Jackson a Disney+ y Netflix estrena la serie española sobre el ascenso de El Bulli.",
+          "url": "https://actualtv.es/que-ver-fin-semana-20-22-noviembre-2026-estrenos-streaming/",
+          "verified": false
+        },
+        {
+          "text": "Netflix reúne seis películas para cerrar el año, entre ellas un musical góspel de Tyler Perry y una comedia animada con Daniel Radcliffe y Peter Dinklage.",
+          "url": "https://infobae.com/entretenimiento/2026/11/21/netflix-reune-seis-peliculas-para-cerrar-el-ano-entre-familias-musica-y-fantasia",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Flamengo es campeón del Brasileirão 2026 con dos fechas de antelación tras empatar 1 a 1 con Palmeiras en São Paulo. Es su segundo título seguido y el décimo según la cuenta del club.",
+          "url": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/flamengo-empata-com-palmeiras-e-e-campeao-brasileiro-de-2026",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Once Caldas y Nacional empataron 0 a 0 en Manizales y cerraron la primera fecha de los cuadrangulares de la Liga BetPlay.",
+          "url": "https://www.eluniversal.com.co/deportes/2026/11/21/once-caldas-y-nacional-no-se-hicieron-dano-asi-estan-los-grupos-en-los-cuadrangulares/",
+          "verified": true
+        },
+        {
+          "text": "Reclasificación de la Liga BetPlay: América sigue segundo y se acerca a la Libertadores, mientras Millonarios se aleja de los cupos a la Sudamericana.",
+          "url": "https://www.infobae.com/colombia/deportes/2026/11/21/asi-va-la-reclasificacion-de-la-liga-betplay-tras-el-inicio-de-los-cuadrangulares-america-se-acerca-a-la-libertadores/",
+          "verified": false
+        },
+        {
+          "text": "El líder Arsenal empató 2 a 2 en St. James' Park: Newcastle le dio vuelta con Barnes y Thiaw, pero Madueke igualó. Bruno Guimarães fue abucheado en su regreso.",
+          "url": "https://espn.com.br/futebol/arsenal/artigo/_/id/17543420/arsenal-e-newcastle-empatam-jogo-eletrizante-pela-premier-league-bruno-guimaraes-perseguido",
+          "verified": true,
+          "lang": "pt"
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {
+      "title": "Expertos advierten que los ataques rusos cerca de las centrales nucleares de Ucrania elevan el riesgo de una fuga radiactiva",
+      "level": "media",
+      "reason": "sin fuente confiable reciente"
+    },
+    {
+      "title": "Una tormenta en Rio Grande do Sul afectó a unas 19.600 personas en 33 ciudades",
+      "level": "media",
+      "reason": "sin fuente confiable"
+    },
+    {
+      "title": "Las acciones de Anthropic cayeron con fuerza en su segundo día en bolsa",
+      "level": "media",
+      "reason": "sin fuente confiable"
+    },
+    {
+      "title": "Alcaraz y Zverev juegan hoy la final de las ATP Finals en Turín",
+      "level": "media",
+      "reason": "no es fútbol, sin cupo"
+    },
+    {
+      "title": "Macron se reúne hoy en Toulouse con 60 grandes empresas europeas para impulsar la industria",
+      "level": "baja",
+      "reason": "sin cupo"
+    },
+    {
+      "title": "Cate Blanchett enciende hoy las luces de Navidad de los Campos Elíseos",
+      "level": "baja",
+      "reason": "sin nota reciente"
+    },
+    {
+      "title": "Leandro Paredes se desmayó tras ganar la Sudamericana y ya envió un mensaje desde la clínica",
+      "level": "baja",
+      "reason": "cubierto en la nota de Boca"
+    }
+  ]
+}
