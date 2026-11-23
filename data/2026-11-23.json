@@ -1,0 +1,299 @@
+{
+  "date": "2026-11-23",
+  "title": "COP31 fracasa sin acuerdo sobre combustibles fósiles",
+  "rates": {
+    "dolar": "$3.461",
+    "libra": "$4.535",
+    "real": "R$ 7,79"
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "Ataque a batallón en Cesar: un soldado muerto"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Cámara de Brasil empieza a debatir ajuste fiscal"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "Polonia confirma tres misiles rusos; OTAN se reúne"
+    },
+    {
+      "emoji": "💻",
+      "text": "Matemático de Anthropic y Claude: ¿prueba de Riemann?"
+    },
+    {
+      "emoji": "🎮",
+      "text": "Ventas de Xbox suben 42% en EE.UU."
+    },
+    {
+      "emoji": "🎬",
+      "text": "Amanecer en la cosecha: US$225 M en estreno"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Liverpool golea 4-0 al United de Pochettino"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "La COP31 de Antalya terminó el domingo sin acuerdo tras una prórroga récord: la UE y Panamá rechazaron un texto que no mencionaba el abandono de los combustibles fósiles. Guterres se dijo \"profundamente decepcionado\".",
+          "url": "https://www.nacion.com/el-mundo/cop31-termina-sin-acuerdo-tras-49-horas-de/O6C2OB3F6NFVBCNLK6ODTAP3EA/story/",
+          "verified": true
+        },
+        {
+          "text": "El Gobierno colombiano (MinTIC) pidió a X suspender la cuenta de Gustavo Petro por \"posible incitación a la violencia\", tras su llamado a exigir la renuncia de De la Espriella. Petro y el Pacto Histórico lo califican de censura.",
+          "url": "https://www.elfinanciero.com.mx/mundo/2026/11/22/intento-de-censura-el-gobierno-de-colombia-pide-a-x-suspender-la-cuenta-de-gustavo-petro/",
+          "verified": true
+        },
+        {
+          "text": "México capturó en Guasave (Sinaloa) a \"El Chapo Isidro\", uno de los 10 más buscados del FBI. El operativo, con inteligencia de EE.UU., dejó 4 militares y 7 agresores muertos y bloqueos en la región.",
+          "url": "https://www.proceso.com.mx/nacional/2026/11/21/garcia-harfuch-presume-captura-de-el-chapo-isidro-operativo-conto-con-inteligencia-de-eu-384103.html",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "Un ataque con explosivos contra el batallón del Ejército en La Jagua de Ibirico (Cesar) dejó un soldado muerto y 12 heridos. De la Espriella prometió una respuesta \"letal e implacable\".",
+          "url": "https://www.elheraldo.co/colombia/2026/11/22/cada-accion-criminal-tendra-una-respuesta-contundente-mas-fuerte-letal-e-implacable-de-la-espriella-tras-atentado-contra-el-ejercito-en-cesar/",
+          "verified": true
+        },
+        {
+          "text": "De la Espriella confirmó cinco muertos del ELN en el bombardeo en Dagua (Valle) contra la estructura de alias Bertha. Ya van 11 bombardeos en su gobierno.",
+          "url": "https://www.eluniversal.com.co/colombia/2026/11/22/de-la-espriella-confirmo-cinco-muertos-en-bombardeo-contra-el-eln-en-valle-del-cauca/",
+          "verified": true
+        },
+        {
+          "text": "Gobierno y pueblos indígenas acordaron, tras 36 horas de diálogo, la ruta de consulta previa del Plan Nacional de Desarrollo, con $3.100 millones e inclusión por primera vez de los Nukak.",
+          "url": "https://www.semana.com/amp/politica/articulo/gobierno-y-pueblos-indigenas-llegan-a-un-acuerdo-para-el-plan-nacional-de-desarrollo-2026-2030-esta-seria-la-millonaria-inversion/202616/",
+          "verified": false
+        },
+        {
+          "text": "MinSalud dice que 631.833 pacientes ya están al día con medicamentos o tratamientos pendientes gracias a su plan de choque.",
+          "url": "https://www.infobae.com/colombia/2026/11/22/ministerio-de-salud-anuncia-alivio-para-pacientes-631833-colombianos-estan-al-dia-con-sus-medicamentos-o-tratamientos-medicos/",
+          "verified": false
+        },
+        {
+          "text": "El Gobierno negó haber reducido el esquema de seguridad de Petro, luego de que él denunciara que le quitaron carros blindados. El vocero Miller Soto lo llamó \"tamaña mentira\".",
+          "url": "https://www.pulzo.com/nacion/gobierno-espriella-niega-recorte-proteccion-gustavo-petro-PP5361813",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "La Cámara de Diputados de Brasil abre hoy sesión extraordinaria para el ajuste fiscal de Lula, ya aprobado por el Senado. La votación se espera para el martes.",
+          "url": "https://www.congressoemfoco.com.br/noticia/131713/motta-convoca-sessao-extra-para-discutir-ajuste-fiscal-na-segunda",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Brasil reclama a EE.UU. la propuesta para negociar los aranceles, que Washington prometió para inicios de noviembre y no llegó. La OMC analiza el caso el martes 24.",
+          "url": "https://www.brasil247.com/economia/trump-descumpre-prazo-para-negociar-tarifas-e-brasil-cobra-resposta-dos-estados-unidos/",
+          "verified": false,
+          "lang": "pt"
+        },
+        {
+          "text": "El Ministerio de Trabajo de Brasil empieza hoy a publicar las normas para la transición a la jornada 5x2 (dos días de descanso), sin recorte de salarios.",
+          "url": "https://fenacon.org.br/noticias/governo-do-brasil-regulamenta-jornada-de-trabalho-na-escala-5x2/",
+          "verified": false,
+          "lang": "pt"
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "La fiscalía polaca confirmó que los tres objetos que cayeron el viernes en Polonia eran misiles rusos Kh-101. La OTAN reúne hoy de forma extraordinaria a su Consejo del Atlántico Norte en Bruselas.",
+          "url": "https://es.euronews.com/2026/11/22/polonia-identifica-como-misiles-rusos-los-3-objetos-que-violaron-su-espacio-aereo",
+          "verified": true
+        },
+        {
+          "text": "Irán dijo que dos petroleros se incendiaron al chocar con minas al este del estrecho de Ormuz, y Baréin denunció un ataque iraní a una zona industrial con dos heridos.",
+          "url": "https://www.proceso.com.mx/internacional/2026/11/22/iran-advierte-sobre-dos-petroleros-incendiados-en-ormuz-tras-chocar-con-minas-384143.html",
+          "verified": true
+        },
+        {
+          "text": "Trump culpó a los demócratas de la caída de 20% del Nasdaq. Los analistas atribuyen la turbulencia sobre todo a las dudas sobre la inversión en IA.",
+          "url": "https://www.brasil247.com/economia/trump-culpa-democratas-por-perdas-trilionarias-nas-bolsas-dos-estados-unidos/",
+          "verified": false,
+          "lang": "pt"
+        },
+        {
+          "text": "El ministro de Defensa británico, Wes Streeting, llamó a Putin \"asesino a sangre fría\" desde Kiev y firmó con Ucrania acuerdos para producir drones.",
+          "url": "https://www.infobae.com/america/mundo/2026/11/22/reino-unido-pidio-mas-respaldo-a-ucrania-tras-la-caida-de-misiles-rusos-en-polonia-sabemos-a-quien-nos-enfrentamos/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Levent Alpöge, matemático de Anthropic, asegura haber demostrado con Claude la hipótesis de Riemann, el problema abierto más famoso de las matemáticas. La prueba está en código Lean y aún se verifica.",
+          "url": "https://www.lanacion.com.ar/tecnologia/un-matematico-de-anthropic-dice-que-demostro-la-hipotesis-de-riemann-un-problema-matematico-nid20112026/",
+          "verified": true
+        },
+        {
+          "text": "Las recientes caídas de sistemas en varios países se atribuyen a parches urgentes ante fallas detectadas por IA, y EE.UU. advierte que habrá más interrupciones.",
+          "url": "https://www.eldiario.es/tecnologia/ciberataques-boom-ia-teorias-conspiracion-esconde-detras-colapso-sistemas-mundo_1_13684598.html",
+          "verified": true
+        },
+        {
+          "text": "La inversión en IA ya supera US$1 billón, pero Wall Street empieza a exigir ganancias. Anthropic perdió parte de lo ganado en su debut bursátil.",
+          "url": "https://www.infobae.com/tecno/2026/11/22/la-inversion-en-ia-supera-usd-1-billon-pero-el-mercado-empieza-a-exigir-resultados-a-las-tecnologicas/",
+          "verified": false
+        },
+        {
+          "text": "El Tamagotchi cumple hoy 30 años: Bandai lo lanzó en Japón el 23 de noviembre de 1996 y ya supera los 100 millones vendidos.",
+          "url": "https://www.milenio.com/tecnologia/tamagotchi-cumple-30-anos-japon-celebra-exposicion",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "Las ventas de Xbox Series en EE.UU. subieron 42% en octubre según Circana, con impulso de Gears of War: E-Day y GTA 6, aunque sobre todo por precios más altos.",
+          "url": "https://www.purexbox.com/news/2026/11/gears-and-gta-6-may-have-provided-a-temporary-reprieve-xbox-hardware-sales-get-a-major-surge-in-the-us",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Hellraiser: Revival ganó el premio a Juego del Año en los Horror Game Awards 2026, por encima de Resident Evil Requiem.",
+          "url": "https://levelup.com/noticias/esta-entrega-sorprende-y-derrota-a-resident-evil-requiem-para-llevarse-el-goty-en-the-horror-game-awards-2026",
+          "verified": false
+        },
+        {
+          "text": "Rockstar todavía no anuncia fecha ni preventa de GTA VI para PC, días después de su estreno en PS5 y Xbox.",
+          "url": "https://duplos.cl/videojuegos/gta-vi-pc-fecha-lanzamiento-steam-requisitos-2026/285764/2026/11/22",
+          "verified": false
+        },
+        {
+          "text": "Xbox prepara nueve lanzamientos para diciembre tras el estreno de GTA 6.",
+          "url": "https://generacionxbox.com/despues-de-gta-6-xbox-prepara-9-lanzamientos-para-diciembre-de-2026",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Los juegos del hambre: Amanecer en la cosecha debutó con US$120 millones en Norteamérica y US$225 millones en el mundo, el primer estreno de más de US$100 millones de Lionsgate en 11 años.",
+          "url": "https://www.reforma.com/nueva-cinta-de-los-juegos-del-hambre-arrasa-en-taquilla/ar3319537",
+          "verified": true
+        },
+        {
+          "text": "Hoy se entregan los Emmy Internacional en Nueva York: Ricardo Darín (El Eternauta) y Javier Cámara (Yakarta) compiten por mejor actor, y Brasil es el país latino con más nominaciones.",
+          "url": "https://culturageek.com.ar/argentinos-nominados-emmy-internacional-2026/",
+          "verified": true
+        },
+        {
+          "text": "Blade Runner 2099, con Michelle Yeoh y Hunter Schafer, estrena sus 8 episodios este miércoles 25 en Prime Video.",
+          "url": "https://www.excelsior.com.mx/espectaculos/hay-fecha-blade-runner-2099-estrena-trailer-y-revela-cuando-llegara-serie-prime-video",
+          "verified": true
+        },
+        {
+          "text": "Esta semana llegan 52 estrenos al streaming, entre ellos el documental Expediente Linares (HBO Max, 27 de noviembre) y el biopic de Michael Jackson.",
+          "url": "https://www.que.es/2026/11/22/estrenos-semana-netflix-prime-video-hbo-max/",
+          "verified": false
+        },
+        {
+          "text": "I Play Rocky, de Amazon MGM, quedó segunda en la taquilla de EE.UU. con US$9,3 millones, y el público le dio \"A-\" a Amanecer en la cosecha.",
+          "url": "https://www.yucatan.com.mx/imagen/2026/11/23/vuelve-a-la-senda-del-exito.html",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Liverpool goleó 4-0 al Manchester United en el debut de Pochettino, que jugó con 10 desde el minuto 8 por la roja a Leny Yoro. El United es penúltimo.",
+          "url": "https://emol.com/noticias/Deportes/2026/11/22/1217854/liverpool-vs-manchester-united-premierleague.html",
+          "verified": true
+        },
+        {
+          "text": "La fecha 2 de cuadrangulares de la Liga BetPlay trae dos clásicos: América vs. Cali este martes y Nacional vs. Medellín el miércoles.",
+          "url": "https://www.futbolred.com/amp/futbol-colombiano/liga-betplay/fecha-2-de-cuadrangulares-liga-betplay-2026-programacion-horarios-y-donde-ver-en-vivo-275538",
+          "verified": false
+        },
+        {
+          "text": "Athletico Paranaense venció 4-2 a Remo en el Brasileirão con goles de los colombianos Mendoza, Vargas y Rivaldo.",
+          "url": "https://www.futbolred.com/colombianos-en-el-exterior/athletico-paranaense-vencio-4-2-a-remo-con-goles-de-mendoza-vargas-y-rivaldo-275557",
+          "verified": false
+        },
+        {
+          "text": "Álvaro Montero, campeón con Boca, entra a la lista histórica de colombianos que ganaron la Copa Sudamericana, junto a Calero, Quintero y Teo Gutiérrez.",
+          "url": "https://www.futbolred.com/copa-sudamericana/todos-los-futbolistas-colombianos-que-han-ganado-la-copa-sudamericana-la-lista-historica-275559",
+          "verified": false
+        },
+        {
+          "text": "La final de ida de la B entre Boca Juniors de Cali y Quindío, que se juega hoy, cambió de estadio por el desmontaje de un concierto en el Pascual Guerrero.",
+          "url": "https://www.futbolred.com/futbol-colombiano/torneo-betplay/final-de-la-b-entre-boca-juniors-cali-y-deportes-quindio-cmabia-de-estadio-por-concierto-275555",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {
+      "title": "Carlos Alcaraz ganó las ATP Finals al vencer a Zverev",
+      "level": "media",
+      "reason": "es tenis, no hay sección"
+    },
+    {
+      "title": "Marc Márquez ganó su octavo título mundial de MotoGP",
+      "level": "media",
+      "reason": "es motociclismo, no hay sección"
+    },
+    {
+      "title": "Max Verstappen ganó el GP de Las Vegas y Franco Colapinto fue sexto",
+      "level": "baja",
+      "reason": "es Fórmula 1, no hay sección"
+    },
+    {
+      "title": "Leandro Paredes se desmayó en una entrevista tras ganar la Sudamericana con Boca",
+      "level": "baja",
+      "reason": "Boca campeón ya se publicó"
+    },
+    {
+      "title": "Juan Manuel Santos defendió el acuerdo de paz en la víspera de sus 10 años",
+      "level": "baja",
+      "reason": "el aniversario es mañana"
+    },
+    {
+      "title": "Un camión chocó contra negocios en Cajamarca (Tolima) y dejó cinco muertos",
+      "level": "baja",
+      "reason": "muy local"
+    }
+  ]
+}
