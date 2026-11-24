@@ -1,0 +1,286 @@
+{
+  "date": "2026-11-24",
+  "title": "Nvidia readmite a Jensen Huang y Wall Street vuela",
+  "rates": {
+    "dolar": "$3.505,92",
+    "libra": null,
+    "real": null
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "El dólar supera los $3.500 en Colombia"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Brasil aprueba el ajuste fiscal de Lula"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "La UE sanciona a casi 50 bancos rusos"
+    },
+    {
+      "emoji": "💻",
+      "text": "CrowdStrike comprará Zscaler por US$43.900 millones"
+    },
+    {
+      "emoji": "🎮",
+      "text": "GTA 6 recibe su primer gran parche"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Carême y División Palermo triunfan en los Emmy Internacional"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Brentford golea 4-0 al Everton"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Giro en Nvidia: la junta restituyó a Jensen Huang como CEO 11 días después de su renuncia por el escándalo de presunto espionaje chino. La acción subió cerca de 30% y arrastró al Nasdaq y a las bolsas asiáticas.",
+          "url": "https://www.telemadrid.es/noticias/economia/consejo-nvidia-restituye-jensen-juang_1_2833988.html",
+          "verified": true
+        },
+        {
+          "text": "Un carro bomba explotó anoche frente a la Gobernación del Meta, en pleno centro de Villavicencio: al menos 12 heridos y graves daños. De la Espriella descartó diálogos con el narcoterrorismo y las primeras hipótesis apuntan a disidencias de Mordisco.",
+          "url": "https://www.eltiempo.com/colombia/otras-ciudades/atentado-con-carro-bomba-contra-la-gobernacion-del-meta-asi-reaccionaron-figuras-politicas-y-personalidades-publicas-3603641",
+          "verified": true
+        },
+        {
+          "text": "La guerra naval se extiende lejos de Ucrania: Zelenski confirmó que drones marinos hundieron la corbeta rusa Merkury en Bengasi (Libia) y dañaron un carguero, mientras otro buque ruso ardió en el golfo de Finlandia.",
+          "url": "https://elcomercio.pe/mundo/europa/guerra-rusia-ucrania-los-ataques-a-barcos-rusos-en-libia-y-finlandia-sabotajes-y-operaciones-encubiertas-que-extienden-el-conflicto-vladimir-putin-volodymyr-zelensky-noticia/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "El dólar cerró el lunes en $3.506,54 y la TRM de hoy queda en $3.505,92, su nivel más alto en más de cinco meses; el peso está entre las monedas emergentes más golpeadas.",
+          "url": "https://www.elcolombiano.com/negocios/precio-dolar-hoy-3500-peso-colombiano-monedas-mas-depreciadas-LN43937783",
+          "verified": true
+        },
+        {
+          "text": "El Gobierno confirmó la expulsión de 83 extranjeros señalados de distintos delitos; tres ecuatorianos fueron entregados en el puente de Rumichaca.",
+          "url": "https://www.infobae.com/colombia/2026/11/23/abelardo-de-la-espriella-confirmo-la-expulsion-de-83-extranjeros-senalados-de-diversos-crimenes-a-colombia-se-viene-a-respetar-la-ley-no-a-delinquir/",
+          "verified": false
+        },
+        {
+          "text": "Tras la carta de De la Espriella exigiendo resultados a sus ministros, se esperan movimientos en el gabinete esta semana, además de recortes a la JEP.",
+          "url": "https://www.eltiempo.com/amp/podcast/el-cafe-de-hoy/los-hechos-que-seran-noticia-en-colombia-y-el-mundo-en-la-ultima-semana-de-noviembre-3603257",
+          "verified": false
+        },
+        {
+          "text": "Andrea Petro, hija del expresidente, denunció que le redujeron drásticamente su esquema de seguridad y responsabilizó al Gobierno de lo que pueda pasarle.",
+          "url": "https://www.infobae.com/colombia/2026/11/23/andrea-petro-critico-al-gobierno-de-abelardo-de-la-espriella-y-denuncio-que-le-habrian-reducido-su-esquema-de-seguridad-caprichos-politicos/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "Brasil: la Cámara aprobó por 353 votos a 128 el ajuste fiscal de Lula sin cambios, rechazó todos los destaques y el texto va a sanción. Busca un alivio de unos R$50.000 millones en 2027.",
+          "url": "https://www.infomoney.com.br/politica/camara-aprova-pacote-fiscal-proposto-pelo-governo-lula/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Bolsonaro, internado con neumonía tras una obstrucción intestinal, podría salir de cuidados intensivos en las próximas 24 horas, según el último parte médico.",
+          "url": "https://www.gazetadopovo.com.br/republica/bolsonaro-alta-uti-proximas-24-horas-novo-boletim/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Brasil: el juez del Supremo André Mendonça revocó la prisión de un exsecretario de Previsión y otros tres investigados por el fraude del INSS, aunque mantienen tobillera electrónica.",
+          "url": "https://www.brasil247.com/brasilia/mendonca-revoga-prisao-de-ex-secretario-da-previdencia-e-outros-tres-no-caso-inss/",
+          "verified": false,
+          "lang": "pt"
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "La UE aprobó un nuevo paquete de sanciones contra Rusia que alcanza a casi 50 bancos y entidades financieras, empresas de energía, la flota fantasma y redes de desinformación.",
+          "url": "https://www.eeas.europa.eu/node/469433_es",
+          "verified": true
+        },
+        {
+          "text": "Wall Street vivió una jornada de euforia: el Nasdaq subió cerca de 7% tras el regreso de Huang a Nvidia, y las bolsas latinoamericanas cortaron una racha de cinco caídas.",
+          "url": "https://es.marketscreener.com/noticias/noticias-destacadas-a-media-sesi-n-nvidia-restituye-a-jensen-huang-como-consejero-delegado-y-las-bo-ce7851dadc89f72d",
+          "verified": true
+        },
+        {
+          "text": "Un informe con Oxfam concluye que la destrucción de Gaza la convirtió en un páramo tóxico: casi toda la Franja muestra contaminación con riesgos para la salud.",
+          "url": "https://www.theguardian.com/world/2026/nov/23/israel-gaza-destruction-created-toxic-wasteland-oxfam-report",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Nuevos ataques israelíes en Gaza mataron a palestinos que repartían comida y a un empleado de la UNRWA, pese al alto el fuego.",
+          "url": "https://www.democracynow.org/2026/11/23/headlines",
+          "verified": false,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "CrowdStrike anunció la compra de Zscaler en acciones por unos US$43.900 millones, una de las mayores operaciones de la historia de la ciberseguridad.",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Alexandr Wang, jefe de IA de Meta, advirtió del riesgo de entregar la sociedad a una superinteligencia y defendió haber retrasado el lanzamiento de Muse por seguridad.",
+          "url": "https://expansion.mx/tecnologia/2026/11/23/jefe-ia-meta-alexandr-wang-advierte-riesgo-superinteligencia",
+          "verified": true
+        },
+        {
+          "text": "La bolsa de Corea del Sur cayó el lunes por el temor a una burbuja de la IA, horas antes del rebote global por Nvidia.",
+          "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount",
+          "verified": false,
+          "lang": "en"
+        },
+        {
+          "text": "España formará a unos 600.000 empleados públicos locales en el uso responsable de la inteligencia artificial durante cuatro años.",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/23/600000-empleados-publicos-aprenderan-a-usar-la-ia-sin-comprometer-los-derechos-ciudadanos/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "Rockstar lanzó el parche 01.002.002 de GTA 6 en PS5 y Xbox: corrige cierres inesperados, el autoguardado, el clima que se quedaba fijo y llamadas que bloqueaban misiones.",
+          "url": "https://vandal.elespanol.com/noticia/2026327022/gta-6-recibe-hoy-una-nueva-actualizacion-y-ya-sabemos-lo-que-ocupa-en-ps5/",
+          "verified": true
+        },
+        {
+          "text": "Tras filtrarse el ejecutable de la versión de Xbox, circulan los primeros videos de GTA 6 arrancando en PC por métodos no oficiales.",
+          "url": "https://generacionxbox.com/gta-6-ya-arranca-en-pc-solo-horas-despues-de-la-filtracion-del-ejecutable-de-xbox-puedes-verlo/",
+          "verified": false
+        },
+        {
+          "text": "Semana tranquila de estrenos tras GTA 6: mandan juegos independientes como Arkheron y Appulse, más ports a consolas.",
+          "url": "https://www.libertaddigital.com/ciencia-tecnologia/videojuegos/2026-11-23/estrenos-de-videojuegos-23-27-nov-arkheron-y-appulse-se-hacen-cargo-de-los-estrenos-tras-gta-vi-7495872/",
+          "verified": true
+        },
+        {
+          "text": "PlayStation Store suma 11 juegos esta semana, entre ellos Gothic III Classic (hoy en PS5), Shrek 2 Remastered y Warhammer Survivors.",
+          "url": "https://ixbt.games/es/news/2026/11/23/na-etoi-nedele-v-playstation-store-vyidet-11-igr.html",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Emmy Internacional: la francesa Carême ganó mejor drama y la argentina División Palermo mejor comedia, único triunfo hispano. Ricardo Darín y Javier Cámara se fueron sin premio; Reino Unido sumó nueve estatuillas.",
+          "url": "https://www.abc.com.py/internacionales/2026/11/24/los-emmy-internacional-2026-agridulces-para-el-audiovisual-hispano/",
+          "verified": true
+        },
+        {
+          "text": "La bola negra, de Los Javis, supera los 40 millones de euros y roza los seis millones de espectadores en España, un hito para el cine español.",
+          "url": "https://cinerama.es/taquilla-de-espana-fin-de-semana-del-20-al-22-de-noviembre/",
+          "verified": true
+        },
+        {
+          "text": "En España, Amanecer en la cosecha debutó como número uno con 3,6 millones de euros y empujó el mejor fin de semana de taquilla en semanas.",
+          "url": "https://box-office.es/news/los-juegos-del-hambre-amanecer-en-la-cosecha-lidera-la-taquilla-con-36-millones-de-euros/",
+          "verified": true
+        },
+        {
+          "text": "Esta semana en plataformas regresa Las esposas cazadoras, llega el final de Babylon Berlin y aterrizan varias películas nuevas.",
+          "url": "https://www.cinemascomics.com/estrenos-streaming-23-29-noviembre-2026/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Brentford goleó 4-0 a un Everton con diez (roja a Tarkowski) y se mete sexto en la Premier; doblete de Lewis-Potter.",
+          "url": "https://www.infobae.com/america/agencias/2026/11/23/el-brentford-golea-4-0-al-everton-y-se-acerca-a-la-zona-europea-de-la-premier/",
+          "verified": true
+        },
+        {
+          "text": "Champions: Luis Javier Suárez, con el Sporting de Lisboa, se mide mañana al Manchester United; agenda de los colombianos en la fecha 5.",
+          "url": "https://www.colombia.com/futbol/champions-league/agenda-futbolistas-colombianos-fecha-5-uefa-champions-league-613820",
+          "verified": false
+        },
+        {
+          "text": "El uruguayo Jorge Bava llegó a Barranquilla para asumir el Junior y ya apunta a la Copa Libertadores 2027.",
+          "url": "https://www.winsports.co/futbol-colombiano/noticias/jorge-bava-llego-a-barranquilla-y-dejo-sus-primeras-palabras-479944",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {
+      "title": "Un incendio en una fábrica de Indonesia dejó al menos 24 muertos y unos 30 desaparecidos",
+      "level": "media",
+      "reason": "sin fuente confiable"
+    },
+    {
+      "title": "Drones con explosivos atacaron el comando de Policía de Norte de Santander en Cúcuta",
+      "level": "media",
+      "reason": "sin fuente confiable"
+    },
+    {
+      "title": "La OCDE recomendó a Colombia subir la edad de pensión y ampliar el IVA",
+      "level": "media",
+      "reason": "sin fuente confiable"
+    },
+    {
+      "title": "El Kremlin volvió a amenazar con un posible ataque nuclear preventivo",
+      "level": "media",
+      "reason": "sin fuente confiable"
+    },
+    {
+      "title": "China lanzará mañana la primera misión con un astronauta extranjero (pakistaní) a su estación espacial",
+      "level": "baja",
+      "reason": "aún no ocurre"
+    },
+    {
+      "title": "La bolsa de Taiwán se disparó casi 9% por el regreso de Huang",
+      "level": "baja",
+      "reason": "incluida dentro de Nvidia"
+    },
+    {
+      "title": "Deportes Quindío ganó la ida de la final del ascenso ante Boca Juniors de Cali",
+      "level": "baja",
+      "reason": "sin enlace confiable"
+    }
+  ]
+}
