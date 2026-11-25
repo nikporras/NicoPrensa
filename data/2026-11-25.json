@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-25",
+  "title": "Termina la toma del Éxito en Cartagena: 19 rescatados con vida",
+  "rates": {
+    "dolar": "$3.592,03",
+    "libra": "$4.613,05",
+    "real": "R$ 7,72"
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "Apagón en Nariño por ataque a torres"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Puerto Rico gana Miss Universo 2026"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "Hungría y Ucrania pactan gas y diésel"
+    },
+    {
+      "emoji": "💻",
+      "text": "Anthropic lanza Claude Ship"
+    },
+    {
+      "emoji": "🎮",
+      "text": "The Witcher 4 firma marketing con Sony"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Tráiler de Avengers: Doomsday rompe récord"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Millonarios golea 4 a 1 a Bucaramanga"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Termina la toma del Éxito en Cartagena: tras más de 16 horas, fuerzas especiales sacaron con vida a las 19 personas que seguían retenidas; un asaltante murió y cuatro fueron capturados. Pedían $7.000 millones.",
+          "url": "https://www.semana.com/nacion/cartagena/articulo/exito-de-cartagena-fuerzas-especiales-rescatan-a-secuestrados-y-logran-someter-a-asaltantes/202602/",
+          "verified": true
+        },
+        {
+          "text": "Lukashenko ofrece volar con Zelenski a Moscú como \"garante de seguridad\" para que hable con Putin. Zelenski respondió que mejor lleve a Putin a Kiev.",
+          "url": "https://www.kyivpost.com/post/91094",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Ormuz: Irán dice que varios petroleros chocaron con minas. El Brent tocó mínimo de tres meses y luego cerró en US$91,40 (+2,3%).",
+          "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "Apagón en Nariño y Putumayo por ataque a dos torres de energía. El Gobierno lo llamó atentado terrorista y ordenó un plan para proteger la red eléctrica y de gas.",
+          "url": "https://www.elespectador.com/judicial/de-la-espriella-ordena-plan-de-defensa-de-infraestructura-electrica-del-pais-tras-atentado/",
+          "verified": true
+        },
+        {
+          "text": "El dólar rompió los $3.600 (llegó a $3.645, máximo desde mayo). En noviembre el peso cae 12%, el peor del mundo.",
+          "url": "https://www.portafolio.co/economia/dolar-en-colombia-pasa-los-3-600-hasta-donde-puede-llegar-si-no-hay-ajuste-fiscal-507036",
+          "verified": true
+        },
+        {
+          "text": "10 años del Acuerdo de Paz: De la Espriella lo llamó \"falsa paz\" y cuestionó los $178,59 billones invertidos; la ONU defendió el acuerdo.",
+          "url": "https://www.lapatria.com/colombia/diez-anos-del-acuerdo-de-paz-de-la-espriella-critica-sus-resultados-y-senala-cifras-de",
+          "verified": true
+        },
+        {
+          "text": "Ley de Rescate: en la primera audiencia pública, 32 de 58 intervenciones la rechazaron. Siguen audiencias en Cali y Barranquilla; votación en primer debate el 1 y 2 de diciembre.",
+          "url": "https://www.elcolombiano.com/negocios/ley-de-rescate-audiencia-publica-congreso-rachazo-cambios-a-favor-JG43983956",
+          "verified": true
+        },
+        {
+          "text": "Cortes de luz hoy en barrios de Bogotá y en Zipaquirá, Cajicá, Chía, Cota y Soacha por mantenimiento de Enel.",
+          "url": "https://www.pulzo.com/nacion/bogota/cortes-de-luz-en-bogota-y-municipios-de-cundinamarca-hoy-25-de-noviembre-horarios-y-sectores-afectados-PP5363624A",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "Jennifer Barreto, de Puerto Rico, es Miss Universo 2026. Es la primera mamá en ganar y la sexta boricua con la corona.",
+          "url": "https://gulfnews.com/entertainment/puerto-ricos-jennifer-barreto-wins-miss-universe-2026-1.500759973",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Lula no invitará a Milei a su posesión del 5 de enero y deja la embajada en Buenos Aires sin embajador.",
+          "url": "https://www.brasil247.com/america-latina/governo-lula-mantera-argentina-sem-embaixador-e-nao-convidara-milei-a-posse/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Haddad queda por fuera del primer escalón del cuarto gobierno de Lula; Camilo Santana gana fuerza para la Casa Civil.",
+          "url": "https://agendadopoder.com.br/haddad-ficara-fora-do-primeiro-escalao-do-quarto-governo-lula-diz-jornal/",
+          "verified": true,
+          "lang": "pt"
+        },
+        {
+          "text": "Lula se reúne hoy con su equipo económico para definir una PEC con nuevos recortes de gasto, segunda etapa del ajuste fiscal.",
+          "url": "https://www.brasil247.com/geral/lula-reune-equipe-economica-nesta-quarta-para-definir-novo-pacote-fiscal/",
+          "verified": true,
+          "lang": "pt"
+        }
+      ]
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "Hungría y Ucrania se reconcilian: Magyar hizo la primera visita de un primer ministro húngaro desde 2015 y pactó gas, diésel y nuevos pasos fronterizos.",
+          "url": "https://www.kyivpost.com/post/91036",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Trump dice que indultar a Jensen Huang es \"siempre una opción\", aunque cree que no hará falta. Huang declara ante el Congreso el 1 de diciembre.",
+          "url": "https://www.cnn.com/2026/11/24/politics/jensen-huang-trump-pardon-option-nvidia",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Israel mata al jefe de seguridad interna de Hamás, Naim Abu Nahal, en Ciudad de Gaza.",
+          "url": "https://www.washingtonpost.com/world/2026/11/24/israel-kills-hamas-internal-security-chief-gaza/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Kushner advierte que Israel va camino a ser un \"paria global\" si sigue frenando el plan de reconstrucción de Gaza.",
+          "url": "https://www.timesofisrael.com/kushner-israel-facing-fork-in-the-road-as-it-trends-toward-global-pariah-status/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Venezuela revela su deuda: US$237.540 millones, cerca del 242% del PIB. La cuarta ronda de diálogo cerró sin avances hacia elecciones.",
+          "url": "https://eldiario.com/2026/11/24/resumen-noticias-venezuela-martes-24-noviembre/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Anthropic lanza Claude Ship (beta): agentes que revisan, corrigen y aprueban cambios de código en GitHub.",
+          "url": "https://www.eltiempo.com/tecnosfera/inteligencia-artificial/anthropic-lanza-claude-ship-para-desarrollo-de-software-asi-funciona-la-herramienta-de-inteligencia-artificial-que-revisa-corrige-y-aprueba-codigos-3603741",
+          "verified": true
+        },
+        {
+          "text": "Amazon compra la tecnología y el equipo de Decart por unos US$7.500 millones para mejorar sus chips Trainium frente a Nvidia.",
+          "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "GPT-6.2 Sol ya es el modelo por defecto de ChatGPT en todo el mundo; su comprensión de imágenes sube de 47,4% a 71,7%.",
+          "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Meta lanza Muse en Reino Unido: un agente que hace compras, envía correos y reserva viajes; pide permiso antes de pagar.",
+          "url": "https://www.profesionalreview.com/2026/11/24/meta-lanza-en-reino-unido-muse-su-agente-de-ia-capaz-de-hacer-compras-enviar-correos-y-reservar-viajes-por-ti/",
+          "verified": true
+        },
+        {
+          "text": "El NHS arranca el mayor ensayo del mundo con IA para detectar cáncer de mama: £10 millones y casi 700.000 mujeres en 30 sedes.",
+          "url": "https://www.healthcare-management.uk/nhs-launch-10m-ai-assisted-breast-screening-trial",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "The Witcher 4 se va con PlayStation: CD Projekt firmó con Sony el marketing del juego y la llegada de su catálogo a PS Plus. Apunta a 2028.",
+          "url": "https://powerupgaming.co.uk/2026/11/24/cd-projekt-red-has-partnered-with-sony-for-the-witcher-4s-marketing-campaign/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "GTA VI, récord de PlayStation: más de 39 millones de jugadores en PS5 en sus primeros cuatro días y 683 millones de horas jugadas.",
+          "url": "https://www.notebookcheck.net/GTA-6-just-gave-PS5-its-biggest-single-day-surge-of-new-consoles-since-2020.1458735.0.html",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Marathon presenta a Bishop, un samurái robot que llega con la actualización Symbiosis el 8 de diciembre. Juego gratis del 8 al 15.",
+          "url": "https://comicbook.com/gaming/news/marathon-reveals-new-bishop-shell-with-one-of-the-games-coolest-trailers-yet/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Nioh 3: el DLC Bloody Insurrection sale el 17 de diciembre y la Complete Edition llega el 28 de enero, también a Xbox.",
+          "url": "https://www.gematsu.com/2026/11/nioh-3-dlc-bloody-insurrection-launches-december-17-complete-edition-launches-january-28-2027-alongside-xbox-series-version",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Lords of the Fallen 2 llega en abril de 2027; la fecha exacta se anuncia en diciembre.",
+          "url": "https://gamersrd.com/lords-of-the-fallen-2-abril-2027-fecha/",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Avengers: Doomsday rompe récord: su tráiler final suma 563 millones de vistas, el más visto de Disney. Estreno en diciembre.",
+          "url": "https://www.hollywoodreporterindia.com/features/insight/avengers-doomsday-final-trailer-crosses-560m-views-becomes-second-most-viewed-after-spider-man-brand-new-day",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Rob Lowe: El marginado ya está en Netflix: el documental de Chris Smith repasa su fama, sus escándalos y su salida de The West Wing.",
+          "url": "https://es-us.vida-estilo.yahoo.com/rob-lowe-verdad-netflix-esc%C3%A1ndalo-144618169.html",
+          "verified": true
+        },
+        {
+          "text": "Netflix también estrenó el documental Un último pedido y el especial de comedia de Nate Bargatze.",
+          "url": "https://www.informador.mx/entretenimiento/netflix-estrenos-de-hoy-martes-24-de-noviembre-de-2026-20261123-0129.html",
+          "verified": false
+        },
+        {
+          "text": "Estrenos en cines de Colombia este jueves 26: Hechizo: Bienvenidos a Hexe, La caja del demonio y Ramayana, entre otras.",
+          "url": "https://colombia.com/cine/noticias/estrenos-de-cine-de-la-semana-en-colombia-del-26-de-noviembre-de-2026-613946",
+          "verified": false
+        },
+        {
+          "text": "Michael, la biopic de Michael Jackson que pasó los US$1.000 millones, ya está en SkyShowtime.",
+          "url": "https://www.sensacine.com/noticias/cine/noticia-1000229680/",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Millonarios 4 a 1 Bucaramanga con doblete de Rodrigo Contreras.",
+          "url": "https://www.elcolombiano.com/deportes/futbol/millonarios-goleo-4-1-bucaramanga-cuadrangulares-liga-betplay-CC44025124",
+          "verified": true
+        },
+        {
+          "text": "América 2 a 1 Cali: doblete de cabeza de Tomás Ángel en el clásico; América queda líder del grupo B.",
+          "url": "https://www.futbolred.com/futbol-colombiano/liga-betplay/america-vencio-al-deportivo-cali-y-es-lider-del-grupo-b-asi-quedo-la-tabla-de-cuadrangulares-275689",
+          "verified": true
+        },
+        {
+          "text": "Cucho Hernández marcó dos goles de cabeza en el 2 a 0 del Betis al Slovan en Champions.",
+          "url": "https://www.noticiascaracol.com/golcaracol/colombianos-en-el-exterior/cucho-hernandez-figura-en-triunfo-0-2-de-betis-por-champions-doblete-contra-slovan-bratislava-rg10",
+          "verified": true
+        },
+        {
+          "text": "Real Madrid 5 a 1 PSV: remontada con doblete de Mbappé; sigue perfecto en Champions.",
+          "url": "https://www.uefa.com/uefachampionsleague/news/02ab-222684fc8e44-2b1a32c90a7a-1000--champions-league-highlights-and-round-up-real-madrid-sta/",
+          "verified": true,
+          "lang": "en"
+        },
+        {
+          "text": "Noche gris inglesa: City 2 a 2 Napoli (Cherki empató al 86), Arsenal 1 a 1 Dortmund y Aston Villa perdió 1 a 0 en Turquía.",
+          "url": "https://skysports.com/football/news/13615960/man-city-2-2-napoli-rayan-cherki-equalises-late-but-enzo-marescas-team-frustrate-in-champions-league-draw",
+          "verified": true,
+          "lang": "en"
+        }
+      ]
+    }
+  ],
+  "omitidas": [
+    {
+      "title": "La huelga de médicos consultores en Inglaterra se suspendió por negociaciones",
+      "level": "media",
+      "reason": "no ocurre hoy"
+    },
+    {
+      "title": "Los reportes de caída de internet en México del 25 de noviembre son de 2025",
+      "level": "baja",
+      "reason": "noticia vieja"
+    },
+    {
+      "title": "Nadella dijo que Microsoft alquilaría cómputo a SpaceX",
+      "level": "media",
+      "reason": "del 18 de noviembre"
+    },
+    {
+      "title": "GTA VI vendió unos 19 millones de copias el primer día",
+      "level": "media",
+      "reason": "dato viejo, usé el de Sony"
+    },
+    {
+      "title": "El carro bomba de Villavicencio dejó 23 heridos",
+      "level": "media",
+      "reason": "ya publicado el lunes"
+    },
+    {
+      "title": "PSG contra Roma y Sabah contra Barça se juegan hoy",
+      "level": "media",
+      "reason": "aún sin resultado"
+    },
+    {
+      "title": "China lanzaría la Shenzhou 24 con un astronauta paquistaní",
+      "level": "baja",
+      "reason": "sin confirmar"
+    },
+    {
+      "title": "Godzilla Minus Zero sigue fuerte en taquilla",
+      "level": "baja",
+      "reason": "datos de hace semanas"
+    }
+  ]
+}
