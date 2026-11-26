@@ -376,16 +376,12 @@
       var lista = el("ul");
       mas.forEach(function (t) {
         var li = el("li");
-        var a = el("a");
-        a.href = t.url;
-        a.target = "_blank";
-        a.rel = "noopener";
-        a.appendChild(el("span", "", t.text));
-        var dato = [fuente(t.url)];
-        if (LANG[t.lang]) dato.push(LANG[t.lang]);
-        if (typeof t.medios === "number" && t.medios > 1) dato.push(t.medios + " medios");
-        a.appendChild(el("span", "", dato.filter(Boolean).join(" · ")));
-        li.appendChild(a);
+        li.appendChild(el("p", "", t.text));
+        var meta = el("div", "meta");
+        meta.appendChild(etiqueta(t));
+        meta.appendChild(boton("read", t.url));
+        if (LANG[t.lang]) meta.appendChild(el("span", "lang", LANG[t.lang]));
+        li.appendChild(meta);
         lista.appendChild(li);
       });
       caja.appendChild(lista);

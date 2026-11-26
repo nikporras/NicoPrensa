@@ -133,11 +133,9 @@ details.sec summary::-webkit-details-marker{display:none}
 .also{border-top:1px solid var(--edge);margin:0 16px;padding:14px 0 10px}
 .also h4{margin:0 0 4px;font:600 .95rem var(--display);color:var(--soft)}
 .sec .also ul{padding:0}
-.sec .also li{padding:0;border-top:0;display:block}
-.also a{display:grid;gap:2px;padding:.6rem 0;text-decoration:none;border-bottom:1px solid var(--edge)}
-.also li:last-child a{border-bottom:0}
-.also a span:first-child{font-weight:500;overflow-wrap:anywhere}
-.also a span:last-child{font-size:.8rem;color:var(--soft)}
+.sec .also li{padding:10px 0;border-top:1px solid var(--edge);display:grid;gap:8px}
+.sec .also li:first-child{border-top:0}
+.also li p{font-weight:500}
 .read{font:600 .88rem var(--body);background:var(--pill);color:var(--on-pill);text-decoration:none;border-radius:999px;padding:.45rem .9rem}
 .lang{font-size:.82rem;color:var(--soft)}
 .c-colombia{--tint:rgba(255,205,60,.24)}.c-latam{--tint:rgba(80,210,140,.24)}.c-politica{--tint:rgba(90,140,255,.26)}
