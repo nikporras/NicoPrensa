@@ -1,59 +1,111 @@
 {
-  "_descartar": ["loteria", "baloto", "horoscopo", "pico y placa", "ultimas noticias |", "minuto a minuto", "en vivo", "en directo", "crucigrama", "santoral"],
+  "_descartar": ["loteria", "baloto", "horoscopo", "pico y placa", "ultimas noticias |", "minuto a minuto", "en vivo", "en directo", "crucigrama", "santoral", "super astro", "chontico", "resultados del sorteo", "numeros ganadores"],
+  "_degradar": ["rebajado", "rebajada", "rebajas", "oferta", "ofertas", "descuento", "descuentos", "black friday", "cyber monday", "chollo", "por menos de", "mejores precios", "cuanto cuesta", "guia:", "todas las misiones", "como conseguir", "como mejorar", "trucos", "localizacion", "que significa", "test:", "quiz", "recetas", "consejos para", "7 gadgets", "deals"],
+  "_temas": {
+    "futbol": {
+      "rutas": ["/futbol", "/futebol", "/football", "/champions", "/liga-betplay", "/premier-league", "/libertadores", "/seleccion-colombia", "/brasileirao"],
+      "fuertes": ["fútbol", "futebol", "football", "liga betplay", "champions league", "champions", "libertadores", "sudamericana", "premier league", "laliga", "bundesliga", "brasileirão", "brasileirao", "selección colombia", "balón de oro", "gol", "goles", "golazo", "goleada", "goleó", "golea", "doblete", "hat-trick", "penalti", "fichaje", "cuadrangulares", "eliminatorias", "mundial de clubes", "copa del mundo", "fifa", "uefa", "conmebol", "dimayor", "millonarios", "atlético nacional", "américa de cali", "deportivo cali", "once caldas", "independiente medellín", "real madrid", "barça", "fc barcelona", "atlético de madrid", "manchester united", "manchester city", "tottenham", "bayern", "psg", "juventus", "flamengo", "palmeiras", "corinthians", "boca juniors", "river plate", "luis díaz", "james rodríguez", "mbappé", "messi", "cristiano ronaldo", "haaland", "vinícius", "lamine yamal", "neymar", "luis javier suárez"],
+      "palabras": ["liga", "clásico", "hinchas", "estadio", "delantero", "arquero", "portero", "entrenador", "selección", "torneo", "copa", "empate", "empató", "arsenal", "liverpool", "barcelona", "chelsea", "santa fe", "sub-17", "sub-20", "semifinal", "cuartos de final", "octavos de final", "goleador", "volante", "defensa central"]
+    },
+    "juegos": {
+      "rutas": ["/videojuegos", "/juegos/", "/games/", "/gaming", "/consolas", "/esports"],
+      "fuertes": ["videojuego", "videojuegos", "videogame", "video game", "playstation", "ps5", "ps4", "ps plus", "xbox", "game pass", "nintendo", "switch 2", "steam", "steam deck", "gta", "gta 6", "gta vi", "rockstar", "zelda", "mario kart", "pokémon", "fortnite", "minecraft", "call of duty", "the witcher", "cd projekt", "ubisoft", "electronic arts", "bethesda", "capcom", "fromsoftware", "elden ring", "resident evil", "final fantasy", "gamer", "gamers", "gameplay", "dlc", "esports", "the game awards", "epic games", "konami", "bandai namco", "square enix", "naughty dog", "hollow knight", "silksong", "roblox", "league of legends", "valorant", "counter-strike", "warcraft", "blizzard", "god of war", "cyberpunk 2077", "take-two", "digital foundry", "dead by daylight", "marathon", "nioh"],
+      "palabras": ["juego", "juegos", "consola", "consolas", "jugadores", "remake", "remaster", "parche", "the last of us", "tráiler"]
+    },
+    "cine": {
+      "rutas": ["/cine", "/series", "/television", "/tv/", "/film", "/peliculas", "/streaming"],
+      "fuertes": ["película", "películas", "filme", "film", "movie", "movies", "netflix", "hbo", "hbo max", "disney+", "prime video", "apple tv+", "skyshowtime", "paramount+", "tráiler", "trailer", "taquilla", "box office", "bilheteria", "cineasta", "largometraje", "documental", "biopic", "secuela", "precuela", "marvel", "avengers", "star wars", "pixar", "dc studios", "premios óscar", "los óscar", "oscars", "emmy", "globos de oro", "cannes", "festival de cine", "hollywood", "showrunner", "sitcom", "anime", "tarantino", "spielberg", "scorsese", "almodóvar", "fincher", "actor", "actriz", "elenco", "reparto", "rodaje", "cines", "imax", "miniserie", "telenovela", "brad pitt", "penélope cruz"],
+      "palabras": ["serie", "series", "temporada", "estreno", "estrena", "estrenos", "episodio", "capítulo", "protagonista", "guion", "cinema"]
+    },
+    "tec": {
+      "rutas": ["/tecnologia", "/tecno/", "/technology", "/tech/", "/tecnosfera", "/ciencia", "/science", "/espacio", "/inteligencia-artificial", "/innovacion"],
+      "fuertes": ["inteligencia artificial", "artificial intelligence", "=IA", "=AI", "openai", "chatgpt", "anthropic", "claude", "gemini", "copilot", "deepmind", "nvidia", "microsoft", "google", "apple", "iphone", "ipad", "macbook", "android", "samsung galaxy", "spacex", "starship", "starlink", "nasa", "astronauta", "astronautas", "cohete", "satélite", "satélites", "telescopio", "estación espacial", "tiangong", "shenzhou", "asteroide", "chip", "chips", "semiconductores", "ciberataque", "ciberseguridad", "hackeo", "hackers", "hackeado", "ransomware", "robot", "robots", "robótica", "computación cuántica", "smartphone", "software", "startup", "startups", "tesla", "amazon", "windows", "linux", "1password", "neuralink", "voyager", "chatbot", "chatbots", "data centers", "centros de datos"],
+      "palabras": ["tecnología", "tecnológica", "tecnológicas", "whatsapp", "instagram", "tiktok", "facebook", "youtube", "celular", "app", "aplicación", "científicos", "ciencia", "bitcoin", "criptomonedas", "elon musk", "algoritmo", "internet", "digital"]
+    },
+    "colombia": {
+      "rutas": ["/colombia/", "/nacion/", "/bogota/", "/medellin/", "/cali/", "/antioquia/", "/judicial/", "/regiones/", "/barranquilla/", "/cartagena/"],
+      "fuertes": ["colombia", "colombiano", "colombiana", "colombianos", "colombianas", "bogotá", "medellín", "cali", "barranquilla", "cartagena", "bucaramanga", "cúcuta", "pereira", "manizales", "villavicencio", "antioquia", "cundinamarca", "valle del cauca", "nariño", "putumayo", "cauca", "chocó", "la guajira", "tolima", "boyacá", "petro", "de la espriella", "espriella", "uribe", "dane", "ecopetrol", "dian", "icfes", "invima", "eln", "farc", "disidencias", "clan del golfo", "casa de nariño", "banco de la república", "minhacienda", "mintrabajo", "trm", "soat", "sisbén", "transmilenio", "avianca", "bancolombia", "grupo aval", "fiscalía general", "procuraduría", "registraduría"],
+      "palabras": ["santander", "salario mínimo", "congreso", "senado", "cámara de representantes", "reforma", "pesos"]
+    },
+    "latam": {
+      "rutas": ["/brasil/", "/america-latina/", "/latinoamerica/", "/americas/", "/argentina/", "/mexico/", "/venezuela/"],
+      "fuertes": ["brasil", "brazil", "brasileño", "brasileña", "brasileños", "brasileiro", "brasileira", "lula", "bolsonaro", "haddad", "são paulo", "sao paulo", "río de janeiro", "rio de janeiro", "brasilia", "brasília", "petrobras", "embraer", "stf", "planalto", "itamaraty", "méxico", "mexicano", "mexicana", "sheinbaum", "argentina", "argentino", "milei", "buenos aires", "venezuela", "venezolano", "venezolanos", "maduro", "caracas", "chile", "chileno", "perú", "peruano", "ecuador", "ecuatoriano", "noboa", "quito", "bolivia", "uruguay", "paraguay", "cuba", "cubano", "la habana", "puerto rico", "puertorriqueño", "puertorriqueña", "boricua", "panamá", "costa rica", "guatemala", "honduras", "el salvador", "bukele", "nicaragua", "haití", "república dominicana", "latinoamérica", "américa latina", "mercosur", "amazonia", "miss universo", "miss universe"],
+      "palabras": ["lima", "latam", "câmara", "senado federal", "reais"]
+    },
+    "politica": {
+      "rutas": ["/mundo/", "/internacional/", "/world/", "/global/", "/europa/", "/uk-news/", "/news/uk"],
+      "fuertes": ["trump", "casa blanca", "white house", "estados unidos", "ee.uu.", "ee uu", "eeuu", "washington", "reino unido", "britain", "british", "londres", "london", "starmer", "downing street", "unión europea", "bruselas", "europa", "rusia", "putin", "ucrania", "zelenski", "kiev", "israel", "gaza", "hamás", "irán", "china", "pekín", "xi jinping", "japón", "corea del sur", "corea del norte", "kim jong-un", "india", "egipto", "el cairo", "turquía", "francia", "macron", "alemania", "españa", "sánchez", "italia", "meloni", "otan", "onu", "fmi", "banco mundial", "reserva federal", "fed", "bce", "aranceles", "wall street", "nasdaq", "brent", "opep", "arabia saudita", "siria", "líbano", "hezbolá", "taiwán", "nhs", "brexit", "poundland", "duran duran", "vaticano", "papa"],
+      "palabras": ["guerra", "sanciones", "cumbre", "elecciones", "primer ministro", "presidente", "parlamento", "inflación", "petróleo", "bolsas", "mercados"]
+    }
+  },
   "colombia": [
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/colombia.xml"},
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/politica.xml"},
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/economia.xml"},
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/justicia.xml"},
-    {"medio": "Semana", "url": "https://www.semana.com/arc/outboundfeeds/rss/?outputType=xml", "portada": true},
+    {"medio": "Semana", "url": "https://www.semana.com/arc/outboundfeeds/rss/?outputType=xml", "portada": true, "general": true},
     {"medio": "Semana", "url": "https://www.semana.com/arc/outboundfeeds/rss/category/nacion/?outputType=xml"},
     {"medio": "El Colombiano", "url": "https://www.elcolombiano.com/rss/Colombia.xml"},
-    {"medio": "El Colombiano", "url": "https://www.elcolombiano.com/rss/portada.xml", "portada": true},
+    {"medio": "El Colombiano", "url": "https://www.elcolombiano.com/rss/portada.xml", "portada": true, "general": true},
     {"medio": "Portafolio", "url": "https://www.portafolio.co/rss/economia.xml"},
     {"medio": "Portafolio", "url": "https://www.portafolio.co/rss/portafolio.xml", "portada": true},
-    {"medio": "La República", "url": "https://www.larepublica.co/rss/", "portada": true},
+    {"medio": "La República", "url": "https://www.larepublica.co/rss/", "portada": true, "general": true},
     {"medio": "Infobae", "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/colombia/?outputType=xml"},
     {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada"},
-    {"medio": "El Espectador", "url": "https://www.elespectador.com/arc/outboundfeeds/discover/", "portada": true}
+    {"medio": "El Espectador", "url": "https://www.elespectador.com/arc/outboundfeeds/discover/", "portada": true, "general": true},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "top", "edicion": "Colombia", "general": true, "url": "https://news.google.com/rss?hl=es-419&gl=CO&ceid=CO:es-419"},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "tema", "edicion": "Colombia", "general": true, "url": "https://news.google.com/rss/headlines/section/topic/NATION?hl=es-419&gl=CO&ceid=CO:es-419"},
+    {"medio": "Google Tendencias", "tipo": "tendencias", "edicion": "Colombia", "general": true, "url": "https://trends.google.com/trending/rss?geo=CO"}
   ],
   "latam": [
     {"medio": "G1", "idioma": "pt", "url": "https://g1.globo.com/rss/g1/", "portada": true},
     {"medio": "G1", "idioma": "pt", "url": "https://g1.globo.com/rss/g1/politica/"},
     {"medio": "G1", "idioma": "pt", "url": "https://g1.globo.com/rss/g1/economia/"},
-    {"medio": "Folha", "idioma": "pt", "url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml"},
+    {"medio": "Folha", "idioma": "pt", "url": "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml", "general": true},
     {"medio": "Folha", "idioma": "pt", "url": "https://feeds.folha.uol.com.br/poder/rss091.xml"},
-    {"medio": "CNN Brasil", "idioma": "pt", "url": "https://www.cnnbrasil.com.br/feed/"},
-    {"medio": "La Nación", "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml", "portada": true},
-    {"medio": "Infobae", "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/america/?outputType=xml"},
+    {"medio": "CNN Brasil", "idioma": "pt", "url": "https://www.cnnbrasil.com.br/feed/", "general": true},
+    {"medio": "La Nación", "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml", "portada": true, "general": true},
+    {"medio": "Infobae", "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/america/?outputType=xml", "general": true},
     {"medio": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/temas/america_latina/rss.xml"},
-    {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada"},
-    {"medio": "France 24", "url": "https://www.france24.com/es/am%C3%A9rica-latina/rss"}
+    {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada", "general": true},
+    {"medio": "France 24", "url": "https://www.france24.com/es/am%C3%A9rica-latina/rss"},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "top", "edicion": "Brasil", "general": true, "url": "https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-419", "idioma": "pt"}
   ],
   "politica": [
-    {"medio": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/rss.xml", "portada": true},
+    {"medio": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/rss.xml", "portada": true, "general": true},
     {"medio": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/temas/internacional/rss.xml"},
     {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada"},
     {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada"},
-    {"medio": "Euronews", "url": "https://es.euronews.com/rss?format=mrss&level=theme&name=news"},
-    {"medio": "Euronews", "url": "https://es.euronews.com/rss", "portada": true},
-    {"medio": "France 24", "url": "https://www.france24.com/es/rss", "portada": true},
-    {"medio": "DW", "url": "https://rss.dw.com/rdf/rss-sp-all", "portada": true},
+    {"medio": "Euronews", "url": "https://es.euronews.com/rss?format=mrss&level=theme&name=news", "general": true},
+    {"medio": "Euronews", "url": "https://es.euronews.com/rss", "portada": true, "general": true},
+    {"medio": "France 24", "url": "https://www.france24.com/es/rss", "portada": true, "general": true},
+    {"medio": "DW", "url": "https://rss.dw.com/rdf/rss-sp-all", "portada": true, "general": true},
     {"medio": "DW", "url": "https://rss.dw.com/rdf/rss-sp-inter"},
     {"medio": "BBC News", "idioma": "en", "url": "https://feeds.bbci.co.uk/news/uk/rss.xml", "portada": true},
     {"medio": "BBC News", "idioma": "en", "url": "https://feeds.bbci.co.uk/news/world/rss.xml", "portada": true},
     {"medio": "The Guardian", "idioma": "en", "url": "https://www.theguardian.com/uk-news/rss"},
-    {"medio": "The Guardian", "idioma": "en", "url": "https://www.theguardian.com/world/rss"}
+    {"medio": "The Guardian", "idioma": "en", "url": "https://www.theguardian.com/world/rss"},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "top", "edicion": "Reino Unido", "general": true, "url": "https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB:en", "idioma": "en"},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "tema", "edicion": "Colombia", "general": true, "url": "https://news.google.com/rss/headlines/section/topic/WORLD?hl=es-419&gl=CO&ceid=CO:es-419"},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "tema", "edicion": "Colombia", "general": true, "url": "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=es-419&gl=CO&ceid=CO:es-419"},
+    {"medio": "Google Tendencias", "tipo": "tendencias", "edicion": "Reino Unido", "idioma": "en", "general": true, "url": "https://trends.google.com/trending/rss?geo=GB"}
   ],
   "tec": [
-    {"medio": "Xataka", "url": "https://www.xataka.com/feedburner.xml"},
-    {"medio": "Xataka", "url": "https://www.xataka.com/index.xml", "portada": true},
+    {"medio": "Xataka", "url": "https://www.xataka.com/feedburner.xml", "general": true},
+    {"medio": "Xataka", "url": "https://www.xataka.com/index.xml", "portada": true, "general": true},
     {"medio": "Hipertextual", "url": "https://hipertextual.com/feed"},
     {"medio": "Genbeta", "url": "https://www.genbeta.com/feedburner.xml"},
     {"medio": "Genbeta", "url": "https://www.genbeta.com/index.xml"},
     {"medio": "Infobae", "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/tecno/?outputType=xml"},
     {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada"},
     {"medio": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/temas/tecnologia/rss.xml"},
-    {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/tecnosfera.xml"}
+    {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/tecnosfera.xml"},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "tema", "edicion": "Colombia", "general": true, "url": "https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=es-419&gl=CO&ceid=CO:es-419", "exige": true},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "tema", "edicion": "Colombia", "general": true, "url": "https://news.google.com/rss/headlines/section/topic/SCIENCE?hl=es-419&gl=CO&ceid=CO:es-419", "exige": true},
+    {"medio": "The Verge", "idioma": "en", "url": "https://www.theverge.com/rss/index.xml"},
+    {"medio": "TechCrunch", "idioma": "en", "url": "https://techcrunch.com/feed/"},
+    {"medio": "Ars Technica", "idioma": "en", "url": "https://feeds.arstechnica.com/arstechnica/index"},
+    {"medio": "Engadget", "idioma": "en", "url": "https://www.engadget.com/rss.xml"}
   ],
   "juegos": [
     {"medio": "3DJuegos", "url": "https://www.3djuegos.com/feedburner.xml"},
@@ -62,7 +114,8 @@
     {"medio": "Vidaextra", "url": "https://www.vidaextra.com/feedburner.xml"},
     {"medio": "Vidaextra", "url": "https://www.vidaextra.com/index.xml"},
     {"medio": "Eurogamer", "url": "https://www.eurogamer.es/feed"},
-    {"medio": "LevelUp", "url": "https://www.levelup.com/arc/outboundfeeds/google-news-feed/"}
+    {"medio": "LevelUp", "url": "https://www.levelup.com/arc/outboundfeeds/google-news-feed/"},
+    {"medio": "Vandal", "tipo": "google", "url": "https://news.google.com/rss/search?q=site:vandal.elespanol.com+when:1d&hl=es-419&gl=CO&ceid=CO:es-419"}
   ],
   "cine": [
     {"medio": "Sensacine", "url": "https://www.sensacine.com/rss/noticias.xml"},
@@ -73,10 +126,11 @@
     {"medio": "Variety", "idioma": "en", "url": "https://variety.com/feed/"},
     {"medio": "Deadline", "idioma": "en", "url": "https://deadline.com/feed/"},
     {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/television/portada"},
-    {"medio": "Fotogramas", "url": "https://www.fotogramas.es/rss/all.xml/"}
+    {"medio": "Fotogramas", "url": "https://www.fotogramas.es/rss/all.xml/"},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "tema", "edicion": "Colombia", "general": true, "url": "https://news.google.com/rss/headlines/section/topic/ENTERTAINMENT?hl=es-419&gl=CO&ceid=CO:es-419", "exige": true}
   ],
   "futbol": [
-    {"medio": "Marca", "url": "https://www.marca.com/rss/googlenews/portada.xml", "portada": true},
+    {"medio": "Marca", "url": "https://www.marca.com/rss/googlenews/portada.xml", "portada": true, "general": true, "exige": true},
     {"medio": "AS", "url": "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/portada/"},
     {"medio": "AS", "url": "https://feeds.as.com/mrss-s/pages/as/site/colombia.as.com/section/futbol/portada/"},
     {"medio": "Win Sports", "url": "https://www.winsports.co/rss"},
@@ -85,6 +139,8 @@
     {"medio": "Semana", "url": "https://www.semana.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml"},
     {"medio": "Mundo Deportivo", "url": "https://www.mundodeportivo.com/rss/futbol.xml"},
     {"medio": "Globo Esporte", "idioma": "pt", "url": "https://ge.globo.com/rss/ge/futebol/"},
-    {"medio": "BBC Sport", "idioma": "en", "url": "https://feeds.bbci.co.uk/sport/football/rss.xml"}
+    {"medio": "BBC Sport", "idioma": "en", "url": "https://feeds.bbci.co.uk/sport/football/rss.xml"},
+    {"medio": "Google Noticias", "tipo": "google", "senal": "tema", "edicion": "Colombia", "general": true, "url": "https://news.google.com/rss/headlines/section/topic/SPORTS?hl=es-419&gl=CO&ceid=CO:es-419", "exige": true},
+    {"medio": "Futbolred", "tipo": "google", "url": "https://news.google.com/rss/search?q=site:futbolred.com+when:1d&hl=es-419&gl=CO&ceid=CO:es-419"}
   ]
 }

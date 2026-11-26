@@ -29,6 +29,8 @@ jobs:
         run: pip install --quiet feedparser
 
       - name: Recoger titulares
+        id: recoger
+        continue-on-error: true
         run: python scripts/candidatos.py
 
       - name: Guardar en main
@@ -45,4 +47,10 @@ jobs:
             git pull --rebase origin main && git push origin HEAD:main && exit 0
             sleep 5
           done
+          exit 1
+
+      - name: Avisar si algo anduvo mal
+        if: steps.recoger.outcome == 'failure'
+        run: |
+          echo "El mensajero terminó con errores. Revisa el paso 'Recoger titulares'."
           exit 1
