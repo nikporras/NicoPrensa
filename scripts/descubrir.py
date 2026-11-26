@@ -37,7 +37,12 @@ for sitio in sys.argv[1:]:
             notas = len(re.findall(r"<item[\s>]|<entry[\s>]", cuerpo))
             trozo = re.search(r"<item[\s>].*?</item>|<entry[\s>].*?</entry>", cuerpo, flags=re.S)
             print(f"  OK {len(cuerpo)} caracteres, {notas} notas")
-            print("  MUESTRA: " + " ".join((trozo.group(0) if trozo else cuerpo).split())[:1600])
+            titulos = re.findall(r"<item[\s>].*?<title>(.*?)</title>", cuerpo, flags=re.S)
+            if titulos:   # los primeros titulares, para ver de qué trata el feed
+                for t in titulos[:10]:
+                    print("    - " + " ".join(t.split())[:110])
+            else:
+                print("  MUESTRA: " + " ".join((trozo.group(0) if trozo else cuerpo).split())[:600])
         except Exception as err:
             print(f"  FALLA {type(err).__name__}: {err}"[:200])
         continue
