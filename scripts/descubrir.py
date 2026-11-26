@@ -2,6 +2,7 @@
 """Busca los feeds que cada sitio anuncia en su portada y en su robots.txt.
 
 Uso: python scripts/descubrir.py https://www.ejemplo.com https://otro.com
+     python scripts/descubrir.py =https://www.ejemplo.com/feed.xml   (prueba una dirección exacta)
 Solo muestra lo que encuentra; no cambia ningún archivo.
 """
 import re
@@ -29,6 +30,17 @@ def probar(url):
 
 
 for sitio in sys.argv[1:]:
+    if sitio.startswith("="):   # "=URL": probar esa dirección tal cual y mostrar una muestra
+        print(f"\n=== directo {sitio[1:]}")
+        try:
+            cuerpo = leer(sitio[1:])
+            notas = len(re.findall(r"<item[\s>]|<entry[\s>]", cuerpo))
+            trozo = re.search(r"<item[\s>].*?</item>|<entry[\s>].*?</entry>", cuerpo, flags=re.S)
+            print(f"  OK {len(cuerpo)} caracteres, {notas} notas")
+            print("  MUESTRA: " + " ".join((trozo.group(0) if trozo else cuerpo).split())[:1600])
+        except Exception as err:
+            print(f"  FALLA {type(err).__name__}: {err}"[:200])
+        continue
     print(f"\n=== {sitio}")
     hallados = []
     try:
