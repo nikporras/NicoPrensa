@@ -524,6 +524,8 @@ def seccion_de_noticia(n, temas):
     # de ese tema y nada fuerte apunta a un país.
     if evidencia >= 2.0 or (puntos[tema] >= 2.0 and puntos[lugar] < 3.0):
         return tema, puntos[tema], propia
+    if puntos[lugar] <= 0:   # nada apunta a un país: se queda en la sección de su feed
+        return n["seccion"], max(puntos[n["seccion"]], 0.5), propia
     return lugar, max(puntos[lugar], 0.5), propia
 
 
