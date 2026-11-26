@@ -6,17 +6,11 @@
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/justicia.xml"},
     {"medio": "Semana", "url": "https://www.semana.com/arc/outboundfeeds/rss/?outputType=xml"},
     {"medio": "Semana", "url": "https://www.semana.com/arc/outboundfeeds/rss/category/nacion/?outputType=xml"},
-    {"medio": "El Espectador", "url": "https://www.elespectador.com/arc/outboundfeeds/rss/?outputType=xml"},
-    {"medio": "El Espectador", "url": "https://www.elespectador.com/arc/outboundfeeds/rss/category/colombia/?outputType=xml"},
-    {"medio": "El Espectador", "url": "https://www.elespectador.com/arc/outboundfeeds/rss/category/politica/?outputType=xml"},
     {"medio": "El Colombiano", "url": "https://www.elcolombiano.com/rss/Colombia.xml"},
     {"medio": "El Colombiano", "url": "https://www.elcolombiano.com/rss/portada.xml"},
     {"medio": "Portafolio", "url": "https://www.portafolio.co/rss/economia.xml"},
     {"medio": "Portafolio", "url": "https://www.portafolio.co/rss/portafolio.xml"},
     {"medio": "La República", "url": "https://www.larepublica.co/rss/"},
-    {"medio": "La República", "url": "https://www.larepublica.co/rss/economia.xml"},
-    {"medio": "Noticias Caracol", "url": "https://www.noticiascaracol.com/rss"},
-    {"medio": "Noticias Caracol", "url": "https://www.noticiascaracol.com/colombia/feed"},
     {"medio": "Infobae", "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/colombia/?outputType=xml"},
     {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada"}
   ],
@@ -29,11 +23,9 @@
     {"medio": "CNN Brasil", "idioma": "pt", "url": "https://www.cnnbrasil.com.br/feed/"},
     {"medio": "La Nación", "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml"},
     {"medio": "Infobae", "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/america/?outputType=xml"},
-    {"medio": "Infobae", "url": "https://www.infobae.com/feeds/rss/"},
     {"medio": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/temas/america_latina/rss.xml"},
     {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada"},
-    {"medio": "France 24", "url": "https://www.france24.com/es/am%C3%A9rica-latina/rss"},
-    {"medio": "DW", "url": "https://rss.dw.com/rdf/rss-sp-ame"}
+    {"medio": "France 24", "url": "https://www.france24.com/es/am%C3%A9rica-latina/rss"}
   ],
   "politica": [
     {"medio": "BBC Mundo", "url": "https://feeds.bbci.co.uk/mundo/rss.xml"},
@@ -64,12 +56,9 @@
   "juegos": [
     {"medio": "3DJuegos", "url": "https://www.3djuegos.com/feedburner.xml"},
     {"medio": "3DJuegos", "url": "https://www.3djuegos.com/index.xml"},
-    {"medio": "Vandal", "url": "https://vandal.elespanol.com/xml.cgi"},
-    {"medio": "Vandal", "url": "https://vandal.elespanol.com/rss/"},
     {"medio": "GeneracionXbox", "url": "https://generacionxbox.com/feed/"},
     {"medio": "Vidaextra", "url": "https://www.vidaextra.com/feedburner.xml"},
     {"medio": "Vidaextra", "url": "https://www.vidaextra.com/index.xml"},
-    {"medio": "LevelUp", "url": "https://www.levelup.com/rss"},
     {"medio": "Eurogamer", "url": "https://www.eurogamer.es/feed"}
   ],
   "cine": [
@@ -84,21 +73,12 @@
     {"medio": "Fotogramas", "url": "https://www.fotogramas.es/rss/all.xml/"}
   ],
   "futbol": [
-    {"medio": "Marca", "url": "https://e00-marca.uecdn.es/rss/futbol.xml"},
-    {"medio": "Marca", "url": "https://e00-marca.uecdn.es/rss/futbol/premier-league.xml"},
-    {"medio": "AS", "url": "https://as.com/rss/futbol/portada.xml"},
     {"medio": "AS", "url": "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/portada/"},
     {"medio": "AS", "url": "https://feeds.as.com/mrss-s/pages/as/site/colombia.as.com/section/futbol/portada/"},
-    {"medio": "Futbolred", "url": "https://www.futbolred.com/rss"},
-    {"medio": "Futbolred", "url": "https://www.futbolred.com/rss/futbol-colombiano.xml"},
-    {"medio": "Futbolred", "url": "https://www.futbolred.com/rss.xml"},
-    {"medio": "Win Sports", "url": "https://www.winsports.co/rss.xml"},
     {"medio": "Win Sports", "url": "https://www.winsports.co/rss"},
-    {"medio": "Win Sports", "url": "https://www.winsports.co/feed"},
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/deportes_futbol-colombiano.xml"},
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/deportes_futbol-internacional.xml"},
     {"medio": "Semana", "url": "https://www.semana.com/arc/outboundfeeds/rss/category/deportes/?outputType=xml"},
-    {"medio": "El Espectador", "url": "https://www.elespectador.com/arc/outboundfeeds/rss/category/deportes/futbol-colombiano/?outputType=xml"},
     {"medio": "Mundo Deportivo", "url": "https://www.mundodeportivo.com/rss/futbol.xml"},
     {"medio": "Globo Esporte", "idioma": "pt", "url": "https://ge.globo.com/rss/ge/futebol/"},
     {"medio": "BBC Sport", "idioma": "en", "url": "https://feeds.bbci.co.uk/sport/football/rss.xml"}
