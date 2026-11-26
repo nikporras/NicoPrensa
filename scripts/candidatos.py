@@ -553,12 +553,16 @@ def preparar(noticias, config):
         frecuencia.update(n["_t"] | n["_r"])
     total = len(utiles)
     idf = {r: math.log(1 + total / c) for r, c in frecuencia.items()}
+    limite = max(20, 0.006 * total)
 
     for n in utiles:
         n["nombres"] = anclas_de(n["limpio"], propias)
         n["anclas"] = set(n["nombres"])
         n["anclas_todas"] = n["anclas"] | (set(anclas_de(n["resumen"], propias)) if n["resumen"] else set())
         n["todas"] = n["_t"] | n["_r"]
+        # Un nombre que sale en muchísimos titulares del día (Estados Unidos, Colombia, Trump)
+        # no sirve como prueba de que dos notas son la misma noticia.
+        n["raras"] = {r for r in n["anclas"] if frecuencia[r] <= limite}
         vt = {r: (1.3 if r in n["anclas"] else 1.0) * math.sqrt(idf[r]) for r in n["_t"]}
         n["vt"], n["nt"] = vt, math.sqrt(sum(v * v for v in vt.values())) or 1.0
         if n["_r"]:
@@ -617,8 +621,8 @@ def misma_noticia(a, b, idf):
 def pariente(a, b):
     """Para notas que Google presenta juntas: basta un parecido moderado y un nombre o cifra en común."""
     if a["idioma"] != b["idioma"]:
-        return bool(a["anclas"] & b["anclas"])
-    return parecido(a, b) >= UMBRAL_PARIENTE and bool((a["anclas"] & b["todas"]) or (b["anclas"] & a["todas"]))
+        return bool(a["raras"] & b["raras"])
+    return parecido(a, b) >= UMBRAL_PARIENTE and bool((a["raras"] & b["todas"]) or (b["raras"] & a["todas"]))
 
 
 def agrupar(noticias, idf):
@@ -668,7 +672,7 @@ def fusionar(grupos, idf):
         for k, n in enumerate(g):
             for r, v in n["vt"].items():
                 centro[r] += v
-            cuenta.update(n["anclas"])
+            cuenta.update(n["raras"])
             for r, numero in n["nombres"].items():
                 nombres.setdefault(r, (k, numero))
         top = dict(sorted(centro.items(), key=lambda x: (-x[1], x[0]))[:12])
