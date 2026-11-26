@@ -60,6 +60,14 @@
       return mayus(partes[0]);
     } catch (e) { return ""; }
   }
+  // Ediciones nuevas: cuántos medios traen la noticia. Ediciones viejas: confirmada o una fuente.
+  function etiqueta(st) {
+    if (typeof st.medios === "number" && st.medios > 0) {
+      var clase = st.medios >= 5 ? "big" : st.medios >= 2 ? "mid" : "few";
+      return el("span", "chip " + clase, st.medios + (st.medios === 1 ? " medio" : " medios"));
+    }
+    return chip(st.verified);
+  }
   function chip(verificada) {
     return el("span", "chip " + (verificada ? "ok" : "one"), verificada ? "Confirmada" : "Una fuente");
   }
@@ -93,8 +101,8 @@
 
   /* ---------- Carrusel ---------- */
   function dividir(texto) {
-    var m = String(texto).match(/^(.+?[.:])\s+(.+)$/);
-    if (m && m[1].length >= 30) return [m[1].replace(/[.:]$/, ""), mayus(m[2])];
+    var m = String(texto).match(/^(.{30,}?[.:])\s+(.+)$/);
+    if (m) return [m[1].replace(/[.:]$/, ""), mayus(m[2])];
     return [texto, ""];
   }
   function carrusel(sec) {
@@ -112,7 +120,7 @@
       c.appendChild(el("h3", "", partes[0]));
       if (partes[1]) c.appendChild(el("p", "more", partes[1]));
       var row = el("div", "row");
-      row.appendChild(chip(st.verified));
+      row.appendChild(etiqueta(st));
       if (esHttps(st.url)) row.appendChild(boton("ghost", st.url));
       c.appendChild(row);
       rail.appendChild(c);
@@ -347,20 +355,42 @@
     var sum = el("summary");
     sum.appendChild(el("span", "ico", s.emoji));
     sum.appendChild(el("span", "t", s.title));
-    sum.appendChild(el("span", "n", plural((s.stories || []).length)));
+    sum.appendChild(el("span", "n", plural((s.stories || []).length + (s.tambien || []).length)));
     d.appendChild(sum);
     var ul = el("ul");
     (s.stories || []).forEach(function (st) {
       var li = el("li");
       li.appendChild(el("p", "", st.text));
       var meta = el("div", "meta");
-      meta.appendChild(chip(st.verified));
+      meta.appendChild(etiqueta(st));
       if (esHttps(st.url)) meta.appendChild(boton("read", st.url));
       if (LANG[st.lang]) meta.appendChild(el("span", "lang", LANG[st.lang]));
       li.appendChild(meta);
       ul.appendChild(li);
     });
     d.appendChild(ul);
+    var mas = (s.tambien || []).filter(function (t) { return t && t.text && esHttps(t.url); });
+    if (mas.length) {   // titulares con link, sin resumen
+      var caja = el("div", "also");
+      caja.appendChild(el("h4", "", "También hoy"));
+      var lista = el("ul");
+      mas.forEach(function (t) {
+        var li = el("li");
+        var a = el("a");
+        a.href = t.url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.appendChild(el("span", "", t.text));
+        var dato = [fuente(t.url)];
+        if (LANG[t.lang]) dato.push(LANG[t.lang]);
+        if (typeof t.medios === "number" && t.medios > 1) dato.push(t.medios + " medios");
+        a.appendChild(el("span", "", dato.filter(Boolean).join(" · ")));
+        li.appendChild(a);
+        lista.appendChild(li);
+      });
+      caja.appendChild(lista);
+      d.appendChild(caja);
+    }
     return d;
   }
   function omitidas(items) {
@@ -401,6 +431,20 @@
     if (ed.omitidas && ed.omitidas.length) box.appendChild(omitidas(ed.omitidas));
     g.appendChild(box);
     app.appendChild(g);
+    // El pie explica las etiquetas de esta edición.
+    var pie = document.getElementById("pie");
+    var conMedios = secs.some(function (s) { return (s.stories || []).some(function (st) { return typeof st.medios === "number"; }); });
+    if (pie) {
+      pie.textContent = "";
+      if (conMedios) {
+        pie.appendChild(el("span", "", "El número de medios indica cuántos periódicos y portales traen la misma noticia. Cuantos más, más grande es."));
+      } else {
+        pie.appendChild(el("span", "chip ok", "Confirmada"));
+        pie.appendChild(el("span", "", "2 o más fuentes"));
+        pie.appendChild(el("span", "chip one", "Una fuente"));
+        pie.appendChild(el("span", "", "sin segunda confirmación"));
+      }
+    }
     document.title = "NicoPrensa · " + fechaLarga(ed.date);
     window.scrollTo(0, 0);
   }
