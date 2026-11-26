@@ -6,6 +6,9 @@ on:
       fecha:
         description: "Edición a evaluar (AAAA-MM-DD). Vacío: la última publicada"
         required: false
+      edicion:
+        description: "Opcional: el JSON de una edición aún sin publicar"
+        required: false
 
 permissions:
   contents: read
@@ -26,4 +29,11 @@ jobs:
       - name: Comparar con la edición publicada
         env:
           FECHA: ${{ inputs.fecha }}
-        run: python scripts/evaluar.py "$FECHA"
+          EDICION: ${{ inputs.edicion }}
+        run: |
+          if [ -n "$EDICION" ]; then
+            printf '%s' "$EDICION" > "$RUNNER_TEMP/edicion.json"
+            python scripts/evaluar.py "$RUNNER_TEMP/edicion.json"
+          else
+            python scripts/evaluar.py "$FECHA"
+          fi

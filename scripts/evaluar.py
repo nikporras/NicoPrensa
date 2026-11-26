@@ -6,6 +6,7 @@ leyó esa mañana, en qué puesto de su sección quedó y con cuántos medios.
 También lista las noticias con más cobertura que la edición no trae.
 
 Uso: python scripts/evaluar.py [YYYY-MM-DD]   (sin fecha: la última edición)
+     python scripts/evaluar.py edicion.json   (una edición aún sin publicar)
 Solo muestra el informe; no cambia ningún archivo.
 """
 import json
@@ -36,8 +37,13 @@ def corto(texto, largo):
 
 def main():
     ediciones = sorted(p.stem for p in c.DATA.glob("*.json") if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem))
-    fecha = sys.argv[1] if len(sys.argv) > 1 and sys.argv[1].strip() else ediciones[-1]
-    edicion = json.loads((c.DATA / f"{fecha}.json").read_text(encoding="utf-8"))
+    pedido = sys.argv[1].strip() if len(sys.argv) > 1 else ""
+    if pedido.endswith(".json"):   # una edición que todavía no está publicada en data/
+        edicion = json.loads(Path(pedido).read_text(encoding="utf-8"))
+        fecha = edicion["date"]
+    else:
+        fecha = pedido or ediciones[-1]
+        edicion = json.loads((c.DATA / f"{fecha}.json").read_text(encoding="utf-8"))
     dia = datetime.strptime(fecha, "%Y-%m-%d").date()
     corte = datetime.combine(dia, HORA_DE_CORTE, tzinfo=timezone.utc)
 
