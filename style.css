@@ -108,6 +108,8 @@ button{font:inherit}
 .cities.three .city .i{font-size:1.3rem}
 .locbtn{width:100%;border:0;border-radius:999px;padding:.7rem;font-weight:600;font-size:.95rem;background:#fff;color:#2d2f63;cursor:pointer}
 .locbtn[disabled]{opacity:.7;cursor:progress}
+.relocate{display:block;margin:12px auto 0;border:0;background:none;color:#fff;font-size:.85rem;font-weight:600;text-decoration:underline;text-underline-offset:3px;cursor:pointer;opacity:.9}
+.relocate[disabled]{text-decoration:none;cursor:progress}
 
 /* Secciones */
 .secs{display:grid;gap:10px}

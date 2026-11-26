@@ -260,11 +260,22 @@
     g.appendChild(lead);
     g.appendChild(c);
 
+    // La ubicación se guarda en este teléfono para no volver a pedirla en cada visita.
+    function recordar(lat, lon) {
+      try { localStorage.setItem("nicoprensa-ubicacion", JSON.stringify({ lat: lat, lon: lon })); } catch (e) {}
+    }
+    function recordada() {
+      try {
+        var u = JSON.parse(localStorage.getItem("nicoprensa-ubicacion") || "null");
+        return u && typeof u.lat === "number" && typeof u.lon === "number" ? u : null;
+      } catch (e) { return null; }
+    }
     function pedir() {
       if (!navigator.geolocation) return sinPermiso("Este navegador no puede compartir la ubicación.");
       btn.disabled = true;
       btn.textContent = "Buscando tu ubicación…";
       navigator.geolocation.getCurrentPosition(function (pos) {
+        recordar(pos.coords.latitude, pos.coords.longitude);
         mostrar(pos.coords.latitude, pos.coords.longitude);
       }, function (e) {
         sinPermiso(e && e.code === 1
@@ -308,6 +319,10 @@
         }
         cuerpo.appendChild(hrs);
         cuerpo.appendChild(ciudadesBox(cercana));
+        var otra = el("button", "relocate", "Actualizar mi ubicación");
+        otra.type = "button";
+        otra.addEventListener("click", function () { otra.disabled = true; otra.textContent = "Buscando tu ubicación…"; pedir(); });
+        cuerpo.appendChild(otra);
       }).catch(function () { sinPermiso("No pudimos cargar el clima. Inténtalo de nuevo."); });
     }
 
@@ -319,9 +334,8 @@
     cuerpo.appendChild(ciudadesBox(null));
 
     // Si ya diste permiso antes, el clima aparece solo.
-    if (navigator.permissions && navigator.permissions.query) {
-      navigator.permissions.query({ name: "geolocation" }).then(function (p) { if (p.state === "granted") pedir(); }).catch(function () {});
-    }
+    var guardada = recordada();
+    if (guardada) mostrar(guardada.lat, guardada.lon);
     return g;
   }
 
