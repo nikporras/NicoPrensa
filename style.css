@@ -85,7 +85,7 @@ button{font:inherit}
 .rates{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0}
 .rate{background:var(--glass-2);border-radius:18px;padding:12px 10px;min-width:0}
 .rate dt{font:500 .8rem var(--body);color:var(--soft)}
-.rate dd{margin:0;font:600 clamp(.95rem,4.3vw,1.2rem) var(--display);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.rate dd{margin:0;font:600 clamp(1rem,4.6vw,1.25rem) var(--display);font-variant-numeric:tabular-nums;white-space:nowrap}
 .rate .var{display:block;font:600 .78rem var(--body);color:var(--soft)}
 
 /* Clima */
@@ -103,6 +103,9 @@ button{font:inherit}
 .city .i{font-size:1.6rem}
 .city b{display:block;font:600 1.15rem var(--display)}
 .city span{font-size:.82rem;opacity:.92}
+.cities.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cities.three .city{flex-direction:column;align-items:flex-start;gap:2px}
+.cities.three .city .i{font-size:1.3rem}
 .locbtn{width:100%;border:0;border-radius:999px;padding:.7rem;font-weight:600;font-size:.95rem;background:#fff;color:#2d2f63;cursor:pointer}
 .locbtn[disabled]{opacity:.7;cursor:progress}
 

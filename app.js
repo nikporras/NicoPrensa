@@ -94,7 +94,7 @@
   /* ---------- Carrusel ---------- */
   function dividir(texto) {
     var m = String(texto).match(/^(.+?[.:])\s+(.+)$/);
-    if (m && m[1].length >= 30) return [m[1].replace(/[.:]$/, ""), m[2]];
+    if (m && m[1].length >= 30) return [m[1].replace(/[.:]$/, ""), mayus(m[2])];
     return [texto, ""];
   }
   function carrusel(sec) {
@@ -161,7 +161,12 @@
     [["dolar", "Dólar TRM"], ["libra", "Libra"], ["real", "£ a real"]].forEach(function (x) {
       var w = el("div", "rate");
       w.appendChild(el("dt", "", x[1]));
-      var dd = el("dd", "", (rates && rates[x[0]]) || "No disponible");
+      var val = (rates && rates[x[0]]) || "No disponible";
+      var n = numero(val);
+      // Los pesos se muestran sin centavos para que quepan en el celular.
+      if (n !== null && n >= 1000) val = val.replace(/,\d+\s*$/, "");
+      var dd = el("dd", "", val);
+      dd.title = (rates && rates[x[0]]) || "";
       w.appendChild(dd);
       dl.appendChild(w);
       cajas[x[0]] = dd;
@@ -223,7 +228,7 @@
   function ciudadesBox(cercana) {
     var otras = CIUDADES.filter(function (c) { return c !== cercana; });
     var box = el("div", "cities");
-    box.style.gridTemplateColumns = "repeat(" + otras.length + ",minmax(0,1fr))";
+    if (otras.length > 2) box.className += " three";
     pronostico(otras.map(function (c) { return c.lat; }), otras.map(function (c) { return c.lon; })).then(function (rs) {
       rs.forEach(function (r, i) {
         var cur = r.current;
@@ -247,6 +252,7 @@
     lugar.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6.1-6.5-11a6.5 6.5 0 0 1 13 0c0 4.9-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>';
     var lugarTxt = el("span");
     lugar.appendChild(lugarTxt);
+    lugar.hidden = true;
     h2.appendChild(lugar);
     c.appendChild(h2);
     var cuerpo = el("div");
@@ -288,6 +294,7 @@
         if (cuando && !cuando.dataset.t) { cuando.dataset.t = "1"; cuando.textContent += " · " + grados(cur.temperature_2m) + " en " + nombre; }
         lead.textContent = w[1] + " en " + nombre + ". Máxima " + grados(r.daily.temperature_2m_max[0]) + "C, mínima " + grados(r.daily.temperature_2m_min[0]) + "C.";
         lugarTxt.textContent = nombre;
+        lugar.hidden = false;
         cuerpo.textContent = "";
         var hrs = el("div", "hours");
         var desde = r.hourly.time.indexOf(String(cur.time).slice(0, 13) + ":00");
