@@ -38,14 +38,17 @@ button{font:inherit}
 .card h2{margin:0 0 12px;font:600 1.3rem/1.2 var(--display)}
 
 /* Menú de días anteriores */
-.menu ul{list-style:none;margin:0;padding:0}
-.menu .mes{border-top:1px solid var(--edge)}
-.menu .mes summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:.7rem 0;font:600 1.05rem var(--display)}
-.menu .mes summary::-webkit-details-marker{display:none}
-.menu .mes summary .n{font:500 .85rem var(--body);color:var(--soft)}
-.menu .mes ul{display:flex;flex-wrap:wrap;gap:8px;padding:0 0 12px}
-.menu .mes a{display:block;text-decoration:none;padding:.4rem .8rem;border-radius:999px;background:var(--glass-2);font-weight:500;font-size:.92rem}
-.menu .mes a[aria-current]{background:var(--pill);color:var(--on-pill);font-weight:700}
+.menu{max-width:21rem;width:100%;justify-self:end}
+.menu h2{font-size:1.05rem;color:var(--soft);margin-bottom:10px}
+.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.cal-head strong{font:600 1.15rem var(--display)}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.cal-dow{font:600 .75rem var(--body);color:var(--dim);padding-bottom:4px}
+.cal-day{aspect-ratio:1;display:grid;place-items:center;border-radius:50%;font:600 .95rem var(--body);text-decoration:none;font-variant-numeric:tabular-nums}
+a.cal-day{background:var(--glass-2)}
+a.cal-day:hover{outline:2px solid var(--soft)}
+a.cal-day[aria-current]{background:var(--pill);color:var(--on-pill)}
+.cal-day.off{color:var(--dim);opacity:.5;font-weight:400}
 
 /* Saludo */
 .hello h1{font:600 clamp(2.5rem,12vw,3.4rem)/1.02 var(--display);letter-spacing:-.03em;margin:0 0 .5rem;text-wrap:balance}
@@ -174,7 +177,6 @@ details.sec summary::-webkit-details-marker{display:none}
   .secs .also h4{font-size:1.15rem;color:var(--ink);margin-bottom:12px}
   .secs .also ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
   .secs .also li:nth-child(2){border-top:0}
-  .menu .mes ul{gap:10px}
   .foot{max-width:44rem}
 }
 @media (min-width:1180px){

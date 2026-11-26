@@ -501,39 +501,52 @@
     window.scrollTo(0, 0);
   }
 
+  // Calendario de ediciones: un mes a la vez, con los días que tienen edición.
   function menuDias(eds, actual) {
-    list.textContent = "";
+    var con = {};
+    eds.forEach(function (e, i) { con[e.date] = i === 0 ? "./" : "?fecha=" + encodeURIComponent(e.date); });
     var meses = [];
-    eds.forEach(function (e, i) {
-      var clave = String(e.date).slice(0, 7);
-      var g = meses[meses.length - 1];
-      if (!g || g.clave !== clave) { g = { clave: clave, eds: [] }; meses.push(g); }
-      g.eds.push({ date: e.date, ultima: i === 0 });
-    });
-    meses.forEach(function (g, i) {
-      var p = g.clave.split("-").map(Number);
-      var li = el("li");
-      var d = el("details", "mes");
-      d.open = i === 0 || g.eds.some(function (e) { return e.date === actual; });
-      var sum = el("summary");
-      sum.appendChild(el("span", "", mayus(MESES[p[1] - 1]) + " " + p[0]));
-      sum.appendChild(el("span", "n", g.eds.length + (g.eds.length === 1 ? " día" : " días")));
-      d.appendChild(sum);
-      var ul = el("ul");
-      g.eds.forEach(function (e) {
-        var di = el("li");
-        var dd = new Date(e.date + "T12:00:00");
-        var a = el("a", "", mayus(DIAS[dd.getDay()]).slice(0, 3) + " " + Number(e.date.slice(8)));
-        a.href = e.ultima ? "./" : "?fecha=" + encodeURIComponent(e.date);
-        a.title = fechaLarga(e.date);
-        if (e.date === actual) a.setAttribute("aria-current", "page");
-        di.appendChild(a);
-        ul.appendChild(di);
-      });
-      d.appendChild(ul);
-      li.appendChild(d);
-      list.appendChild(li);
-    });
+    eds.forEach(function (e) { var c = String(e.date).slice(0, 7); if (meses.indexOf(c) < 0) meses.push(c); });
+    meses.sort();
+    var pos = Math.max(0, meses.indexOf(String(actual).slice(0, 7)));
+    function pintarMes() {
+      list.textContent = "";
+      var p = meses[pos].split("-").map(Number);
+      var cab = el("div", "cal-head");
+      var antes = el("button", "nav", "‹");
+      antes.type = "button";
+      antes.setAttribute("aria-label", "Mes anterior");
+      antes.disabled = pos === 0;
+      antes.addEventListener("click", function () { pos -= 1; pintarMes(); });
+      var despues = el("button", "nav", "›");
+      despues.type = "button";
+      despues.setAttribute("aria-label", "Mes siguiente");
+      despues.disabled = pos === meses.length - 1;
+      despues.addEventListener("click", function () { pos += 1; pintarMes(); });
+      cab.appendChild(antes);
+      cab.appendChild(el("strong", "", mayus(MESES[p[1] - 1]) + " " + p[0]));
+      cab.appendChild(despues);
+      list.appendChild(cab);
+      var grid = el("div", "cal");
+      ["L", "M", "X", "J", "V", "S", "D"].forEach(function (d) { grid.appendChild(el("span", "cal-dow", d)); });
+      var primero = (new Date(p[0], p[1] - 1, 1).getDay() + 6) % 7;   // lunes = 0
+      var dias = new Date(p[0], p[1], 0).getDate();
+      for (var v = 0; v < primero; v++) grid.appendChild(el("span", "cal-empty"));
+      for (var d = 1; d <= dias; d++) {
+        var iso = meses[pos] + "-" + (d < 10 ? "0" + d : d);
+        if (con[iso]) {
+          var a = el("a", "cal-day", String(d));
+          a.href = con[iso];
+          a.title = fechaLarga(iso);
+          if (iso === actual) a.setAttribute("aria-current", "page");
+          grid.appendChild(a);
+        } else {
+          grid.appendChild(el("span", "cal-day off", String(d)));
+        }
+      }
+      list.appendChild(grid);
+    }
+    pintarMes();
   }
   menuBtn.addEventListener("click", function () {
     menu.hidden = !menu.hidden;
