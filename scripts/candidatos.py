@@ -308,7 +308,7 @@ def nueva_noticia(feed, titular, url, fecha, resumen="", medio=None, **extra):
         "exige": bool(feed.get("exige")), "edicion": feed.get("edicion", ""),
         "pista": False,      # True: el link pasa por Google y no es el link directo del medio
         "senal": None,       # "google-top", "google-tema" o "tendencia"
-        "rango": None, "grupo": None, "trafico": 0,
+        "rango": None, "grupo": None, "trafico": 0, "seguimiento": False,
         "palabras": palabras(titular),
     }
     n.update(extra)
@@ -459,8 +459,9 @@ def recoger(ahora):
 
 # ---------- Lo ya publicado ----------
 def publicado_reciente(antes_de=None):
-    """Links y textos de las últimas ediciones publicadas antes de la fecha dada."""
-    links, textos = set(), []
+    """Links y textos de las últimas ediciones publicadas antes de la fecha dada, y la hora
+    aproximada en que se armó la más reciente (para reconocer novedades posteriores)."""
+    links, textos, corte = set(), [], None
     ediciones = sorted(p for p in DATA.glob("*.json") if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem))
     if antes_de:
         ediciones = [p for p in ediciones if p.stem < antes_de]
@@ -469,19 +470,23 @@ def publicado_reciente(antes_de=None):
             ed = json.loads(ruta.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             continue
+        # Solo cuenta lo que de verdad se publicó. Lo que la edición dejó por fuera no cuenta.
         frases = [ed.get("title")]
-        frases += [r.get("text") for r in ed.get("resumen") or []]
-        frases += [o.get("title") for o in ed.get("omitidas") or []]
+        frases += [r.get("text") for r in ed.get("resumen") or [] if isinstance(r, dict)]
         for sec in ed.get("sections") or []:
-            for nota in sec.get("stories") or []:
+            for nota in (sec.get("stories") or []) + (sec.get("tambien") or []):
                 frases.append(nota.get("text"))
                 if nota.get("url"):
                     links.add(url_base(nota["url"]))
         textos += [p for p in (palabras(f) for f in frases if f) if len(p) >= 3]
-    return links, textos
+        # Las ediciones se arman hacia las 06:00 UTC de su fecha.
+        corte = datetime.strptime(ruta.stem, "%Y-%m-%d").replace(hour=6, tzinfo=timezone.utc)
+    return links, textos, corte
 
 
-def ya_publicada(noticia, links, textos):
+def ya_publicada(noticia, links, textos, corte):
+    """True si la nota ya salió. Una nota parecida a algo publicado pero escrita DESPUÉS de la
+    última edición puede traer una novedad: no se borra, se marca como seguimiento."""
     if url_base(noticia["url"]) in links:
         return True
     pal = noticia["palabras"]
@@ -491,7 +496,10 @@ def ya_publicada(noticia, links, textos):
         comunes = len(pal & t)
         # Casi todo el titular está dentro de un texto ya publicado.
         if comunes >= 4 and comunes / len(pal) >= 0.7:
-            return True
+            if corte is None or noticia["fecha"] <= corte:
+                return True
+            noticia["seguimiento"] = True
+            return False
     return False
 
 
@@ -774,6 +782,8 @@ def candidato(grupo, ahora, config):
     titulo = sin_tildes(principal["titular"].lower())
     degradada = any(d in titulo for d in config["degradar"])
 
+    # Si casi todo el grupo se parece a algo ya publicado, baja un poco y se avisa.
+    seguimiento = sum(1 for n in grupo if n["seguimiento"]) >= 0.5 * len(grupo)
     cobertura = len(claves) + 0.5 * min(6, len(otros))
     puntaje = (cobertura + extra_google + extra_tendencia
                + (0.5 if any(n["portada"] for n in directos) else 0.0)
@@ -781,6 +791,7 @@ def candidato(grupo, ahora, config):
                + min(0.5, 0.1 * max(0, len(urls_directas) - len(claves)))
                + 0.4 * min(2, len(idiomas) - 1)
                - (2.5 if degradada else 0.0)
+               - (1.0 if seguimiento else 0.0)
                # Sin link directo y sin versión en español, en una sección temática sirve poco.
                - (2.0 if not directos and "es" not in idiomas and seccion in TEMATICAS else 0.0))
 
@@ -813,6 +824,7 @@ def candidato(grupo, ahora, config):
         "n_medios": len(claves), "medios": medios, "otros_medios": otros, "idiomas": idiomas,
         "senales": [texto for _, texto in sorted(set(senales))][:4],
         "pista": not directos,   # True: ningún feed la trae; hay que buscar el link directo
+        "seguimiento": seguimiento,   # True: se parece a algo ya publicado; solo vale si trae una novedad
         "fecha": grupo[0]["fecha"].isoformat(timespec="minutes"),
         "resumen": principal["resumen"], "links": links,
     }
@@ -821,8 +833,8 @@ def candidato(grupo, ahora, config):
 def armar(noticias, hoy, ahora):
     """Quita lo ya publicado antes de hoy, agrupa y ordena. Devuelve (nuevas, candidatos)."""
     config = configuracion()
-    links, textos = publicado_reciente(hoy.isoformat())
-    nuevas = [n for n in noticias if not ya_publicada(n, links, textos)]
+    links, textos, corte = publicado_reciente(hoy.isoformat())
+    nuevas = [n for n in noticias if not ya_publicada(n, links, textos, corte)]
     utiles, idf = preparar(nuevas, config)
     grupos = fusionar(agrupar(utiles, idf), idf)
     todos = sorted((candidato(g, ahora, config) for g in grupos),
@@ -933,7 +945,8 @@ def resumen_corto(salida):
             medios = ", ".join((c["medios"] + c["otros_medios"])[:6])
             extra = f" | sección: {c['seccion']}" if clave == "top" else ""
             senal = f" | {c['senales'][0]}" if c["senales"] else ""
-            lineas.append(f"{i}. [{total} {'medio' if total == 1 else 'medios'}: {medios}] {c['titular']}{extra}{senal}")
+            ojo = " | OJO: se parece a algo ya publicado; solo vale si trae una novedad" if c.get("seguimiento") else ""
+            lineas.append(f"{i}. [{total} {'medio' if total == 1 else 'medios'}: {medios}] {c['titular']}{extra}{senal}{ojo}")
             directos = [x for x in c["links"] if not x.get("pista")]
             directos.sort(key=lambda x: x["idioma"] != "es")   # primero los links en español
             for x in directos[:2]:
