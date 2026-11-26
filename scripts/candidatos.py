@@ -780,8 +780,8 @@ def candidato(grupo, ahora, config):
             ya.add(n["clave_medio"])
             links.append({"medio": n["medio"], "titular": n["titular"], "url": n["url"],
                           "fecha": n["fecha"].isoformat(timespec="minutes"), "idioma": n["idioma"]})
-    for n in pistas:
-        if n["clave_medio"] in ya or sum(1 for x in links if x.get("pista")) >= 4:
+    for n in pistas:   # links que pasan por Google: solo si ningún feed trae la noticia
+        if directos or n["clave_medio"] in ya or len(links) >= 2:
             continue
         ya.add(n["clave_medio"])
         links.append({"medio": n["medio"], "titular": n["titular"], "url": n["url"],
