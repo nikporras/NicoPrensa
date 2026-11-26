@@ -1,0 +1,25 @@
+name: Descubrir feeds
+
+on:
+  workflow_dispatch:
+    inputs:
+      sitios:
+        description: "Direcciones de los sitios, separadas por espacios"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  descubrir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Buscar feeds
+        env:
+          SITIOS: ${{ inputs.sitios }}
+        run: python scripts/descubrir.py $SITIOS
