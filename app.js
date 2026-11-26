@@ -453,9 +453,33 @@
     var g = el("section", "group a-news");
     g.appendChild(el("p", "lead", "Todas las noticias"));
     var box = el("div", "secs");
-    // En pantallas anchas se abren más secciones para llenar las columnas.
-    var abiertas = window.matchMedia("(min-width:1180px)").matches ? 3 : window.matchMedia("(min-width:760px)").matches ? 2 : 1;
-    resto.forEach(function (s, i) { box.appendChild(seccion(s, i < abiertas)); });
+    // En celular las secciones se abren y cierran. En pantallas anchas son pestañas:
+    // se ve una sección a la vez, con sus noticias en varias columnas.
+    var ancho = window.matchMedia("(min-width:760px)");
+    var tabs = el("div", "tabs");
+    tabs.setAttribute("role", "tablist");
+    var paneles = [];
+    function elegirTab(k) {
+      paneles.forEach(function (p, n) {
+        p.d.classList.toggle("active", n === k);
+        p.b.setAttribute("aria-selected", String(n === k));
+        if (n === k && ancho.matches) p.d.open = true;
+      });
+    }
+    resto.forEach(function (s, i) {
+      var d = seccion(s, i === 0);
+      var b = el("button", "tab");
+      b.type = "button";
+      b.setAttribute("role", "tab");
+      b.appendChild(el("span", "", s.emoji));
+      b.appendChild(el("span", "", s.title));
+      b.addEventListener("click", function () { elegirTab(i); });
+      tabs.appendChild(b);
+      paneles.push({ d: d, b: b });
+      box.appendChild(d);
+    });
+    elegirTab(0);
+    g.appendChild(tabs);
     if (ed.omitidas && ed.omitidas.length) box.appendChild(omitidas(ed.omitidas));
     g.appendChild(box);
     app.appendChild(g);
