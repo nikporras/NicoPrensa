@@ -80,8 +80,8 @@ def main():
         for i, _ in vecinos.most_common(40):
             for titulo in todos[i]["titulos"]:
                 comunes = pal & titulo
-                if len(comunes) < 2 or not titulo:
-                    continue
+                if len([p for p in comunes if not p.isdigit()]) < 2 or not titulo:
+                    continue   # dos cifras iguales no bastan: hacen falta dos palabras en común
                 parte = sum(peso(p) for p in comunes) / sum(peso(p) for p in titulo)
                 if parte > mejor:
                     mejor, cual = parte, i

@@ -271,6 +271,9 @@ def configuracion():
         "feeds": [dict(f, seccion=sec) for sec in SECCIONES for f in config.get(sec, [])],
         "ruido": [sin_tildes(str(d).lower()) for d in config.get("_descartar", [])],
         "degradar": [sin_tildes(str(d).lower()) for d in config.get("_degradar", [])],
+        # Frases que comparten muchas noticias distintas ("Black Friday"): no sirven para juntarlas.
+        "comodines": re.compile("|".join(sorted((re.escape(str(x)) for x in config.get("_no_identifican", [])),
+                                               key=len, reverse=True)) or r"(?!x)x", re.I),
         "temas": temas,
     }
 
@@ -534,9 +537,9 @@ def preparar(noticias, config):
         # solo se queda lo que de verdad es de la sección.
         if n["exige"] and (n["sec"] != n["seccion"] or propia < 1.2):
             continue
-        n["limpio"] = limpiar_titulo(n["titular"])
+        n["limpio"] = config["comodines"].sub(" ", limpiar_titulo(n["titular"]))
         n["_t"] = set(raices(n["limpio"]))
-        n["_r"] = set(raices(n["resumen"])[:60]) - n["_t"] if n["resumen"] else set()
+        n["_r"] = set(raices(config["comodines"].sub(" ", n["resumen"]))[:60]) - n["_t"] if n["resumen"] else set()
         n["clave_medio"] = clave_de_medio(n["medio"])
         utiles.append(n)
 
@@ -727,7 +730,8 @@ def candidato(grupo, ahora, config):
     senales, extra_google, ediciones, extra_tendencia = [], 0.0, set(), 0.0
     for n in grupo:
         if n["senal"] == "google-top":
-            extra_google = max(extra_google, 3.0 * max(0.0, 1 - (n["rango"] - 1) / 40))
+            # Los 10 primeros son la portada de Google; del 11 en adelante son muestras de cada sección.
+            extra_google = max(extra_google, 3.0 - 0.1 * (n["rango"] - 1) if n["rango"] <= 10 else 1.2)
             ediciones.add(n["edicion"])
             senales.append((n["rango"], f"Google Noticias {n['edicion']}: puesto {n['rango']}"))
         elif n["senal"] == "google-tema":
@@ -759,7 +763,9 @@ def candidato(grupo, ahora, config):
                + 0.5 * max(0.0, 1 - horas / VENTANA_HORAS)
                + min(0.5, 0.1 * max(0, len(urls_directas) - len(claves)))
                + 0.4 * min(2, len(idiomas) - 1)
-               - (2.5 if degradada else 0.0))
+               - (2.5 if degradada else 0.0)
+               # Sin link directo y sin versión en español, en una sección temática sirve poco.
+               - (2.0 if not directos and "es" not in idiomas and seccion in TEMATICAS else 0.0))
 
     # Links: primero uno por medio, luego el resto; al final algunos que pasan por Google.
     links, vistos, ya = [], set(), set()
