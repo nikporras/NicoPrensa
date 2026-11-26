@@ -46,16 +46,31 @@
           "text": "EE.UU. propuso nuevos aranceles a 14 socios comerciales, entre ellos China, la UE, Japón, Corea del Sur, India y Vietnam, por lo que llama sobrecapacidad industrial. China tendría un 20% adicional y la UE, Japón y Corea un tope de 15%; Pekín lo rechazó y las tasas pasarán por consulta pública.",
           "url": "https://www.usnews.com/news/top-news/articles/2026-11-25/us-proposes-new-tariffs-on-14-trading-partners-to-fight-excess-factory-capacity",
           "verified": true,
-          "lang": "en"
+          "lang": "en",
+          "medios": 8
         },
         {
           "text": "Colombia se retira del proceso para entrar a los BRICS y a su Nuevo Banco de Desarrollo, una iniciativa del gobierno Petro. La Cancillería dijo que buscará financiación con otros organismos multilaterales.",
           "url": "https://www.elespectador.com/politica/gobierno-de-la-espriella-no-adelantara-gestiones-para-ingresar-a-los-brics-esto-dijo-la-cancilleria/",
-          "verified": true
+          "verified": true,
+          "medios": 8
         },
         {
           "text": "Un camión cisterna volcó y se incendió en una autopista de El Cairo (barrio de Warraq): al menos 31 muertos y 21 heridos. La Fiscalía egipcia abrió una investigación.",
           "url": "https://www.elespectador.com/mundo/mas-paises/incendio-en-el-cairo-deja-al-menos-31-muertos-tras-volcamiento-de-camion-cisterna/",
+          "verified": true,
+          "medios": 11
+        },
+        {
+          "text": "Murió a los 65 años Andy Taylor, exguitarrista de Duran Duran. La noticia la recogen medios de Reino Unido, Brasil y Colombia.",
+          "url": "https://www.dw.com/es/murió-a-los-65-años-andy-taylor-exguitarrista-de-la-banda-británica-duran-duran/a-80055951?maca=spa-rss-sp-all-1122-rdf",
+          "medios": 16,
+          "verified": true
+        },
+        {
+          "text": "Sigue la sacudida por el regreso de Jensen Huang al mando de Nvidia. La BBC analiza qué le enseña el caso a Xi Jinping sobre cómo tratar a Trump.",
+          "url": "https://www.bbc.com/mundo/articles/cr930kp5eq12o?at_medium=RSS&at_campaign=rss",
+          "medios": 8,
           "verified": true
         }
       ]
@@ -68,22 +83,48 @@
         {
           "text": "El Congreso aprobó una adición de $3,8 billones al presupuesto de 2026: $2,7 billones para las zonas afectadas por el sismo y $1,1 billones para pagar Colombia Mayor antes de Navidad.",
           "url": "https://www.colombia.com/actualidad/economia/congreso-aprobo-adicion-al-presupuesto-por-38-billones-614248",
-          "verified": true
+          "verified": true,
+          "medios": 3
         },
         {
           "text": "La TRM de hoy quedó en $3.630,89, su nivel más alto desde junio, tras varias jornadas seguidas de alza del dólar.",
           "url": "https://www.colombia.com/actualidad/economia/precio-del-dolar-hoy-en-colombia-jueves-26-de-noviembre-de-2026-614259",
-          "verified": true
+          "verified": true,
+          "medios": 2
         },
         {
           "text": "En el Día contra la Violencia hacia la Mujer se radicaron en el Congreso tres proyectos de ley, entre ellos uno contra la violencia vicaria y otro que castiga difundir contenido íntimo sin consentimiento.",
           "url": "https://www.infobae.com/colombia/2026/11/25/hicieron-radicaton-de-proyectos-de-ley-en-el-congreso-para-proteger-a-las-mujeres-en-colombia-las-iniciativas-abordan-tres-problematicas/",
-          "verified": false
+          "verified": false,
+          "medios": 1
         },
         {
           "text": "El Servicio Geológico Colombiano registró varios temblores leves el miércoles en Santander y Tolima, el primero de magnitud 2,4 en Villanueva.",
           "url": "https://www.noticiasrcn.com/colombia/temblor-en-colombia-hoy-25-de-noviembre-de-2026-1085380",
-          "verified": false
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": [
+        {
+          "text": "De la Espriella recibió a Sofía Vergara en Barranquilla",
+          "url": "https://www.semana.com/politica/articulo/asi-fue-el-encuentro-de-abelardo-de-la-espriella-y-sofia-vergara-en-barranquilla/202652/",
+          "medios": 7
+        },
+        {
+          "text": "El Dane reveló el primer dato para negociar el salario mínimo de 2027",
+          "url": "https://www.elcolombiano.com/colombia/dane-productividad-negociacion-salario-minimo-2027-colombia-CI44087599",
+          "medios": 3
+        },
+        {
+          "text": "Investigan a la banda La Terraza por el secuestro masivo en el Éxito de Cartagena",
+          "url": "https://www.eltiempo.com/justicia/conflicto-y-narcotrafico/la-pista-de-la-banda-la-terraza-detras-del-secuestro-masivo-en-el-exito-de-cartagena-3604337",
+          "medios": 4
+        },
+        {
+          "text": "Así es la nueva cárcel de Riohacha, con cupo para 1.722 personas",
+          "url": "https://www.elcolombiano.com/colombia/carcel-riohacha-capacidad-recibir-1-722-personas-LI44087581",
+          "medios": 3
         }
       ]
     },
@@ -96,18 +137,45 @@
           "text": "Brasil: EE.UU. propuso un arancel de 10% a los aviones brasileños terminados, lo que golpearía a Embraer, y más impuestos al azúcar que supere la cuota. Itamaraty evalúa el impacto y habrá audiencia pública en enero.",
           "url": "https://www.terra.com.br/noticias/mundo/tarifaco-de-trump-eua-propoem-tarifa-de-10-sobre-avioes-brasileiros-e-aumento-de-imposto-sobre-o-acucar,cfeb78a58b3192bdc325e56a2dc61c1c7s58h7ie.html",
           "verified": true,
-          "lang": "pt"
+          "lang": "pt",
+          "medios": 2
         },
         {
           "text": "Brasil: Lula sancionó sin vetos la ley de ajuste fiscal, que permite limitar el crecimiento real del gasto a 2% desde 2027. Una segunda etapa de ajustes quedaría para su cuarto mandato.",
           "url": "https://cnnbrasil.com.br/economia/money/macroeconomia/nova-etapa-do-ajuste-fiscal-deve-ficar-para-lula-4",
           "verified": true,
-          "lang": "pt"
+          "lang": "pt",
+          "medios": 2
         },
         {
           "text": "La puertorriqueña Jennifer Barreto, nueva Miss Universo, quedó en medio de una polémica en redes por su respuesta sobre la inteligencia artificial, que muchos comparan con otra anterior.",
           "url": "https://elsalvador.com/entretenimiento/escena/pregunta-miss-universo-polemica/1305792/2026",
-          "verified": false
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": [
+        {
+          "text": "María Corina Machado dice que Edmundo González volverá pronto a Venezuela",
+          "url": "https://elpais.com/america/2026-11-25/maria-corina-machado-asegura-que-edmundo-gonzalez-regresara-pronto-a-venezuela.html",
+          "medios": 7
+        },
+        {
+          "text": "La economía argentina entra en recesión",
+          "url": "https://elpais.com/argentina/2026-11-24/la-economia-argentina-entra-en-recesion-y-pone-a-prueba-la-promesa-de-crecimiento-de-milei.html",
+          "medios": 6
+        },
+        {
+          "text": "Brasil: Lula sondea a Luiz Trabuco, ejecutivo de Bradesco, para su cuarto gobierno",
+          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/quem-e-luiz-trabuco-executivo-do-bradesco-sondado-para-lula-4/",
+          "medios": 7,
+          "lang": "pt"
+        },
+        {
+          "text": "Brasil: Haddad volverá a dar clases en la USP en 2027",
+          "url": "https://g1.globo.com/politica/noticia/2026/11/25/usp-haddad-pos-graduacao-2027.ghtml",
+          "medios": 4,
+          "lang": "pt"
         }
       ]
     },
@@ -119,18 +187,40 @@
         {
           "text": "Las acciones de Anthropic cayeron por debajo de los US$83, su precio de salida a bolsa, pocos días después de su debut récord en el Nasdaq y en medio de una ola de ventas de tecnológicas.",
           "url": "https://www.swissinfo.ch/spa/las-acciones-de-anthropic-caen-por-debajo-del-precio-de-su-salida-a-bolsa/92435414",
-          "verified": true
+          "verified": true,
+          "medios": 2
         },
         {
           "text": "El Banco de Corea subió su tasa de interés a 3,25% y elevó su previsión de crecimiento a 3,9% para este año y 4,1% para 2027.",
           "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008864795",
           "verified": false,
-          "lang": "en"
+          "lang": "en",
+          "medios": 1
         },
         {
           "text": "Grecia vivió una huelga nacional de 24 horas de trabajadores públicos y privados que exigen mejores salarios y medidas contra el alto costo de vida.",
           "url": "https://www.tovima.com/society/greece-braces-for-nationwide-strike-on-nov-25/",
           "verified": false,
+          "lang": "en",
+          "medios": 1
+        }
+      ],
+      "tambien": [
+        {
+          "text": "Un avión de carga de FedEx se salió de la pista en el aeropuerto de Miami",
+          "url": "https://www.lanacion.com.ar/estados-unidos/un-avion-de-carga-de-la-empresa-fedex-se-despisto-en-el-aeropuerto-de-miami-nid26112026/",
+          "medios": 5
+        },
+        {
+          "text": "Reino Unido pide a 100.000 reservistas estar listos para ser llamados",
+          "url": "https://www.thetimes.com/uk/defence/article/mod-reservists-call-up-jxdk3zcbk",
+          "medios": 5,
+          "lang": "en"
+        },
+        {
+          "text": "Reino Unido tendrá menos heladas y más días de calor, según su oficina de meteorología",
+          "url": "https://www.bbc.co.uk/weather/articles/cr3eg1py3gv5o?at_medium=RSS&at_campaign=rss",
+          "medios": 5,
           "lang": "en"
         }
       ]
@@ -144,23 +234,51 @@
           "text": "OpenAI empezó a probar Private Inference con un grupo pequeño de empresas: las consultas se procesan en hardware aislado sin que la compañía pueda ver los datos.",
           "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
           "verified": true,
-          "lang": "en"
+          "lang": "en",
+          "medios": 2
         },
         {
           "text": "Nueva York prohibió por cinco años fabricar y vender juguetes con chatbots de IA para niños. La ley entra en vigor en unos 90 días, tras la temporada navideña.",
           "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
           "verified": true,
-          "lang": "en"
+          "lang": "en",
+          "medios": 2
         },
         {
           "text": "La nave china Shenzhou 24 se acopló a la estación Tiangong con el primer astronauta extranjero que la visita, el paquistaní Muhammad Zeeshan Ali.",
           "url": "https://diariodelsur.com.co/noticias/astronauta-paquistani-viajara-a-la-estacion-espacial-china-en-la-mision-shenzhou-24",
-          "verified": true
+          "verified": true,
+          "medios": 3
         },
         {
           "text": "Brad Smith, presidente de Microsoft, advirtió que vendrán más caídas tecnológicas masivas por la carrera de parches de seguridad que está acelerando la IA.",
           "url": "https://www.infobae.com/tecno/2026/11/25/debemos-estar-preparados-para-los-proximos-meses-presidente-de-microsoft-advierte-de-mas-interrupciones-tecnologicas-masivas/",
-          "verified": false
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": [
+        {
+          "text": "EE. UU. aprueba el plan de SpaceX para poner centros de datos en el espacio",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+          "medios": 5,
+          "lang": "en"
+        },
+        {
+          "text": "Las imágenes del asteroide que la NASA golpeó para probar la defensa de la Tierra",
+          "url": "https://www.bbc.com/mundo/articles/ck1l0j9lg0l7o?at_medium=RSS&at_campaign=rss",
+          "medios": 5
+        },
+        {
+          "text": "WhatsApp ya permite programar mensajes",
+          "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
+          "medios": 5,
+          "lang": "en"
+        },
+        {
+          "text": "1Password confirma que fue hackeado",
+          "url": "https://www.xataka.com/seguridad/1password-ha-sido-hackeado",
+          "medios": 3
         }
       ]
     },
@@ -173,13 +291,37 @@
           "text": "PlayStation reveló los juegos de PS Plus para diciembre: Tony Hawk's Pro Skater 3+4, Dragon Ball Xenoverse 2 y Amnesia: The Bunker, disponibles desde el 1 de diciembre.",
           "url": "https://gamespot.com/articles/playstation-plus-essential-free-games-for-december-2026",
           "verified": true,
-          "lang": "en"
+          "lang": "en",
+          "medios": 3
         },
         {
           "text": "Ya está disponible Dead by Daylight: Terrifier, el capítulo que trae a Art the Clown como asesino y a Sienna Shaw como sobreviviente.",
           "url": "https://dreadcentral.com/news/595609/dead-by-daylight-terrifier-trailer-art-the-clown",
           "verified": true,
-          "lang": "en"
+          "lang": "en",
+          "medios": 2
+        }
+      ],
+      "tambien": [
+        {
+          "text": "Call of Duty perdió más de 3 millones de jugadores diarios tras el lanzamiento de GTA 6",
+          "url": "https://www.infobae.com/tecno/2026/11/25/lanzamiento-de-gta-6-afecto-a-call-of-duty-perdio-mas-de-3-millones-de-jugadores-diarios/",
+          "medios": 4
+        },
+        {
+          "text": "Team Cherry prepara novedades de Hollow Knight: Silksong y su expansión",
+          "url": "https://www.levelup.com/noticias/team-cherry-prepara-novedades-de-hollow-knight-silksong-y-su-esperada-expansion-en-un-nuevo-evento/",
+          "medios": 4
+        },
+        {
+          "text": "Capcom cerrará Exoprimal en septiembre de 2027",
+          "url": "https://www.eurogamer.es/capcom-cerrara-exoprimal-en-septiembre-del-ano-que-viene",
+          "medios": 3
+        },
+        {
+          "text": "Sony impediría que GTA 6 se vea mejor en Xbox Series X que en PS5 Pro",
+          "url": "https://generacionxbox.com/sony-esta-impidiendo-que-gta-6-supere-graficamente-a-ps5-pro-en-xbox-series-x/",
+          "medios": 2
         }
       ]
     },
@@ -192,12 +334,37 @@
           "text": "Arrancó Acción de Gracias en los cines de EE.UU. con los estrenos de Hexed (Disney) y Focker In-Law (Ariana Grande, De Niro y Stiller), que apuntan a entre US$40 y 45 millones en cinco días, detrás de Amanecer en la cosecha.",
           "url": "https://variety.com/2026/film/box-office/thanksgiving-box-office-projections-sunrise-on-the-reaping-focker-in-law-disney-hexed-1236956070/",
           "verified": true,
-          "lang": "en"
+          "lang": "en",
+          "medios": 2
         },
         {
           "text": "Las nuevas desventuras de Cliff Booth, de David Fincher con guion de Tarantino y Brad Pitt, llega a salas IMAX; Fincher defendió el uso de IA para ajustar diálogos. A Netflix llega el 23 de diciembre.",
           "url": "https://www.infobae.com/entretenimiento/2026/11/26/david-fincher-explica-por-que-recurrio-a-la-inteligencia-artificial-en-la-pelicula-de-brad-pitt/",
-          "verified": false
+          "verified": false,
+          "medios": 3
+        }
+      ],
+      "tambien": [
+        {
+          "text": "Brad Pitt y Angelina Jolie cierran su batalla legal por un viñedo en Francia",
+          "url": "https://www.elcolombiano.com/inicio/brad-pitt-angelina-jolie-ponen-fin-batalla-legal-vinedo-DI44088957",
+          "medios": 7
+        },
+        {
+          "text": "Kevin Feige da pistas sobre lo que viene en Avengers: Doomsday",
+          "url": "https://www.vidaextra.com/cine/kevin-feige-presidente-marvel-studios-quieres-saber-que-ocurre-doomsday-secret-wars-puedes-consultar-comics",
+          "medios": 4
+        },
+        {
+          "text": "Termina el rodaje de El Señor de los Anillos: La caza de Gollum",
+          "url": "https://gizmodo.com/the-lord-of-the-rings-the-hunt-for-gollum-has-officially-wrapped-production-2000845069",
+          "medios": 3,
+          "lang": "en"
+        },
+        {
+          "text": "Clint Eastwood, a sus 96 años, critica al Hollywood moderno",
+          "url": "https://www.sensacine.com/noticias/cine/noticia-1000234198/",
+          "medios": 2
         }
       ]
     },
@@ -209,66 +376,53 @@
         {
           "text": "Luis Javier Suárez marcó doblete (uno de penalti y otro aprovechando un error del arquero) en el 2-2 del Sporting ante el Manchester United, y le negó a Pochettino su primera victoria.",
           "url": "https://www.futbolred.com/champions-league/luis-javier-suarez-anoto-dos-goles-al-manchester-united-vea-su-doblete-en-champions-275720",
-          "verified": true
+          "verified": true,
+          "medios": 8
         },
         {
           "text": "Liga BetPlay: Nacional ganó el clásico paisa ante un Medellín que jugó con 10 por la expulsión de Jeison Medina, y Santa Fe goleó 3-0 a Once Caldas en El Campín.",
           "url": "https://www.semana.com/deportes/articulo/tabla-del-grupo-a-de-la-liga-betplay-ganan-santa-fe-y-nacional-medellin-y-once-caldas-quedan-mal-parados/202604/",
-          "verified": true
+          "verified": true,
+          "medios": 5
         },
         {
           "text": "Sorpresa en Champions: el Lille remontó y le ganó 2-1 al Bayern Múnich, que perdió su invicto.",
           "url": "https://www.excelsior.com.mx/deportes/uefa-champions-league-quedaron-partidos-miercoles-25-noviembre",
-          "verified": true
+          "verified": true,
+          "medios": 5
         },
         {
           "text": "El Barcelona goleó 4-1 al Sabah en Bakú, con doblete de Anthony Gordon.",
           "url": "https://abcnoticias.mx/deportes/2026/11/25/como-quedaron-los-partidos-de-la-champions-league-barcelona-goleo-y-bayern-perdio-el-invicto-296636.html",
-          "verified": true
+          "verified": true,
+          "medios": 5
         },
         {
           "text": "El PSG cedió sus primeros puntos al empatar 2-2 con la Roma, y el Real Madrid quedó como líder solitario de la Champions.",
           "url": "https://www.deportestvc.com/champions-league/resultados-champions-league-hoy-barcelona-golea-sorprenden-al-psg-2026-11-25",
-          "verified": true
+          "verified": true,
+          "medios": 10
+        }
+      ],
+      "tambien": [
+        {
+          "text": "El Bayern Múnich fija postura sobre el caso de Jamal Musiala",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/bayern-munich-ceso-la-hostilidad-con-el-entorno-de-jamal-musiala-y-tomo-una-postura-radical-en-medio-del-problema-de-salud-de-la-estrella-3604064",
+          "medios": 10
+        },
+        {
+          "text": "Estas son las selecciones clasificadas en el Mundial Sub-17",
+          "url": "https://www.winsports.co/futbol-internacional/noticias/estos-son-las-selecciones-clasificadas-en-el-mundial-sub-17-481692",
+          "medios": 7
+        },
+        {
+          "text": "Liverpool goleó 3-0 al Brujas en la Champions",
+          "url": "https://www.bbc.co.uk/sport/football/videos/cqvg28l0z8mro?at_medium=RSS&at_campaign=rss",
+          "medios": 6,
+          "lang": "en"
         }
       ]
     }
   ],
-  "omitidas": [
-    {
-      "title": "La Unión Europea criticó los nuevos aranceles de Trump y negó ser fuente de sobrecapacidad",
-      "level": "media",
-      "reason": "sin enlace confiable propio"
-    },
-    {
-      "title": "Los líderes de la UE abren hoy en Bruselas una cumbre para cerrar el presupuesto de 2028 a 2034",
-      "level": "media",
-      "reason": "sin nota actualizada con enlace"
-    },
-    {
-      "title": "Kim Jong-un descartó conversar con Trump y reivindicó la soberanía de Corea del Norte",
-      "level": "media",
-      "reason": "sin fuente confiable"
-    },
-    {
-      "title": "Los hutíes atacaron puertos de Arabia Saudita en respuesta al bombardeo saudí de Hodeida",
-      "level": "media",
-      "reason": "sin fuente confiable"
-    },
-    {
-      "title": "El Liverpool goleó 3-0 al Brujas en la Champions",
-      "level": "media",
-      "reason": "no cupo"
-    },
-    {
-      "title": "CD Projekt aseguró que The Witcher 4 saldrá el mismo día en Xbox y PC pese a su acuerdo con Sony",
-      "level": "baja",
-      "reason": "sin enlace confiable"
-    },
-    {
-      "title": "Corinthians empató 1-1 con Atlético Mineiro y salió de la zona de descenso en Brasil",
-      "level": "baja",
-      "reason": "sin enlace confiable"
-    }
-  ]
+  "omitidas": []
 }
