@@ -151,6 +151,9 @@ details.sec summary::-webkit-details-marker{display:none}
 .note{color:var(--soft);margin:0}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
+.tabs{display:none}
+.tab{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--edge);background:var(--glass);color:var(--ink);border-radius:999px;padding:.55rem 1rem;font:600 .95rem var(--body);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--pill);color:var(--on-pill);border-color:transparent}
 /* ---------- Tabletas y computadores ---------- */
 @media (min-width:760px){
   .wrap{max-width:60rem;padding-left:max(28px,env(safe-area-inset-left,0px));padding-right:max(28px,env(safe-area-inset-right,0px));gap:32px}
@@ -158,9 +161,19 @@ details.sec summary::-webkit-details-marker{display:none}
   .a-hello{grid-area:hello}.a-top{grid-area:top}.a-brief{grid-area:brief}.a-rates{grid-area:rates}.a-weather{grid-area:weather}.a-news{grid-area:news}
   .hello h1{font-size:4rem}
   .story-card{flex-basis:calc(50% - 6px);min-height:22rem}
-  /* En columnas, para que las secciones cerradas suban junto a la que está abierta. */
-  .secs{display:block;columns:2;column-gap:14px}
-  .secs details.sec{break-inside:avoid;margin:0 0 14px}
+  /* Secciones como pestañas: una a la vez, con las noticias en columnas. */
+  body{background-attachment:scroll}
+  .tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .secs{display:block}
+  .secs details.sec{display:none;background:none;border:0;border-radius:0;overflow:visible}
+  .secs details.sec.active{display:block}
+  .secs details.sec summary{display:none}
+  .secs details.sec>ul{padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .secs details.sec>ul>li{border:1px solid var(--edge);background:var(--glass);border-radius:20px;padding:18px;align-content:space-between}
+  .secs .also{margin:22px 0 0;border-top:0;padding:0}
+  .secs .also h4{font-size:1.15rem;color:var(--ink);margin-bottom:12px}
+  .secs .also ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+  .secs .also li:nth-child(2){border-top:0}
   .menu .mes ul{gap:10px}
   .foot{max-width:44rem}
 }
@@ -168,5 +181,7 @@ details.sec summary::-webkit-details-marker{display:none}
   .wrap{max-width:76rem}
   main{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);grid-template-areas:"hello hello hello" "top top top" "brief rates weather" "news news news"}
   .story-card{flex-basis:calc(33.333% - 8px)}
-  .secs{columns:3}
+  .secs details.sec>ul{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .secs .also ul{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .secs .also li:nth-child(3){border-top:0}
 }
