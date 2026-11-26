@@ -42,6 +42,12 @@
       return r.json();
     });
   }
+  // Lo ya pedido se guarda mientras la página esté abierta: cambiar de día no vuelve a descargarlo.
+  var memoria = {};
+  function recordarPedido(clave, pedir) {
+    if (!memoria[clave]) memoria[clave] = pedir().catch(function (e) { delete memoria[clave]; throw e; });
+    return memoria[clave];
+  }
   function esHttps(u) { return /^https:\/\//i.test(String(u || "")); }
   function error() {
     app.textContent = "";
@@ -252,10 +258,11 @@
     return 12742 * Math.asin(Math.sqrt(s));
   }
   function pronostico(lats, lons) {
-    return cargar("https://api.open-meteo.com/v1/forecast?latitude=" + lats.join(",") + "&longitude=" + lons.join(",") +
+    var url = "https://api.open-meteo.com/v1/forecast?latitude=" + lats.join(",") + "&longitude=" + lons.join(",") +
       "&current=temperature_2m,weather_code,is_day&hourly=temperature_2m,weather_code,is_day" +
-      "&daily=temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=2", {}).then(function (r) {
-      return Array.isArray(r) ? r : [r];
+      "&daily=temperature_2m_max,temperature_2m_min&timezone=auto&forecast_days=2";
+    return recordarPedido(url, function () {
+      return cargar(url, {}).then(function (r) { return Array.isArray(r) ? r : [r]; });
     });
   }
   function nombreLugar(lat, lon) {
@@ -537,6 +544,15 @@
         if (con[iso]) {
           var a = el("a", "cal-day", String(d));
           a.href = con[iso];
+          (function (fecha) {
+            a.addEventListener("click", function (ev) {
+              if (ev.metaKey || ev.ctrlKey || ev.shiftKey) return;
+              ev.preventDefault();
+              menu.hidden = true;
+              menuBtn.setAttribute("aria-expanded", "false");
+              irA(fecha, true);
+            });
+          })(iso);
           a.title = fechaLarga(iso);
           if (iso === actual) a.setAttribute("aria-current", "page");
           grid.appendChild(a);
@@ -552,15 +568,35 @@
     menu.hidden = !menu.hidden;
     menuBtn.setAttribute("aria-expanded", String(!menu.hidden));
   });
-  cargar("data/index.json").then(function (idx) {
-    var eds = idx.editions || [];
-    if (!eds.length) throw new Error("vacío");
-    var pedida = new URLSearchParams(location.search).get("fecha");
+  // Cambiar de día sin recargar la página entera.
+  var ediciones = [];
+  function edicion(fecha) {
+    // La última edición puede cambiar durante el día; las anteriores no, y el navegador las guarda.
+    var ultima = ediciones.length && fecha === ediciones[0].date;
+    return recordarPedido("ed:" + fecha, function () {
+      return cargar("data/" + fecha + ".json", { cache: ultima ? "no-cache" : "default" });
+    });
+  }
+  function irA(fecha, anotar) {
     var pos = 0;
-    eds.forEach(function (x, i) { if (x.date === pedida) pos = i; });
-    var e = eds[pos];
-    menuDias(eds, e.date);
-    var anterior = eds[pos + 1] ? cargar("data/" + eds[pos + 1].date + ".json") : null;
-    return cargar("data/" + e.date + ".json").then(function (ed) { pintar(ed, pos === 0, anterior); });
+    ediciones.forEach(function (x, i) { if (x.date === fecha) pos = i; });
+    var e = ediciones[pos];
+    if (anotar) history.pushState({ fecha: e.date }, "", pos === 0 ? "./" : "?fecha=" + encodeURIComponent(e.date));
+    menuDias(ediciones, e.date);
+    var anterior = ediciones[pos + 1] ? edicion(ediciones[pos + 1].date) : null;
+    return edicion(e.date).then(function (ed) { pintar(ed, pos === 0, anterior); }).catch(error);
+  }
+  window.addEventListener("popstate", function () {
+    irA(new URLSearchParams(location.search).get("fecha"), false);
+  });
+  document.querySelector(".logo").addEventListener("click", function (ev) {
+    if (!ediciones.length || ev.metaKey || ev.ctrlKey || ev.shiftKey) return;
+    ev.preventDefault();
+    irA(ediciones[0].date, true);
+  });
+  cargar("data/index.json").then(function (idx) {
+    ediciones = idx.editions || [];
+    if (!ediciones.length) throw new Error("vacío");
+    return irA(new URLSearchParams(location.search).get("fecha"), false);
   }).catch(error);
 })();
