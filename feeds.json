@@ -1,5 +1,5 @@
 {
-  "_descartar": ["loteria", "baloto", "chance", "sorteo", "horoscopo", "pico y placa", "ultimas noticias |", "minuto a minuto", "en vivo", "en directo", "crucigrama", "santoral"],
+  "_descartar": ["loteria", "baloto", "horoscopo", "pico y placa", "ultimas noticias |", "minuto a minuto", "en vivo", "en directo", "crucigrama", "santoral"],
   "colombia": [
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/colombia.xml"},
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/politica.xml"},
