@@ -108,8 +108,26 @@ def main():
         omitidas.append((como, parte, i, o))
 
     print("=== INFORME ===")
-    print(f"Edición {fecha}. Corte {corte:%Y-%m-%d %H:%M} UTC. Feeds leídos: {sum(e['ok'] for e in estados)}"
-          f" de {len(estados)}. Titulares: {len(noticias)}. Noticias distintas: {total}.")
+    fallidos = [e for e in estados if not e["ok"]]
+    print(f"Edición {fecha}. Corte {corte:%Y-%m-%d %H:%M} UTC. Feeds leídos: {len(estados) - len(fallidos)}"
+          f" de {len(estados)}. Titulares: {len(noticias)}. Noticias distintas: {total}."
+          f" Con 2 o más medios: {sum(1 for k in todos if k['n_medios'] >= 2)}.")
+    for e in fallidos:
+        print(f"  FALLÓ {e['medio']} ({e['seccion']}): {e['error']}"[:150])
+
+    print("\nLOS 6 PRIMEROS DE CADA SECCIÓN (puntaje, medios directos + otros, señal)")
+    for sec in c.SECCIONES:
+        for k in [x for x in todos if x["seccion"] == sec][:6]:
+            senal = (k.get("senales") or [""])[0][:34]
+            print(f"  {sec:8s} {k['puntaje']:5.2f} {k['n_medios']}m+{len(k.get('otros_medios') or [])} "
+                  f"{senal:34s} | {corto(k['titular'], 78)}")
+
+    print("\nNOTICIAS CON 3 O MÁS MEDIOS QUE LA EDICIÓN NO TRAE (las 20 primeras)")
+    faltan = [(i, k) for i, k in enumerate(todos) if k["n_medios"] >= 3 and i not in usados]
+    for i, k in faltan[:20]:
+        print(f"  {k['n_medios']}m {k['seccion']:8s} #{k['puesto']:<3d} | {corto(k['titular'], 100)}")
+    print(f"  (en total {len(faltan)})")
+
     print("\nNOTICIAS PUBLICADAS (cómo | sección publicada | sección, puesto y medios en el mensajero)")
     for sec, como, parte, i, nota in filas:
         if i is None:
@@ -140,11 +158,6 @@ def main():
     puestos = [todos[i]["puesto"] for _, como, _, i, _ in filas if como in ("link", "texto")]
     print(f"  Puesto de las encontradas: hasta 5: {sum(p <= 5 for p in puestos)}, hasta 15: {sum(p <= 15 for p in puestos)},"
           f" hasta 40: {sum(p <= 40 for p in puestos)}, más abajo: {sum(p > 40 for p in puestos)}")
-
-    print("\nNOTICIAS CON 3 O MÁS MEDIOS QUE LA EDICIÓN NO TRAE")
-    for i, k in enumerate(todos):
-        if k["n_medios"] >= 3 and i not in usados:
-            print(f"  {k['n_medios']}m {k['seccion']:8s} #{k['puesto']:<3d} | {corto(k['titular'], 100)}")
     print("=== FIN ===")
 
 
