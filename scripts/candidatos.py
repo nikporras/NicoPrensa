@@ -31,7 +31,7 @@ FEEDS = RAIZ / "feeds.json"
 
 VENTANA_HORAS = 48          # se descarta lo más viejo que esto
 EDICIONES_A_COMPARAR = 3    # ediciones recientes contra las que se evita repetir
-POR_SECCION = 15            # candidatos por sección
+POR_SECCION = 40            # candidatos por sección
 EN_TOP = 12                 # candidatos en el bloque "top"
 TOP_MAX_POR_SECCION = 4     # para que una sola sección no llene el "top"
 DIAS_A_GUARDAR = 7          # se borran candidatos más viejos que esto
@@ -115,6 +115,7 @@ def leer_feed(feed, ahora):
             noticias.append({
                 "titular": titular, "url": link, "fecha": fecha, "medio": feed["medio"],
                 "seccion": feed["seccion"], "idioma": feed.get("idioma", "es"),
+                "portada": bool(feed.get("portada")),
                 "resumen": texto_plano(e.get("summary") or e.get("description")),
                 "palabras": palabras(titular),
             })
@@ -205,10 +206,14 @@ def candidato(grupo, ahora):
     mejor = max(votos.values())
     seccion = next(s for s in SECCIONES if votos.get(s) == mejor)
     horas = (ahora - grupo[0]["fecha"]).total_seconds() / 3600
-    extra = max(0.0, 1 - horas / VENTANA_HORAS)   # entre 0 y 1: lo reciente desempata
+    # La cobertura manda. Dentro de la misma cobertura suma estar en la portada
+    # de un medio (0,5) y ser reciente (hasta 0,5).
+    portada = any(n["portada"] for n in grupo)
+    extra = 0.5 * max(0.0, 1 - horas / VENTANA_HORAS) + (0.5 if portada else 0.0)
     return {
         "titular": principal["titular"], "seccion": seccion,
         "puntaje": round(len(medios) + extra, 2), "n_medios": len(medios), "medios": medios,
+        "portada": portada,
         "fecha": grupo[0]["fecha"].isoformat(timespec="minutes"),
         "resumen": principal["resumen"], "links": links,
     }
