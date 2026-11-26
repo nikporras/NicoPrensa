@@ -67,6 +67,7 @@ MUESTRA = 9                 # miembros de un grupo contra los que se compara
 PESO_RESUMEN = 0.35         # cuánto pesa el resumen frente al titular
 PESO_ANCLAS = 9.0           # peso mínimo de nombres propios y cifras en común para unir idiomas distintos
 PESO_ANCLAS_FUSION = 8.0    # lo mismo, para unir dos grupos del mismo idioma
+UMBRAL_PARIENTE = 0.25      # parecido mínimo para aceptar que dos notas que Google junta son la misma noticia
 UMBRAL_FUSION = 0.33        # parecido mínimo entre dos grupos que comparten nombres propios
 UMBRAL_FUSION_ALTO = 0.55   # parecido que basta por sí solo para unir dos grupos
 
@@ -612,6 +613,13 @@ def misma_noticia(a, b, idf):
     return s if s >= UMBRAL else 0.0
 
 
+def pariente(a, b):
+    """Para notas que Google presenta juntas: basta un parecido moderado y un nombre o cifra en común."""
+    if a["idioma"] != b["idioma"]:
+        return bool(a["anclas"] & b["anclas"])
+    return parecido(a, b) >= UMBRAL_PARIENTE and bool((a["anclas"] & b["todas"]) or (b["anclas"] & a["todas"]))
+
+
 def agrupar(noticias, idf):
     """Junta titulares de la misma noticia. Cada grupo es una noticia."""
     grupos, indice, de_google = [], defaultdict(set), {}
@@ -619,6 +627,8 @@ def agrupar(noticias, idf):
     orden = sorted(noticias, key=lambda n: (n["grupo"] is None, n["fecha"], n["url"]))
     for n in orden:
         destino = de_google.get(n["grupo"]) if n["grupo"] else None
+        if destino is not None and not any(pariente(n, m) for m in grupos[destino][:MUESTRA]):
+            destino = None   # Google a veces junta notas distintas bajo un mismo tema: no se le cree a ciegas
         if destino is None:
             vecinos = Counter()
             for r in sorted(n["_t"]):
