@@ -4,7 +4,7 @@
   --glass:rgba(255,255,255,.08);--glass-2:rgba(255,255,255,.14);--edge:rgba(255,255,255,.12);
   --ink:#f3f4fb;--soft:#b9bed6;--dim:#8d93b3;
   --pill:#f3f4fb;--on-pill:#1b2340;
-  --ok:#7fe0a8;--warn:#ffc46b;
+  --ok:#7fe0a8;--warn:#ffc46b;--mid:#9fd0ff;
   --weather-1:#6f74bd;--weather-2:#a194d4;
   --display:"Outfit","Avenir Next",system-ui,sans-serif;
   --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
@@ -15,7 +15,7 @@
   --glass:rgba(255,255,255,.55);--glass-2:rgba(255,255,255,.8);--edge:rgba(40,40,90,.10);
   --ink:#1c2140;--soft:#4e5577;--dim:#6f7596;
   --pill:#1c2140;--on-pill:#fff;
-  --ok:#1f8a55;--warn:#a05e00;
+  --ok:#1f8a55;--warn:#a05e00;--mid:#2459a8;
   --weather-1:#7f81cc;--weather-2:#a796d6;
   color-scheme:light;
 }}
@@ -59,7 +59,7 @@ button{font:inherit}
 /* Carrusel de lo más importante */
 .rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .rail::-webkit-scrollbar{display:none}
-.story-card{flex:0 0 100%;scroll-snap-align:start;min-height:21rem;border-radius:28px;padding:22px;display:flex;flex-direction:column;justify-content:flex-end;gap:12px;position:relative;overflow:hidden;color:#fff;isolation:isolate}
+.story-card{flex:0 0 88%;scroll-snap-align:start;min-height:21rem;border-radius:28px;padding:22px;display:flex;flex-direction:column;justify-content:flex-end;gap:12px;position:relative;overflow:hidden;color:#fff;isolation:isolate}
 .story-card::before{content:"";position:absolute;inset:0;z-index:-2;background:var(--art)}
 .story-card::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,12,25,0) 15%,rgba(10,12,25,.8) 100%)}
 .story-card .src{font:600 .82rem var(--body);opacity:.92}
@@ -69,7 +69,13 @@ button{font:inherit}
 .story-card .chip.ok{color:#9ff0c0}
 .story-card .chip.one{color:#ffd28f}
 .ghost{font:600 .9rem var(--body);color:#fff;text-decoration:none;border:1.5px solid rgba(255,255,255,.55);border-radius:999px;padding:.5rem .95rem;white-space:nowrap}
-.dots{display:flex;justify-content:center;gap:7px;margin-top:12px}
+.story-card:only-child{flex-basis:100%}
+.lead-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.lead-row .count{font:600 .85rem var(--body);color:var(--soft);white-space:nowrap}
+.rail-foot{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:12px}
+.nav{width:40px;height:40px;border-radius:50%;border:0;background:var(--glass-2);color:var(--ink);font:600 1.4rem/1 var(--display);cursor:pointer;display:grid;place-items:center;padding:0 0 3px}
+.nav[disabled]{opacity:.35;cursor:default}
+.dots{display:flex;justify-content:center;gap:7px}
 .dots button{width:8px;height:8px;padding:0;border:0;border-radius:4px;background:var(--dim);opacity:.5;cursor:pointer;transition:width .25s,opacity .25s}
 .dots button[aria-current]{opacity:1;background:var(--ink);width:22px}
 .art-0{--art:radial-gradient(120% 90% at 85% 10%,#ff9a5a 0%,transparent 55%),radial-gradient(90% 80% at 10% 30%,#c2304b 0%,transparent 60%),#3b1730}
@@ -108,6 +114,8 @@ button{font:inherit}
 .cities.three .city .i{font-size:1.3rem}
 .locbtn{width:100%;border:0;border-radius:999px;padding:.7rem;font-weight:600;font-size:.95rem;background:#fff;color:#2d2f63;cursor:pointer}
 .locbtn[disabled]{opacity:.7;cursor:progress}
+.relocate{display:block;margin:12px auto 0;border:0;background:none;color:#fff;font-size:.85rem;font-weight:600;text-decoration:underline;text-underline-offset:3px;cursor:pointer;opacity:.9}
+.relocate[disabled]{text-decoration:none;cursor:progress}
 
 /* Secciones */
 .secs{display:grid;gap:10px}
@@ -126,6 +134,14 @@ details.sec summary::-webkit-details-marker{display:none}
 .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .chip{font:600 .75rem var(--body);padding:.18rem .55rem;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
 .chip.ok{color:var(--ok)}.chip.one{color:var(--warn)}
+.chip.big{color:var(--warn)}.chip.mid{color:var(--mid)}.chip.few{color:var(--soft)}
+.story-card .chip.big,.story-card .chip.mid,.story-card .chip.few{color:#fff;background:rgba(255,255,255,.2);border-color:transparent}
+.also{border-top:1px solid var(--edge);margin:0 16px;padding:14px 0 10px}
+.also h4{margin:0 0 4px;font:600 .95rem var(--display);color:var(--soft)}
+.sec .also ul{padding:0}
+.sec .also li{padding:10px 0;border-top:1px solid var(--edge);display:grid;gap:8px}
+.sec .also li:first-child{border-top:0}
+.also li p{font-weight:500}
 .read{font:600 .88rem var(--body);background:var(--pill);color:var(--on-pill);text-decoration:none;border-radius:999px;padding:.45rem .9rem}
 .lang{font-size:.82rem;color:var(--soft)}
 .c-colombia{--tint:rgba(255,205,60,.24)}.c-latam{--tint:rgba(80,210,140,.24)}.c-politica{--tint:rgba(90,140,255,.26)}
@@ -134,3 +150,23 @@ details.sec summary::-webkit-details-marker{display:none}
 .foot{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:.85rem;color:var(--soft)}
 .note{color:var(--soft);margin:0}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* ---------- Tabletas y computadores ---------- */
+@media (min-width:760px){
+  .wrap{max-width:60rem;padding-left:max(28px,env(safe-area-inset-left,0px));padding-right:max(28px,env(safe-area-inset-right,0px));gap:32px}
+  main{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);grid-template-areas:"hello hello" "top top" "brief rates" "brief weather" "news news";align-items:start;gap:28px 24px}
+  .a-hello{grid-area:hello}.a-top{grid-area:top}.a-brief{grid-area:brief}.a-rates{grid-area:rates}.a-weather{grid-area:weather}.a-news{grid-area:news}
+  .hello h1{font-size:4rem}
+  .story-card{flex-basis:calc(50% - 6px);min-height:22rem}
+  /* En columnas, para que las secciones cerradas suban junto a la que está abierta. */
+  .secs{display:block;columns:2;column-gap:14px}
+  .secs details.sec{break-inside:avoid;margin:0 0 14px}
+  .menu .mes ul{gap:10px}
+  .foot{max-width:44rem}
+}
+@media (min-width:1180px){
+  .wrap{max-width:76rem}
+  main{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);grid-template-areas:"hello hello hello" "top top top" "brief rates weather" "news news news"}
+  .story-card{flex-basis:calc(33.333% - 8px)}
+  .secs{columns:3}
+}

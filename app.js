@@ -60,6 +60,14 @@
       return mayus(partes[0]);
     } catch (e) { return ""; }
   }
+  // Ediciones nuevas: cuántos medios traen la noticia. Ediciones viejas: confirmada o una fuente.
+  function etiqueta(st) {
+    if (typeof st.medios === "number" && st.medios > 0) {
+      var clase = st.medios >= 5 ? "big" : st.medios >= 2 ? "mid" : "few";
+      return el("span", "chip " + clase, st.medios + (st.medios === 1 ? " medio" : " medios"));
+    }
+    return chip(st.verified);
+  }
   function chip(verificada) {
     return el("span", "chip " + (verificada ? "ok" : "one"), verificada ? "Confirmada" : "Una fuente");
   }
@@ -74,7 +82,7 @@
 
   /* ---------- Saludo ---------- */
   function saludo(ed, esUltima) {
-    var s = el("section", "hello");
+    var s = el("section", "hello a-hello");
     if (esUltima) {
       var h1 = el("h1", "", ["Buenos días", "Buenas tardes", "Buenas noches"][momento(new Date().getHours())]);
       h1.id = "saludo";
@@ -93,15 +101,27 @@
 
   /* ---------- Carrusel ---------- */
   function dividir(texto) {
-    var m = String(texto).match(/^(.+?[.:])\s+(.+)$/);
-    if (m && m[1].length >= 30) return [m[1].replace(/[.:]$/, ""), mayus(m[2])];
+    var m = String(texto).match(/^(.{30,}?[.:])\s+(.+)$/);
+    if (m) return [m[1].replace(/[.:]$/, ""), mayus(m[2])];
     return [texto, ""];
   }
   function carrusel(sec) {
-    var g = el("section", "group");
+    var g = el("section", "group a-top");
     g.setAttribute("aria-label", sec.title);
-    g.appendChild(el("p", "lead", "Lo más importante del día"));
+    var total = (sec.stories || []).length;
+    var cabeza = el("p", "lead lead-row");
+    cabeza.appendChild(el("span", "", "Lo más importante del día"));
+    var cuenta = el("span", "count", "1 de " + total);
+    if (total > 1) cabeza.appendChild(cuenta);
+    g.appendChild(cabeza);
     var rail = el("div", "rail");
+    // Cada tarjeta deja asomar la siguiente, para que se note que se puede deslizar.
+    function paso() { var c = rail.firstElementChild; return c ? c.offsetWidth + 12 : rail.clientWidth; }
+    function ir(i) { rail.scrollTo({ left: Math.max(0, Math.min(total - 1, i)) * paso(), behavior: "smooth" }); }
+    function actual() {
+      if (rail.scrollLeft >= rail.scrollWidth - rail.clientWidth - 4) return total - 1;
+      return Math.round(rail.scrollLeft / Math.max(1, paso()));
+    }
     var dots = el("div", "dots");
     (sec.stories || []).forEach(function (st, i) {
       var c = el("article", "story-card art-" + (i % 3));
@@ -112,7 +132,7 @@
       c.appendChild(el("h3", "", partes[0]));
       if (partes[1]) c.appendChild(el("p", "more", partes[1]));
       var row = el("div", "row");
-      row.appendChild(chip(st.verified));
+      row.appendChild(etiqueta(st));
       if (esHttps(st.url)) row.appendChild(boton("ghost", st.url));
       c.appendChild(row);
       rail.appendChild(c);
@@ -120,23 +140,41 @@
       d.type = "button";
       d.setAttribute("aria-label", "Noticia " + (i + 1) + " de " + sec.stories.length);
       if (i === 0) d.setAttribute("aria-current", "true");
-      d.addEventListener("click", function () { rail.scrollTo({ left: i * rail.clientWidth, behavior: "smooth" }); });
+      d.addEventListener("click", function () { ir(i); });
       dots.appendChild(d);
     });
     rail.addEventListener("scroll", function () {
-      var i = Math.round(rail.scrollLeft / Math.max(1, rail.clientWidth));
+      var i = actual();
+      cuenta.textContent = (i + 1) + " de " + total;
+      atras.disabled = i === 0;
+      adelante.disabled = i === total - 1;
       Array.prototype.forEach.call(dots.children, function (d, k) {
         if (k === i) d.setAttribute("aria-current", "true"); else d.removeAttribute("aria-current");
       });
     }, { passive: true });
     g.appendChild(rail);
-    if ((sec.stories || []).length > 1) g.appendChild(dots);
+    var atras = el("button", "nav", "‹");
+    atras.type = "button";
+    atras.setAttribute("aria-label", "Noticia anterior");
+    atras.disabled = true;
+    atras.addEventListener("click", function () { ir(actual() - 1); });
+    var adelante = el("button", "nav", "›");
+    adelante.type = "button";
+    adelante.setAttribute("aria-label", "Noticia siguiente");
+    adelante.addEventListener("click", function () { ir(actual() + 1); });
+    if (total > 1) {
+      var pie = el("div", "rail-foot");
+      pie.appendChild(atras);
+      pie.appendChild(dots);
+      pie.appendChild(adelante);
+      g.appendChild(pie);
+    }
     return g;
   }
 
   /* ---------- Tarjetas rápidas ---------- */
   function enPocas(items) {
-    var c = el("section", "card");
+    var c = el("section", "card a-brief");
     c.appendChild(el("h2", "", "En pocas palabras"));
     var ul = el("ul", "brief");
     items.forEach(function (r) {
@@ -154,7 +192,7 @@
     return isNaN(n) ? null : n;
   }
   function tasas(rates) {
-    var c = el("section", "card");
+    var c = el("section", "card a-rates");
     c.appendChild(el("h2", "", "Tasas de hoy"));
     var dl = el("dl", "rates");
     var cajas = {};
@@ -244,7 +282,7 @@
     return box;
   }
   function clima() {
-    var g = el("section", "group");
+    var g = el("section", "group a-weather");
     var lead = el("p", "lead", "¿Qué tiempo hace donde estás?");
     var c = el("div", "card weather");
     var h2 = el("h2", "", "El tiempo");
@@ -260,11 +298,22 @@
     g.appendChild(lead);
     g.appendChild(c);
 
+    // La ubicación se guarda en este teléfono para no volver a pedirla en cada visita.
+    function recordar(lat, lon) {
+      try { localStorage.setItem("nicoprensa-ubicacion", JSON.stringify({ lat: lat, lon: lon })); } catch (e) {}
+    }
+    function recordada() {
+      try {
+        var u = JSON.parse(localStorage.getItem("nicoprensa-ubicacion") || "null");
+        return u && typeof u.lat === "number" && typeof u.lon === "number" ? u : null;
+      } catch (e) { return null; }
+    }
     function pedir() {
       if (!navigator.geolocation) return sinPermiso("Este navegador no puede compartir la ubicación.");
       btn.disabled = true;
       btn.textContent = "Buscando tu ubicación…";
       navigator.geolocation.getCurrentPosition(function (pos) {
+        recordar(pos.coords.latitude, pos.coords.longitude);
         mostrar(pos.coords.latitude, pos.coords.longitude);
       }, function (e) {
         sinPermiso(e && e.code === 1
@@ -308,6 +357,10 @@
         }
         cuerpo.appendChild(hrs);
         cuerpo.appendChild(ciudadesBox(cercana));
+        var otra = el("button", "relocate", "Actualizar mi ubicación");
+        otra.type = "button";
+        otra.addEventListener("click", function () { otra.disabled = true; otra.textContent = "Buscando tu ubicación…"; pedir(); });
+        cuerpo.appendChild(otra);
       }).catch(function () { sinPermiso("No pudimos cargar el clima. Inténtalo de nuevo."); });
     }
 
@@ -319,9 +372,8 @@
     cuerpo.appendChild(ciudadesBox(null));
 
     // Si ya diste permiso antes, el clima aparece solo.
-    if (navigator.permissions && navigator.permissions.query) {
-      navigator.permissions.query({ name: "geolocation" }).then(function (p) { if (p.state === "granted") pedir(); }).catch(function () {});
-    }
+    var guardada = recordada();
+    if (guardada) mostrar(guardada.lat, guardada.lon);
     return g;
   }
 
@@ -333,20 +385,38 @@
     var sum = el("summary");
     sum.appendChild(el("span", "ico", s.emoji));
     sum.appendChild(el("span", "t", s.title));
-    sum.appendChild(el("span", "n", plural((s.stories || []).length)));
+    sum.appendChild(el("span", "n", plural((s.stories || []).length + (s.tambien || []).length)));
     d.appendChild(sum);
     var ul = el("ul");
     (s.stories || []).forEach(function (st) {
       var li = el("li");
       li.appendChild(el("p", "", st.text));
       var meta = el("div", "meta");
-      meta.appendChild(chip(st.verified));
+      meta.appendChild(etiqueta(st));
       if (esHttps(st.url)) meta.appendChild(boton("read", st.url));
       if (LANG[st.lang]) meta.appendChild(el("span", "lang", LANG[st.lang]));
       li.appendChild(meta);
       ul.appendChild(li);
     });
     d.appendChild(ul);
+    var mas = (s.tambien || []).filter(function (t) { return t && t.text && esHttps(t.url); });
+    if (mas.length) {   // titulares con link, sin resumen
+      var caja = el("div", "also");
+      caja.appendChild(el("h4", "", "También hoy"));
+      var lista = el("ul");
+      mas.forEach(function (t) {
+        var li = el("li");
+        li.appendChild(el("p", "", t.text));
+        var meta = el("div", "meta");
+        meta.appendChild(etiqueta(t));
+        meta.appendChild(boton("read", t.url));
+        if (LANG[t.lang]) meta.appendChild(el("span", "lang", LANG[t.lang]));
+        li.appendChild(meta);
+        lista.appendChild(li);
+      });
+      caja.appendChild(lista);
+      d.appendChild(caja);
+    }
     return d;
   }
   function omitidas(items) {
@@ -380,13 +450,29 @@
     app.appendChild(t);
     if (anterior) anterior.then(function (a) { t.comparar(a.rates); }).catch(function () {});
     if (esUltima) app.appendChild(clima());
-    var g = el("section", "group");
+    var g = el("section", "group a-news");
     g.appendChild(el("p", "lead", "Todas las noticias"));
     var box = el("div", "secs");
-    resto.forEach(function (s, i) { box.appendChild(seccion(s, i === 0)); });
+    // En pantallas anchas se abren más secciones para llenar las columnas.
+    var abiertas = window.matchMedia("(min-width:1180px)").matches ? 3 : window.matchMedia("(min-width:760px)").matches ? 2 : 1;
+    resto.forEach(function (s, i) { box.appendChild(seccion(s, i < abiertas)); });
     if (ed.omitidas && ed.omitidas.length) box.appendChild(omitidas(ed.omitidas));
     g.appendChild(box);
     app.appendChild(g);
+    // El pie explica las etiquetas de esta edición.
+    var pie = document.getElementById("pie");
+    var conMedios = secs.some(function (s) { return (s.stories || []).some(function (st) { return typeof st.medios === "number"; }); });
+    if (pie) {
+      pie.textContent = "";
+      if (conMedios) {
+        pie.appendChild(el("span", "", "El número de medios indica cuántos periódicos y portales traen la misma noticia. Cuantos más, más grande es."));
+      } else {
+        pie.appendChild(el("span", "chip ok", "Confirmada"));
+        pie.appendChild(el("span", "", "2 o más fuentes"));
+        pie.appendChild(el("span", "chip one", "Una fuente"));
+        pie.appendChild(el("span", "", "sin segunda confirmación"));
+      }
+    }
     document.title = "NicoPrensa · " + fechaLarga(ed.date);
     window.scrollTo(0, 0);
   }
