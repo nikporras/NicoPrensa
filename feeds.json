@@ -1,6 +1,7 @@
 {
-  "_descartar": ["loteria", "baloto", "horoscopo", "pico y placa", "ultimas noticias |", "minuto a minuto", "en vivo", "en directo", "crucigrama", "santoral", "super astro", "chontico", "resultados del sorteo", "numeros ganadores"],
+  "_descartar": ["loteria", "baloto", "horoscopo", "pico y placa", "ultimas noticias |", "minuto a minuto", "en vivo", "en directo", "crucigrama", "santoral", "super astro", "chontico", "resultados del sorteo", "numeros ganadores", "hora y canal", "canal y hora", "donde ver", "a que hora juega", "agenda de la tv", "canal de tv", "en que canal", "horarios y canales", "alineaciones probables", "pronostico y cuotas"],
   "_degradar": ["rebajado", "rebajada", "rebajas", "oferta", "ofertas", "descuento", "descuentos", "black friday", "cyber monday", "chollo", "por menos de", "mejores precios", "cuanto cuesta", "guia:", "todas las misiones", "como conseguir", "como mejorar", "trucos", "localizacion", "que significa", "test:", "quiz", "recetas", "consejos para", "7 gadgets", "deals"],
+  "_no_identifican": ["Black Friday", "Cyber Monday", "Thanksgiving", "Día de Acción de Gracias", "Dia de Acción de Gracias", "Acción de Gracias", "Ação de Graças", "Navidad", "Natal", "Christmas", "Año Nuevo", "Ano Novo", "Semana Santa", "Día de la Madre", "Halloween", "San Valentín"],
   "_temas": {
     "futbol": {
       "rutas": ["/futbol", "/futebol", "/football", "/champions", "/liga-betplay", "/premier-league", "/libertadores", "/seleccion-colombia", "/brasileirao"],
