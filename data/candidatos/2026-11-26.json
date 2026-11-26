@@ -1,6 +1,6 @@
 {
   "fecha": "2026-11-26",
-  "generado": "2026-11-26T07:21:55+00:00",
+  "generado": "2026-11-26T07:28:29+00:00",
   "ventana_horas": 48,
   "tasas": {
     "trm": {
@@ -12,10 +12,10 @@
   },
   "resumen": {
     "feeds_leidos": 73,
-    "feeds_fallidos": 17,
-    "titulares_recientes": 2699,
-    "descartados_ya_publicados": 6,
-    "noticias_distintas": 2094,
+    "feeds_fallidos": 0,
+    "titulares_recientes": 2795,
+    "descartados_ya_publicados": 7,
+    "noticias_distintas": 2197,
     "candidatos_por_seccion": {
       "futbol": 15,
       "juegos": 15,
@@ -26,110 +26,7 @@
       "politica": 15
     }
   },
-  "feeds_fallidos": [
-    {
-      "medio": "Futbolred",
-      "seccion": "futbol",
-      "url": "https://www.futbolred.com/rss",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    },
-    {
-      "medio": "Futbolred",
-      "seccion": "futbol",
-      "url": "https://www.futbolred.com/rss/futbol-colombiano.xml",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    },
-    {
-      "medio": "Futbolred",
-      "seccion": "futbol",
-      "url": "https://www.futbolred.com/rss.xml",
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    },
-    {
-      "medio": "Win Sports",
-      "seccion": "futbol",
-      "url": "https://www.winsports.co/rss.xml",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "Win Sports",
-      "seccion": "futbol",
-      "url": "https://www.winsports.co/feed",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "El Espectador",
-      "seccion": "futbol",
-      "url": "https://www.elespectador.com/arc/outboundfeeds/rss/category/deportes/futbol-colombiano/?outputType=xml",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "Vandal",
-      "seccion": "juegos",
-      "url": "https://vandal.elespanol.com/xml.cgi",
-      "error": "ValueError: el feed no trae noticias (<unknown>:2:0: not well-formed (invalid token))"
-    },
-    {
-      "medio": "Vandal",
-      "seccion": "juegos",
-      "url": "https://vandal.elespanol.com/rss/",
-      "error": "ValueError: el feed no trae noticias (<unknown>:2:0: not well-formed (invalid token))"
-    },
-    {
-      "medio": "LevelUp",
-      "seccion": "juegos",
-      "url": "https://www.levelup.com/rss",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "El Espectador",
-      "seccion": "colombia",
-      "url": "https://www.elespectador.com/arc/outboundfeeds/rss/?outputType=xml",
-      "error": "ValueError: el feed no trae noticias"
-    },
-    {
-      "medio": "El Espectador",
-      "seccion": "colombia",
-      "url": "https://www.elespectador.com/arc/outboundfeeds/rss/category/colombia/?outputType=xml",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "El Espectador",
-      "seccion": "colombia",
-      "url": "https://www.elespectador.com/arc/outboundfeeds/rss/category/politica/?outputType=xml",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "La República",
-      "seccion": "colombia",
-      "url": "https://www.larepublica.co/rss/economia.xml",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "Noticias Caracol",
-      "seccion": "colombia",
-      "url": "https://www.noticiascaracol.com/rss",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "Noticias Caracol",
-      "seccion": "colombia",
-      "url": "https://www.noticiascaracol.com/colombia/feed",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "Infobae",
-      "seccion": "latam",
-      "url": "https://www.infobae.com/feeds/rss/",
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "DW",
-      "seccion": "latam",
-      "url": "https://rss.dw.com/rdf/rss-sp-ame",
-      "error": "ValueError: el feed no trae noticias (<unknown>:2:0: syntax error)"
-    }
-  ],
+  "feeds_fallidos": [],
   "top": [
     {
       "titular": "Murió a los 65 años Andy Taylor, exguitarrista de la banda británica Duran Duran",
@@ -200,93 +97,6 @@
       ]
     },
     {
-      "titular": "Nacional se impone 3-1 frente a Medellín en un duelo dominante (Resumen)",
-      "seccion": "futbol",
-      "puntaje": 5.92,
-      "n_medios": 5,
-      "medios": [
-        "AS",
-        "Globo Esporte",
-        "Infobae",
-        "Mundo Deportivo",
-        "Win Sports"
-      ],
-      "fecha": "2026-11-26T03:43+00:00",
-      "resumen": "Atlético Nacional venció 3-1 a Independiente Medellín con amplio dominio y una roja clave.",
-      "links": [
-        {
-          "medio": "Win Sports",
-          "titular": "Nacional se impone 3-1 frente a Medellín en un duelo dominante (Resumen)",
-          "url": "https://www.winsports.co/futbol-colombiano/noticias/nacional-se-impone-3-1-frente-a-medellin-en-un-duelo-dominante-resumen-481793",
-          "fecha": "2026-11-26T03:43+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "AS",
-          "titular": "Nacional 3 - 1 Medellín: Resultado, resumen y goles",
-          "url": "https://colombia.as.com/futbol/nacional-medellin-en-vivo-online-cuadrangulares-de-la-liga-betplay-en-directo-f202611-d/",
-          "fecha": "2026-11-26T03:31+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "Infobae",
-          "titular": "Santa Fe despertó en los cuadrangulares con goleada: venció a Once Caldas por 3-0 en El Campín",
-          "url": "https://www.infobae.com/colombia/2026/11/25/santa-fe-vs-once-caldas-liga-betplay-en-vivo-los-leones-van-tras-sus-primeros-tres-puntos-y-los-manizalitas-buscan-ser-primeros-del-cuadrangular/",
-          "fecha": "2026-11-26T01:31+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "AS",
-          "titular": "Santa Fe 3 – 0 Once Caldas: Resultado, resumen y goles",
-          "url": "https://colombia.as.com/futbol/santa-fe-once-caldas-en-vivo-online-cuadrangulares-de-la-liga-betplay-en-directo-f202611-d/",
-          "fecha": "2026-11-26T01:15+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "Globo Esporte",
-          "titular": "PSG empata com a Roma e perde a liderança da Champions League",
-          "url": "https://ge.globo.com/futebol/futebol-internacional/jogo/25-11-2026/parissaintgermain-roma.ghtml",
-          "fecha": "2026-11-26T00:35+00:00",
-          "idioma": "pt"
-        },
-        {
-          "medio": "AS",
-          "titular": "Atlético 2-0 Viking: resumen, goles y resultado",
-          "url": "https://as.com/futbol/champions/atletico-viking-en-directo-ultima-hora-de-la-fase-liga-de-la-champions-league-hoy-en-vivo-f202611-d/",
-          "fecha": "2026-11-25T22:45+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "Mundo Deportivo",
-          "titular": "PSG 2 - 2 Roma: resultado, resumen y goles | Champions League",
-          "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004253587/psg-roma-directo-champions-league-liga-campeones.html",
-          "fecha": "2026-11-25T21:53+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "Mundo Deportivo",
-          "titular": "Atlético Madrid - Viking, en directo hoy | Partido de la Champions League de fútbol: resumen, resultado, marcador, goles y clasificación",
-          "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261125/1004253599/atletico-madrid-viking-directo-champions-league-ext-pau.html",
-          "fecha": "2026-11-25T19:24+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "Mundo Deportivo",
-          "titular": "Slavia Praga 0-1 Villarreal | Goles, resumen, resultado y clasificación de la Champions League",
-          "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004253575/slavia-prague-villarreal-directo-champions-league-ext-pau.html",
-          "fecha": "2026-11-25T17:14+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "Mundo Deportivo",
-          "titular": "Sabah - Barcelona, en directo | UEFA Champions League 2026: resultado, resumen, goles, marcador y clasificación",
-          "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261125/1004255371/sabah-barcelona-directo-champions-league-partido-liga-campeones-hoy-online.html",
-          "fecha": "2026-11-25T16:22+00:00",
-          "idioma": "es"
-        }
-      ]
-    },
-    {
       "titular": "Luis Javier Suárez le salvó el partido al Sporting de Lisboa en la Champions: hizo doblete en el empate 2-2 ante Manchester United",
       "seccion": "futbol",
       "puntaje": 4.87,
@@ -326,64 +136,6 @@
           "titular": "Luis Javier Suárez pasó del fallo al doblete vs. Manchester United: acrobático gol en Champions",
           "url": "https://www.semana.com/deportes/articulo/de-nuevo-fallo-luis-javier-suarez-en-champions-se-rehizo-rapido-con-gol-y-dejo-gesto/202645/",
           "fecha": "2026-11-25T21:10+00:00",
-          "idioma": "es"
-        }
-      ]
-    },
-    {
-      "titular": "Bayern Múnich, con Luis Díaz en el último tramo del partido, perdió ante el Lille en Champions League",
-      "seccion": "futbol",
-      "puntaje": 4.84,
-      "n_medios": 4,
-      "medios": [
-        "AS",
-        "El Tiempo",
-        "Infobae",
-        "Semana"
-      ],
-      "fecha": "2026-11-25T23:46+00:00",
-      "resumen": "El “Gigante de Baviera” vuelve a la acción en el torneo de clubes más importante del mundo en su vista a territorio francés y la estrella de la selección Colombia comenzó el juego desde el banco de los suplentes",
-      "links": [
-        {
-          "medio": "Infobae",
-          "titular": "Bayern Múnich, con Luis Díaz en el último tramo del partido, perdió ante el Lille en Champions League",
-          "url": "https://www.infobae.com/colombia/deportes/2026/11/25/lille-vs-bayern-munich-en-vivo-asi-es-el-regreso-de-luis-diaz-por-la-champions-league/",
-          "fecha": "2026-11-25T23:46+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "Semana",
-          "titular": "Así le fue a Luis Díaz en el partido de Bayern Múnich vs. LOSC: amargo regreso tras su lesión",
-          "url": "https://www.semana.com/deportes/articulo/asi-le-fue-a-luis-diaz-en-el-partido-de-bayern-munich-vs-losc-amargo-regreso-tras-su-lesion/202617/",
-          "fecha": "2026-11-25T22:21+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "AS",
-          "titular": "Lille 2 - 1 Bayern Múnich, en vivo: última hora de Luis Díaz en Champions League, hoy en directo",
-          "url": "https://colombia.as.com/futbol/colombianos-por-el-mundo/lille-bayern-munich-en-vivo-ultima-hora-de-luis-diaz-en-champions-league-hoy-en-directo-f202611-d/",
-          "fecha": "2026-11-25T21:52+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "El Tiempo",
-          "titular": "Lille vs. Bayern Múnich, EN VIVO: siga el minuto a minuto del partidazo de Champions League con el colombiano Luis Díaz de suplente",
-          "url": "https://www.eltiempo.com/deportes/futbol-internacional/lille-vs-bayern-munich-en-vivo-siga-el-minuto-a-minuto-del-partidazo-de-champions-league-con-el-colombiano-luis-diaz-de-suplente-3604219",
-          "fecha": "2026-11-25T18:56+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "Semana",
-          "titular": "Lille vs. Bayern Múnich: hora y canal de TV para ver el regreso de Luis Díaz por Champions League",
-          "url": "https://www.semana.com/deportes/articulo/bayern-munich-vs-lille-hora-y-canal-de-tv-para-ver-el-regreso-de-luis-diaz-por-champions-league/202638/",
-          "fecha": "2026-11-24T17:25+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "Semana",
-          "titular": "Bayern Múnich notifica su decisión sobre Luis Díaz para el partido de Champions ante Lille",
-          "url": "https://www.semana.com/deportes/articulo/bayern-munich-notifica-su-decision-sobre-luis-diaz-para-el-partido-de-champions-ante-lille/202605/",
-          "fecha": "2026-11-24T15:16+00:00",
           "idioma": "es"
         }
       ]
@@ -432,65 +184,51 @@
       ]
     },
     {
-      "titular": "Lotería del Valle resultados miércoles 25 de noviembre: números ganadores del último sorteo",
-      "seccion": "colombia",
-      "puntaje": 3.94,
+      "titular": "Nacional se impone 3-1 frente a Medellín en un duelo dominante (Resumen)",
+      "seccion": "futbol",
+      "puntaje": 3.92,
       "n_medios": 3,
       "medios": [
-        "El Tiempo",
-        "Infobae",
-        "Semana"
+        "AS",
+        "Marca",
+        "Win Sports"
       ],
-      "fecha": "2026-11-26T04:31+00:00",
-      "resumen": "Lotería del Valle realiza un sorteo a la semana, todos los miércoles, en los que se puede ganar varios miles de millones de pesos",
+      "fecha": "2026-11-26T03:43+00:00",
+      "resumen": "Atlético Nacional venció 3-1 a Independiente Medellín con amplio dominio y una roja clave.",
       "links": [
         {
-          "medio": "Infobae",
-          "titular": "Lotería del Valle resultados miércoles 25 de noviembre: números ganadores del último sorteo",
-          "url": "https://www.infobae.com/colombia/2026/11/26/loteria-del-valle-resultados-miercoles-25-de-noviembre-numeros-ganadores-del-ultimo-sorteo/",
-          "fecha": "2026-11-26T04:31+00:00",
+          "medio": "Win Sports",
+          "titular": "Nacional se impone 3-1 frente a Medellín en un duelo dominante (Resumen)",
+          "url": "https://www.winsports.co/futbol-colombiano/noticias/nacional-se-impone-3-1-frente-a-medellin-en-un-duelo-dominante-resumen-481793",
+          "fecha": "2026-11-26T03:43+00:00",
           "idioma": "es"
         },
         {
-          "medio": "Infobae",
-          "titular": "Lotería del Meta: resultados ganadores del miércoles 25 de noviembre de 2026",
-          "url": "https://www.infobae.com/colombia/2026/11/26/loteria-del-meta-resultados-ganadores-del-miercoles-25-de-noviembre-de-2026/",
-          "fecha": "2026-11-26T04:16+00:00",
+          "medio": "AS",
+          "titular": "Nacional 3 - 1 Medellín: Resultado, resumen y goles",
+          "url": "https://colombia.as.com/futbol/nacional-medellin-en-vivo-online-cuadrangulares-de-la-liga-betplay-en-directo-f202611-d/",
+          "fecha": "2026-11-26T03:31+00:00",
           "idioma": "es"
         },
         {
-          "medio": "El Tiempo",
-          "titular": "Lotería de Manizales: conozca los números ganadores del miércoles 25 de noviembre de 2026",
-          "url": "https://www.eltiempo.com/economia/finanzas-personales/loteria-de-manizales-conozca-los-numeros-ganadores-del-miercoles-25-de-noviembre-de-3604363",
-          "fecha": "2026-11-26T04:13+00:00",
+          "medio": "AS",
+          "titular": "Santa Fe 3 – 0 Once Caldas: Resultado, resumen y goles",
+          "url": "https://colombia.as.com/futbol/santa-fe-once-caldas-en-vivo-online-cuadrangulares-de-la-liga-betplay-en-directo-f202611-d/",
+          "fecha": "2026-11-26T01:15+00:00",
           "idioma": "es"
         },
         {
-          "medio": "Infobae",
-          "titular": "Lotería de Meta resultados miércoles 25 de noviembre de 2026: números ganadores del último sorteo",
-          "url": "https://www.infobae.com/colombia/2026/11/26/loteria-de-meta-resultados-miercoles-25-de-noviembre-de-2026-numeros-ganadores-del-ultimo-sorteo/",
-          "fecha": "2026-11-26T04:00+00:00",
+          "medio": "AS",
+          "titular": "Atlético 2-0 Viking: resumen, goles y resultado",
+          "url": "https://as.com/futbol/champions/atletico-viking-en-directo-ultima-hora-de-la-fase-liga-de-la-champions-league-hoy-en-vivo-f202611-d/",
+          "fecha": "2026-11-25T22:45+00:00",
           "idioma": "es"
         },
         {
-          "medio": "Semana",
-          "titular": "Resultados de las loterías Valle, Meta y Manizales de este miércoles 25 de noviembre 2026",
-          "url": "https://www.semana.com/loterias/articulo/resultados-de-las-loterias-valle-meta-y-manizales-de-este-miercoles-25-de-noviembre-2026/202654/",
-          "fecha": "2026-11-26T03:55+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "El Tiempo",
-          "titular": "Lotería del Valle: conozca los números ganadores del miércoles 25 de noviembre de 2026",
-          "url": "https://www.eltiempo.com/economia/finanzas-personales/loteria-del-valle-conozca-los-numeros-ganadores-del-miercoles-25-de-noviembre-de-3604365",
-          "fecha": "2026-11-26T03:41+00:00",
-          "idioma": "es"
-        },
-        {
-          "medio": "El Tiempo",
-          "titular": "Lotería del Meta: conozca los números ganadores del miércoles 25 de noviembre de 2026",
-          "url": "https://www.eltiempo.com/economia/finanzas-personales/loteria-del-meta-conozca-los-numeros-ganadores-del-miercoles-25-de-noviembre-de-3604367",
-          "fecha": "2026-11-26T03:40+00:00",
+          "medio": "Marca",
+          "titular": "Atlético de Madrid 2-0 Viking | Resumen",
+          "url": "https://www.marca.com/futbol/2026/11/25/atletico-madrid-2-0-viking-resumen-video.html",
+          "fecha": "2026-11-25T22:05+00:00",
           "idioma": "es"
         }
       ]
@@ -582,6 +320,106 @@
       ]
     },
     {
+      "titular": "0-1: Muriqi tumba al Shakhtar y da al Fenerbahçe su segundo triunfo seguido",
+      "seccion": "futbol",
+      "puntaje": 3.86,
+      "n_medios": 3,
+      "medios": [
+        "Globo Esporte",
+        "Marca",
+        "Mundo Deportivo"
+      ],
+      "fecha": "2026-11-26T00:35+00:00",
+      "resumen": "El Fenerbahce ganó este miércoles por 0-1 al Shakhtar en la quinta jornada de la Liga de Campeones, gracias al único tanto del kosovar Vedat Muriqi, que dio la segunda victoria consecutiva a su equipo, ya con ocho puntos en la fase liga",
+      "links": [
+        {
+          "medio": "Globo Esporte",
+          "titular": "PSG empata com a Roma e perde a liderança da Champions League",
+          "url": "https://ge.globo.com/futebol/futebol-internacional/jogo/25-11-2026/parissaintgermain-roma.ghtml",
+          "fecha": "2026-11-26T00:35+00:00",
+          "idioma": "pt"
+        },
+        {
+          "medio": "Mundo Deportivo",
+          "titular": "0-1: Muriqi tumba al Shakhtar y da al Fenerbahçe su segundo triunfo seguido",
+          "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004255618/muriqi-tumba-shakhtar-da-fenerbahce-segundo-triunfo-seguido.html",
+          "fecha": "2026-11-25T22:33+00:00",
+          "idioma": "es"
+        },
+        {
+          "medio": "Marca",
+          "titular": "Shakhtar 0-1 Fenerbahçe | Resumen",
+          "url": "https://www.marca.com/futbol/2026/11/25/shakhtar-0-1-fenerbahce-resumen-video.html",
+          "fecha": "2026-11-25T22:21+00:00",
+          "idioma": "es"
+        },
+        {
+          "medio": "Marca",
+          "titular": "PSG 2-2 Roma | Resumen",
+          "url": "https://www.marca.com/futbol/2026/11/25/psg-2-2-roma-resumen-video.html",
+          "fecha": "2026-11-25T22:10+00:00",
+          "idioma": "es"
+        },
+        {
+          "medio": "Mundo Deportivo",
+          "titular": "PSG 2 - 2 Roma: resultado, resumen y goles | Champions League",
+          "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004253587/psg-roma-directo-champions-league-liga-campeones.html",
+          "fecha": "2026-11-25T21:53+00:00",
+          "idioma": "es"
+        },
+        {
+          "medio": "Marca",
+          "titular": "Slavia de Praga 0-1 Villarreal | Resumen",
+          "url": "https://www.marca.com/futbol/2026/11/25/slavia-praga-0-1-villarreal-resumen-video.html",
+          "fecha": "2026-11-25T19:50+00:00",
+          "idioma": "es"
+        },
+        {
+          "medio": "Mundo Deportivo",
+          "titular": "Slavia Praga 0-1 Villarreal | Goles, resumen, resultado y clasificación de la Champions League",
+          "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004253575/slavia-prague-villarreal-directo-champions-league-ext-pau.html",
+          "fecha": "2026-11-25T17:14+00:00",
+          "idioma": "es"
+        }
+      ]
+    },
+    {
+      "titular": "Video | Tragedia en Egipto: incendio de un camión de combustible deja 31 muertos",
+      "seccion": "colombia",
+      "puntaje": 3.85,
+      "n_medios": 3,
+      "medios": [
+        "DW",
+        "El Colombiano",
+        "Semana"
+      ],
+      "fecha": "2026-11-26T00:21+00:00",
+      "resumen": "Un incendio arrasó este miércoles una zona densamente poblada de El Cairo y causó al menos 31 muertos , informó el Ministerio de Salud egipcio. Imágenes de la AFP captaron una enorme bola de fuego y espeso humo negro elevándose sobre el barrio de Al Warraq, en la capital de Egipto, mientras los…",
+      "links": [
+        {
+          "medio": "El Colombiano",
+          "titular": "Video | Tragedia en Egipto: incendio de un camión de combustible deja 31 muertos",
+          "url": "https://www.elcolombiano.com/inicio/video-egipto-incendio-camion-combustible-muertos-heridos-NI44084977",
+          "fecha": "2026-11-26T00:21+00:00",
+          "idioma": "es"
+        },
+        {
+          "medio": "Semana",
+          "titular": "Tragedia en Egipto deja 30 muertos: un camión cisterna provocó la emergencia",
+          "url": "https://www.semana.com/mundo/articulo/tragedia-en-egipto-deja-30-muertos-un-camion-cisterna-provoco-la-emergencia/202600/",
+          "fecha": "2026-11-25T23:56+00:00",
+          "idioma": "es"
+        },
+        {
+          "medio": "DW",
+          "titular": "Explosión de camión con cilindros de gas deja 30 muertos en Egipto",
+          "url": "https://www.dw.com/es/explosión-de-camión-con-cilindros-de-gas-deja-30-muertos-en-egipto/a-80055305?maca=spa-rss-sp-all-1122-rdf",
+          "fecha": "2026-11-25T20:45+00:00",
+          "idioma": "es"
+        }
+      ]
+    },
+    {
       "titular": "Câmara aprova diretrizes para guiar expansão da educação em tempo integral; texto vai ao Senado",
       "seccion": "latam",
       "puntaje": 3.84,
@@ -614,6 +452,42 @@
           "url": "https://g1.globo.com/politica/noticia/2026/11/25/camara-aprova-criacao-de-marco-nacional-da-educacao-em-tempo-integral.ghtml",
           "fecha": "2026-11-25T21:57+00:00",
           "idioma": "pt"
+        }
+      ]
+    },
+    {
+      "titular": "\"A Julián le quiero como persona y le voy a sostener como futbolista\"",
+      "seccion": "futbol",
+      "puntaje": 3.82,
+      "n_medios": 3,
+      "medios": [
+        "AS",
+        "Marca",
+        "Mundo Deportivo"
+      ],
+      "fecha": "2026-11-25T22:49+00:00",
+      "resumen": "El entrenador del Atlético analizó la victoria ante el Viking.",
+      "links": [
+        {
+          "medio": "Marca",
+          "titular": "\"A Julián le quiero como persona y le voy a sostener como futbolista\"",
+          "url": "https://www.marca.com/futbol/atletico/2026/11/25/simeone-julian-le-quiero-persona-le-sostener-futbolista.html",
+          "fecha": "2026-11-25T22:49+00:00",
+          "idioma": "es"
+        },
+        {
+          "medio": "Mundo Deportivo",
+          "titular": "Simeone: \"Creo en Julián; lo quiero como persona y lo defiendo como futbolista\"",
+          "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261125/1004255620/simeone-creo-julian-quiero-persona-defiendo-futbolista.html",
+          "fecha": "2026-11-25T22:35+00:00",
+          "idioma": "es"
+        },
+        {
+          "medio": "AS",
+          "titular": "Simeone, sobre Julián: “Creo en él, lo quiero como persona y lo defenderé como futbolista”",
+          "url": "https://as.com/futbol/champions/simeone-sobre-julian-creo-en-el-lo-quiero-como-persona-y-lo-defendere-como-futbolista-f202611-n/",
+          "fecha": "2026-11-25T22:23+00:00",
+          "idioma": "es"
         }
       ]
     },
@@ -695,125 +569,10 @@
           "idioma": "es"
         }
       ]
-    },
-    {
-      "titular": "Cosan negocia reduzir participação na Rumo, Compass e Moove, diz agência",
-      "seccion": "latam",
-      "puntaje": 2.99,
-      "n_medios": 2,
-      "medios": [
-        "CNN Brasil",
-        "Folha"
-      ],
-      "fecha": "2026-11-26T07:00+00:00",
-      "resumen": "A Cosan está avançando em negociações para vender participações minoritárias em três subsidiárias, a fim de reduzir dívida, afirmaram três fontes a par do assunto à agência Reuters. Leia mais (11/26/2026 - 04h00)",
-      "links": [
-        {
-          "medio": "Folha",
-          "titular": "Cosan negocia reduzir participação na Rumo, Compass e Moove, diz agência",
-          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/cosan-negocia-reduzir-participacao-na-rumo-compass-e-moove-diz-agencia.shtml",
-          "fecha": "2026-11-26T07:00+00:00",
-          "idioma": "pt"
-        },
-        {
-          "medio": "CNN Brasil",
-          "titular": "Cosan negocia reduzir participação na Rumo, Compass e Moove, dizem fontes",
-          "url": "https://www.cnnbrasil.com.br/infra/cosan-negocia-reduzir-participacao-na-rumo-compass-e-moove-dizem-fontes/",
-          "fecha": "2026-11-25T22:36+00:00",
-          "idioma": "pt"
-        }
-      ]
     }
   ],
   "secciones": {
     "futbol": [
-      {
-        "titular": "Nacional se impone 3-1 frente a Medellín en un duelo dominante (Resumen)",
-        "seccion": "futbol",
-        "puntaje": 5.92,
-        "n_medios": 5,
-        "medios": [
-          "AS",
-          "Globo Esporte",
-          "Infobae",
-          "Mundo Deportivo",
-          "Win Sports"
-        ],
-        "fecha": "2026-11-26T03:43+00:00",
-        "resumen": "Atlético Nacional venció 3-1 a Independiente Medellín con amplio dominio y una roja clave.",
-        "links": [
-          {
-            "medio": "Win Sports",
-            "titular": "Nacional se impone 3-1 frente a Medellín en un duelo dominante (Resumen)",
-            "url": "https://www.winsports.co/futbol-colombiano/noticias/nacional-se-impone-3-1-frente-a-medellin-en-un-duelo-dominante-resumen-481793",
-            "fecha": "2026-11-26T03:43+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "AS",
-            "titular": "Nacional 3 - 1 Medellín: Resultado, resumen y goles",
-            "url": "https://colombia.as.com/futbol/nacional-medellin-en-vivo-online-cuadrangulares-de-la-liga-betplay-en-directo-f202611-d/",
-            "fecha": "2026-11-26T03:31+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Infobae",
-            "titular": "Santa Fe despertó en los cuadrangulares con goleada: venció a Once Caldas por 3-0 en El Campín",
-            "url": "https://www.infobae.com/colombia/2026/11/25/santa-fe-vs-once-caldas-liga-betplay-en-vivo-los-leones-van-tras-sus-primeros-tres-puntos-y-los-manizalitas-buscan-ser-primeros-del-cuadrangular/",
-            "fecha": "2026-11-26T01:31+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "AS",
-            "titular": "Santa Fe 3 – 0 Once Caldas: Resultado, resumen y goles",
-            "url": "https://colombia.as.com/futbol/santa-fe-once-caldas-en-vivo-online-cuadrangulares-de-la-liga-betplay-en-directo-f202611-d/",
-            "fecha": "2026-11-26T01:15+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Globo Esporte",
-            "titular": "PSG empata com a Roma e perde a liderança da Champions League",
-            "url": "https://ge.globo.com/futebol/futebol-internacional/jogo/25-11-2026/parissaintgermain-roma.ghtml",
-            "fecha": "2026-11-26T00:35+00:00",
-            "idioma": "pt"
-          },
-          {
-            "medio": "AS",
-            "titular": "Atlético 2-0 Viking: resumen, goles y resultado",
-            "url": "https://as.com/futbol/champions/atletico-viking-en-directo-ultima-hora-de-la-fase-liga-de-la-champions-league-hoy-en-vivo-f202611-d/",
-            "fecha": "2026-11-25T22:45+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Mundo Deportivo",
-            "titular": "PSG 2 - 2 Roma: resultado, resumen y goles | Champions League",
-            "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004253587/psg-roma-directo-champions-league-liga-campeones.html",
-            "fecha": "2026-11-25T21:53+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Mundo Deportivo",
-            "titular": "Atlético Madrid - Viking, en directo hoy | Partido de la Champions League de fútbol: resumen, resultado, marcador, goles y clasificación",
-            "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261125/1004253599/atletico-madrid-viking-directo-champions-league-ext-pau.html",
-            "fecha": "2026-11-25T19:24+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Mundo Deportivo",
-            "titular": "Slavia Praga 0-1 Villarreal | Goles, resumen, resultado y clasificación de la Champions League",
-            "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004253575/slavia-prague-villarreal-directo-champions-league-ext-pau.html",
-            "fecha": "2026-11-25T17:14+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Mundo Deportivo",
-            "titular": "Sabah - Barcelona, en directo | UEFA Champions League 2026: resultado, resumen, goles, marcador y clasificación",
-            "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261125/1004255371/sabah-barcelona-directo-champions-league-partido-liga-campeones-hoy-online.html",
-            "fecha": "2026-11-25T16:22+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
       {
         "titular": "Luis Javier Suárez le salvó el partido al Sporting de Lisboa en la Champions: hizo doblete en el empate 2-2 ante Manchester United",
         "seccion": "futbol",
@@ -859,59 +618,186 @@
         ]
       },
       {
-        "titular": "Bayern Múnich, con Luis Díaz en el último tramo del partido, perdió ante el Lille en Champions League",
+        "titular": "Nacional se impone 3-1 frente a Medellín en un duelo dominante (Resumen)",
         "seccion": "futbol",
-        "puntaje": 4.84,
-        "n_medios": 4,
+        "puntaje": 3.92,
+        "n_medios": 3,
         "medios": [
           "AS",
-          "El Tiempo",
-          "Infobae",
-          "Semana"
+          "Marca",
+          "Win Sports"
         ],
-        "fecha": "2026-11-25T23:46+00:00",
-        "resumen": "El “Gigante de Baviera” vuelve a la acción en el torneo de clubes más importante del mundo en su vista a territorio francés y la estrella de la selección Colombia comenzó el juego desde el banco de los suplentes",
+        "fecha": "2026-11-26T03:43+00:00",
+        "resumen": "Atlético Nacional venció 3-1 a Independiente Medellín con amplio dominio y una roja clave.",
         "links": [
           {
-            "medio": "Infobae",
-            "titular": "Bayern Múnich, con Luis Díaz en el último tramo del partido, perdió ante el Lille en Champions League",
-            "url": "https://www.infobae.com/colombia/deportes/2026/11/25/lille-vs-bayern-munich-en-vivo-asi-es-el-regreso-de-luis-diaz-por-la-champions-league/",
-            "fecha": "2026-11-25T23:46+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Semana",
-            "titular": "Así le fue a Luis Díaz en el partido de Bayern Múnich vs. LOSC: amargo regreso tras su lesión",
-            "url": "https://www.semana.com/deportes/articulo/asi-le-fue-a-luis-diaz-en-el-partido-de-bayern-munich-vs-losc-amargo-regreso-tras-su-lesion/202617/",
-            "fecha": "2026-11-25T22:21+00:00",
+            "medio": "Win Sports",
+            "titular": "Nacional se impone 3-1 frente a Medellín en un duelo dominante (Resumen)",
+            "url": "https://www.winsports.co/futbol-colombiano/noticias/nacional-se-impone-3-1-frente-a-medellin-en-un-duelo-dominante-resumen-481793",
+            "fecha": "2026-11-26T03:43+00:00",
             "idioma": "es"
           },
           {
             "medio": "AS",
-            "titular": "Lille 2 - 1 Bayern Múnich, en vivo: última hora de Luis Díaz en Champions League, hoy en directo",
-            "url": "https://colombia.as.com/futbol/colombianos-por-el-mundo/lille-bayern-munich-en-vivo-ultima-hora-de-luis-diaz-en-champions-league-hoy-en-directo-f202611-d/",
-            "fecha": "2026-11-25T21:52+00:00",
+            "titular": "Nacional 3 - 1 Medellín: Resultado, resumen y goles",
+            "url": "https://colombia.as.com/futbol/nacional-medellin-en-vivo-online-cuadrangulares-de-la-liga-betplay-en-directo-f202611-d/",
+            "fecha": "2026-11-26T03:31+00:00",
             "idioma": "es"
           },
           {
-            "medio": "El Tiempo",
-            "titular": "Lille vs. Bayern Múnich, EN VIVO: siga el minuto a minuto del partidazo de Champions League con el colombiano Luis Díaz de suplente",
-            "url": "https://www.eltiempo.com/deportes/futbol-internacional/lille-vs-bayern-munich-en-vivo-siga-el-minuto-a-minuto-del-partidazo-de-champions-league-con-el-colombiano-luis-diaz-de-suplente-3604219",
-            "fecha": "2026-11-25T18:56+00:00",
+            "medio": "AS",
+            "titular": "Santa Fe 3 – 0 Once Caldas: Resultado, resumen y goles",
+            "url": "https://colombia.as.com/futbol/santa-fe-once-caldas-en-vivo-online-cuadrangulares-de-la-liga-betplay-en-directo-f202611-d/",
+            "fecha": "2026-11-26T01:15+00:00",
             "idioma": "es"
           },
           {
-            "medio": "Semana",
-            "titular": "Lille vs. Bayern Múnich: hora y canal de TV para ver el regreso de Luis Díaz por Champions League",
-            "url": "https://www.semana.com/deportes/articulo/bayern-munich-vs-lille-hora-y-canal-de-tv-para-ver-el-regreso-de-luis-diaz-por-champions-league/202638/",
-            "fecha": "2026-11-24T17:25+00:00",
+            "medio": "AS",
+            "titular": "Atlético 2-0 Viking: resumen, goles y resultado",
+            "url": "https://as.com/futbol/champions/atletico-viking-en-directo-ultima-hora-de-la-fase-liga-de-la-champions-league-hoy-en-vivo-f202611-d/",
+            "fecha": "2026-11-25T22:45+00:00",
             "idioma": "es"
           },
           {
-            "medio": "Semana",
-            "titular": "Bayern Múnich notifica su decisión sobre Luis Díaz para el partido de Champions ante Lille",
-            "url": "https://www.semana.com/deportes/articulo/bayern-munich-notifica-su-decision-sobre-luis-diaz-para-el-partido-de-champions-ante-lille/202605/",
-            "fecha": "2026-11-24T15:16+00:00",
+            "medio": "Marca",
+            "titular": "Atlético de Madrid 2-0 Viking | Resumen",
+            "url": "https://www.marca.com/futbol/2026/11/25/atletico-madrid-2-0-viking-resumen-video.html",
+            "fecha": "2026-11-25T22:05+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "0-1: Muriqi tumba al Shakhtar y da al Fenerbahçe su segundo triunfo seguido",
+        "seccion": "futbol",
+        "puntaje": 3.86,
+        "n_medios": 3,
+        "medios": [
+          "Globo Esporte",
+          "Marca",
+          "Mundo Deportivo"
+        ],
+        "fecha": "2026-11-26T00:35+00:00",
+        "resumen": "El Fenerbahce ganó este miércoles por 0-1 al Shakhtar en la quinta jornada de la Liga de Campeones, gracias al único tanto del kosovar Vedat Muriqi, que dio la segunda victoria consecutiva a su equipo, ya con ocho puntos en la fase liga",
+        "links": [
+          {
+            "medio": "Globo Esporte",
+            "titular": "PSG empata com a Roma e perde a liderança da Champions League",
+            "url": "https://ge.globo.com/futebol/futebol-internacional/jogo/25-11-2026/parissaintgermain-roma.ghtml",
+            "fecha": "2026-11-26T00:35+00:00",
+            "idioma": "pt"
+          },
+          {
+            "medio": "Mundo Deportivo",
+            "titular": "0-1: Muriqi tumba al Shakhtar y da al Fenerbahçe su segundo triunfo seguido",
+            "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004255618/muriqi-tumba-shakhtar-da-fenerbahce-segundo-triunfo-seguido.html",
+            "fecha": "2026-11-25T22:33+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Marca",
+            "titular": "Shakhtar 0-1 Fenerbahçe | Resumen",
+            "url": "https://www.marca.com/futbol/2026/11/25/shakhtar-0-1-fenerbahce-resumen-video.html",
+            "fecha": "2026-11-25T22:21+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Marca",
+            "titular": "PSG 2-2 Roma | Resumen",
+            "url": "https://www.marca.com/futbol/2026/11/25/psg-2-2-roma-resumen-video.html",
+            "fecha": "2026-11-25T22:10+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Mundo Deportivo",
+            "titular": "PSG 2 - 2 Roma: resultado, resumen y goles | Champions League",
+            "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004253587/psg-roma-directo-champions-league-liga-campeones.html",
+            "fecha": "2026-11-25T21:53+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Marca",
+            "titular": "Slavia de Praga 0-1 Villarreal | Resumen",
+            "url": "https://www.marca.com/futbol/2026/11/25/slavia-praga-0-1-villarreal-resumen-video.html",
+            "fecha": "2026-11-25T19:50+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Mundo Deportivo",
+            "titular": "Slavia Praga 0-1 Villarreal | Goles, resumen, resultado y clasificación de la Champions League",
+            "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004253575/slavia-prague-villarreal-directo-champions-league-ext-pau.html",
+            "fecha": "2026-11-25T17:14+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "\"A Julián le quiero como persona y le voy a sostener como futbolista\"",
+        "seccion": "futbol",
+        "puntaje": 3.82,
+        "n_medios": 3,
+        "medios": [
+          "AS",
+          "Marca",
+          "Mundo Deportivo"
+        ],
+        "fecha": "2026-11-25T22:49+00:00",
+        "resumen": "El entrenador del Atlético analizó la victoria ante el Viking.",
+        "links": [
+          {
+            "medio": "Marca",
+            "titular": "\"A Julián le quiero como persona y le voy a sostener como futbolista\"",
+            "url": "https://www.marca.com/futbol/atletico/2026/11/25/simeone-julian-le-quiero-persona-le-sostener-futbolista.html",
+            "fecha": "2026-11-25T22:49+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Mundo Deportivo",
+            "titular": "Simeone: \"Creo en Julián; lo quiero como persona y lo defiendo como futbolista\"",
+            "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261125/1004255620/simeone-creo-julian-quiero-persona-defiendo-futbolista.html",
+            "fecha": "2026-11-25T22:35+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "AS",
+            "titular": "Simeone, sobre Julián: “Creo en él, lo quiero como persona y lo defenderé como futbolista”",
+            "url": "https://as.com/futbol/champions/simeone-sobre-julian-creo-en-el-lo-quiero-como-persona-y-lo-defendere-como-futbolista-f202611-n/",
+            "fecha": "2026-11-25T22:23+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "Gavi: \"Mi mentalidad es única\"",
+        "seccion": "futbol",
+        "puntaje": 2.95,
+        "n_medios": 2,
+        "medios": [
+          "Marca",
+          "Mundo Deportivo"
+        ],
+        "fecha": "2026-11-26T04:56+00:00",
+        "resumen": "\"Nunca he sido una estrella, soy un jugador de equipo, soy un gran jugador de equipo\"",
+        "links": [
+          {
+            "medio": "Marca",
+            "titular": "Gavi: \"Mi mentalidad es única\"",
+            "url": "https://www.marca.com/futbol/barcelona/2026/11/26/gavi-mi-mentalidad-unica-poco-humilde-diga.html",
+            "fecha": "2026-11-26T04:56+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Marca",
+            "titular": "Gavi: “Mi mentalidad es única\"",
+            "url": "https://www.marca.com/futbol/2026/11/25/gavi-mi-mentalidad-unica-video.html",
+            "fecha": "2026-11-25T21:24+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Mundo Deportivo",
+            "titular": "Gavi: \"Está feo que lo diga, pero mi mentalidad es única\"",
+            "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261125/1004255573/gavi-feo-diga-mi-mentalidad-creo-unica.html",
+            "fecha": "2026-11-25T21:02+00:00",
             "idioma": "es"
           }
         ]
@@ -973,17 +859,24 @@
         ]
       },
       {
-        "titular": "Santa Fe despertó en los cuadrangulares y goleó a Once Caldas",
+        "titular": "Santa Fe despertó en los cuadrangulares con goleada: venció a Once Caldas por 3-0 en El Campín",
         "seccion": "futbol",
-        "puntaje": 2.87,
+        "puntaje": 2.88,
         "n_medios": 2,
         "medios": [
-          "El Tiempo",
+          "Infobae",
           "Win Sports"
         ],
-        "fecha": "2026-11-26T01:13+00:00",
-        "resumen": "Santa Fe consiguió su primera victoria en los cuadrangulares semifinales de la Liga BetPlay 2026-II.",
+        "fecha": "2026-11-26T01:31+00:00",
+        "resumen": "El cuadro rojo sumó sus primeros tres puntos en las semifinales de la Liga BetPlay y con la figura de Franco Fagúndez, mientras que el blanco pagó caras las ausencias en su nómina",
         "links": [
+          {
+            "medio": "Infobae",
+            "titular": "Santa Fe despertó en los cuadrangulares con goleada: venció a Once Caldas por 3-0 en El Campín",
+            "url": "https://www.infobae.com/colombia/2026/11/25/santa-fe-vs-once-caldas-liga-betplay-en-vivo-los-leones-van-tras-sus-primeros-tres-puntos-y-los-manizalitas-buscan-ser-primeros-del-cuadrangular/",
+            "fecha": "2026-11-26T01:31+00:00",
+            "idioma": "es"
+          },
           {
             "medio": "Win Sports",
             "titular": "Santa Fe despertó en los cuadrangulares y goleó a Once Caldas",
@@ -992,38 +885,143 @@
             "idioma": "es"
           },
           {
-            "medio": "El Tiempo",
-            "titular": "Santa Fe vs. Once Caldas, en vivo: siga el minuto a minuto del partido en el grupo A de los cuadrangulares",
-            "url": "https://www.eltiempo.com/deportes/futbol-colombiano/santa-fe-vs-once-caldas-en-vivo-siga-el-minuto-a-minuto-del-partido-en-el-grupo-a-de-los-cuadrangulares-3604321",
-            "fecha": "2026-11-25T22:26+00:00",
+            "medio": "Win Sports",
+            "titular": "Moreno rozó el gol para Santa Fe ante Once Caldas",
+            "url": "https://www.winsports.co/futbol-colombiano/noticias/moreno-rozo-el-gol-para-santa-fe-ante-once-caldas-481685",
+            "fecha": "2026-11-26T00:02+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Win Sports",
+            "titular": "Mira el recibimiento de Santa Fe ante Once Caldas",
+            "url": "https://www.winsports.co/futbol-colombiano/noticias/mira-el-recibimiento-de-santa-fe-ante-once-caldas-481674",
+            "fecha": "2026-11-25T23:39+00:00",
             "idioma": "es"
           }
         ]
       },
       {
-        "titular": "Simeone: \"Creo en Julián; lo quiero como persona y lo defiendo como futbolista\"",
+        "titular": "Bayern Múnich, con Luis Díaz en el último tramo del partido, perdió ante el Lille en Champions League",
         "seccion": "futbol",
-        "puntaje": 2.82,
+        "puntaje": 2.84,
+        "n_medios": 2,
+        "medios": [
+          "Infobae",
+          "Semana"
+        ],
+        "fecha": "2026-11-25T23:46+00:00",
+        "resumen": "El “Gigante de Baviera” vuelve a la acción en el torneo de clubes más importante del mundo en su vista a territorio francés y la estrella de la selección Colombia comenzó el juego desde el banco de los suplentes",
+        "links": [
+          {
+            "medio": "Infobae",
+            "titular": "Bayern Múnich, con Luis Díaz en el último tramo del partido, perdió ante el Lille en Champions League",
+            "url": "https://www.infobae.com/colombia/deportes/2026/11/25/lille-vs-bayern-munich-en-vivo-asi-es-el-regreso-de-luis-diaz-por-la-champions-league/",
+            "fecha": "2026-11-25T23:46+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Semana",
+            "titular": "Así le fue a Luis Díaz en el partido de Bayern Múnich vs. LOSC: amargo regreso tras su lesión",
+            "url": "https://www.semana.com/deportes/articulo/asi-le-fue-a-luis-diaz-en-el-partido-de-bayern-munich-vs-losc-amargo-regreso-tras-su-lesion/202617/",
+            "fecha": "2026-11-25T22:21+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Semana",
+            "titular": "Lille vs. Bayern Múnich: hora y canal de TV para ver el regreso de Luis Díaz por Champions League",
+            "url": "https://www.semana.com/deportes/articulo/bayern-munich-vs-lille-hora-y-canal-de-tv-para-ver-el-regreso-de-luis-diaz-por-champions-league/202638/",
+            "fecha": "2026-11-24T17:25+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Semana",
+            "titular": "Bayern Múnich notifica su decisión sobre Luis Díaz para el partido de Champions ante Lille",
+            "url": "https://www.semana.com/deportes/articulo/bayern-munich-notifica-su-decision-sobre-luis-diaz-para-el-partido-de-champions-ante-lille/202605/",
+            "fecha": "2026-11-24T15:16+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "Brujas 0-3 Liverpool | Resumen",
+        "seccion": "futbol",
+        "puntaje": 2.81,
+        "n_medios": 2,
+        "medios": [
+          "Marca",
+          "Mundo Deportivo"
+        ],
+        "fecha": "2026-11-25T22:18+00:00",
+        "resumen": "",
+        "links": [
+          {
+            "medio": "Marca",
+            "titular": "Brujas 0-3 Liverpool | Resumen",
+            "url": "https://www.marca.com/futbol/2026/11/25/brujas-0-3-liverpool-resumen-video.html",
+            "fecha": "2026-11-25T22:18+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Mundo Deportivo",
+            "titular": "0-3: El Liverpool de Iraola, lanzado, también golea al Brujas",
+            "url": "https://www.mundodeportivo.com/futbol/premier-league/20261125/1004255599/liverpool-iraola-lanzado-golea-brujas.html",
+            "fecha": "2026-11-25T22:02+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "2-1: Un Bayern tocado por las lesiones se la pega en Lille",
+        "seccion": "futbol",
+        "puntaje": 2.8,
+        "n_medios": 2,
+        "medios": [
+          "Marca",
+          "Mundo Deportivo"
+        ],
+        "fecha": "2026-11-25T22:03+00:00",
+        "resumen": "Apenas unos días después de perder el liderato de la Bundesliga en favor del Borussia Dortmund, un Bayern de Múnich muy tocado por las bajas se la pegó en Lille (2-1) y se complica acabar entre los ocho primeros clasificados de la Champions. Sin Michael Olise ni Harry Kane en ataque, Vincent…",
+        "links": [
+          {
+            "medio": "Mundo Deportivo",
+            "titular": "2-1: Un Bayern tocado por las lesiones se la pega en Lille",
+            "url": "https://www.mundodeportivo.com/futbol/20261125/1004255543/lille-bayern.html",
+            "fecha": "2026-11-25T22:03+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Marca",
+            "titular": "Lille 2-1 Bayern | Resumen",
+            "url": "https://www.marca.com/futbol/2026/11/25/lille-2-1-bayern-resumen-video.html",
+            "fecha": "2026-11-25T22:02+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "Las imágenes del Sabah - FC Barcelona: revive los mejores momentos del partido",
+        "seccion": "futbol",
+        "puntaje": 2.77,
         "n_medios": 2,
         "medios": [
           "AS",
           "Mundo Deportivo"
         ],
-        "fecha": "2026-11-25T22:35+00:00",
-        "resumen": "Diego Simeone, entrenador del Atlético de Madrid , compareció ante los medios de comunicación después de la victoria de su equipo ante el Viking (2-0) en el Metropolitano, partido de la quinta jornada de la fase liga de la Champions.",
+        "fecha": "2026-11-25T20:23+00:00",
+        "resumen": "Las imágenes del Sabah - FC Barcelona: revive los mejores momentos del partido",
         "links": [
           {
             "medio": "Mundo Deportivo",
-            "titular": "Simeone: \"Creo en Julián; lo quiero como persona y lo defiendo como futbolista\"",
-            "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261125/1004255620/simeone-creo-julian-quiero-persona-defiendo-futbolista.html",
-            "fecha": "2026-11-25T22:35+00:00",
+            "titular": "Las imágenes del Sabah - FC Barcelona: revive los mejores momentos del partido",
+            "url": "https://www.mundodeportivo.com/futbol/champions-league/20261125/1004255501/imagenes-sabah-fc-barcelona-revive-mejores-momentos-partido.html",
+            "fecha": "2026-11-25T20:23+00:00",
             "idioma": "es"
           },
           {
             "medio": "AS",
-            "titular": "Simeone, sobre Julián: “Creo en él, lo quiero como persona y lo defenderé como futbolista”",
-            "url": "https://as.com/futbol/champions/simeone-sobre-julian-creo-en-el-lo-quiero-como-persona-y-lo-defendere-como-futbolista-f202611-n/",
-            "fecha": "2026-11-25T22:23+00:00",
+            "titular": "Las mejores imágenes del Sabah-Barça",
+            "url": "https://as.com/futbol/fotorrelato/las-mejores-imagenes-del-sabah-barca-f202611-f/",
+            "fecha": "2026-11-25T20:12+00:00",
             "idioma": "es"
           }
         ]
@@ -1064,6 +1062,34 @@
         ]
       },
       {
+        "titular": "Brahim, asistencia... para el Balón de Oro africano",
+        "seccion": "futbol",
+        "puntaje": 2.69,
+        "n_medios": 2,
+        "medios": [
+          "AS",
+          "Marca"
+        ],
+        "fecha": "2026-11-25T16:26+00:00",
+        "resumen": "El madridista está entre los cinco candidatos al premio de 'mejor jugador africano' del año",
+        "links": [
+          {
+            "medio": "Marca",
+            "titular": "Brahim, asistencia... para el Balón de Oro africano",
+            "url": "https://www.marca.com/futbol/real-madrid/2026/11/25/brahim-asistencia-balon-oro-africano.html",
+            "fecha": "2026-11-25T16:26+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "AS",
+            "titular": "Brahim y Achraf pujan por el Balón de Oro de África",
+            "url": "https://as.com/futbol/internacional/brahim-y-achraf-pujan-por-el-balon-de-oro-de-africa-f202611-n/",
+            "fecha": "2026-11-25T10:03+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
         "titular": "Raheem Sterling - from national icon to suspended jail sentence",
         "seccion": "futbol",
         "puntaje": 2.61,
@@ -1081,134 +1107,6 @@
             "url": "https://www.bbc.co.uk/sport/football/articles/cxzd9ydqzylno?at_medium=RSS&at_campaign=rss",
             "fecha": "2026-11-25T12:42+00:00",
             "idioma": "en"
-          }
-        ]
-      },
-      {
-        "titular": "Doblete del ‘Cucho’ Hernández para el triunfo 0-2 de Betis en Bratislava: así brilló en partido de Champions League",
-        "seccion": "futbol",
-        "puntaje": 2.31,
-        "n_medios": 2,
-        "medios": [
-          "El Tiempo",
-          "Semana"
-        ],
-        "fecha": "2026-11-24T22:28+00:00",
-        "resumen": "El delantero colombiano firmó los dos tantos de la victoria visitante en Eslovaquia, por la quinta fecha de la Fase Liga.",
-        "links": [
-          {
-            "medio": "El Tiempo",
-            "titular": "Doblete del ‘Cucho’ Hernández para el triunfo 0-2 de Betis en Bratislava: así brilló en partido de Champions League",
-            "url": "https://www.eltiempo.com/deportes/futbol-internacional/doblete-del-cucho-hernandez-para-el-triunfo-0-2-de-betis-en-bratislava-asi-brillo-en-partido-de-champions-league-3603939",
-            "fecha": "2026-11-24T22:28+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Semana",
-            "titular": "Cucho Hernández se despacha con doblete en Champions: triunfo del Betis resuena en Selección Colombia",
-            "url": "https://www.semana.com/deportes/articulo/cucho-hernandez-descresta-con-golazo-en-champions-betis-celebro-ante-slovan-bratislava/202655/",
-            "fecha": "2026-11-24T21:23+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
-        "titular": "Szczesny es único: vean qué le regalan tras el partido en Bakú y lo que decide hacer con ello",
-        "seccion": "futbol",
-        "puntaje": 1.99,
-        "n_medios": 1,
-        "medios": [
-          "AS"
-        ],
-        "fecha": "2026-11-26T07:01+00:00",
-        "resumen": "El portero polaco del Barça, muy apreciado por fans tanto culés como rivales, recibió este objeto a la salida del estadio del Sabah FC. Ilusión desbordante en su reacción.",
-        "links": [
-          {
-            "medio": "AS",
-            "titular": "Szczesny es único: vean qué le regalan tras el partido en Bakú y lo que decide hacer con ello",
-            "url": "https://as.com/futbol/videos/szczesny-es-unico-vean-que-le-regalan-tras-el-partido-en-baku-y-lo-que-decide-hacer-con-ello-f202611-v/",
-            "fecha": "2026-11-26T07:01+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
-        "titular": "Terzic recurre a otro central del Bilbao Athletic",
-        "seccion": "futbol",
-        "puntaje": 1.99,
-        "n_medios": 1,
-        "medios": [
-          "Mundo Deportivo"
-        ],
-        "fecha": "2026-11-26T07:00+00:00",
-        "resumen": "El Athletic se prepara para rendir visita al colista de Primera. Los leones tratarán de recuperar los puntos perdidos el viernes ante el Espanyol en San Mamés con una victoria en Málaga. El conjunto andaluz, que acaba de subir a la máxima división y de destituir a Loren Juarros, el director…",
-        "links": [
-          {
-            "medio": "Mundo Deportivo",
-            "titular": "Terzic recurre a otro central del Bilbao Athletic",
-            "url": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261126/1004255606/terzic-recurre-central-bilbao-athletic.html",
-            "fecha": "2026-11-26T07:00+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
-        "titular": "El campo donde debutaron Iribar y Fidel Uriarte",
-        "seccion": "futbol",
-        "puntaje": 1.99,
-        "n_medios": 1,
-        "medios": [
-          "Mundo Deportivo"
-        ],
-        "fecha": "2026-11-26T07:00+00:00",
-        "resumen": "La Rosaleda también fue el campo donde se estrenaron como leones dos leyendas del Athletic, José Ángel Iribar y Fidel Uriarte . Los dos lo hicieron en el mismo partido, el Málaga-Athletic disputado el 23 de septiembre de 1962. El Txopo tenía 19 años y sustituyó a Carmelo Cedrún en el minuto 61.…",
-        "links": [
-          {
-            "medio": "Mundo Deportivo",
-            "titular": "El campo donde debutaron Iribar y Fidel Uriarte",
-            "url": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261126/1004255514/campo-debutaron-iribar-fidel-uriarte.html",
-            "fecha": "2026-11-26T07:00+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
-        "titular": "Militao pierde una oportunidad",
-        "seccion": "futbol",
-        "puntaje": 1.99,
-        "n_medios": 1,
-        "medios": [
-          "Mundo Deportivo"
-        ],
-        "fecha": "2026-11-26T07:00+00:00",
-        "resumen": "Se está poniendo muy caro jugar en la defensa del Real Madrid. Con los laterales copados por Fede Valverde y Marc Cucurella y los puestos de central dominados por Huijsen y Konaté , lo cierto es que queda una nómina de jugadores ( Rüdiger, Asencio, Militao, Carreras, Mendy, Trent y Dumfries )…",
-        "links": [
-          {
-            "medio": "Mundo Deportivo",
-            "titular": "Militao pierde una oportunidad",
-            "url": "https://www.mundodeportivo.com/futbol/real-madrid/20261126/1004255471/militao-pierde-oportunidad.html",
-            "fecha": "2026-11-26T07:00+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
-        "titular": "Tiflis, primera parada del Getafe hacia los siete puntos",
-        "seccion": "futbol",
-        "puntaje": 1.99,
-        "n_medios": 1,
-        "medios": [
-          "Mundo Deportivo"
-        ],
-        "fecha": "2026-11-26T07:00+00:00",
-        "resumen": "Con las alarmas encendidas en Liga, en puestos de descenso, y con un punto de nueve posibles en la fase liga de la Liga Conferencia, el Getafe visitará en Georgia al Iberia 1999 con la necesidad de sumar una victoria clave en su aventura europea, en la que aspira a sumar un mínimo de siete puntos…",
-        "links": [
-          {
-            "medio": "Mundo Deportivo",
-            "titular": "Tiflis, primera parada del Getafe hacia los siete puntos",
-            "url": "https://www.mundodeportivo.com/futbol/getafe/20261126/1004255467/tiflis-primera-parada-getafe-siete-puntos.html",
-            "fecha": "2026-11-26T07:00+00:00",
-            "idioma": "es"
           }
         ]
       }
@@ -1251,6 +1149,34 @@
         ]
       },
       {
+        "titular": "Team Cherry prepara novedades de Hollow Knight: Silksong y su esperada expansión en un nuevo evento",
+        "seccion": "juegos",
+        "puntaje": 2.93,
+        "n_medios": 2,
+        "medios": [
+          "Eurogamer",
+          "LevelUp"
+        ],
+        "fecha": "2026-11-26T04:00+00:00",
+        "resumen": "La desarrolladora tiene preparadas varias sorpresas para los próximos días y te decimos cuándo se soltarán los anuncios.",
+        "links": [
+          {
+            "medio": "LevelUp",
+            "titular": "Team Cherry prepara novedades de Hollow Knight: Silksong y su esperada expansión en un nuevo evento",
+            "url": "https://www.levelup.com/noticias/team-cherry-prepara-novedades-de-hollow-knight-silksong-y-su-esperada-expansion-en-un-nuevo-evento/",
+            "fecha": "2026-11-26T04:00+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "Eurogamer",
+            "titular": "El Team Cherry anuncia un evento para el 27 de noviembre con novedades de la expansión de Silksong",
+            "url": "https://www.eurogamer.es/el-team-cherry-anuncia-un-evento-para-el-27-de-noviembre-con-novedades-de-la-expansion-de-silksong",
+            "fecha": "2026-11-25T15:25+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
         "titular": "Hoy se estrena en cines la secuela de una obra maestra de Tarantino, pero casi nadie podrá verla en la gran pantalla",
         "seccion": "juegos",
         "puntaje": 2.62,
@@ -1274,6 +1200,34 @@
             "titular": "Hoy se estrena en cines la secuela de una obra maestra de Quentin Tarantino, pero la mayoría de espectadores tendrán que esperar y verla en Netflix",
             "url": "https://www.espinof.com/estrenos/hoy-se-estrena-cines-secuela-obra-maestra-tarantino-casi-nadie-podra-verla-gran-pantalla",
             "fecha": "2026-11-25T12:30+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "Rockstar cierra una iniciativa para crear una versión no oficial de GTA 6 para PC",
+        "seccion": "juegos",
+        "puntaje": 2.58,
+        "n_medios": 2,
+        "medios": [
+          "LevelUp",
+          "Vidaextra"
+        ],
+        "fecha": "2026-11-25T11:26+00:00",
+        "resumen": "Una de las búsquedas más insistentes asociadas a GTA VI en Google es su lanzamiento en PC , así como un interés más que evidente en cualquier método (legal o no) que permita jugarlo fuera de la versión de consolas. Por el momento no hay fecha de lanzamiento oficial en ordenadores, y Grand Theft…",
+        "links": [
+          {
+            "medio": "Vidaextra",
+            "titular": "Rockstar cierra una iniciativa para crear una versión no oficial de GTA 6 para PC",
+            "url": "https://www.vidaextra.com/accion/rockstar-cierra-iniciativa-para-crear-version-no-oficial-gta-6-para-pc",
+            "fecha": "2026-11-25T11:26+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "LevelUp",
+            "titular": "Rockstar va contra la versión no oficial de GTA 6 para PC y acaba de dar un duro golpe a su desarrollo",
+            "url": "https://www.levelup.com/noticias/rockstar-va-contra-la-version-no-oficial-de-gta-6-para-pc-y-acaba-de-dar-un-duro-golpe-a-su-desarrollo/",
+            "fecha": "2026-11-24T14:36+00:00",
             "idioma": "es"
           }
         ]
@@ -1429,7 +1383,7 @@
       {
         "titular": "Un grupo de niños con cáncer ha creado su propio videojuego, y lo ha hecho por una buena causa. Así nace Monstruoterapia",
         "seccion": "juegos",
-        "puntaje": 1.92,
+        "puntaje": 1.91,
         "n_medios": 1,
         "medios": [
           "3DJuegos"
@@ -1442,6 +1396,26 @@
             "titular": "Un grupo de niños con cáncer ha creado su propio videojuego, y lo ha hecho por una buena causa. Así nace Monstruoterapia",
             "url": "https://www.3djuegos.com/pc/noticias/grupo-ninos-cancer-ha-creado-su-propio-videojuego-ha-hecho-buena-causa-asi-nace-monstruoterapia",
             "fecha": "2026-11-26T03:18+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "Una nueva patente de Nintendo aumenta los rumores sobre la llegada de los juegos de DS a Switch 2",
+        "seccion": "juegos",
+        "puntaje": 1.91,
+        "n_medios": 1,
+        "medios": [
+          "LevelUp"
+        ],
+        "fecha": "2026-11-26T03:00+00:00",
+        "resumen": "Parece que la compañía japonesa está buscando una solución para que el catálogo de la portátil clásica llegue a su plataforma más reciente.",
+        "links": [
+          {
+            "medio": "LevelUp",
+            "titular": "Una nueva patente de Nintendo aumenta los rumores sobre la llegada de los juegos de DS a Switch 2",
+            "url": "https://www.levelup.com/noticias/una-nueva-patente-de-nintendo-aumenta-los-rumores-sobre-la-llegada-de-los-juegos-de-ds-a-switch-2/",
+            "fecha": "2026-11-26T03:00+00:00",
             "idioma": "es"
           }
         ]
@@ -1467,81 +1441,21 @@
         ]
       },
       {
-        "titular": "Si piensas que las consolas ya son demasiado caras, 2027 podría traer más malas noticias para los jugadores",
+        "titular": "GTA 6 la rompió a tal grado que redujo el tráfico de un popular sitio para adultos",
         "seccion": "juegos",
-        "puntaje": 1.87,
+        "puntaje": 1.89,
         "n_medios": 1,
         "medios": [
-          "3DJuegos"
+          "LevelUp"
         ],
-        "fecha": "2026-11-26T00:59+00:00",
-        "resumen": "Comprar una consola en estos momentos es bastante más caro que hace años, y eso contrasta mucho con lo que ha ocurrido históricamente en las anteriores generaciones. Tanto Sony como Microsoft han subido el precio de sus consolas varias veces en los últimos años, y los motivos que han dado han sido…",
+        "fecha": "2026-11-26T02:02+00:00",
+        "resumen": "El impacto del nuevo Grand Theft Auto se sintió hasta en uno de los sitios de contenido explícito más grandes del mundo",
         "links": [
           {
-            "medio": "3DJuegos",
-            "titular": "Si piensas que las consolas ya son demasiado caras, 2027 podría traer más malas noticias para los jugadores",
-            "url": "https://www.3djuegos.com/ps5/noticias/piensas-que-consolas-demasiado-caras-2027-podria-traer-malas-noticias-para-jugadores",
-            "fecha": "2026-11-26T00:59+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
-        "titular": "Fortnite filtra su tienda de esta noche: Regresan John Cena, la NFL y skins que llevaban casi tres años desaparecidas",
-        "seccion": "juegos",
-        "puntaje": 1.87,
-        "n_medios": 1,
-        "medios": [
-          "GeneracionXbox"
-        ],
-        "fecha": "2026-11-26T00:53+00:00",
-        "resumen": "La tienda de Fortnite se prepara para una renovación espectacular.",
-        "links": [
-          {
-            "medio": "GeneracionXbox",
-            "titular": "Fortnite filtra su tienda de esta noche: Regresan John Cena, la NFL y skins que llevaban casi tres años desaparecidas",
-            "url": "https://generacionxbox.com/fortnite-filtra-su-tienda-de-esta-noche-regresan-john-cena-la-nfl-y-skins-que-llevaban-casi-tres-anos-desaparecidas/",
-            "fecha": "2026-11-26T00:53+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
-        "titular": "\"Es una obra maestra\": A Pérez-Reverte le encanta Blade Runner, pero hay otra peli de Ridley Scott que le gusta casi igual",
-        "seccion": "juegos",
-        "puntaje": 1.79,
-        "n_medios": 1,
-        "medios": [
-          "3DJuegos"
-        ],
-        "fecha": "2026-11-25T21:30+00:00",
-        "resumen": "Hoy miércoles se ha estrenado en Prime Video la primera temporada de Blade Runner 2099 , una serie protagonizada por Hunter Schafer y Michelle Yeoh que afronta el difícil desafío de hacernos regresar al universo de ciencia ficción que Ridley Scott llevó al cine por primera vez en 1982. Aquella…",
-        "links": [
-          {
-            "medio": "3DJuegos",
-            "titular": "\"Es una obra maestra\": A Pérez-Reverte le encanta Blade Runner, pero hay otra peli de Ridley Scott que le gusta casi igual",
-            "url": "https://www.3djuegos.com/tv-series/noticias/obra-maestra-a-perez-reverte-le-encanta-blade-runner-hay-pelicula-ridley-scott-que-le-gusta",
-            "fecha": "2026-11-25T21:30+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
-        "titular": "GTA 6 está llevando las consolas al límite: Jugadores de Xbox y PS5 reportan fallos gráficos y apagados",
-        "seccion": "juegos",
-        "puntaje": 1.79,
-        "n_medios": 1,
-        "medios": [
-          "GeneracionXbox"
-        ],
-        "fecha": "2026-11-25T21:09+00:00",
-        "resumen": "Los problemas técnicos de GTA 6 siguen dando que hablar.",
-        "links": [
-          {
-            "medio": "GeneracionXbox",
-            "titular": "GTA 6 está llevando las consolas al límite: Jugadores de Xbox y PS5 reportan fallos gráficos y apagados",
-            "url": "https://generacionxbox.com/gta-6-esta-llevando-las-consolas-al-limite-jugadores-de-xbox-y-ps5-reportan-fallos-graficos-y-apagados/",
-            "fecha": "2026-11-25T21:09+00:00",
+            "medio": "LevelUp",
+            "titular": "GTA 6 la rompió a tal grado que redujo el tráfico de un popular sitio para adultos",
+            "url": "https://www.levelup.com/noticias/gta-6-la-rompio-a-tal-grado-que-redujo-el-trafico-de-un-popular-sitio-para-adultos/",
+            "fecha": "2026-11-26T02:02+00:00",
             "idioma": "es"
           }
         ]
@@ -1579,7 +1493,7 @@
       {
         "titular": "Crypto Exec Constance Wang Slams Her Portrayal in Netflix Series ‘The Altruists’ as ‘Racist’ and ‘Very Stereotypical’",
         "seccion": "cine",
-        "puntaje": 2.91,
+        "puntaje": 2.9,
         "n_medios": 2,
         "medios": [
           "Deadline",
@@ -1755,7 +1669,7 @@
       {
         "titular": "Candace Cameron Bure Says She Still Gets ‘Substantial’ ‘Full House’ Residuals and Wasn’t Surprised the Olsen Twins Skipped ‘Fuller House’: No One ‘Stayed Close’ With Them",
         "seccion": "cine",
-        "puntaje": 1.98,
+        "puntaje": 1.97,
         "n_medios": 1,
         "medios": [
           "Variety"
@@ -2013,7 +1927,7 @@
       {
         "titular": "Neuralink probará en pacientes con ELA implante para mover el cursor y hacer clics en PC",
         "seccion": "tec",
-        "puntaje": 1.92,
+        "puntaje": 1.91,
         "n_medios": 1,
         "medios": [
           "Infobae"
@@ -2120,7 +2034,7 @@
       {
         "titular": "Cómo apagar los resúmenes de notificaciones con IA en iPhone, Pixel y Galaxy",
         "seccion": "tec",
-        "puntaje": 1.89,
+        "puntaje": 1.88,
         "n_medios": 1,
         "medios": [
           "Infobae"
@@ -2238,70 +2152,6 @@
             "titular": "Abelardo De La Espriella anuncia sorpresas con Sofía Vergara: ¿qué preparan para Colombia?",
             "url": "https://www.portafolio.co/economia/gobierno/abelardo-de-la-espriella-anuncia-sorpresas-con-sofia-vergara-que-preparan-para-colombia-507113",
             "fecha": "2026-11-26T01:19+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
-        "titular": "Lotería del Valle resultados miércoles 25 de noviembre: números ganadores del último sorteo",
-        "seccion": "colombia",
-        "puntaje": 3.94,
-        "n_medios": 3,
-        "medios": [
-          "El Tiempo",
-          "Infobae",
-          "Semana"
-        ],
-        "fecha": "2026-11-26T04:31+00:00",
-        "resumen": "Lotería del Valle realiza un sorteo a la semana, todos los miércoles, en los que se puede ganar varios miles de millones de pesos",
-        "links": [
-          {
-            "medio": "Infobae",
-            "titular": "Lotería del Valle resultados miércoles 25 de noviembre: números ganadores del último sorteo",
-            "url": "https://www.infobae.com/colombia/2026/11/26/loteria-del-valle-resultados-miercoles-25-de-noviembre-numeros-ganadores-del-ultimo-sorteo/",
-            "fecha": "2026-11-26T04:31+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Infobae",
-            "titular": "Lotería del Meta: resultados ganadores del miércoles 25 de noviembre de 2026",
-            "url": "https://www.infobae.com/colombia/2026/11/26/loteria-del-meta-resultados-ganadores-del-miercoles-25-de-noviembre-de-2026/",
-            "fecha": "2026-11-26T04:16+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "El Tiempo",
-            "titular": "Lotería de Manizales: conozca los números ganadores del miércoles 25 de noviembre de 2026",
-            "url": "https://www.eltiempo.com/economia/finanzas-personales/loteria-de-manizales-conozca-los-numeros-ganadores-del-miercoles-25-de-noviembre-de-3604363",
-            "fecha": "2026-11-26T04:13+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Infobae",
-            "titular": "Lotería de Meta resultados miércoles 25 de noviembre de 2026: números ganadores del último sorteo",
-            "url": "https://www.infobae.com/colombia/2026/11/26/loteria-de-meta-resultados-miercoles-25-de-noviembre-de-2026-numeros-ganadores-del-ultimo-sorteo/",
-            "fecha": "2026-11-26T04:00+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Semana",
-            "titular": "Resultados de las loterías Valle, Meta y Manizales de este miércoles 25 de noviembre 2026",
-            "url": "https://www.semana.com/loterias/articulo/resultados-de-las-loterias-valle-meta-y-manizales-de-este-miercoles-25-de-noviembre-2026/202654/",
-            "fecha": "2026-11-26T03:55+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "El Tiempo",
-            "titular": "Lotería del Valle: conozca los números ganadores del miércoles 25 de noviembre de 2026",
-            "url": "https://www.eltiempo.com/economia/finanzas-personales/loteria-del-valle-conozca-los-numeros-ganadores-del-miercoles-25-de-noviembre-de-3604365",
-            "fecha": "2026-11-26T03:41+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "El Tiempo",
-            "titular": "Lotería del Meta: conozca los números ganadores del miércoles 25 de noviembre de 2026",
-            "url": "https://www.eltiempo.com/economia/finanzas-personales/loteria-del-meta-conozca-los-numeros-ganadores-del-miercoles-25-de-noviembre-de-3604367",
-            "fecha": "2026-11-26T03:40+00:00",
             "idioma": "es"
           }
         ]
@@ -2485,9 +2335,37 @@
         ]
       },
       {
+        "titular": "¿Quién era Jailer Muñetón, el hombre que murió en rescate de rehenes en Éxito de Cartagena?",
+        "seccion": "colombia",
+        "puntaje": 2.95,
+        "n_medios": 2,
+        "medios": [
+          "El Espectador",
+          "El Tiempo"
+        ],
+        "fecha": "2026-11-26T05:01+00:00",
+        "resumen": "Mientras su esposa pide explicaciones a las autoridades, sus allegados han dado detalles del hombre que vivía desde hace 12 años en Cartagena.",
+        "links": [
+          {
+            "medio": "El Espectador",
+            "titular": "¿Quién era Jailer Muñetón, el hombre que murió en rescate de rehenes en Éxito de Cartagena?",
+            "url": "https://www.elespectador.com/colombia/cartagena/quien-era-jailer-muneton-el-hombre-que-murio-en-rescate-de-rehenes-en-exito-de-cartagena/",
+            "fecha": "2026-11-26T05:01+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "El Tiempo",
+            "titular": "Alcalde de Cartagena habló sobre Jailer Humberto Muñetón, hombre abatido en operación de rescate de rehenes en Éxito: 'Estuvo liderando la acción'",
+            "url": "https://www.eltiempo.com/colombia/otras-ciudades/alcalde-de-cartagena-hablo-sobre-jailer-humberto-muneton-hombre-abatido-en-operacion-de-rescate-de-rehenes-en-exito-estuvo-liderando-la-accion-3604338",
+            "fecha": "2026-11-26T00:21+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
         "titular": "Resultado Super Astro Luna HOY: número ganador del miércoles 25 de noviembre",
         "seccion": "colombia",
-        "puntaje": 2.94,
+        "puntaje": 2.93,
         "n_medios": 2,
         "medios": [
           "Infobae",
@@ -2590,34 +2468,6 @@
         ]
       },
       {
-        "titular": "Sorteo Chontico Noche hoy, miércoles 25 de noviembre de 2026: verifica aquí el resultado ganador",
-        "seccion": "colombia",
-        "puntaje": 2.9,
-        "n_medios": 2,
-        "medios": [
-          "El Tiempo",
-          "Infobae"
-        ],
-        "fecha": "2026-11-26T02:30+00:00",
-        "resumen": "A continuación te compartimos los cuatro números que fueron sorteados en este juego que se lleva a cabo todos los días en la noche de Colombia",
-        "links": [
-          {
-            "medio": "Infobae",
-            "titular": "Sorteo Chontico Noche hoy, miércoles 25 de noviembre de 2026: verifica aquí el resultado ganador",
-            "url": "https://www.infobae.com/colombia/2026/11/26/resultado-chontico-noche-numeros-ganadores-del-ultimo-sorteo-hoy-miercoles-25-de-noviembre-de-2026/",
-            "fecha": "2026-11-26T02:30+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "El Tiempo",
-            "titular": "Baloto y Baloto Revancha: conozca aquí los resultados del último sorteo del miércoles 25 de noviembre de 2026",
-            "url": "https://www.eltiempo.com/economia/finanzas-personales/baloto-y-baloto-revancha-conozca-aqui-los-resultados-del-ultimo-sorteo-del-miercoles-25-de-noviembre-de-3604374",
-            "fecha": "2026-11-26T01:38+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
         "titular": "Alianza por la Democracia pidió garantías a la Superintendencia de Sociedades ante visita administrativa que hará a La Silla Vacía",
         "seccion": "colombia",
         "puntaje": 2.9,
@@ -2648,7 +2498,7 @@
       {
         "titular": "Investigan si la banda La Terraza está detrás del secuestro masivo del almacén Éxito de Cartagena: los dos detenidos son de Medellín",
         "seccion": "colombia",
-        "puntaje": 2.89,
+        "puntaje": 2.88,
         "n_medios": 2,
         "medios": [
           "El Tiempo",
@@ -2674,44 +2524,9 @@
         ]
       },
       {
-        "titular": "Radiografía de una liberación: el video y la frase del presidente Abelardo De La Espriella en el rescate de rehenes en el Éxito",
-        "seccion": "colombia",
-        "puntaje": 2.88,
-        "n_medios": 2,
-        "medios": [
-          "El Colombiano",
-          "Semana"
-        ],
-        "fecha": "2026-11-26T01:40+00:00",
-        "resumen": "",
-        "links": [
-          {
-            "medio": "Semana",
-            "titular": "Radiografía de una liberación: el video y la frase del presidente Abelardo De La Espriella en el rescate de rehenes en el Éxito",
-            "url": "https://www.semana.com/nacion/articulo/radiografia-de-una-liberacion-esta-fue-la-frase-del-presidente-abelardo-de-la-espriella-en-el-rescate-de-rehenes-en-el-exito/202603/",
-            "fecha": "2026-11-26T01:40+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "El Colombiano",
-            "titular": "Atención | Fuerza Pública rescata con vida a rehenes del Éxito de Cartagena; De la Espriella dice que “fue una operación impecable”",
-            "url": "https://www.elcolombiano.com/colombia/hombres-armados-ingresaron-almacen-exito-cartagena-rehenes-GJ43977230",
-            "fecha": "2026-11-25T11:40+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Semana",
-            "titular": "Presidente Abelardo De La Espriella entrega primeros detalles del rescate de rehenes en Éxito de Cartagena: “Operación impecable”",
-            "url": "https://www.semana.com/nacion/cartagena/articulo/presidente-abelardo-de-la-espriella-entrega-primeros-detalles-del-rescate-de-rehenes-en-exito-de-cartagena-operacion-impecable/202629/",
-            "fecha": "2026-11-25T07:05+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
         "titular": "¿Qué es el Ministerio Rastafari de Jehová? Así es la comunidad que la Corte ordenó reconocer como entidad religiosa y que utiliza cannabis en sus ritos",
         "seccion": "colombia",
-        "puntaje": 2.85,
+        "puntaje": 2.84,
         "n_medios": 2,
         "medios": [
           "El Colombiano",
@@ -2739,6 +2554,62 @@
             "titular": "El Ministerio Rastasfari de Jehová deberá ser reconocido como entidad religiosa en Colombia. Así lo ordenó la Corte Constitucional",
             "url": "https://www.semana.com/nacion/articulo/el-ministerio-rastasfari-de-jehova-debera-ser-reconocido-como-entidad-religiosa-en-colombia-asi-lo-ordeno-la-corte-constitucional/202602/",
             "fecha": "2026-11-24T20:24+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "Exmilitar reveló ante la JEP cómo encubrieron asesinatos de campesinos en Apartadó: “Lo reporté como bajas en combate y obtuvimos condecoraciones”",
+        "seccion": "colombia",
+        "puntaje": 2.81,
+        "n_medios": 2,
+        "medios": [
+          "El Colombiano",
+          "Infobae"
+        ],
+        "fecha": "2026-11-25T22:27+00:00",
+        "resumen": "Las declaraciones se conocieron durante una audiencia en Antioquia, en la que antiguos integrantes de la fuerza pública reconocieron su participación en crímenes cometidos durante 1997. Dos de las víctimas continúan desaparecidas y sus familias reclamaron respuestas sobre su paradero",
+        "links": [
+          {
+            "medio": "Infobae",
+            "titular": "Exmilitar reveló ante la JEP cómo encubrieron asesinatos de campesinos en Apartadó: “Lo reporté como bajas en combate y obtuvimos condecoraciones”",
+            "url": "https://www.infobae.com/colombia/2026/11/25/exmilitar-revelo-ante-la-jep-como-encubrieron-asesinatos-de-campesinos-en-apartado-lo-reporte-como-bajas-en-combate-y-obtuvimos-condecoraciones/",
+            "fecha": "2026-11-25T22:27+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "El Colombiano",
+            "titular": "“Lo reporté como bajas en combate y obtuvimos condecoraciones”: exmilitares reconocen responsabilidad en crímenes en Apartadó",
+            "url": "https://www.elcolombiano.com/inicio/exmilitares-reconocen-crimenes-apartado-audiencia-territorial-jep-OG44061609",
+            "fecha": "2026-11-25T19:03+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
+        "titular": "Machado promete “pronto” regreso de Edmundo González a Venezuela",
+        "seccion": "colombia",
+        "puntaje": 2.8,
+        "n_medios": 2,
+        "medios": [
+          "DW",
+          "El País"
+        ],
+        "fecha": "2026-11-25T21:58+00:00",
+        "resumen": "La líder opositora presentó ante miles de estudiantes en la Universidad Central de Venezuela lo que su partido calificó como su primer “mensaje a la nación”.",
+        "links": [
+          {
+            "medio": "DW",
+            "titular": "Machado promete “pronto” regreso de Edmundo González a Venezuela",
+            "url": "https://www.dw.com/es/machado-promete-pronto-regreso-de-edmundo-gonzález-a-venezuela/a-80055436?maca=spa-rss-sp-inter-1008-rdf",
+            "fecha": "2026-11-25T21:58+00:00",
+            "idioma": "es"
+          },
+          {
+            "medio": "El País",
+            "titular": "María Corina Machado asegura que Edmundo González regresará pronto a Venezuela",
+            "url": "https://elpais.com/america/2026-11-25/maria-corina-machado-asegura-que-edmundo-gonzalez-regresara-pronto-a-venezuela.html",
+            "fecha": "2026-11-25T19:52+00:00",
             "idioma": "es"
           }
         ]
@@ -3065,7 +2936,7 @@
       {
         "titular": "Colombia: rescatan a rehenes tras 16 horas de secuestro en supermercado de Cartagena",
         "seccion": "latam",
-        "puntaje": 2.91,
+        "puntaje": 2.9,
         "n_medios": 2,
         "medios": [
           "El País",
@@ -3357,76 +3228,6 @@
         ]
       },
       {
-        "titular": "Últimas noticias | 26 noviembre 2026 - Mañana",
-        "seccion": "politica",
-        "puntaje": 2.97,
-        "n_medios": 2,
-        "medios": [
-          "El Colombiano",
-          "Euronews"
-        ],
-        "fecha": "2026-11-26T06:00+00:00",
-        "resumen": "Ponte al día con las noticias más importantes de Europa y el mundo este 26 noviembre 2026: noticias de última hora, internacional, negocios, entretenimiento, política, cultura, viajes.",
-        "links": [
-          {
-            "medio": "Euronews",
-            "titular": "Últimas noticias | 26 noviembre 2026 - Mañana",
-            "url": "https://es.euronews.com/video/2026/11/26/ultimas-noticias-26-noviembre-2026-manana",
-            "fecha": "2026-11-26T06:00+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "El Colombiano",
-            "titular": "EN VIVO | El Periódico de Mañana - 25 de Noviembre de 2026",
-            "url": "https://www.elcolombiano.com/inicio/en-vivo-el-periodico-de-manana-25-de-noviembre-de-2026-CH44078820",
-            "fecha": "2026-11-25T22:35+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Euronews",
-            "titular": "EURONEWS HOY | Las noticias del 25 de noviembre de 2026: Puigdemont anuncia su regreso a España",
-            "url": "https://es.euronews.com/2026/11/25/euronews-hoy-las-noticias-del-25-de-noviembre-de-2026-puigdemont-anuncia-su-regreso",
-            "fecha": "2026-11-25T17:10+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Euronews",
-            "titular": "Últimas noticias | 25 noviembre 2026 - Tarde",
-            "url": "https://es.euronews.com/video/2026/11/25/ultimas-noticias-25-noviembre-2026-tarde",
-            "fecha": "2026-11-25T17:00+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Euronews",
-            "titular": "Últimas noticias | 25 noviembre 2026 - Mediodía",
-            "url": "https://es.euronews.com/video/2026/11/25/ultimas-noticias-25-noviembre-2026-mediodia",
-            "fecha": "2026-11-25T11:00+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Euronews",
-            "titular": "Últimas noticias | 25 noviembre 2026 - Mañana",
-            "url": "https://es.euronews.com/video/2026/11/25/ultimas-noticias-25-noviembre-2026-manana",
-            "fecha": "2026-11-25T06:00+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Euronews",
-            "titular": "Últimas noticias | 24 noviembre 2026 - Tarde",
-            "url": "https://es.euronews.com/video/2026/11/24/ultimas-noticias-24-noviembre-2026-tarde",
-            "fecha": "2026-11-24T17:00+00:00",
-            "idioma": "es"
-          },
-          {
-            "medio": "Euronews",
-            "titular": "Últimas noticias | 24 noviembre 2026 - Mediodía",
-            "url": "https://es.euronews.com/video/2026/11/24/ultimas-noticias-24-noviembre-2026-mediodia",
-            "fecha": "2026-11-24T11:00+00:00",
-            "idioma": "es"
-          }
-        ]
-      },
-      {
         "titular": "Macy's postpones Thanksgiving parade due to severe weather",
         "seccion": "politica",
         "puntaje": 2.93,
@@ -3658,6 +3459,26 @@
         ]
       },
       {
+        "titular": "Cumbre en Bruselas: la UE se divide por el presupuesto y la guerra en Ucrania",
+        "seccion": "politica",
+        "puntaje": 2.0,
+        "n_medios": 1,
+        "medios": [
+          "Euronews"
+        ],
+        "fecha": "2026-11-26T07:25+00:00",
+        "resumen": "Buenos días. Leo Cendrowicz con su boletín del jueves. Hoy los líderes de la UE se reúnen en Bruselas para pelear por el presupuesto de siete años, que difícilmente se resolverá en la cumbre.",
+        "links": [
+          {
+            "medio": "Euronews",
+            "titular": "Cumbre en Bruselas: la UE se divide por el presupuesto y la guerra en Ucrania",
+            "url": "https://es.euronews.com/2026/11/26/cumbre-en-bruselas-la-ue-se-divide-por-el-presupuesto-y-la-guerra-en-ucrania",
+            "fecha": "2026-11-26T07:25+00:00",
+            "idioma": "es"
+          }
+        ]
+      },
+      {
         "titular": "Más de 300 rescatistas buscan a mineros atrapados en una mina de oro ilegal inundada al sur de Yakarta",
         "seccion": "politica",
         "puntaje": 2.0,
@@ -3723,31 +3544,12 @@
     {
       "medio": "Marca",
       "seccion": "futbol",
-      "url": "https://e00-marca.uecdn.es/rss/futbol.xml",
+      "url": "https://www.marca.com/rss/googlenews/portada.xml",
       "ok": true,
-      "total": 48,
-      "recientes": 0,
+      "total": 75,
+      "recientes": 74,
       "sin_fecha": 0,
-      "error": null
-    },
-    {
-      "medio": "Marca",
-      "seccion": "futbol",
-      "url": "https://e00-marca.uecdn.es/rss/futbol/premier-league.xml",
-      "ok": true,
-      "total": 42,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": null
-    },
-    {
-      "medio": "AS",
-      "seccion": "futbol",
-      "url": "https://as.com/rss/futbol/portada.xml",
-      "ok": true,
-      "total": 68,
-      "recientes": 0,
-      "sin_fecha": 0,
+      "ruido": 1,
       "error": null
     },
     {
@@ -3755,9 +3557,10 @@
       "seccion": "futbol",
       "url": "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/portada/",
       "ok": true,
-      "total": 49,
+      "total": 48,
       "recientes": 26,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
     },
     {
@@ -3765,50 +3568,11 @@
       "seccion": "futbol",
       "url": "https://feeds.as.com/mrss-s/pages/as/site/colombia.as.com/section/futbol/portada/",
       "ok": true,
-      "total": 27,
-      "recientes": 27,
+      "total": 26,
+      "recientes": 26,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
-    },
-    {
-      "medio": "Futbolred",
-      "seccion": "futbol",
-      "url": "https://www.futbolred.com/rss",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    },
-    {
-      "medio": "Futbolred",
-      "seccion": "futbol",
-      "url": "https://www.futbolred.com/rss/futbol-colombiano.xml",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    },
-    {
-      "medio": "Futbolred",
-      "seccion": "futbol",
-      "url": "https://www.futbolred.com/rss.xml",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 403: Forbidden"
-    },
-    {
-      "medio": "Win Sports",
-      "seccion": "futbol",
-      "url": "https://www.winsports.co/rss.xml",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "medio": "Win Sports",
@@ -3818,26 +3582,18 @@
       "total": 20,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
-    },
-    {
-      "medio": "Win Sports",
-      "seccion": "futbol",
-      "url": "https://www.winsports.co/feed",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "medio": "El Tiempo",
       "seccion": "futbol",
       "url": "https://www.eltiempo.com/rss/deportes_futbol-colombiano.xml",
       "ok": true,
-      "total": 10,
-      "recientes": 10,
+      "total": 8,
+      "recientes": 8,
       "sin_fecha": 0,
+      "ruido": 2,
       "error": null
     },
     {
@@ -3845,9 +3601,10 @@
       "seccion": "futbol",
       "url": "https://www.eltiempo.com/rss/deportes_futbol-internacional.xml",
       "ok": true,
-      "total": 10,
-      "recientes": 10,
+      "total": 9,
+      "recientes": 9,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
     },
     {
@@ -3858,26 +3615,18 @@
       "total": 65,
       "recientes": 65,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
-    },
-    {
-      "medio": "El Espectador",
-      "seccion": "futbol",
-      "url": "https://www.elespectador.com/arc/outboundfeeds/rss/category/deportes/futbol-colombiano/?outputType=xml",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "medio": "Mundo Deportivo",
       "seccion": "futbol",
       "url": "https://www.mundodeportivo.com/rss/futbol.xml",
       "ok": true,
-      "total": 100,
-      "recientes": 100,
+      "total": 98,
+      "recientes": 98,
       "sin_fecha": 0,
+      "ruido": 2,
       "error": null
     },
     {
@@ -3888,6 +3637,7 @@
       "total": 100,
       "recientes": 100,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -3898,6 +3648,7 @@
       "total": 74,
       "recientes": 46,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -3908,6 +3659,7 @@
       "total": 27,
       "recientes": 27,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -3918,27 +3670,8 @@
       "total": 27,
       "recientes": 27,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
-    },
-    {
-      "medio": "Vandal",
-      "seccion": "juegos",
-      "url": "https://vandal.elespanol.com/xml.cgi",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "ValueError: el feed no trae noticias (<unknown>:2:0: not well-formed (invalid token))"
-    },
-    {
-      "medio": "Vandal",
-      "seccion": "juegos",
-      "url": "https://vandal.elespanol.com/rss/",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "ValueError: el feed no trae noticias (<unknown>:2:0: not well-formed (invalid token))"
     },
     {
       "medio": "GeneracionXbox",
@@ -3948,6 +3681,7 @@
       "total": 30,
       "recientes": 30,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -3958,6 +3692,7 @@
       "total": 20,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -3968,17 +3703,8 @@
       "total": 20,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
-    },
-    {
-      "medio": "LevelUp",
-      "seccion": "juegos",
-      "url": "https://www.levelup.com/rss",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "medio": "Eurogamer",
@@ -3988,6 +3714,18 @@
       "total": 100,
       "recientes": 4,
       "sin_fecha": 0,
+      "ruido": 0,
+      "error": null
+    },
+    {
+      "medio": "LevelUp",
+      "seccion": "juegos",
+      "url": "https://www.levelup.com/arc/outboundfeeds/google-news-feed/",
+      "ok": true,
+      "total": 46,
+      "recientes": 45,
+      "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -3998,6 +3736,7 @@
       "total": 20,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4008,6 +3747,7 @@
       "total": 20,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4018,6 +3758,7 @@
       "total": 20,
       "recientes": 8,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4028,6 +3769,7 @@
       "total": 20,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4038,6 +3780,7 @@
       "total": 20,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4048,6 +3791,7 @@
       "total": 10,
       "recientes": 10,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4058,6 +3802,7 @@
       "total": 12,
       "recientes": 12,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4068,6 +3813,7 @@
       "total": 17,
       "recientes": 11,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4078,6 +3824,7 @@
       "total": 50,
       "recientes": 18,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4085,9 +3832,10 @@
       "seccion": "tec",
       "url": "https://www.xataka.com/feedburner.xml",
       "ok": true,
-      "total": 30,
-      "recientes": 30,
+      "total": 29,
+      "recientes": 29,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
     },
     {
@@ -4095,9 +3843,10 @@
       "seccion": "tec",
       "url": "https://www.xataka.com/index.xml",
       "ok": true,
-      "total": 30,
-      "recientes": 30,
+      "total": 29,
+      "recientes": 29,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
     },
     {
@@ -4108,6 +3857,7 @@
       "total": 15,
       "recientes": 15,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4118,6 +3868,7 @@
       "total": 16,
       "recientes": 16,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4128,6 +3879,7 @@
       "total": 16,
       "recientes": 16,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4138,6 +3890,7 @@
       "total": 100,
       "recientes": 100,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4148,6 +3901,7 @@
       "total": 22,
       "recientes": 2,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4158,6 +3912,7 @@
       "total": 34,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4168,6 +3923,7 @@
       "total": 10,
       "recientes": 10,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4178,6 +3934,7 @@
       "total": 10,
       "recientes": 10,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4188,6 +3945,7 @@
       "total": 10,
       "recientes": 10,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4195,9 +3953,10 @@
       "seccion": "colombia",
       "url": "https://www.eltiempo.com/rss/economia.xml",
       "ok": true,
-      "total": 10,
-      "recientes": 10,
+      "total": 6,
+      "recientes": 6,
       "sin_fecha": 0,
+      "ruido": 4,
       "error": null
     },
     {
@@ -4208,6 +3967,7 @@
       "total": 10,
       "recientes": 10,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4215,9 +3975,10 @@
       "seccion": "colombia",
       "url": "https://www.semana.com/arc/outboundfeeds/rss/?outputType=xml",
       "ok": true,
-      "total": 100,
-      "recientes": 100,
+      "total": 98,
+      "recientes": 98,
       "sin_fecha": 0,
+      "ruido": 2,
       "error": null
     },
     {
@@ -4225,40 +3986,11 @@
       "seccion": "colombia",
       "url": "https://www.semana.com/arc/outboundfeeds/rss/category/nacion/?outputType=xml",
       "ok": true,
-      "total": 100,
-      "recientes": 100,
+      "total": 99,
+      "recientes": 99,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
-    },
-    {
-      "medio": "El Espectador",
-      "seccion": "colombia",
-      "url": "https://www.elespectador.com/arc/outboundfeeds/rss/?outputType=xml",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "ValueError: el feed no trae noticias"
-    },
-    {
-      "medio": "El Espectador",
-      "seccion": "colombia",
-      "url": "https://www.elespectador.com/arc/outboundfeeds/rss/category/colombia/?outputType=xml",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "El Espectador",
-      "seccion": "colombia",
-      "url": "https://www.elespectador.com/arc/outboundfeeds/rss/category/politica/?outputType=xml",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "medio": "El Colombiano",
@@ -4268,6 +4000,7 @@
       "total": 83,
       "recientes": 80,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4275,9 +4008,10 @@
       "seccion": "colombia",
       "url": "https://www.elcolombiano.com/rss/portada.xml",
       "ok": true,
-      "total": 100,
-      "recientes": 100,
+      "total": 99,
+      "recientes": 99,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
     },
     {
@@ -4288,6 +4022,7 @@
       "total": 10,
       "recientes": 10,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4298,6 +4033,7 @@
       "total": 10,
       "recientes": 10,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4308,46 +4044,18 @@
       "total": 60,
       "recientes": 60,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
-    },
-    {
-      "medio": "La República",
-      "seccion": "colombia",
-      "url": "https://www.larepublica.co/rss/economia.xml",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "Noticias Caracol",
-      "seccion": "colombia",
-      "url": "https://www.noticiascaracol.com/rss",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
-    },
-    {
-      "medio": "Noticias Caracol",
-      "seccion": "colombia",
-      "url": "https://www.noticiascaracol.com/colombia/feed",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "medio": "Infobae",
       "seccion": "colombia",
       "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/colombia/?outputType=xml",
       "ok": true,
-      "total": 100,
-      "recientes": 100,
+      "total": 90,
+      "recientes": 90,
       "sin_fecha": 0,
+      "ruido": 10,
       "error": null
     },
     {
@@ -4355,9 +4063,21 @@
       "seccion": "colombia",
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada",
       "ok": true,
-      "total": 103,
-      "recientes": 75,
+      "total": 101,
+      "recientes": 74,
       "sin_fecha": 0,
+      "ruido": 2,
+      "error": null
+    },
+    {
+      "medio": "El Espectador",
+      "seccion": "colombia",
+      "url": "https://www.elespectador.com/arc/outboundfeeds/discover/",
+      "ok": true,
+      "total": 20,
+      "recientes": 20,
+      "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4368,6 +4088,7 @@
       "total": 100,
       "recientes": 100,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4378,6 +4099,7 @@
       "total": 100,
       "recientes": 52,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4388,6 +4110,7 @@
       "total": 100,
       "recientes": 65,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4398,6 +4121,7 @@
       "total": 100,
       "recientes": 100,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4408,6 +4132,7 @@
       "total": 100,
       "recientes": 57,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4415,9 +4140,10 @@
       "seccion": "latam",
       "url": "https://www.cnnbrasil.com.br/feed/",
       "ok": true,
-      "total": 60,
-      "recientes": 60,
+      "total": 59,
+      "recientes": 59,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
     },
     {
@@ -4425,9 +4151,10 @@
       "seccion": "latam",
       "url": "https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml",
       "ok": true,
-      "total": 86,
-      "recientes": 86,
+      "total": 83,
+      "recientes": 83,
       "sin_fecha": 0,
+      "ruido": 3,
       "error": null
     },
     {
@@ -4435,20 +4162,11 @@
       "seccion": "latam",
       "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/america/?outputType=xml",
       "ok": true,
-      "total": 100,
-      "recientes": 100,
+      "total": 99,
+      "recientes": 99,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
-    },
-    {
-      "medio": "Infobae",
-      "seccion": "latam",
-      "url": "https://www.infobae.com/feeds/rss/",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "medio": "BBC Mundo",
@@ -4458,6 +4176,7 @@
       "total": 34,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4465,9 +4184,10 @@
       "seccion": "latam",
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america/portada",
       "ok": true,
-      "total": 102,
-      "recientes": 81,
+      "total": 100,
+      "recientes": 80,
       "sin_fecha": 0,
+      "ruido": 2,
       "error": null
     },
     {
@@ -4478,17 +4198,8 @@
       "total": 30,
       "recientes": 10,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
-    },
-    {
-      "medio": "DW",
-      "seccion": "latam",
-      "url": "https://rss.dw.com/rdf/rss-sp-ame",
-      "ok": false,
-      "total": 0,
-      "recientes": 0,
-      "sin_fecha": 0,
-      "error": "ValueError: el feed no trae noticias (<unknown>:2:0: syntax error)"
     },
     {
       "medio": "BBC Mundo",
@@ -4498,6 +4209,7 @@
       "total": 34,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4508,6 +4220,7 @@
       "total": 34,
       "recientes": 20,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4518,6 +4231,7 @@
       "total": 23,
       "recientes": 17,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4525,9 +4239,10 @@
       "seccion": "politica",
       "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada",
       "ok": true,
-      "total": 41,
+      "total": 40,
       "recientes": 28,
       "sin_fecha": 0,
+      "ruido": 1,
       "error": null
     },
     {
@@ -4535,9 +4250,10 @@
       "seccion": "politica",
       "url": "https://es.euronews.com/rss?format=mrss&level=theme&name=news",
       "ok": true,
-      "total": 50,
-      "recientes": 45,
+      "total": 43,
+      "recientes": 39,
       "sin_fecha": 0,
+      "ruido": 7,
       "error": null
     },
     {
@@ -4545,9 +4261,10 @@
       "seccion": "politica",
       "url": "https://es.euronews.com/rss",
       "ok": true,
-      "total": 50,
-      "recientes": 50,
+      "total": 48,
+      "recientes": 48,
       "sin_fecha": 0,
+      "ruido": 2,
       "error": null
     },
     {
@@ -4555,9 +4272,10 @@
       "seccion": "politica",
       "url": "https://www.france24.com/es/rss",
       "ok": true,
-      "total": 24,
-      "recientes": 24,
+      "total": 22,
+      "recientes": 22,
       "sin_fecha": 0,
+      "ruido": 2,
       "error": null
     },
     {
@@ -4568,6 +4286,7 @@
       "total": 24,
       "recientes": 24,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4578,6 +4297,7 @@
       "total": 19,
       "recientes": 17,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4588,6 +4308,7 @@
       "total": 30,
       "recientes": 30,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4598,6 +4319,7 @@
       "total": 30,
       "recientes": 30,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4608,6 +4330,7 @@
       "total": 45,
       "recientes": 35,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     },
     {
@@ -4618,6 +4341,7 @@
       "total": 45,
       "recientes": 43,
       "sin_fecha": 0,
+      "ruido": 0,
       "error": null
     }
   ]
