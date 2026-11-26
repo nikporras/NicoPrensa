@@ -1,4 +1,5 @@
 {
+  "_descartar": ["loteria", "baloto", "chance", "sorteo", "horoscopo", "pico y placa", "ultimas noticias |", "minuto a minuto", "en vivo", "en directo", "crucigrama", "santoral"],
   "colombia": [
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/colombia.xml"},
     {"medio": "El Tiempo", "url": "https://www.eltiempo.com/rss/politica.xml"},
@@ -12,7 +13,8 @@
     {"medio": "Portafolio", "url": "https://www.portafolio.co/rss/portafolio.xml"},
     {"medio": "La República", "url": "https://www.larepublica.co/rss/"},
     {"medio": "Infobae", "url": "https://www.infobae.com/arc/outboundfeeds/rss/category/colombia/?outputType=xml"},
-    {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada"}
+    {"medio": "El País", "url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/america-colombia/portada"},
+    {"medio": "El Espectador", "url": "https://www.elespectador.com/arc/outboundfeeds/discover/"}
   ],
   "latam": [
     {"medio": "G1", "idioma": "pt", "url": "https://g1.globo.com/rss/g1/"},
@@ -59,7 +61,8 @@
     {"medio": "GeneracionXbox", "url": "https://generacionxbox.com/feed/"},
     {"medio": "Vidaextra", "url": "https://www.vidaextra.com/feedburner.xml"},
     {"medio": "Vidaextra", "url": "https://www.vidaextra.com/index.xml"},
-    {"medio": "Eurogamer", "url": "https://www.eurogamer.es/feed"}
+    {"medio": "Eurogamer", "url": "https://www.eurogamer.es/feed"},
+    {"medio": "LevelUp", "url": "https://www.levelup.com/arc/outboundfeeds/google-news-feed/"}
   ],
   "cine": [
     {"medio": "Sensacine", "url": "https://www.sensacine.com/rss/noticias.xml"},
@@ -73,6 +76,7 @@
     {"medio": "Fotogramas", "url": "https://www.fotogramas.es/rss/all.xml/"}
   ],
   "futbol": [
+    {"medio": "Marca", "url": "https://www.marca.com/rss/googlenews/portada.xml"},
     {"medio": "AS", "url": "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/portada/"},
     {"medio": "AS", "url": "https://feeds.as.com/mrss-s/pages/as/site/colombia.as.com/section/futbol/portada/"},
     {"medio": "Win Sports", "url": "https://www.winsports.co/rss"},

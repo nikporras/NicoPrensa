@@ -88,7 +88,7 @@ def descargar(url):
 def leer_feed(feed, ahora):
     """Devuelve (estado, noticias) de un feed. Nunca lanza errores."""
     estado = {"medio": feed["medio"], "seccion": feed["seccion"], "url": feed["url"],
-              "ok": False, "total": 0, "recientes": 0, "sin_fecha": 0, "error": None}
+              "ok": False, "total": 0, "recientes": 0, "sin_fecha": 0, "ruido": 0, "error": None}
     noticias = []
     try:
         datos = feedparser.parse(descargar(feed["url"]))
@@ -99,6 +99,9 @@ def leer_feed(feed, ahora):
             titular = texto_plano(e.get("title"), 400)
             link = str(e.get("link") or "").strip()
             if not titular or not link.startswith("http"):
+                continue
+            if any(d in sin_tildes(titular.lower()) for d in feed.get("descartar", [])):
+                estado["ruido"] += 1
                 continue
             estado["total"] += 1
             t = e.get("published_parsed") or e.get("updated_parsed") or e.get("created_parsed")
@@ -241,7 +244,9 @@ def main():
     ahora = datetime.now(timezone.utc)
     hoy = ahora.astimezone(ZoneInfo("Europe/London")).date()
     config = json.loads(FEEDS.read_text(encoding="utf-8"))
-    feeds = [dict(f, seccion=sec) for sec in SECCIONES for f in config.get(sec, [])]
+    # Titulares que no son noticia (loterías, horóscopos, boletines): lista "_descartar" de feeds.json.
+    ruido = [sin_tildes(str(d).lower()) for d in config.get("_descartar", [])]
+    feeds = [dict(f, seccion=sec, descartar=ruido) for sec in SECCIONES for f in config.get(sec, [])]
 
     with ThreadPoolExecutor(max_workers=12) as hilos:
         resultados = list(hilos.map(lambda f: leer_feed(f, ahora), feeds))
