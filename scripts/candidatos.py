@@ -771,8 +771,10 @@ def candidato(grupo, ahora, config):
 
     # Links: primero uno por medio, luego el resto; al final algunos que pasan por Google.
     links, vistos, ya = [], set(), set()
+    # Primero los links cuyo titular más se parece al del grupo.
+    mejores = sorted(directos, key=lambda n: (-round(coseno(n["vt"], n["nt"], centro, norma), 4), n["url"]))
     for ronda in (1, 2):
-        for n in directos:
+        for n in mejores:
             clave = url_base(n["url"])
             if clave in vistos or (ronda == 1 and n["clave_medio"] in ya) or len(links) >= MAX_LINKS:
                 continue
@@ -845,9 +847,9 @@ def trm_de_hoy(hoy):
 
 
 def borrar_viejos(hoy):
-    for ruta in SALIDA.glob("*.json"):
+    for ruta in list(SALIDA.glob("*.json")) + list(SALIDA.glob("resumen-*.md")):
         try:
-            if (hoy - datetime.strptime(ruta.stem, "%Y-%m-%d").date()).days > DIAS_A_GUARDAR:
+            if (hoy - datetime.strptime(ruta.stem[-10:], "%Y-%m-%d").date()).days > DIAS_A_GUARDAR:
                 ruta.unlink()
         except ValueError:
             pass
@@ -885,6 +887,41 @@ def guardar(salida, destino):
     texto = "{\n" + ",\n".join(partes) + "\n}\n"
     json.loads(texto)   # si esto falla, mejor no escribir nada
     destino.write_text(texto, encoding="utf-8")
+
+
+NOMBRES = {"top": "LO MÁS IMPORTANTE DEL DÍA", "colombia": "COLOMBIA", "latam": "LATINOAMÉRICA", "politica": "POLÍTICA",
+           "tec": "TECNOLOGÍA", "juegos": "VIDEOJUEGOS", "cine": "CINE Y SERIES", "futbol": "FÚTBOL"}
+IDIOMAS = {"en": " (en inglés)", "pt": " (en portugués)"}
+EN_EL_RESUMEN = 12   # noticias por sección en el resumen corto
+
+
+def resumen_corto(salida):
+    """Texto corto para quien arma la edición: lo principal de cada sección con sus links."""
+    trm = (salida["tasas"] or {}).get("trm")
+    lineas = [f"# Candidatos de NicoPrensa para el {salida['fecha']}",
+              f"Generado: {salida['generado']}. Feeds leídos: {salida['resumen']['feeds_leidos']}, "
+              f"fallidos: {salida['resumen']['feeds_fallidos']}.",
+              "TRM oficial de hoy: " + (f"{trm['valor']:.2f} pesos por dólar (vigente desde {trm['vigencia_desde']})"
+                                        if trm else "no disponible"),
+              "Cada noticia trae: [número de medios que la cubren: cuáles] titular, y debajo sus links directos.",
+              "Las noticias están ordenadas de más a menos importante dentro de cada bloque."]
+    bloques = [("top", salida["top"])] + [(s, salida["secciones"][s]) for s in
+                                           ("colombia", "latam", "politica", "tec", "juegos", "cine", "futbol")]
+    for clave, lista in bloques:
+        lineas += ["", f"## {NOMBRES[clave]}"]
+        for i, c in enumerate(lista[:EN_EL_RESUMEN], 1):
+            total = c["n_medios"] + len(c["otros_medios"])
+            medios = ", ".join((c["medios"] + c["otros_medios"])[:6])
+            extra = f" | sección: {c['seccion']}" if clave == "top" else ""
+            senal = f" | {c['senales'][0]}" if c["senales"] else ""
+            lineas.append(f"{i}. [{total} {'medio' if total == 1 else 'medios'}: {medios}] {c['titular']}{extra}{senal}")
+            directos = [x for x in c["links"] if not x.get("pista")]
+            directos.sort(key=lambda x: x["idioma"] != "es")   # primero los links en español
+            for x in directos[:2]:
+                lineas.append(f"   {x['url']}{IDIOMAS.get(x['idioma'], '')}")
+            if not directos:
+                lineas.append("   (sin link directo: hay que buscarlo)")
+    return "\n".join(lineas) + "\n"
 
 
 def main():
@@ -927,6 +964,7 @@ def main():
     SALIDA.mkdir(parents=True, exist_ok=True)
     destino = SALIDA / f"{hoy.isoformat()}.json"
     guardar(salida, destino)
+    (SALIDA / f"resumen-{hoy.isoformat()}.md").write_text(resumen_corto(salida), encoding="utf-8")
     borrar_viejos(hoy)
 
     r = salida["resumen"]

@@ -2,7 +2,7 @@ name: Candidatos del día
 
 on:
   schedule:
-    - cron: "45 5 * * *"   # 05:45 UTC, todos los días
+    - cron: "45 4 * * *"   # 04:45 UTC: antes de la tarea que arma la edición, en invierno y en verano
   workflow_dispatch:        # botón manual "Run workflow"
 
 permissions:

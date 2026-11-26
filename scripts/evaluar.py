@@ -21,7 +21,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import candidatos as c  # noqa: E402
 
-HORA_DE_CORTE = time(5, 45)   # UTC: hora a la que corre el mensajero cada mañana
+HORA_DE_CORTE = time(4, 45)   # UTC: hora a la que corre el mensajero cada mañana
 SEGURA, DUDOSA = 0.6, 0.4     # parte del titular que debe aparecer en el texto publicado
 
 
