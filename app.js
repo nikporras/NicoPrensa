@@ -82,7 +82,7 @@
 
   /* ---------- Saludo ---------- */
   function saludo(ed, esUltima) {
-    var s = el("section", "hello");
+    var s = el("section", "hello a-hello");
     if (esUltima) {
       var h1 = el("h1", "", ["Buenos días", "Buenas tardes", "Buenas noches"][momento(new Date().getHours())]);
       h1.id = "saludo";
@@ -106,7 +106,7 @@
     return [texto, ""];
   }
   function carrusel(sec) {
-    var g = el("section", "group");
+    var g = el("section", "group a-top");
     g.setAttribute("aria-label", sec.title);
     var total = (sec.stories || []).length;
     var cabeza = el("p", "lead lead-row");
@@ -174,7 +174,7 @@
 
   /* ---------- Tarjetas rápidas ---------- */
   function enPocas(items) {
-    var c = el("section", "card");
+    var c = el("section", "card a-brief");
     c.appendChild(el("h2", "", "En pocas palabras"));
     var ul = el("ul", "brief");
     items.forEach(function (r) {
@@ -192,7 +192,7 @@
     return isNaN(n) ? null : n;
   }
   function tasas(rates) {
-    var c = el("section", "card");
+    var c = el("section", "card a-rates");
     c.appendChild(el("h2", "", "Tasas de hoy"));
     var dl = el("dl", "rates");
     var cajas = {};
@@ -282,7 +282,7 @@
     return box;
   }
   function clima() {
-    var g = el("section", "group");
+    var g = el("section", "group a-weather");
     var lead = el("p", "lead", "¿Qué tiempo hace donde estás?");
     var c = el("div", "card weather");
     var h2 = el("h2", "", "El tiempo");
@@ -450,10 +450,12 @@
     app.appendChild(t);
     if (anterior) anterior.then(function (a) { t.comparar(a.rates); }).catch(function () {});
     if (esUltima) app.appendChild(clima());
-    var g = el("section", "group");
+    var g = el("section", "group a-news");
     g.appendChild(el("p", "lead", "Todas las noticias"));
     var box = el("div", "secs");
-    resto.forEach(function (s, i) { box.appendChild(seccion(s, i === 0)); });
+    // En pantallas anchas se abren más secciones para llenar las columnas.
+    var abiertas = window.matchMedia("(min-width:1180px)").matches ? 3 : window.matchMedia("(min-width:760px)").matches ? 2 : 1;
+    resto.forEach(function (s, i) { box.appendChild(seccion(s, i < abiertas)); });
     if (ed.omitidas && ed.omitidas.length) box.appendChild(omitidas(ed.omitidas));
     g.appendChild(box);
     app.appendChild(g);

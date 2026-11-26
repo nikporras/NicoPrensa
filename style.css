@@ -150,3 +150,23 @@ details.sec summary::-webkit-details-marker{display:none}
 .foot{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;font-size:.85rem;color:var(--soft)}
 .note{color:var(--soft);margin:0}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* ---------- Tabletas y computadores ---------- */
+@media (min-width:760px){
+  .wrap{max-width:60rem;padding-left:max(28px,env(safe-area-inset-left,0px));padding-right:max(28px,env(safe-area-inset-right,0px));gap:32px}
+  main{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);grid-template-areas:"hello hello" "top top" "brief rates" "brief weather" "news news";align-items:start;gap:28px 24px}
+  .a-hello{grid-area:hello}.a-top{grid-area:top}.a-brief{grid-area:brief}.a-rates{grid-area:rates}.a-weather{grid-area:weather}.a-news{grid-area:news}
+  .hello h1{font-size:4rem}
+  .story-card{flex-basis:calc(50% - 6px);min-height:22rem}
+  /* En columnas, para que las secciones cerradas suban junto a la que está abierta. */
+  .secs{display:block;columns:2;column-gap:14px}
+  .secs details.sec{break-inside:avoid;margin:0 0 14px}
+  .menu .mes ul{gap:10px}
+  .foot{max-width:44rem}
+}
+@media (min-width:1180px){
+  .wrap{max-width:76rem}
+  main{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);grid-template-areas:"hello hello hello" "top top top" "brief rates weather" "news news news"}
+  .story-card{flex-basis:calc(33.333% - 8px)}
+  .secs{columns:3}
+}
