@@ -125,10 +125,12 @@ def leer_feed(feed, ahora):
     return estado, noticias
 
 
-def publicado_reciente():
-    """Links y textos de las últimas ediciones publicadas."""
+def publicado_reciente(antes_de=None):
+    """Links y textos de las últimas ediciones publicadas antes de la fecha dada."""
     links, textos = set(), []
     ediciones = sorted(p for p in DATA.glob("*.json") if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem))
+    if antes_de:
+        ediciones = [p for p in ediciones if p.stem < antes_de]
     for ruta in ediciones[-EDICIONES_A_COMPARAR:]:
         try:
             ed = json.loads(ruta.read_text(encoding="utf-8"))
@@ -245,9 +247,8 @@ def borrar_viejos(hoy):
             pass
 
 
-def main():
-    ahora = datetime.now(timezone.utc)
-    hoy = ahora.astimezone(ZoneInfo("Europe/London")).date()
+def recoger(ahora):
+    """Lee todos los feeds. Devuelve (estado de cada feed, titulares recientes)."""
     config = json.loads(FEEDS.read_text(encoding="utf-8"))
     # Titulares que no son noticia (loterías, horóscopos, boletines): lista "_descartar" de feeds.json.
     ruido = [sin_tildes(str(d).lower()) for d in config.get("_descartar", [])]
@@ -257,12 +258,23 @@ def main():
         resultados = list(hilos.map(lambda f: leer_feed(f, ahora), feeds))
     estados = [e for e, _ in resultados]
     noticias = [n for _, lista in resultados for n in lista]
+    return estados, noticias
 
-    links, textos = publicado_reciente()
+
+def armar(noticias, hoy, ahora):
+    """Quita lo ya publicado antes de hoy, agrupa y ordena. Devuelve (nuevas, candidatos)."""
+    links, textos = publicado_reciente(hoy.isoformat())
     nuevas = [n for n in noticias if not ya_publicada(n, links, textos)]
-
     todos = sorted((candidato(g, ahora) for g in agrupar(nuevas)),
                    key=lambda c: (c["puntaje"], c["fecha"]), reverse=True)
+    return nuevas, todos
+
+
+def main():
+    ahora = datetime.now(timezone.utc)
+    hoy = ahora.astimezone(ZoneInfo("Europe/London")).date()
+    estados, noticias = recoger(ahora)
+    nuevas, todos = armar(noticias, hoy, ahora)
     secciones = {s: [c for c in todos if c["seccion"] == s][:POR_SECCION] for s in SECCIONES}
 
     top, usados = [], Counter()

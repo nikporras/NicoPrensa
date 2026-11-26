@@ -1,0 +1,29 @@
+name: Evaluar candidatos
+
+on:
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Edición a evaluar (AAAA-MM-DD). Vacío: la última publicada"
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  evaluar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar dependencias
+        run: pip install --quiet feedparser
+      - name: Comparar con la edición publicada
+        env:
+          FECHA: ${{ inputs.fecha }}
+        run: python scripts/evaluar.py "$FECHA"
