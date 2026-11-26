@@ -853,6 +853,40 @@ def borrar_viejos(hoy):
             pass
 
 
+def liviano(c):
+    """El candidato tal como se guarda: los links solo llevan titular cuando pasan por Google."""
+    d = dict(c)
+    d["links"] = [{k: v for k, v in x.items() if k != "fecha" and (k != "titular" or x.get("pista"))}
+                  for x in c["links"]]
+    return d
+
+
+def guardar(salida, destino):
+    """Escribe el archivo con una noticia por línea, para que pese poco y se pueda leer por partes."""
+    def compacto(x):
+        return json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+
+    def lista(elementos, sangria):
+        if not elementos:
+            return "[]"
+        return "[\n" + ",\n".join(sangria + " " + compacto(x) for x in elementos) + "\n" + sangria + "]"
+
+    partes = []
+    for clave, valor in salida.items():
+        if clave == "secciones":
+            dentro = ",\n".join(f'  {compacto(s)}: {lista([liviano(c) for c in v], "  ")}' for s, v in valor.items())
+            partes.append(f' "secciones": {{\n{dentro}\n }}')
+        elif clave == "top":
+            partes.append(f' "top": {lista([liviano(c) for c in valor], " ")}')
+        elif clave in ("feeds", "feeds_fallidos"):
+            partes.append(f' {compacto(clave)}: {lista(valor, " ")}')
+        else:
+            partes.append(f' {compacto(clave)}: {compacto(valor)}')
+    texto = "{\n" + ",\n".join(partes) + "\n}\n"
+    json.loads(texto)   # si esto falla, mejor no escribir nada
+    destino.write_text(texto, encoding="utf-8")
+
+
 def main():
     ahora = datetime.now(timezone.utc)
     hoy = ahora.astimezone(ZoneInfo("Europe/London")).date()
@@ -892,7 +926,7 @@ def main():
     }
     SALIDA.mkdir(parents=True, exist_ok=True)
     destino = SALIDA / f"{hoy.isoformat()}.json"
-    destino.write_text(json.dumps(salida, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    guardar(salida, destino)
     borrar_viejos(hoy)
 
     r = salida["resumen"]
