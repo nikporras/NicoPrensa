@@ -50,6 +50,7 @@ MAX_LINKS = 8               # links directos que se guardan por noticia
 DIAS_A_GUARDAR = 7          # se borran candidatos más viejos que esto
 ESPERA = 20                 # segundos máximos por feed
 PAUSA_GOOGLE = 2.5          # segundos entre pedidos a Google, que bloquea las ráfagas
+DEPURAR = False             # el medidor lo enciende para ver los miembros de cada grupo
 NAVEGADOR = "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
 
 # Una noticia va a una sola sección. Las temáticas ganan a las geográficas.
@@ -799,7 +800,11 @@ def candidato(grupo, ahora, config):
         links.append({"medio": n["medio"], "titular": n["titular"], "url": n["url"],
                       "fecha": n["fecha"].isoformat(timespec="minutes"), "idioma": n["idioma"], "pista": True})
 
+    extra = {}
+    if DEPURAR:   # solo para el medidor: quién quedó en el grupo
+        extra["miembros"] = [f"{n['medio']} [{n['idioma']}{' G' if n['grupo'] else ''}] {n['titular'][:75]}" for n in grupo]
     return {
+        **extra,
         "titular": principal["titular"], "seccion": seccion, "puntaje": round(puntaje, 2),
         "n_medios": len(claves), "medios": medios, "otros_medios": otros, "idiomas": idiomas,
         "senales": [texto for _, texto in sorted(set(senales))][:4],

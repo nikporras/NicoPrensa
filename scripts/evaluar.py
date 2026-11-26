@@ -50,6 +50,7 @@ def main():
     # Lo mismo que habría visto el mensajero a la hora de corte de ese día.
     estados, noticias = c.recoger(corte)
     noticias = [n for n in noticias if n["fecha"] <= corte]
+    c.DEPURAR = True
     _, todos = c.armar(noticias, dia, corte)
 
     cuenta, por_link, indice = Counter(), {}, defaultdict(set)
@@ -122,6 +123,11 @@ def main():
             print(f"  {sec:8s} {k['puntaje']:5.2f} {k['n_medios']}m+{len(k.get('otros_medios') or [])} "
                   f"{senal:34s} | {corto(k['titular'], 78)}")
 
+    print("\nMIEMBROS DE LOS 4 GRUPOS CON MÁS MEDIOS (para detectar mezclas)")
+    for k in sorted(todos, key=lambda x: -x["n_medios"])[:4]:
+        print(f"  == {k['n_medios']}m {k['seccion']} | {corto(k['titular'], 70)}")
+        for m in k["miembros"][:28]:
+            print("     " + m)
     print("\nNOTICIAS CON 3 O MÁS MEDIOS QUE LA EDICIÓN NO TRAE (las 20 primeras)")
     faltan = [(i, k) for i, k in enumerate(todos) if k["n_medios"] >= 3 and i not in usados]
     for i, k in faltan[:20]:
