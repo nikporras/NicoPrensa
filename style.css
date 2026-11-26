@@ -59,7 +59,7 @@ button{font:inherit}
 /* Carrusel de lo más importante */
 .rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .rail::-webkit-scrollbar{display:none}
-.story-card{flex:0 0 100%;scroll-snap-align:start;min-height:21rem;border-radius:28px;padding:22px;display:flex;flex-direction:column;justify-content:flex-end;gap:12px;position:relative;overflow:hidden;color:#fff;isolation:isolate}
+.story-card{flex:0 0 88%;scroll-snap-align:start;min-height:21rem;border-radius:28px;padding:22px;display:flex;flex-direction:column;justify-content:flex-end;gap:12px;position:relative;overflow:hidden;color:#fff;isolation:isolate}
 .story-card::before{content:"";position:absolute;inset:0;z-index:-2;background:var(--art)}
 .story-card::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(10,12,25,0) 15%,rgba(10,12,25,.8) 100%)}
 .story-card .src{font:600 .82rem var(--body);opacity:.92}
@@ -69,7 +69,13 @@ button{font:inherit}
 .story-card .chip.ok{color:#9ff0c0}
 .story-card .chip.one{color:#ffd28f}
 .ghost{font:600 .9rem var(--body);color:#fff;text-decoration:none;border:1.5px solid rgba(255,255,255,.55);border-radius:999px;padding:.5rem .95rem;white-space:nowrap}
-.dots{display:flex;justify-content:center;gap:7px;margin-top:12px}
+.story-card:only-child{flex-basis:100%}
+.lead-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.lead-row .count{font:600 .85rem var(--body);color:var(--soft);white-space:nowrap}
+.rail-foot{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:12px}
+.nav{width:40px;height:40px;border-radius:50%;border:0;background:var(--glass-2);color:var(--ink);font:600 1.4rem/1 var(--display);cursor:pointer;display:grid;place-items:center;padding:0 0 3px}
+.nav[disabled]{opacity:.35;cursor:default}
+.dots{display:flex;justify-content:center;gap:7px}
 .dots button{width:8px;height:8px;padding:0;border:0;border-radius:4px;background:var(--dim);opacity:.5;cursor:pointer;transition:width .25s,opacity .25s}
 .dots button[aria-current]{opacity:1;background:var(--ink);width:22px}
 .art-0{--art:radial-gradient(120% 90% at 85% 10%,#ff9a5a 0%,transparent 55%),radial-gradient(90% 80% at 10% 30%,#c2304b 0%,transparent 60%),#3b1730}

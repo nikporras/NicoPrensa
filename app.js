@@ -108,8 +108,20 @@
   function carrusel(sec) {
     var g = el("section", "group");
     g.setAttribute("aria-label", sec.title);
-    g.appendChild(el("p", "lead", "Lo más importante del día"));
+    var total = (sec.stories || []).length;
+    var cabeza = el("p", "lead lead-row");
+    cabeza.appendChild(el("span", "", "Lo más importante del día"));
+    var cuenta = el("span", "count", "1 de " + total);
+    if (total > 1) cabeza.appendChild(cuenta);
+    g.appendChild(cabeza);
     var rail = el("div", "rail");
+    // Cada tarjeta deja asomar la siguiente, para que se note que se puede deslizar.
+    function paso() { var c = rail.firstElementChild; return c ? c.offsetWidth + 12 : rail.clientWidth; }
+    function ir(i) { rail.scrollTo({ left: Math.max(0, Math.min(total - 1, i)) * paso(), behavior: "smooth" }); }
+    function actual() {
+      if (rail.scrollLeft >= rail.scrollWidth - rail.clientWidth - 4) return total - 1;
+      return Math.round(rail.scrollLeft / Math.max(1, paso()));
+    }
     var dots = el("div", "dots");
     (sec.stories || []).forEach(function (st, i) {
       var c = el("article", "story-card art-" + (i % 3));
@@ -128,17 +140,35 @@
       d.type = "button";
       d.setAttribute("aria-label", "Noticia " + (i + 1) + " de " + sec.stories.length);
       if (i === 0) d.setAttribute("aria-current", "true");
-      d.addEventListener("click", function () { rail.scrollTo({ left: i * rail.clientWidth, behavior: "smooth" }); });
+      d.addEventListener("click", function () { ir(i); });
       dots.appendChild(d);
     });
     rail.addEventListener("scroll", function () {
-      var i = Math.round(rail.scrollLeft / Math.max(1, rail.clientWidth));
+      var i = actual();
+      cuenta.textContent = (i + 1) + " de " + total;
+      atras.disabled = i === 0;
+      adelante.disabled = i === total - 1;
       Array.prototype.forEach.call(dots.children, function (d, k) {
         if (k === i) d.setAttribute("aria-current", "true"); else d.removeAttribute("aria-current");
       });
     }, { passive: true });
     g.appendChild(rail);
-    if ((sec.stories || []).length > 1) g.appendChild(dots);
+    var atras = el("button", "nav", "‹");
+    atras.type = "button";
+    atras.setAttribute("aria-label", "Noticia anterior");
+    atras.disabled = true;
+    atras.addEventListener("click", function () { ir(actual() - 1); });
+    var adelante = el("button", "nav", "›");
+    adelante.type = "button";
+    adelante.setAttribute("aria-label", "Noticia siguiente");
+    adelante.addEventListener("click", function () { ir(actual() + 1); });
+    if (total > 1) {
+      var pie = el("div", "rail-foot");
+      pie.appendChild(atras);
+      pie.appendChild(dots);
+      pie.appendChild(adelante);
+      g.appendChild(pie);
+    }
     return g;
   }
 
