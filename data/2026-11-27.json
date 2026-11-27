@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "title": "Mueren dos técnicos italianos por un ataque con drones en Kuwait",
+  "title": "Trump pide a Putin que retire toda agresión militar contra Europa",
   "rates": {
     "dolar": "$3.630,89",
     "libra": "$4.658,26",
@@ -9,31 +9,31 @@
   "resumen": [
     {
       "emoji": "🇨🇴",
-      "text": "Dron mata a auxiliar de policía en Chocó"
+      "text": "Operación Iron III: 89 capturados en Cali"
     },
     {
       "emoji": "🌎",
-      "text": "Riesgo país argentino supera los 1.100 puntos"
+      "text": "Venezuela derogará la Ley Simón Bolívar"
     },
     {
       "emoji": "🏛️",
-      "text": "Rusia ataca Kiev y prepara otra ofensiva"
+      "text": "Casi 100 laboristas divididos por el yacimiento Rosebank"
     },
     {
       "emoji": "💻",
-      "text": "Fiscales intentan frenar subasta de chats de Character.AI"
+      "text": "Jensen Huang, víctima de videos falsos con IA"
     },
     {
       "emoji": "🎮",
-      "text": "Personal de Rockstar UK rechaza el sindicato"
+      "text": "GTA 6 bate récord físico en España"
     },
     {
       "emoji": "🎬",
-      "text": "Depardieu irá a juicio por violación"
+      "text": "Pitt y Jolie cierran la pelea por Miraval"
     },
     {
       "emoji": "⚽",
-      "text": "Gol agónico de Camilo Durán con el Celtic"
+      "text": "La FIFA sufre un ciberataque"
     }
   ],
   "sections": [
@@ -43,35 +43,34 @@
       "title": "Lo más importante",
       "stories": [
         {
+          "text": "Trump dice que pidió a Putin, en su reunión de la semana pasada en China, que \"retire toda agresión militar\" contra Europa, y espera que eso lleve a un acuerdo sobre Ucrania.",
+          "url": "https://www.dw.com/es/trump-pide-a-putin-que-retire-toda-agresión-militar-contra-europa/a-80068205?maca=spa-rss-sp-all-1122-rdf",
+          "verified": true,
+          "medios": 9
+        },
+        {
           "text": "Dos técnicos italianos de Rheinmetall murieron en Kuwait por un ataque con drones atribuido a Irán contra una estación de defensa aérea. Teherán niega estar detrás.",
           "url": "https://es-us.noticias.yahoo.com/italianos-mueren-ataque-iran%C3%AD-drones-154811808.html",
           "verified": true,
           "medios": 6
         },
         {
-          "text": "El español Pablo Hernández de Cos fue elegido por los líderes de la eurozona como próximo presidente del Banco Central Europeo. Sucederá a Christine Lagarde el 7 de febrero.",
-          "url": "https://www.infobae.com/america/agencias/2026/11/26/el-espanol-pablo-hernandez-de-cos-sera-el-proximo-presidente-del-banco-central-europeo/",
+          "text": "Argentina entró en recesión técnica: el PIB cayó 1,8% en el tercer trimestre, tras bajar 1% en el segundo, pese a las reformas de Milei.",
+          "url": "https://es.euronews.com/2026/11/26/por-que-argentina-ha-entrado-en-recesion-tecnica",
           "verified": true,
-          "medios": 4
+          "medios": 11
         },
         {
-          "text": "Lula eligió al banquero Luiz Carlos Trabuco, presidente del consejo de Bradesco, como ministro de Hacienda de Brasil para su cuarto mandato, que arranca en 2027.",
-          "url": "https://investnews.com.br/economia/lula-escolhe-trabuco-ministro-fazenda/",
-          "verified": true,
-          "medios": 5,
-          "lang": "pt"
-        },
-        {
-          "text": "La Fuerza Pública frustró un nuevo atentado en el Meta, con dos capturados y un camión incautado, tres días después del carro bomba frente a la Gobernación en Villavicencio.",
-          "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-anuncia-que-autoridades-frustraron-un-nuevo-intento-de-atentado-en-el-meta-se-reportan-dos-personas-capturadas-3604729",
-          "verified": true,
-          "medios": 3
-        },
-        {
-          "text": "El regulador de EE.UU. (FCC) autorizó a SpaceX a poner en órbita hasta un millón de satélites para crear centros de datos de inteligencia artificial en el espacio.",
-          "url": "https://gestion.pe/tecnologia/eeuu-autoriza-a-spacex-a-lanzar-un-millon-de-satelites-y-crear-centros-de-datos-espaciales-noticia",
+          "text": "Hallaron sin vida en Ábrego (Norte de Santander) a Anyi Jácome, secuestrada por el ELN hace 101 días. La Defensoría exige liberar a los tres policías que siguen en cautiverio.",
+          "url": "https://www.semana.com/nacion/articulo/hallan-sin-vida-a-anyi-jacome-secuestrada-por-el-eln-en-norte-de-santander/202652/",
           "verified": true,
           "medios": 5
+        },
+        {
+          "text": "Una fuerte tormenta golpea EE.UU. en Acción de Gracias: emergencia en Nueva York y Nueva Jersey, cientos de vuelos cancelados y el desfile de Macy's aplazado al sábado.",
+          "url": "https://www.elcolombiano.com/inicio/nueva-york-declara-estado-de-emergencia-por-tormenta-NJ44094867",
+          "verified": true,
+          "medios": 4
         }
       ]
     },
@@ -81,37 +80,53 @@
       "title": "Colombia",
       "stories": [
         {
-          "text": "Un ataque con dron contra la estación de Policía de Condoto (Chocó) mató al auxiliar Juan Alcides Murillo. El presidente De La Espriella ordenó perseguir a los responsables.",
-          "url": "https://www.semana.com/politica/articulo/abelardo-de-la-espriella-anuncia-primeras-medidas-tras-ataque-terrorista-en-choco-los-vamos-a-encontrar/202653/",
+          "text": "La Operación Iron III golpeó a 11 bandas en Cali, Yumbo y Jamundí: 89 capturados y más de 100 allanamientos.",
+          "url": "https://www.semana.com/nacion/cali/articulo/operacion-iron-iii-golpeo-a-11-bandas-criminales-en-cali-yumbo-y-jamundi-89-capturados-y-mas-de-100-allanamientos/202652/",
           "verified": true,
-          "medios": 2
+          "medios": 6
         },
         {
-          "text": "De La Espriella se retractó en video de sus críticas de octubre al wokismo, en cumplimiento de dos fallos del Consejo de Estado.",
-          "url": "https://www.eldiario.com.co/actualidad/de-la-espriella-se-retracto-de-sus-afirmaciones-sobre-el-wokismo/",
+          "text": "La Comisión de Ética de la Cámara abrió investigación formal contra la representante Luz Verónica Estrada por presuntos títulos falsos y pidió pruebas a la Nacional y al Copnia.",
+          "url": "https://www.eltiempo.com/politica/congreso/comision-de-etica-de-la-camara-abre-investigacion-formal-contra-luz-veronica-estrada-por-titulos-falsos-y-pide-pruebas-a-la-nacional-y-al-copnia-3604695",
+          "verified": true,
+          "medios": 4
+        },
+        {
+          "text": "Éxito de Cartagena: la Fiscalía reveló que el asaltante abatido llevaba radio, escopeta, pistola y cuchillo. Los otros dos fueron imputados por secuestro extorsivo agravado.",
+          "url": "https://www.infobae.com/colombia/2026/11/27/la-fiscalia-revelo-que-objetos-tenia-jailer-muneton-cuando-fue-abatido-en-la-toma-de-rehenes-en-almacen-exito-de-cartagena-que-hacia-en-el-momento/",
+          "verified": true,
+          "medios": 5
+        },
+        {
+          "text": "El Concejo de Medellín aprobó por 15 votos contra 5 un presupuesto de $12,1 billones para 2027.",
+          "url": "https://www.elcolombiano.com/inicio/concejo-medellin-aprobo-presupuesto-billones-mandato-federico-gutierrez-IA44110945",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "Salario mínimo 2027: tras el dato de productividad del DANE, Asofondos pide un alza de no más del 7%, mientras otros sectores hablan de más del 9%.",
+          "url": "https://www.elcolombiano.com/colombia/salario-minimo-2027-colombia-productividad-dane-reacciones-alza-GD44127155",
           "verified": true,
           "medios": 3
-        },
-        {
-          "text": "La TRM sigue en $3.630,89 este jueves y viernes por el festivo de Acción de Gracias en EE.UU. La nueva tasa regirá de sábado a lunes.",
-          "url": "https://www.bloomberglinea.com/latinoamerica/colombia/que-pasa-con-el-dolar-en-colombia-hoy-la-razon-por-la-que-la-trm-no-cambiara-hasta-el-viernes/",
-          "verified": true,
-          "medios": 3
-        },
-        {
-          "text": "Un temblor de magnitud 3,9 con epicentro en Istmina (Chocó) se registró en la madrugada del jueves, según el Servicio Geológico Colombiano.",
-          "url": "https://www.eltiempo.com/colombia/otras-ciudades/temblor-hoy-en-colombia-reportan-nuevo-sismo-de-magnitud-3-9-en-choco-durante-la-madrugada-de-este-jueves-26-de-noviembre-3604406",
-          "verified": true,
-          "medios": 2
-        },
-        {
-          "text": "Sofía Vergara fue homenajeada en Barranquilla y luego recorrió la ciudad en helicóptero con el presidente, que anunció proyectos conjuntos sin dar detalles.",
-          "url": "https://cronicadelquindio.com/actualidad/colombia/de-la-espriella-sofia-vergara-barranquilla-helicoptero/",
-          "verified": false,
-          "medios": 1
         }
       ],
-      "tambien": []
+      "tambien": [
+        {
+          "text": "La Fuerza Pública frustró un nuevo atentado en el Meta, con dos capturados",
+          "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-anuncia-que-autoridades-frustraron-un-nuevo-intento-de-atentado-en-el-meta-se-reportan-dos-personas-capturadas-3604729",
+          "medios": 3
+        },
+        {
+          "text": "Angie Rodríguez denunció posibles títulos falsos de una integrante de la UTL de la congresista Claudia Romero.",
+          "url": "https://www.semana.com/politica/articulo/angie-rodriguez-denuncio-posibles-titulos-falsos-de-un-miembro-de-la-utl-de-claudia-romero-tambien-senalada-de-alterar-diplomas/202621/",
+          "medios": 6
+        },
+        {
+          "text": "Los secuestradores del Éxito de Cartagena confesaron que el asalto estaba planeado desde hace meses.",
+          "url": "https://www.semana.com/nacion/articulo/estaba-planeado-hace-cinco-meses-la-confesion-de-los-secuestradores-del-exito-en-cartagena/202626/",
+          "medios": 2
+        }
+      ]
     },
     {
       "id": "latam",
@@ -119,33 +134,52 @@
       "title": "Latinoamérica",
       "stories": [
         {
-          "text": "El riesgo país de Argentina superó los 1.100 puntos y el dólar oficial tocó un récord, en medio de temores de recesión.",
-          "url": "https://www.lagaceta.com.ar/nota/1164224/economia/riesgo-pais-supera-1100-puntos-dolar-alcanza-nuevo-record-historico.html",
+          "text": "El Parlamento de Venezuela anunció que derogará la Ley Simón Bolívar, que castigaba con hasta 30 años de cárcel a quienes pidieran sanciones contra el país.",
+          "url": "https://elpais.com/america/2026-11-27/venezuela-derogara-la-ley-que-castiga-a-quienes-pidieron-sanciones-contra-el-pais.html",
           "verified": true,
-          "medios": 6
+          "medios": 7
         },
         {
-          "text": "Lula insinuó que la vacante de Barroso en el Supremo de Brasil podría no ir ni a Pacheco ni a Messias, y evalúa nombrar a una mujer negra.",
-          "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/26/lula-cogita-ministra-negra-stf-centrao-impasse",
-          "verified": false,
-          "medios": 1,
+          "text": "Brasil: el informe del presupuesto 2027 prevé R$ 12.800 millones para enmiendas de comisión del Congreso y un recorte de R$ 2.000 millones al gobierno.",
+          "url": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/relatorio-do-orcamento-preve-r-128-bi-para-emendas-de-comissao-e-corte-de-r-2-bi-do-governo.shtml",
+          "verified": true,
+          "medios": 6,
           "lang": "pt"
         },
         {
-          "text": "Según La Jornada, EE.UU. suspendió operaciones militares conjuntas con Ecuador por presuntos abusos.",
-          "url": "https://www.jornada.com.mx/2026/11/26/mundo/024n1mun",
-          "verified": false,
-          "medios": 1
+          "text": "Lula se reunió con Cleitinho, gobernador electo de Minas Gerais, que le pidió renegociar la deuda del estado y lo invitó a su posesión.",
+          "url": "https://www.cnnbrasil.com.br/politica/de-itamar-a-cleitinho-lula-abre-nova-fase-na-relacao-de-mg-e-suas-dividas/",
+          "verified": true,
+          "medios": 6,
+          "lang": "pt"
         },
         {
-          "text": "Brasil marcó un récord de R$ 254.000 millones en fusiones y adquisiciones en 2026, casi la mitad del total de América Latina, aunque con menos operaciones.",
-          "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/27/por-que-brasil-fecha-menos-negocios-bate-recorde-fusoes",
-          "verified": false,
-          "medios": 1,
+          "text": "Tras la amenaza de aranceles de EE.UU. a los aviones brasileños, el canciller Mauro Vieira se reunió con Embraer y le ofreció apoyo para buscar nuevos mercados.",
+          "url": "https://g1.globo.com/politica/noticia/2026/11/27/apos-eua-proporem-taxar-avioes-brasileiros-mauro-vieira-oferece-apoio-a-embraer-para-buscar-novos-mercados.ghtml",
+          "verified": true,
+          "medios": 3,
           "lang": "pt"
         }
       ],
-      "tambien": []
+      "tambien": [
+        {
+          "text": "Brasil: Lula eligió al banquero Luiz Carlos Trabuco como ministro de Hacienda",
+          "url": "https://investnews.com.br/economia/lula-escolhe-trabuco-ministro-fazenda/",
+          "medios": 5,
+          "lang": "pt"
+        },
+        {
+          "text": "María Corina Machado prometió una transición sin rencor ni venganza en Venezuela y exigió fecha de elecciones.",
+          "url": "https://www.elcolombiano.com/inicio/maria-corina-machado-promete-transicion-sin-rencor-y-sin-venganza-venezuela-exige-fecha-elecciones-PI44086823",
+          "medios": 5
+        },
+        {
+          "text": "El Supremo de Brasil decidió que el piso salarial nacional de los profesores depende de leyes estatales y municipales.",
+          "url": "https://g1.globo.com/politica/noticia/2026/11/26/stf-decide-que-aplicacao-piso-nacional-de-professores-depende-de-lei-aprovada-em-estados-e-municipios.ghtml",
+          "medios": 4,
+          "lang": "pt"
+        }
+      ]
     },
     {
       "id": "politica",
@@ -153,31 +187,45 @@
       "title": "Política",
       "stories": [
         {
-          "text": "Rusia atacó Kiev con misiles balísticos y dejó al menos siete heridos. Zelenski advierte que Moscú prepara otro ataque masivo en los próximos días.",
-          "url": "https://www.infobae.com/america/agencias/2026/11/26/al-menos-siete-heridos-en-un-ataque-ruso-a-kiev-con-misiles-balisticos/",
+          "text": "Una carta de casi 100 diputados laboristas deja ver la división del partido de Starmer sobre el yacimiento petrolero Rosebank, en el Mar del Norte.",
+          "url": "https://www.theguardian.com/politics/2026/nov/26/labour-split-over-rosebank-oilfield-exposed-by-letter-from-nearly-100-mps",
+          "verified": true,
+          "medios": 6,
+          "lang": "en"
+        },
+        {
+          "text": "La migración neta al Reino Unido cayó a 77.000 personas en el año hasta junio, la cifra más baja desde 1997 sin contar la pandemia. También bajan las solicitudes de asilo.",
+          "url": "https://www.bbc.co.uk/news/articles/cq36gj12n0l3o?at_medium=RSS&at_campaign=rss",
+          "verified": true,
+          "medios": 3,
+          "lang": "en"
+        },
+        {
+          "text": "Kilmar Ábrego García, el salvadoreño deportado por error, dejó EE.UU. y viajó a España tras una larga batalla legal para evitar otra deportación.",
+          "url": "https://www.bbc.com/mundo/articles/c6y80kp45gv2o?at_medium=RSS&at_campaign=rss",
+          "verified": true,
+          "medios": 8
+        },
+        {
+          "text": "Costa Rica negó la entrada a Francesca Albanese, relatora de la ONU para los territorios palestinos, que dijo sentirse humillada.",
+          "url": "https://elpais.com/america/2026-11-27/costa-rica-niega-el-ingreso-a-francesca-albanese-relatora-de-la-onu-para-territorios-palestinos.html",
           "verified": true,
           "medios": 5
         },
         {
-          "text": "Los líderes de la UE chocan en Bruselas por el presupuesto 2028 a 2034 y por un nuevo préstamo de 45.000 millones de euros a Ucrania, que rechazan Hungría, Eslovaquia, Chequia y Bulgaria.",
-          "url": "https://www.infobae.com/america/mundo/2026/11/26/los-lideres-de-la-ue-chocan-por-el-presupuesto-y-el-nuevo-prestamo-de-45000-millones-de-euros-a-ucrania/",
+          "text": "Macron advierte que la UE cometería un \"error estratégico\" si recorta su presupuesto, en plena negociación del marco 2028 a 2034.",
+          "url": "https://www.larepublica.co/globoeconomia/la-ue-cometeria-un-error-estrategico-si-recorta-su-presupuesto-dice-macron-4534552",
           "verified": true,
-          "medios": 5
-        },
-        {
-          "text": "Corea del Norte suspendió temporalmente su ayuda militar a Rusia, incluidos los misiles KN-23, tras una disputa diplomática, según la inteligencia ucraniana.",
-          "url": "https://www.ukrinform.es/rubric-polytics/4188795-gur-corea-del-norte-suspende-la-ayuda-militar-a-rusia-incluido-el-suministro-de-misiles-balisticos.html",
-          "verified": true,
-          "medios": 6
-        },
-        {
-          "text": "Ucrania negó querer llevar la guerra a Libia tras atacar buques rusos frente a Bengasi. La ONU pidió una investigación independiente.",
-          "url": "https://www.infobae.com/america/mundo/2026/11/27/ucrania-insistio-en-que-no-pretende-extender-la-guerra-a-libia-y-alerto-por-un-ataque-masivo-de-rusia/",
-          "verified": false,
-          "medios": 1
+          "medios": 3
         }
       ],
-      "tambien": []
+      "tambien": [
+        {
+          "text": "Pablo Hernández de Cos fue elegido como próximo presidente del Banco Central Europeo",
+          "url": "https://www.infobae.com/america/agencias/2026/11/26/el-espanol-pablo-hernandez-de-cos-sera-el-proximo-presidente-del-banco-central-europeo/",
+          "medios": 4
+        }
+      ]
     },
     {
       "id": "tec",
@@ -185,31 +233,48 @@
       "title": "Tecnología",
       "stories": [
         {
-          "text": "Character.AI, en quiebra, planea subastar el 1 de diciembre los chats de 21 millones de cuentas. Una coalición de 42 fiscales de EE.UU. intenta frenarlo.",
-          "url": "https://es.gizmodo.com/la-quiebra-de-character-ai-pone-en-riesgo-las-conversaciones-privadas-de-millones-de-usuarios-2000274413",
+          "text": "Tras volver como CEO de Nvidia, Jensen Huang se convirtió en protagonista de una ola de videos falsos creados con inteligencia artificial.",
+          "url": "https://www.semana.com/tecnologia/articulo/tras-su-regreso-a-nvidia-jensen-huang-se-convierte-en-protagonista-de-videos-falsos-creados-con-inteligencia-artificial/202623/",
+          "verified": true,
+          "medios": 12
+        },
+        {
+          "text": "WhatsApp ya permite programar mensajes para enviarlos más tarde.",
+          "url": "https://elpais.com/tecnologia/2026-11-26/whatsapp-ya-permite-programar-mensajes-algunos-es-mejor-enviarlos-mas-tarde.html",
           "verified": true,
           "medios": 5
         },
         {
-          "text": "OpenAI unirá Chat y Work en ChatGPT y, desde diciembre, ChatGPT y Codex compartirán un mismo límite de uso en los planes de pago.",
-          "url": "https://xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso",
+          "text": "Elon Musk promete regalar dos acciones de SpaceX a cada niño de Estados Unidos y dice que se transferirán el próximo mes.",
+          "url": "https://www.semana.com/tecnologia/articulo/elon-musk-explica-por-que-quiere-involucrar-a-los-ninos-en-spacex-tras-prometer-un-regalo-de-miles-de-millones-de-dolares/202603/",
           "verified": true,
-          "medios": 3
+          "medios": 6
         },
         {
-          "text": "Nvidia recortaría entre 20% y 30% el suministro de chips para tarjetas gráficas de juegos por la demanda de la IA, lo que podría subir precios.",
-          "url": "https://infobae.com/tecno/2026/11/26/nvidia-prepara-un-recorte-de-hasta-el-30-en-el-suministro-de-gpu-para-jugadores",
-          "verified": false,
-          "medios": 1
+          "text": "Nuevas imágenes muestran el cráter del tamaño de un estadio que dejó la misión DART de la NASA en el asteroide Dimorphos.",
+          "url": "https://elpais.com/ciencia/2026-11-25/asi-es-el-crater-del-tamano-de-un-estadio-que-formo-la-primera-mision-que-desvio-un-asteroide.html",
+          "verified": true,
+          "medios": 4
         },
         {
-          "text": "La eléctrica japonesa Jera negocia con Anthropic, Meta, Amazon, Microsoft y Google construir centros de datos junto a sus plantas cerca de Tokio, según Nikkei.",
-          "url": "https://es.investing.com/news/stock-market-news/jera-de-japon-negocia-con-anthropic-meta-y-amazon-centros-de-datos-93CH-3944932",
-          "verified": false,
-          "medios": 1
+          "text": "El Gobierno colombiano publicó un borrador con las reglas para usar inteligencia artificial en la contratación estatal.",
+          "url": "https://www.semana.com/economia/macroeconomia/articulo/gobierno-publica-borrador-para-definir-las-reglas-del-uso-de-la-ia-en-contratacion-estatal/202634/",
+          "verified": true,
+          "medios": 2
         }
       ],
-      "tambien": []
+      "tambien": [
+        {
+          "text": "Nvidia podría retrasar su serie 60 de tarjetas gráficas tras la vuelta de Jensen Huang.",
+          "url": "https://www.vidaextra.com/industria/vuelta-jensen-huang-no-necesariamente-buenas-noticias-nvidia-podria-retrasar-su-serie-60-tarjetas-graficas",
+          "medios": 2
+        },
+        {
+          "text": "Meta añade su IA Muse a los mensajes de Instagram para ayudar con compras y otras tareas.",
+          "url": "https://www.infobae.com/tecno/2026/11/27/meta-anade-su-ia-muse-a-los-mensajes-de-instagram-ayudara-a-hacer-compras-y-otras-rutinas/",
+          "medios": 3
+        }
+      ]
     },
     {
       "id": "juegos",
@@ -217,32 +282,48 @@
       "title": "Videojuegos",
       "stories": [
         {
-          "text": "El 75% del personal de Rockstar en Reino Unido votó contra reconocer al sindicato IWGB, con una participación del 93%.",
-          "url": "https://www.gamereactor.es/el-personal-de-rockstar-en-el-reino-unido-rechaza-el-reconocimiento/",
+          "text": "Pese a las críticas por venderse como código en caja, la edición física de GTA 6 batió un récord de ventas en España.",
+          "url": "https://www.3djuegos.com/juegos/grand-theft-auto-vi/noticias/a-pesar-criticas-ser-codigo-caja-gta-6-ha-batido-record-espana-su-version-fisica",
           "verified": true,
-          "medios": 6
+          "medios": 4
         },
         {
-          "text": "Talleres de reparación reportan un aumento de consolas Xbox y PS5 averiadas tras largas sesiones de GTA 6.",
-          "url": "https://www.notebookcheck.org/El-lanzamiento-de-GTA-6-deja-inservibles-numerosas-consolas-Xbox-que-se-suman-a-las-PS5-que-estan-fallando.1461414.0.html",
+          "text": "Take-Two arremete contra los ports pirata de GTA 6 para PC y logra tumbarlos.",
+          "url": "https://hipertextual.com/videojuegos/take-two-tumba-ports-piratas-gta-6-pc/",
           "verified": true,
-          "medios": 2
+          "medios": 4
         },
         {
-          "text": "CD Projekt lanzó el parche 5.02 de The Witcher 3 Remastered con 97 correcciones, ajustes de equilibrio y más de 40 mods para todas las plataformas.",
-          "url": "https://www.pushsquare.com/news/2026/11/the-witcher-3-remastered-patch-5-02-fixes-annoying-ps5-stutters-improves-performance-and-much-more",
+          "text": "Ken Kutaragi, padre de PlayStation: \"Quería que Microsoft hiciera Xbox y amo a Nintendo\".",
+          "url": "https://www.vidaextra.com/industria/ken-kutaragi-padre-playstation-queria-que-microsoft-hiciera-xbox-amo-a-nintendo",
           "verified": true,
-          "medios": 6,
-          "lang": "en"
+          "medios": 4
         },
         {
-          "text": "Nintendo publicó el tráiler general de Xenoblade Chronicles 3 para Switch 2, que llega el 3 de diciembre.",
-          "url": "https://crunchyroll.com/es-es/news/latest/2026/11/26/xenoblade-chronicles-3-nintendo-switch-2-edition-trailer-general",
+          "text": "Ocarina of Time Remake recibe un parche en Switch 2 que corrige un error que impedía avanzar en una misión.",
+          "url": "https://www.levelup.com/noticias/zelda-ocarina-of-time-recibe-una-nueva-actualizacion-en-nintendo-switch-2-que-corrige-un-problema-que-impedia-avanzar-en-una-mision/",
+          "verified": true,
+          "medios": 3
+        },
+        {
+          "text": "Microsoft quiere que sagas como Call of Duty y Fallout se noten más como marcas de Xbox a partir de 2027.",
+          "url": "https://www.3djuegos.com/xbox-series-xs/noticias/xbox-tiene-call-of-duty-fallout-muchas-otras-sagas-no-se-nota-suficiente-microsoft-quiere-cambiar-eso-a-partir-2027",
           "verified": true,
           "medios": 2
         }
       ],
-      "tambien": []
+      "tambien": [
+        {
+          "text": "Westcol culpó a GTA por el secuestro en el Éxito de Cartagena y desató polémica.",
+          "url": "https://www.elcolombiano.com/inicio/westcol-secuestro-cartagena-es-por-gta-congreso-MJ44099036",
+          "medios": 5
+        },
+        {
+          "text": "Epic Games Store regala por tiempo limitado un juego cooperativo.",
+          "url": "https://www.levelup.com/noticias/gratis-ya-puedes-reclamar-este-divertido-juego-cooperativo-en-la-epic-games-store-por-tiempo-limitado/",
+          "medios": 4
+        }
+      ]
     },
     {
       "id": "cine",
@@ -250,31 +331,44 @@
       "title": "Cine y series",
       "stories": [
         {
-          "text": "La justicia francesa confirmó que Gérard Depardieu irá a juicio por la presunta violación de la actriz Charlotte Arnould en 2018. Aún no hay fecha.",
-          "url": "https://www.infobae.com/entretenimiento/2026/11/26/gerard-depardieu-ira-a-juicio-por-la-denuncia-de-presunta-violacion-de-la-actriz-charlotte-arnould/",
+          "text": "Brad Pitt y Angelina Jolie ponen fin a su larga batalla judicial por la venta de Château Miraval, la finca francesa donde se casaron.",
+          "url": "https://elpais.com/gente/2026-11-26/brad-pitt-y-angelina-jolie-ponen-fin-a-su-larga-batalla-judicial-por-la-venta-de-la-finca-francesa-chateau-miraval-donde-se-casaron.html",
           "verified": true,
-          "medios": 7
+          "medios": 4
         },
         {
-          "text": "Marvel publicó un nuevo adelanto de Avengers: Doomsday con escenas inéditas, apenas tres días después de su tráiler récord.",
-          "url": "https://www.minutouno.com/espectaculos/nuevo-adelanto-avengers-doomsday-marvel-lanzo-otro-avance-inedito-un-impactante-cruce-n6349655",
+          "text": "Murió a los 91 años Gerald R. Molen, productor ganador del Óscar por La lista de Schindler.",
+          "url": "https://variety.com/2026/film/news/gerald-r-molen-dead-schindlers-list-producer-1236959200/",
+          "verified": true,
+          "medios": 2,
+          "lang": "en"
+        },
+        {
+          "text": "Warwick Davis, el profesor Flitwick, será el único actor de las películas que aparece en la serie de Harry Potter de HBO: \"Es un honor\".",
+          "url": "https://www.sensacine.com/noticias/cine/noticia-1000234253/",
           "verified": true,
           "medios": 2
         },
         {
-          "text": "Netflix estrenó El secuestro de Toos van der Valk, miniserie de seis capítulos basada en un caso real de 1982 en Países Bajos.",
-          "url": "https://www.a24.com/trends/esta-netflix-tan-solo-tiene-6-capitulos-y-es-la-nueva-miniserie-inspirada-una-historia-real-n1620218",
+          "text": "La directora de Crepúsculo asegura que la saga \"vio el futuro\" al imaginar a Robert Pattinson como James Bond.",
+          "url": "https://www.espinof.com/directores-y-guionistas/crepusculo-predijo-que-robert-pattinson-se-convertiria-james-bond-su-directora-asegura-que-estaban-viendo-futuro",
           "verified": true,
           "medios": 2
         },
         {
-          "text": "MUBI presentó el tráiler de Un largo invierno, lo nuevo de Andrew Haigh (All of Us Strangers), que llegará a los cines en febrero.",
-          "url": "https://cinecassette.com/2026/11/26/un-largo-invierno-de-andrew-haigh-estrena-trailer-y-poster-oficial/",
-          "verified": false,
-          "medios": 1
+          "text": "El nuevo doblaje latino de Dragon Ball Super cambia oficialmente la voz de Beerus y hace más ajustes en el episodio 3.",
+          "url": "https://www.levelup.com/noticias/dragon-ball-super-beerus-reemplaza-oficialmente-a-un-actor-en-el-nuevo-doblaje-latino-y-realiza-mas-cambios-en-la-version-al-espanol-del-episodio-3/",
+          "verified": true,
+          "medios": 3
         }
       ],
-      "tambien": []
+      "tambien": [
+        {
+          "text": "Chris Evans se reunió en secreto con Marvel durante años mientras decía que su Capitán América estaba retirado.",
+          "url": "https://www.espinof.com/actores-y-actrices/chris-evans-nos-convencio-que-su-capitan-america-estaba-retirado-se-paso-anos-mintiendo-descaradamente-se-reunia-secreto-marvel",
+          "medios": 2
+        }
+      ]
     },
     {
       "id": "futbol",
@@ -282,31 +376,60 @@
       "title": "Fútbol",
       "stories": [
         {
-          "text": "Camilo Durán marcó de cabeza al minuto 84 el gol del triunfo 2 a 1 del Celtic en Portugal ante el Torreense, por la Europa League.",
-          "url": "https://www.eltiempo.com/deportes/futbol-internacional/camilo-duran-sigue-en-racha-anotadora-vea-su-nuevo-gol-con-el-celtic-en-la-liga-de-europa-3604683",
+          "text": "La FIFA sufrió un ciberataque en el que robaron un conjunto limitado de datos personales y comerciales.",
+          "url": "https://as.com/futbol/internacional/la-fifa-sufre-un-ciberataque-f202611-n/",
           "verified": true,
           "medios": 5
         },
         {
-          "text": "Juan David Cabal y Jhon Lucumí fueron titulares en la goleada de la Juventus al Omonia por la Europa League.",
-          "url": "https://revistalaliga.com/cabal-y-lucumi-titulares-en-goleada-de-juventus-al-omonia-por-la-europa-league/",
-          "verified": false,
-          "medios": 1
+          "text": "Amaranto Perea, técnico del DIM, sobre el regreso de Juan Fernando Quintero: \"No todavía\".",
+          "url": "https://www.semana.com/deportes/articulo/amaranto-perea-aterrizo-al-dim-con-la-situacion-de-juan-fernando-quintero-no-todavia/202658/",
+          "verified": true,
+          "medios": 6
         },
         {
-          "text": "Europa League: el Bournemouth remontó y ganó 1 a 2 en Vigo al Celta pese a jugar con diez, y el Crystal Palace venció 2 a 1 a la Real Sociedad.",
-          "url": "https://es.uefa.com/uefaeuropaleague/news/02ab-222a833c11e1-f7f0c92348b7-1000--resumen-y-videos-de-la-jornada-5-de-la-europa-league-bou/",
+          "text": "Lucas González, técnico de Nacional, reconoció que su equipo no pudo con Once Caldas y elogió a Santa Fe: \"Hizo hoy lo que nosotros no logramos\".",
+          "url": "https://www.infobae.com/colombia/deportes/2026/11/27/lucas-gonzalez-entrenador-de-atletico-nacional-reconocio-que-no-pudo-con-once-caldas-y-exalto-a-santa-fe-hizo-hoy-lo-que-nosotros-no-logramos/",
           "verified": true,
-          "medios": 5
+          "medios": 6
         },
         {
-          "text": "El Mónaco es el único equipo con pleno de victorias en la Conference League tras la cuarta fecha.",
-          "url": "https://diariodeportes.com.co/futbol-internacional/resumen-de-la-4a-fecha-de-la-fase-liga-de-la-conference-league/",
+          "text": "Dorival Júnior y Rafinha anunciaron que dejarán el São Paulo al terminar el Brasileirão.",
+          "url": "https://ge.globo.com/futebol/times/sao-paulo/noticia/2026/11/26/dorival-junior-avisa-que-deixara-o-sao-paulo-no-fim-do-brasileirao.ghtml",
           "verified": true,
-          "medios": 2
+          "medios": 7,
+          "lang": "pt"
+        },
+        {
+          "text": "El Bayern intenta aclarar la situación de Jamal Musiala tras los rumores sobre su salud y un posible retiro, pero deja preguntas abiertas.",
+          "url": "https://www.dw.com/es/bayern-múnich-busca-aclarar-el-caso-musiala-y-deja-preguntas-abiertas/a-80061155?maca=spa-rss-sp-all-1122-rdf",
+          "verified": true,
+          "medios": 6
         }
       ],
-      "tambien": []
+      "tambien": [
+        {
+          "text": "São Paulo le ganó 3-1 a Remo en el Brasileirão bajo protestas de su hinchada.",
+          "url": "https://www.cnnbrasil.com.br/esportes/futebol/sao-paulo/em-despedida-melancolica-sao-paulo-sofre-mas-vence-o-remo-no-morumbis/",
+          "medios": 8,
+          "lang": "pt"
+        },
+        {
+          "text": "Detuvieron a David, jugador del Vasco da Gama, en las instalaciones del club.",
+          "url": "https://www.marca.com/futbol/2026/11/26/detenido-david-jugador-vasco-da-gama-instalaciones-club-video.html",
+          "medios": 5
+        },
+        {
+          "text": "Cucho Hernández entró en el once ideal de la jornada de Champions tras su doblete con el Betis.",
+          "url": "https://www.marca.com/co/2026/11/26/cucho-hernandez-entra-xi-ideal-champions-doblete-betis.html",
+          "medios": 6
+        },
+        {
+          "text": "Hubo tensión en el Besiktas contra Hapoel Beer Sheva por una bandera palestina en la grada.",
+          "url": "https://www.marca.com/futbol/europa-league/2026/11/26/tension-besiktas-hapoel-beer-sheva-bandera-palestina-grada-video.html",
+          "medios": 6
+        }
+      ]
     }
   ],
   "omitidas": []
