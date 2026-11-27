@@ -1,0 +1,313 @@
+{
+  "date": "2026-11-27",
+  "title": "Mueren dos técnicos italianos por un ataque con drones en Kuwait",
+  "rates": {
+    "dolar": "$3.630,89",
+    "libra": "$4.658,26",
+    "real": "R$ 7,42"
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "Dron mata a auxiliar de policía en Chocó"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Riesgo país argentino supera los 1.100 puntos"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "Rusia ataca Kiev y prepara otra ofensiva"
+    },
+    {
+      "emoji": "💻",
+      "text": "Fiscales intentan frenar subasta de chats de Character.AI"
+    },
+    {
+      "emoji": "🎮",
+      "text": "Personal de Rockstar UK rechaza el sindicato"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Depardieu irá a juicio por violación"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Gol agónico de Camilo Durán con el Celtic"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Dos técnicos italianos de Rheinmetall murieron en Kuwait por un ataque con drones atribuido a Irán contra una estación de defensa aérea. Teherán niega estar detrás.",
+          "url": "https://es-us.noticias.yahoo.com/italianos-mueren-ataque-iran%C3%AD-drones-154811808.html",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "El español Pablo Hernández de Cos fue elegido por los líderes de la eurozona como próximo presidente del Banco Central Europeo. Sucederá a Christine Lagarde el 7 de febrero.",
+          "url": "https://www.infobae.com/america/agencias/2026/11/26/el-espanol-pablo-hernandez-de-cos-sera-el-proximo-presidente-del-banco-central-europeo/",
+          "verified": true,
+          "medios": 4
+        },
+        {
+          "text": "Lula eligió al banquero Luiz Carlos Trabuco, presidente del consejo de Bradesco, como ministro de Hacienda de Brasil para su cuarto mandato, que arranca en 2027.",
+          "url": "https://investnews.com.br/economia/lula-escolhe-trabuco-ministro-fazenda/",
+          "verified": true,
+          "medios": 5,
+          "lang": "pt"
+        },
+        {
+          "text": "La Fuerza Pública frustró un nuevo atentado en el Meta, con dos capturados y un camión incautado, tres días después del carro bomba frente a la Gobernación en Villavicencio.",
+          "url": "https://www.eltiempo.com/colombia/otras-ciudades/presidente-abelardo-de-la-espriella-anuncia-que-autoridades-frustraron-un-nuevo-intento-de-atentado-en-el-meta-se-reportan-dos-personas-capturadas-3604729",
+          "verified": true,
+          "medios": 3
+        },
+        {
+          "text": "El regulador de EE.UU. (FCC) autorizó a SpaceX a poner en órbita hasta un millón de satélites para crear centros de datos de inteligencia artificial en el espacio.",
+          "url": "https://gestion.pe/tecnologia/eeuu-autoriza-a-spacex-a-lanzar-un-millon-de-satelites-y-crear-centros-de-datos-espaciales-noticia",
+          "verified": true,
+          "medios": 5
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "Un ataque con dron contra la estación de Policía de Condoto (Chocó) mató al auxiliar Juan Alcides Murillo. El presidente De La Espriella ordenó perseguir a los responsables.",
+          "url": "https://www.semana.com/politica/articulo/abelardo-de-la-espriella-anuncia-primeras-medidas-tras-ataque-terrorista-en-choco-los-vamos-a-encontrar/202653/",
+          "verified": true,
+          "medios": 2
+        },
+        {
+          "text": "De La Espriella se retractó en video de sus críticas de octubre al wokismo, en cumplimiento de dos fallos del Consejo de Estado.",
+          "url": "https://www.eldiario.com.co/actualidad/de-la-espriella-se-retracto-de-sus-afirmaciones-sobre-el-wokismo/",
+          "verified": true,
+          "medios": 3
+        },
+        {
+          "text": "La TRM sigue en $3.630,89 este jueves y viernes por el festivo de Acción de Gracias en EE.UU. La nueva tasa regirá de sábado a lunes.",
+          "url": "https://www.bloomberglinea.com/latinoamerica/colombia/que-pasa-con-el-dolar-en-colombia-hoy-la-razon-por-la-que-la-trm-no-cambiara-hasta-el-viernes/",
+          "verified": true,
+          "medios": 3
+        },
+        {
+          "text": "Un temblor de magnitud 3,9 con epicentro en Istmina (Chocó) se registró en la madrugada del jueves, según el Servicio Geológico Colombiano.",
+          "url": "https://www.eltiempo.com/colombia/otras-ciudades/temblor-hoy-en-colombia-reportan-nuevo-sismo-de-magnitud-3-9-en-choco-durante-la-madrugada-de-este-jueves-26-de-noviembre-3604406",
+          "verified": true,
+          "medios": 2
+        },
+        {
+          "text": "Sofía Vergara fue homenajeada en Barranquilla y luego recorrió la ciudad en helicóptero con el presidente, que anunció proyectos conjuntos sin dar detalles.",
+          "url": "https://cronicadelquindio.com/actualidad/colombia/de-la-espriella-sofia-vergara-barranquilla-helicoptero/",
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "El riesgo país de Argentina superó los 1.100 puntos y el dólar oficial tocó un récord, en medio de temores de recesión.",
+          "url": "https://www.lagaceta.com.ar/nota/1164224/economia/riesgo-pais-supera-1100-puntos-dolar-alcanza-nuevo-record-historico.html",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "Lula insinuó que la vacante de Barroso en el Supremo de Brasil podría no ir ni a Pacheco ni a Messias, y evalúa nombrar a una mujer negra.",
+          "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/26/lula-cogita-ministra-negra-stf-centrao-impasse",
+          "verified": false,
+          "medios": 1,
+          "lang": "pt"
+        },
+        {
+          "text": "Según La Jornada, EE.UU. suspendió operaciones militares conjuntas con Ecuador por presuntos abusos.",
+          "url": "https://www.jornada.com.mx/2026/11/26/mundo/024n1mun",
+          "verified": false,
+          "medios": 1
+        },
+        {
+          "text": "Brasil marcó un récord de R$ 254.000 millones en fusiones y adquisiciones en 2026, casi la mitad del total de América Latina, aunque con menos operaciones.",
+          "url": "https://tvsimbrasil.com.br/brasil/negocios/noticia/2026/11/27/por-que-brasil-fecha-menos-negocios-bate-recorde-fusoes",
+          "verified": false,
+          "medios": 1,
+          "lang": "pt"
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "Rusia atacó Kiev con misiles balísticos y dejó al menos siete heridos. Zelenski advierte que Moscú prepara otro ataque masivo en los próximos días.",
+          "url": "https://www.infobae.com/america/agencias/2026/11/26/al-menos-siete-heridos-en-un-ataque-ruso-a-kiev-con-misiles-balisticos/",
+          "verified": true,
+          "medios": 5
+        },
+        {
+          "text": "Los líderes de la UE chocan en Bruselas por el presupuesto 2028 a 2034 y por un nuevo préstamo de 45.000 millones de euros a Ucrania, que rechazan Hungría, Eslovaquia, Chequia y Bulgaria.",
+          "url": "https://www.infobae.com/america/mundo/2026/11/26/los-lideres-de-la-ue-chocan-por-el-presupuesto-y-el-nuevo-prestamo-de-45000-millones-de-euros-a-ucrania/",
+          "verified": true,
+          "medios": 5
+        },
+        {
+          "text": "Corea del Norte suspendió temporalmente su ayuda militar a Rusia, incluidos los misiles KN-23, tras una disputa diplomática, según la inteligencia ucraniana.",
+          "url": "https://www.ukrinform.es/rubric-polytics/4188795-gur-corea-del-norte-suspende-la-ayuda-militar-a-rusia-incluido-el-suministro-de-misiles-balisticos.html",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "Ucrania negó querer llevar la guerra a Libia tras atacar buques rusos frente a Bengasi. La ONU pidió una investigación independiente.",
+          "url": "https://www.infobae.com/america/mundo/2026/11/27/ucrania-insistio-en-que-no-pretende-extender-la-guerra-a-libia-y-alerto-por-un-ataque-masivo-de-rusia/",
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "Character.AI, en quiebra, planea subastar el 1 de diciembre los chats de 21 millones de cuentas. Una coalición de 42 fiscales de EE.UU. intenta frenarlo.",
+          "url": "https://es.gizmodo.com/la-quiebra-de-character-ai-pone-en-riesgo-las-conversaciones-privadas-de-millones-de-usuarios-2000274413",
+          "verified": true,
+          "medios": 5
+        },
+        {
+          "text": "OpenAI unirá Chat y Work en ChatGPT y, desde diciembre, ChatGPT y Codex compartirán un mismo límite de uso en los planes de pago.",
+          "url": "https://xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso",
+          "verified": true,
+          "medios": 3
+        },
+        {
+          "text": "Nvidia recortaría entre 20% y 30% el suministro de chips para tarjetas gráficas de juegos por la demanda de la IA, lo que podría subir precios.",
+          "url": "https://infobae.com/tecno/2026/11/26/nvidia-prepara-un-recorte-de-hasta-el-30-en-el-suministro-de-gpu-para-jugadores",
+          "verified": false,
+          "medios": 1
+        },
+        {
+          "text": "La eléctrica japonesa Jera negocia con Anthropic, Meta, Amazon, Microsoft y Google construir centros de datos junto a sus plantas cerca de Tokio, según Nikkei.",
+          "url": "https://es.investing.com/news/stock-market-news/jera-de-japon-negocia-con-anthropic-meta-y-amazon-centros-de-datos-93CH-3944932",
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "El 75% del personal de Rockstar en Reino Unido votó contra reconocer al sindicato IWGB, con una participación del 93%.",
+          "url": "https://www.gamereactor.es/el-personal-de-rockstar-en-el-reino-unido-rechaza-el-reconocimiento/",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "Talleres de reparación reportan un aumento de consolas Xbox y PS5 averiadas tras largas sesiones de GTA 6.",
+          "url": "https://www.notebookcheck.org/El-lanzamiento-de-GTA-6-deja-inservibles-numerosas-consolas-Xbox-que-se-suman-a-las-PS5-que-estan-fallando.1461414.0.html",
+          "verified": true,
+          "medios": 2
+        },
+        {
+          "text": "CD Projekt lanzó el parche 5.02 de The Witcher 3 Remastered con 97 correcciones, ajustes de equilibrio y más de 40 mods para todas las plataformas.",
+          "url": "https://www.pushsquare.com/news/2026/11/the-witcher-3-remastered-patch-5-02-fixes-annoying-ps5-stutters-improves-performance-and-much-more",
+          "verified": true,
+          "medios": 6,
+          "lang": "en"
+        },
+        {
+          "text": "Nintendo publicó el tráiler general de Xenoblade Chronicles 3 para Switch 2, que llega el 3 de diciembre.",
+          "url": "https://crunchyroll.com/es-es/news/latest/2026/11/26/xenoblade-chronicles-3-nintendo-switch-2-edition-trailer-general",
+          "verified": true,
+          "medios": 2
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "La justicia francesa confirmó que Gérard Depardieu irá a juicio por la presunta violación de la actriz Charlotte Arnould en 2018. Aún no hay fecha.",
+          "url": "https://www.infobae.com/entretenimiento/2026/11/26/gerard-depardieu-ira-a-juicio-por-la-denuncia-de-presunta-violacion-de-la-actriz-charlotte-arnould/",
+          "verified": true,
+          "medios": 7
+        },
+        {
+          "text": "Marvel publicó un nuevo adelanto de Avengers: Doomsday con escenas inéditas, apenas tres días después de su tráiler récord.",
+          "url": "https://www.minutouno.com/espectaculos/nuevo-adelanto-avengers-doomsday-marvel-lanzo-otro-avance-inedito-un-impactante-cruce-n6349655",
+          "verified": true,
+          "medios": 2
+        },
+        {
+          "text": "Netflix estrenó El secuestro de Toos van der Valk, miniserie de seis capítulos basada en un caso real de 1982 en Países Bajos.",
+          "url": "https://www.a24.com/trends/esta-netflix-tan-solo-tiene-6-capitulos-y-es-la-nueva-miniserie-inspirada-una-historia-real-n1620218",
+          "verified": true,
+          "medios": 2
+        },
+        {
+          "text": "MUBI presentó el tráiler de Un largo invierno, lo nuevo de Andrew Haigh (All of Us Strangers), que llegará a los cines en febrero.",
+          "url": "https://cinecassette.com/2026/11/26/un-largo-invierno-de-andrew-haigh-estrena-trailer-y-poster-oficial/",
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Camilo Durán marcó de cabeza al minuto 84 el gol del triunfo 2 a 1 del Celtic en Portugal ante el Torreense, por la Europa League.",
+          "url": "https://www.eltiempo.com/deportes/futbol-internacional/camilo-duran-sigue-en-racha-anotadora-vea-su-nuevo-gol-con-el-celtic-en-la-liga-de-europa-3604683",
+          "verified": true,
+          "medios": 5
+        },
+        {
+          "text": "Juan David Cabal y Jhon Lucumí fueron titulares en la goleada de la Juventus al Omonia por la Europa League.",
+          "url": "https://revistalaliga.com/cabal-y-lucumi-titulares-en-goleada-de-juventus-al-omonia-por-la-europa-league/",
+          "verified": false,
+          "medios": 1
+        },
+        {
+          "text": "Europa League: el Bournemouth remontó y ganó 1 a 2 en Vigo al Celta pese a jugar con diez, y el Crystal Palace venció 2 a 1 a la Real Sociedad.",
+          "url": "https://es.uefa.com/uefaeuropaleague/news/02ab-222a833c11e1-f7f0c92348b7-1000--resumen-y-videos-de-la-jornada-5-de-la-europa-league-bou/",
+          "verified": true,
+          "medios": 5
+        },
+        {
+          "text": "El Mónaco es el único equipo con pleno de victorias en la Conference League tras la cuarta fecha.",
+          "url": "https://diariodeportes.com.co/futbol-internacional/resumen-de-la-4a-fecha-de-la-fase-liga-de-la-conference-league/",
+          "verified": true,
+          "medios": 2
+        }
+      ],
+      "tambien": []
+    }
+  ],
+  "omitidas": []
+}
