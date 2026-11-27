@@ -2,7 +2,13 @@ name: Candidatos del día
 
 on:
   schedule:
-    - cron: "45 4 * * *"   # 04:45 UTC: antes de la tarea que arma la edición, en invierno y en verano
+    # GitHub a veces se salta o retrasa un horario. Por eso hay varios intentos cada madrugada (UTC),
+    # todos antes de la tarea que arma la edición. Cada corrida reemplaza a la anterior.
+    - cron: "17 3 * * *"
+    - cron: "47 3 * * *"
+    - cron: "17 4 * * *"
+    - cron: "47 4 * * *"
+    - cron: "17 5 * * *"
   workflow_dispatch:        # botón manual "Run workflow"
 
 permissions:
