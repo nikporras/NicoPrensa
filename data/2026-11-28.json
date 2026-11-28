@@ -1,0 +1,303 @@
+{
+  "date": "2026-11-28",
+  "title": "Marc Márquez se retira tras su décimo título",
+  "rates": {
+    "dolar": "$3.498,46",
+    "libra": "$4.578,62",
+    "real": "R$ 7,28"
+  },
+  "resumen": [
+    {
+      "emoji": "🇨🇴",
+      "text": "Instalada la mesa del salario mínimo 2027"
+    },
+    {
+      "emoji": "🌎",
+      "text": "Trabuco será ministro de Hacienda de Lula"
+    },
+    {
+      "emoji": "🏛️",
+      "text": "La UE cierra cumbre sin acuerdo presupuestario"
+    },
+    {
+      "emoji": "💻",
+      "text": "EE.UU. autoriza un millón de satélites Starmind"
+    },
+    {
+      "emoji": "🎮",
+      "text": "Silksong: Sea of Sorrow llega gratis el 11/12"
+    },
+    {
+      "emoji": "🎬",
+      "text": "Los juegos del hambre domina Acción de Gracias"
+    },
+    {
+      "emoji": "⚽",
+      "text": "Millonarios y América empatan con tres expulsados"
+    }
+  ],
+  "sections": [
+    {
+      "id": "top",
+      "emoji": "🔥",
+      "title": "Lo más importante",
+      "stories": [
+        {
+          "text": "Marc Márquez anunció por sorpresa su retiro de MotoGP: el Gran Premio de Valencia de este fin de semana será su última carrera, pocos días después de ganar su décimo título mundial.",
+          "url": "https://www.libertaddigital.com/deportes/motogp/2026-11-27/marc-marquez-anuncia-su-retirada-dias-despues-de-conquistar-su-decimo-titulo-mundial-7498351/",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "Un subintendente de la Policía murió en un ataque con drones cargados de explosivos contra la estación de Arenal, en el sur de Bolívar; el Ministerio de Defensa lo atribuye al ELN.",
+          "url": "https://www.elespectador.com/judicial/muere-policia-tras-ataque-con-dron-cargado-con-explosivos-en-arenal-bolivar/",
+          "verified": true,
+          "medios": 7
+        },
+        {
+          "text": "El presidente De la Espriella arremetió contra José Félix Lafaurie por recibir a Iván Cepeda en el Congreso Ganadero y dijo que tratará directamente con los ganaderos; Lafaurie respondió que fue una simple cortesía.",
+          "url": "https://www.eltiempo.com/politica/abelardo-de-la-espriella/choque-entre-gobierno-y-fedegan-presidente-de-la-espriella-arremete-contra-jose-felix-lafaurie-por-presencia-de-ivan-cepeda-en-el-congreso-ganadero-3604818",
+          "verified": true,
+          "medios": 8
+        },
+        {
+          "text": "GTA VI habría vendido 53 millones de copias en su primera semana y unos 4.700 millones de dólares, según la firma Alinea Analytics; cerca del 76% de las ventas fueron en PS5.",
+          "url": "https://es-us.noticias.yahoo.com/gta-6-vende-pan-caliente-212155149.html",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "Edmundo González anunció que regresará a Venezuela la próxima semana, tras más de dos años de exilio en España, para acompañar la peregrinación de la Virgen de Coromoto del 5 de diciembre.",
+          "url": "https://www.diariolibre.com/mundo/america-latina/2026/11/26/edmundo-gonzalez-anuncia-su-regreso-a-venezuela-sin-maduro/3732340",
+          "verified": true,
+          "medios": 6
+        }
+      ]
+    },
+    {
+      "id": "colombia",
+      "emoji": "🇨🇴",
+      "title": "Colombia",
+      "stories": [
+        {
+          "text": "Quedó instalada la mesa de concertación del salario mínimo 2027: los gremios piden que el alza no pase del 7% y las centrales obreras piden dos dígitos. El primer plazo vence el 15 de diciembre.",
+          "url": "https://www.minuto30.com/salario-minimo-2027-instalaron-la-mesa-de-concertacion-y-los-gremios-piden-que-el-aumento-no-pase-de-7/1735607/",
+          "verified": true,
+          "medios": 5
+        },
+        {
+          "text": "El dólar se desplomó $132 el viernes y cerró cerca de $3.498; la TRM que rige este fin de semana y el lunes quedó en $3.498,46.",
+          "url": "https://www.larepublica.co/finanzas/el-precio-del-dolar-esta-en-3-498-46-para-el-black-weekend-subio-36-en-la-semana-4535741",
+          "verified": true,
+          "medios": 3
+        },
+        {
+          "text": "Cuatro integrantes de una familia, dos de ellos niños, fueron hallados calcinados en una vivienda rural de La Tola, Nariño; aún no se sabe qué causó el incendio.",
+          "url": "https://www.elespectador.com/colombia/mas-regiones/cuatro-integrantes-de-una-familia-fueron-hallados-calcinados-en-zona-rural-de-narino/",
+          "verified": false,
+          "medios": 1
+        },
+        {
+          "text": "Un patrullero de 21 años resultó herido de bala durante un operativo en Soledad, Atlántico; la Policía capturó a un sospechoso.",
+          "url": "https://www.elespectador.com/colombia/mas-regiones/patrullero-resulto-herido-en-balacera-durante-operativo-en-soledad-atlantico/",
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "latam",
+      "emoji": "🌎",
+      "title": "Latinoamérica",
+      "stories": [
+        {
+          "text": "El banquero Luiz Carlos Trabuco, presidente del consejo de Bradesco, será ministro de Hacienda de Lula desde el 5 de enero, con autonomía para armar su equipo.",
+          "url": "https://www.jota.info/executivo/quem-e-luiz-carlos-trabuco-escolhido-para-comandar-o-ministerio-da-fazenda-no-lula-4",
+          "verified": true,
+          "medios": 6,
+          "lang": "pt"
+        },
+        {
+          "text": "Con el efecto Trabuco, el dólar cayó 4% el viernes en Brasil, hasta R$ 5,51, y acumuló una baja de 7% en la semana, la mayor desde 2008.",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27112026/",
+          "verified": true,
+          "medios": 6,
+          "lang": "pt"
+        },
+        {
+          "text": "El Senado argentino aprobó por unanimidad, con 72 votos, la ley contra la ludopatía, que prohíbe la publicidad y el patrocinio de apuestas en línea.",
+          "url": "https://www.perfil.com/politica/ley-de-ludopatia-el-senado-aprobo-por-unanimidad-tras-un-acuerdo-entre-los-bloques-impulsado-por-la-iglesia-acqfQ7H2ARqR",
+          "verified": true,
+          "medios": 7
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "politica",
+      "emoji": "🏛️",
+      "title": "Política",
+      "stories": [
+        {
+          "text": "La cumbre de la Unión Europea terminó sin acuerdo sobre el presupuesto 2028 a 2034 ni sobre el préstamo de 45.000 millones de euros para Ucrania en 2027; los líderes volverán a reunirse el 17 de diciembre.",
+          "url": "https://tucumanalas7.com.ar/internacional/la-cumbre-de-la-union-europea-termino-sin-acuerdo-sobre-el-presupuesto/",
+          "verified": true,
+          "medios": 7
+        },
+        {
+          "text": "Dos técnicos italianos de Rheinmetall murieron en Kuwait por un ataque con drones atribuido a Irán, que niega estar detrás.",
+          "url": "https://cnnespanol.cnn.com/2026/11/26/mundo/ataque-irani-kuwait-italianos-muertos-trax",
+          "verified": true,
+          "medios": 7
+        },
+        {
+          "text": "El español Pablo Hernández de Cos fue elegido por los líderes de la eurozona para suceder a Christine Lagarde al frente del Banco Central Europeo desde febrero.",
+          "url": "https://www.infobae.com/america/agencias/2026/11/26/el-espanol-pablo-hernandez-de-cos-sera-el-proximo-presidente-del-banco-central-europeo/",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "España cerró la campaña: Sánchez, Feijóo, Abascal y Colau dieron sus últimos mítines. Hoy es jornada de reflexión y mañana domingo hay elecciones generales.",
+          "url": "https://eluniversal.com.mx/mundo/sanchez-feijoo-colau-y-abascal-cierran-campana-para-eleccion-en-espana-esperan-lograr-la-victoria",
+          "verified": true,
+          "medios": 4
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "tec",
+      "emoji": "💻",
+      "title": "Tecnología",
+      "stories": [
+        {
+          "text": "El regulador de EE.UU. (FCC) autorizó a SpaceX a desplegar hasta un millón de satélites Starmind, pensados como centros de datos de IA en órbita; los astrónomos están preocupados.",
+          "url": "https://www.xataka.com/espacio/spacex-tiene-luz-verde-para-desplegar-millon-satelites-centros-datos-no-ia-energia",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "OpenAI corrigió un error de facturación en GPT-6.2: ahora los usuarios agotarán sus límites 40% más rápido con Astra y 25% con Sol. Como compensación dará un reinicio extra de límites.",
+          "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20261127105300/openai-corrige-error-facturacion-gpt-62-astra-sol-usuarios-agotaran-limites-40-25-rapido",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "Meta rechazó que el regulador financiero británico (FCA) probara en conjunto su agente de IA Muse antes de lanzarlo en Reino Unido.",
+          "url": "https://thenextweb.com/news/meta-muse-agent-fca-sandbox-test-wired",
+          "verified": true,
+          "medios": 6,
+          "lang": "en"
+        },
+        {
+          "text": "Apple ya prueba iOS 27.3, que llegaría a los iPhone en diciembre.",
+          "url": "https://arynews.tv/apple-ios-27-3-expected-to-arrive-in-december-2026-after-beta-testing",
+          "verified": false,
+          "medios": 1,
+          "lang": "en"
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "juegos",
+      "emoji": "🎮",
+      "title": "Videojuegos",
+      "stories": [
+        {
+          "text": "Sea of Sorrow, la primera expansión de Hollow Knight: Silksong, llegará gratis el 11 de diciembre en todas las plataformas.",
+          "url": "https://es.kotaku.com/hollow-knight-silksong-confirma-la-fecha-de-lanzamiento-de-sea-of-sorrow-su-primera-expansion-gratuita-2000058334",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "Team Cherry también anunció que será editora de juegos independientes y presentó sus tres primeros títulos.",
+          "url": "https://vandal.elespanol.com/noticia/2026331001/sigue-aqui-en-directo-el-evento-de-silksong-todas-las-novedades-del-dlc-del-nuevo-hollow-knight",
+          "verified": true,
+          "medios": 3
+        },
+        {
+          "text": "Arkheron, el juego competitivo del exdirectivo de Blizzard Rob Pardo, salió en acceso anticipado: gratis este fin de semana y en Game Pass.",
+          "url": "https://generacionxbox.com/cerramos-la-semana-con-el-ultimo-juego-de-xbox-game-pass-de-noviembre-un-estreno-de-accion/",
+          "verified": true,
+          "medios": 3
+        },
+        {
+          "text": "Las consolas podrían subir de precio por los nuevos aranceles que EE.UU. propone a 14 países, entre ellos China y Vietnam.",
+          "url": "https://notebookcheck.org/Las-consolas-de-videojuegos-podrian-encarecerse-aun-mas-tras-el-anuncio-del-Gobierno-de-Estados-Unidos-de-nuevos-aranceles-a-China-Vietnam-y-otros-paises.1460034.0.html",
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "cine",
+      "emoji": "🎬",
+      "title": "Cine y series",
+      "stories": [
+        {
+          "text": "Los juegos del hambre: Amanecer en la cosecha domina la taquilla de Acción de Gracias en EE.UU., por delante de Ahora los suegros son ellos y Hechizo: Bienvenidos a Hexe.",
+          "url": "https://www.mundiario.com/cineseries/juegos-hambre-domina-accion-gracias-delante-focker/20261127183553455369.html",
+          "verified": true,
+          "medios": 4
+        },
+        {
+          "text": "Netflix estrenó Las nuevas desventuras de Cliff Booth (Fincher, Tarantino y Brad Pitt) en solo unas 250 salas IMAX: tiene el mejor promedio por sala, pero según Variety dejaría escapar unos 50 millones de dólares. Llega a Netflix el 23 de diciembre.",
+          "url": "https://decine21.com/noticias/132655-cliff-booth-netflix-cines",
+          "verified": true,
+          "medios": 4
+        },
+        {
+          "text": "Disney se juega más de 200 millones de dólares con Hechizo: Bienvenidos a Hexe, que apunta al tercer puesto en EE.UU. y se estrenó este viernes en España.",
+          "url": "https://www.mundiario.com/cineseries/precuela-juegos-hambre-domina-taquilla-accion-gracias/20261126191529455127.html",
+          "verified": true,
+          "medios": 3
+        },
+        {
+          "text": "Netflix renovó la serie francesa GIGN: Unidad de élite, con más de 20 millones de visualizaciones; ya rueda la segunda temporada.",
+          "url": "https://www.mundoplus.tv/series/netflix-renueva-uno-de-sus-grandes-exitos-de-accion-de-2026-y-ya-rueda-su-segunda-temporada/",
+          "verified": false,
+          "medios": 1
+        }
+      ],
+      "tambien": []
+    },
+    {
+      "id": "futbol",
+      "emoji": "⚽",
+      "title": "Fútbol",
+      "stories": [
+        {
+          "text": "Millonarios y América empataron 0 a 0 en El Campín, en un partido caliente con tres expulsados; América sigue líder del Grupo B de los cuadrangulares.",
+          "url": "https://www.eltiempo.com/deportes/futbol-colombiano/millonarios-y-america-empataron-en-una-lluvia-de-tarjetas-con-mas-roces-que-emociones-y-con-tres-expulsados-3605109",
+          "verified": true,
+          "medios": 6
+        },
+        {
+          "text": "Rodrigo Contreras, goleador de Millonarios, vio la doble amarilla antes del descanso; la jugada fue revisada por el VAR.",
+          "url": "https://futbolred.com/futbol-colombiano/liga-betplay/rodrigo-contreras-fue-expulsado-en-millonarios-vs-america-jugada-revisada-por-el-var-275819",
+          "verified": true,
+          "medios": 2
+        },
+        {
+          "text": "Crystal Palace remontó 2 a 1 a una Real Sociedad con diez en la Europa League y le dio a Thomas Frank su primera victoria como técnico.",
+          "url": "https://www.espn.com/soccer/report/_/gameId/401915504",
+          "verified": true,
+          "medios": 3,
+          "lang": "en"
+        },
+        {
+          "text": "Cruzeiro venció 1 a 0 al Fluminense en el Maracaná con gol de Kaio Jorge y aseguró el tercer lugar del Brasileirão.",
+          "url": "https://www.otempo.com.br/sports/cruzeiro/2026/11/27/no-segundo-turno-cruzeiro-venceu-todas-as-equipes-do-g6-do-campeonato-brasileiro",
+          "verified": true,
+          "medios": 3,
+          "lang": "pt"
+        }
+      ],
+      "tambien": []
+    }
+  ],
+  "omitidas": []
+}
